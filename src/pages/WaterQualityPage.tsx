@@ -157,14 +157,24 @@ function WaterQualityPage() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50 py-8">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full mb-4">
-            <Droplets className="h-8 w-8 text-blue-600" />
+        <div className="relative text-center mb-8 rounded-2xl overflow-hidden">
+          <div className="absolute inset-0">
+            <img 
+              src="/images/pexels-rihan-ishan-das-739500-13944604.jpg" 
+              alt="Water quality testing" 
+              className="w-full h-full object-cover opacity-30"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-900/60 to-green-900/60"></div>
           </div>
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Report Water Quality Issues</h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Help us monitor water quality in your area. No technical knowledge required - just share what you observe!
-          </p>
+          <div className="relative z-10 py-16 px-8">
+            <div className="inline-flex items-center justify-center w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full mb-4">
+              <Droplets className="h-8 w-8 text-white" />
+            </div>
+            <h1 className="text-4xl font-bold text-white mb-4 drop-shadow-lg">Report Water Quality Issues</h1>
+            <p className="text-xl text-white max-w-3xl mx-auto drop-shadow-md">
+              Help us monitor water quality in your area. No technical knowledge required - just share what you observe!
+            </p>
+          </div>
         </div>
 
         {/* Form */}

@@ -11,15 +11,7 @@ import {
   Activity,
   Send
 } from 'lucide-react';
-
-interface Prediction {
-  district: string;
-  disease: string;
-  riskLevel: 'High' | 'Medium' | 'Low';
-  probability: string;
-  timeframe: string;
-  factors: string[];
-}
+import { Prediction } from '../../services/aiPredictionService';
 
 interface Resource {
   id: string;

@@ -1,0 +1,1001 @@
+Record_ID,Submission_Date,Submission_Time,ASHA_ID,Location_ID,Patient_ID,Age_Group,Gender,Symptoms,Diagnosis_Syndrome,Dehydration_Status,Outcome
+HLS_NER_20241101_0916,2024-11-01,00:29:45,ASHA_AIZ_02,VLG_AIZ_01,PT_AIZ_2416,<5,F,"['Nausea', 'Jaundice', 'Loss of Appetite']",Hepatitis A,Some,Recovered
+HLS_NER_20241101_0790,2024-11-01,03:46:21,ASHA_IMP_02,VLG_IMP_02,PT_IMP_2290,5-14,F,"['Fever', 'Headache', 'Rash', 'Weakness', 'Abdominal Pain']",Typhoid Fever,None,Under Treatment
+HLS_NER_20241101_0787,2024-11-01,04:25:28,ASHA_AIZ_01,VLG_AIZ_04,PT_AIZ_2287,46-60,M,"['Body Ache', 'Headache', 'Runny Nose', 'Sore Throat']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20241101_0772,2024-11-01,06:12:42,ASHA_KOH_03,VLG_KOH_04,PT_KOH_2272,<5,F,"['Sore Throat', 'Body Ache', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241101_0433,2024-11-01,06:17:16,ASHA_SHL_02,VLG_SHL_01,PT_SHL_1933,15-45,M,"['Headache', 'Fever', 'Weakness']",Typhoid Fever,None,Recovered
+HLS_NER_20241101_0656,2024-11-01,06:46:08,ASHA_GAU_01,VLG_GAU_03,PT_GAU_2156,15-45,M,"['Severe Headache', 'High Fever', 'Joint and Muscle Pain']",Dengue Fever,None,Recovered
+HLS_NER_20241101_0655,2024-11-01,07:38:56,ASHA_AIZ_02,VLG_AIZ_05,PT_AIZ_2155,15-45,M,"['Runny Nose', 'Fever', 'Cough', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241101_0693,2024-11-01,08:00:24,ASHA_IMP_01,VLG_IMP_02,PT_IMP_2193,15-45,M,"['Runny Nose', 'Sore Throat', 'Body Ache', 'Headache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241101_0662,2024-11-01,09:42:43,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_2162,15-45,F,"['Runny Nose', 'Fever', 'Cough']",Influenza-Like Illness,Some,Under Treatment
+HLS_NER_20241101_0454,2024-11-01,09:46:15,ASHA_SIL_03,VLG_SIL_01,PT_SIL_1954,15-45,F,"['Diarrhea', 'Fever', 'Weakness']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241101_0244,2024-11-01,13:17:00,ASHA_IMP_02,VLG_IMP_04,PT_IMP_1744,5-14,F,"['Fever', 'Headache', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241101_0055,2024-11-01,14:00:57,ASHA_SHL_02,VLG_SHL_02,PT_SHL_1555,46-60,M,"['Sore Throat', 'Headache', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241101_0783,2024-11-01,18:21:15,ASHA_IMP_03,VLG_IMP_03,PT_IMP_2283,15-45,F,"['Body Ache', 'Runny Nose', 'Cough', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241101_0995,2024-11-01,18:56:34,ASHA_KOH_03,VLG_KOH_01,PT_KOH_2495,15-45,F,"['Sore Throat', 'Runny Nose', 'Headache', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241101_0993,2024-11-01,19:10:42,ASHA_IMP_01,VLG_IMP_04,PT_IMP_2493,15-45,F,"['Abdominal Pain', 'Weakness', 'Vomiting', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241102_0963,2024-11-02,00:00:22,ASHA_SIL_02,VLG_SIL_05,PT_SIL_2463,15-45,M,"['Chills', 'Sweating', 'Headache', 'Fever']",Malaria,None,Recovered
+HLS_NER_20241102_0023,2024-11-02,03:46:03,ASHA_KOH_01,VLG_KOH_04,PT_KOH_1523,15-45,F,"['Body Ache', 'Fever', 'Cough']",Influenza-Like Illness,None,Referred
+HLS_NER_20241102_0397,2024-11-02,04:41:44,ASHA_AIZ_03,VLG_AIZ_04,PT_AIZ_1897,<5,M,"['Severe Headache', 'Joint and Muscle Pain', 'High Fever']",Dengue Fever,None,Recovered
+HLS_NER_20241102_0004,2024-11-02,11:11:10,ASHA_SIL_03,VLG_SIL_01,PT_SIL_1504,15-45,M,"['Headache', 'Body Ache', 'Cough']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241102_0626,2024-11-02,12:06:14,ASHA_IMP_03,VLG_IMP_05,PT_IMP_2126,15-45,F,"['High Fever', 'Severe Headache', 'Joint and Muscle Pain']",Dengue Fever,None,Under Treatment
+HLS_NER_20241102_0840,2024-11-02,17:25:42,ASHA_GAU_02,VLG_GAU_04,PT_GAU_2340,15-45,M,"['Weakness', 'Diarrhea', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241102_0639,2024-11-02,17:32:48,ASHA_SHL_03,VLG_SHL_02,PT_SHL_2139,46-60,M,"['Vomiting', 'Weakness', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241102_0812,2024-11-02,17:59:19,ASHA_AIZ_03,VLG_AIZ_03,PT_AIZ_2312,15-45,M,"['Fever', 'Headache', 'Tiredness', 'Itchy Blister-like Rash']",Chickenpox,None,Under Treatment
+HLS_NER_20241102_0031,2024-11-02,18:06:14,ASHA_SHL_01,VLG_SHL_04,PT_SHL_1531,15-45,F,"['Tiredness', 'Headache', 'Fever']",Chickenpox,None,Recovered
+HLS_NER_20241102_0883,2024-11-02,22:07:42,ASHA_SIL_03,VLG_SIL_02,PT_SIL_2383,<5,M,"['Body Ache', 'Fever', 'Cough', 'Runny Nose', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241103_0341,2024-11-03,01:17:35,ASHA_GAU_03,VLG_GAU_02,PT_GAU_1841,<5,M,"['Abdominal Pain', 'Vomiting', 'Diarrhea', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241103_0749,2024-11-03,07:20:12,ASHA_SHL_01,VLG_SHL_03,PT_SHL_2249,46-60,F,"['Itchy Blister-like Rash', 'Headache', 'Fever', 'Tiredness']",Chickenpox,None,Recovered
+HLS_NER_20241103_0122,2024-11-03,09:48:05,ASHA_KOH_02,VLG_KOH_02,PT_KOH_1622,>60,M,"['Dark Urine', 'Fatigue', 'Loss of Appetite', 'Jaundice', 'Nausea']",Hepatitis A,None,Under Treatment
+HLS_NER_20241103_0716,2024-11-03,10:14:08,ASHA_KOH_01,VLG_KOH_04,PT_KOH_2216,46-60,F,"['Runny Nose', 'Fever', 'Sore Throat', 'Body Ache', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241103_0183,2024-11-03,16:28:10,ASHA_IMP_01,VLG_IMP_02,PT_IMP_1683,46-60,F,"['Body Ache', 'Headache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241103_0100,2024-11-03,18:28:18,ASHA_AIZ_03,VLG_AIZ_02,PT_AIZ_1600,46-60,F,"['Abdominal Pain', 'Weakness', 'Rash', 'Fever']",Typhoid Fever,Some,Recovered
+HLS_NER_20241103_0407,2024-11-03,19:55:55,ASHA_AIZ_03,VLG_AIZ_02,PT_AIZ_1907,<5,F,"['Cough', 'Runny Nose', 'Body Ache', 'Sore Throat', 'Headache']",Influenza-Like Illness,Some,Referred
+HLS_NER_20241103_0833,2024-11-03,23:16:33,ASHA_SHL_01,VLG_SHL_03,PT_SHL_2333,46-60,M,"['Fever', 'Runny Nose', 'Body Ache']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241104_0632,2024-11-04,01:53:58,ASHA_AIZ_02,VLG_AIZ_02,PT_AIZ_2132,5-14,M,"['Sore Throat', 'Fever', 'Body Ache']",Influenza-Like Illness,None,Referred
+HLS_NER_20241104_0803,2024-11-04,02:36:13,ASHA_KOH_01,VLG_KOH_04,PT_KOH_2303,15-45,F,"['Runny Nose', 'Sore Throat', 'Cough', 'Fever', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241104_0406,2024-11-04,08:56:09,ASHA_IMP_01,VLG_IMP_03,PT_IMP_1906,15-45,M,"['Body Ache', 'Sore Throat', 'Cough', 'Headache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241104_0123,2024-11-04,15:48:12,ASHA_SHL_01,VLG_SHL_05,PT_SHL_1623,15-45,F,"['Weakness', 'Vomiting', 'Diarrhea']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241104_0085,2024-11-04,18:17:26,ASHA_KOH_02,VLG_KOH_02,PT_KOH_1585,<5,M,"['Nausea', 'Loss of Appetite', 'Dark Urine', 'Fatigue', 'Jaundice']",Hepatitis A,Some,Recovered
+HLS_NER_20241104_0356,2024-11-04,19:59:55,ASHA_GAU_02,VLG_GAU_05,PT_GAU_1856,5-14,F,"['Body Ache', 'Sore Throat', 'Headache']",Influenza-Like Illness,None,Referred
+HLS_NER_20241104_0444,2024-11-04,20:08:21,ASHA_SHL_02,VLG_SHL_04,PT_SHL_1944,15-45,F,"['Jaundice', 'Loss of Appetite', 'Fatigue']",Hepatitis A,Some,Recovered
+HLS_NER_20241104_0947,2024-11-04,23:58:34,ASHA_IMP_01,VLG_IMP_05,PT_IMP_2447,<5,M,"['Runny Nose', 'Sore Throat', 'Fever']",Influenza-Like Illness,Some,Under Treatment
+HLS_NER_20241105_0804,2024-11-05,02:36:38,ASHA_SIL_02,VLG_SIL_02,PT_SIL_2304,<5,F,"['Abdominal Pain', 'Vomiting', 'Fever', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241105_0874,2024-11-05,12:35:24,ASHA_KOH_02,VLG_KOH_03,PT_KOH_2374,15-45,F,"['Weakness', 'Abdominal Pain', 'Fever', 'Diarrhea', 'Vomiting']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241105_0121,2024-11-05,13:26:38,ASHA_AIZ_03,VLG_AIZ_01,PT_AIZ_1621,5-14,M,"['Fever', 'Headache', 'Rash']",Typhoid Fever,None,Referred
+HLS_NER_20241105_0746,2024-11-05,14:03:12,ASHA_SHL_02,VLG_SHL_04,PT_SHL_2246,5-14,F,"['Body Ache', 'Cough', 'Headache', 'Fever']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241105_0071,2024-11-05,14:14:11,ASHA_SIL_02,VLG_SIL_02,PT_SIL_1571,<5,F,"['Fatigue', 'Dark Urine', 'Nausea']",Hepatitis A,None,Recovered
+HLS_NER_20241105_0090,2024-11-05,14:57:17,ASHA_KOH_02,VLG_KOH_02,PT_KOH_1590,<5,M,"['Body Ache', 'Headache', 'Runny Nose', 'Sore Throat', 'Fever']",Influenza-Like Illness,None,Referred
+HLS_NER_20241105_0560,2024-11-05,15:19:58,ASHA_IMP_02,VLG_IMP_02,PT_IMP_2060,15-45,M,"['Fatigue', 'Dark Urine', 'Jaundice']",Hepatitis A,None,Recovered
+HLS_NER_20241105_0554,2024-11-05,18:57:33,ASHA_IMP_02,VLG_IMP_04,PT_IMP_2054,5-14,F,"['Fever', 'Abdominal Pain', 'Vomiting', 'Diarrhea', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241105_0118,2024-11-05,20:14:15,ASHA_SHL_02,VLG_SHL_02,PT_SHL_1618,5-14,F,"['Vomiting', 'Diarrhea', 'Fever', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241105_0184,2024-11-05,21:14:33,ASHA_AIZ_01,VLG_AIZ_02,PT_AIZ_1684,15-45,F,"['Itchy Blister-like Rash', 'Tiredness', 'Fever']",Chickenpox,None,Under Treatment
+HLS_NER_20241105_0701,2024-11-05,21:33:38,ASHA_GAU_02,VLG_GAU_01,PT_GAU_2201,5-14,M,"['Sore Throat', 'Runny Nose', 'Body Ache', 'Cough', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241105_0730,2024-11-05,21:34:16,ASHA_KOH_01,VLG_KOH_02,PT_KOH_2230,5-14,M,"['Diarrhea', 'Fever', 'Abdominal Pain']",Acute Diarrheal Disease,None,Under Treatment
+HLS_NER_20241105_0929,2024-11-05,22:49:51,ASHA_AIZ_03,VLG_AIZ_04,PT_AIZ_2429,15-45,F,"['Abdominal Pain', 'Fever', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241105_0545,2024-11-05,23:26:19,ASHA_SIL_03,VLG_SIL_03,PT_SIL_2045,5-14,M,"['Fatigue', 'Dark Urine', 'Loss of Appetite']",Hepatitis A,None,Under Treatment
+HLS_NER_20241106_0387,2024-11-06,01:02:15,ASHA_SIL_03,VLG_SIL_05,PT_SIL_1887,46-60,M,"['Loss of Appetite', 'Jaundice', 'Dark Urine', 'Fatigue']",Hepatitis A,None,Recovered
+HLS_NER_20241106_0564,2024-11-06,02:17:49,ASHA_IMP_01,VLG_IMP_03,PT_IMP_2064,46-60,M,"['Weakness', 'Abdominal Pain', 'Headache', 'Fever', 'Rash']",Typhoid Fever,Some,Recovered
+HLS_NER_20241106_0106,2024-11-06,05:04:49,ASHA_SHL_02,VLG_SHL_04,PT_SHL_1606,15-45,M,"['Abdominal Pain', 'Fever', 'Weakness', 'Vomiting', 'Diarrhea']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20241106_0030,2024-11-06,07:32:22,ASHA_KOH_01,VLG_KOH_04,PT_KOH_1530,46-60,F,"['Headache', 'Fever', 'Cough', 'Sore Throat']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241106_0077,2024-11-06,09:31:19,ASHA_SIL_01,VLG_SIL_01,PT_SIL_1577,15-45,F,"['Sore Throat', 'Runny Nose', 'Cough', 'Fever']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241106_0134,2024-11-06,14:32:51,ASHA_SIL_03,VLG_SIL_05,PT_SIL_1634,15-45,F,"['Jaundice', 'Fatigue', 'Nausea', 'Loss of Appetite', 'Dark Urine']",Hepatitis A,None,Recovered
+HLS_NER_20241106_0771,2024-11-06,14:52:22,ASHA_KOH_02,VLG_KOH_01,PT_KOH_2271,5-14,F,"['Severe Headache', 'High Fever', 'Joint and Muscle Pain']",Dengue Fever,None,Recovered
+HLS_NER_20241106_0751,2024-11-06,20:42:43,ASHA_SIL_03,VLG_SIL_05,PT_SIL_2251,<5,F,"['Headache', 'Itchy Blister-like Rash', 'Tiredness']",Chickenpox,None,Recovered
+HLS_NER_20241106_0276,2024-11-06,21:26:57,ASHA_SIL_03,VLG_SIL_05,PT_SIL_1776,5-14,F,"['Runny Nose', 'Body Ache', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Referred
+HLS_NER_20241107_0961,2024-11-07,02:49:06,ASHA_GAU_01,VLG_GAU_04,PT_GAU_2461,15-45,M,"['Headache', 'Body Ache', 'Fever', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241107_0015,2024-11-07,09:20:42,ASHA_KOH_01,VLG_KOH_03,PT_KOH_1515,46-60,M,"['Tiredness', 'Itchy Blister-like Rash', 'Fever', 'Headache']",Chickenpox,Severe,Under Treatment
+HLS_NER_20241107_0819,2024-11-07,14:05:03,ASHA_AIZ_02,VLG_AIZ_05,PT_AIZ_2319,>60,M,"['Chills', 'Sweating', 'Fever']",Malaria,Some,Referred
+HLS_NER_20241107_0581,2024-11-07,16:34:19,ASHA_GAU_02,VLG_GAU_03,PT_GAU_2081,46-60,F,"['Headache', 'Itchy Blister-like Rash', 'Tiredness', 'Fever']",Chickenpox,None,Under Treatment
+HLS_NER_20241107_0298,2024-11-07,16:57:57,ASHA_IMP_01,VLG_IMP_01,PT_IMP_1798,15-45,F,"['Runny Nose', 'Cough', 'Sore Throat', 'Headache', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241107_0389,2024-11-07,20:46:23,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_1889,<5,F,"['Headache', 'Weakness', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20241107_0385,2024-11-07,22:00:58,ASHA_IMP_01,VLG_IMP_04,PT_IMP_1885,46-60,M,"['Vomiting', 'Fever', 'Weakness', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241108_0234,2024-11-08,04:09:20,ASHA_GAU_03,VLG_GAU_01,PT_GAU_1734,15-45,F,"['Severe Headache', 'Joint and Muscle Pain', 'High Fever']",Dengue Fever,None,Recovered
+HLS_NER_20241108_0638,2024-11-08,05:33:31,ASHA_GAU_03,VLG_GAU_05,PT_GAU_2138,46-60,M,"['Fever', 'Cough', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241108_0252,2024-11-08,06:35:51,ASHA_IMP_03,VLG_IMP_04,PT_IMP_1752,46-60,F,"['Body Ache', 'Runny Nose', 'Sore Throat', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241108_0108,2024-11-08,07:14:56,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_1608,5-14,M,"['Nausea', 'Loss of Appetite', 'Fatigue']",Hepatitis A,None,Recovered
+HLS_NER_20241108_0194,2024-11-08,08:05:14,ASHA_GAU_01,VLG_GAU_05,PT_GAU_1694,46-60,M,"['Fatigue', 'Jaundice', 'Nausea', 'Loss of Appetite', 'Dark Urine']",Hepatitis A,None,Recovered
+HLS_NER_20241108_0409,2024-11-08,15:50:44,ASHA_AIZ_03,VLG_AIZ_02,PT_AIZ_1909,>60,M,"['Body Ache', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241108_0029,2024-11-08,15:57:46,ASHA_KOH_03,VLG_KOH_03,PT_KOH_1529,<5,M,"['Sweating', 'Headache', 'Fever', 'Chills']",Malaria,None,Under Treatment
+HLS_NER_20241108_0732,2024-11-08,21:05:22,ASHA_KOH_01,VLG_KOH_01,PT_KOH_2232,<5,F,"['Fever', 'Headache', 'Runny Nose', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241108_0646,2024-11-08,22:14:54,ASHA_GAU_01,VLG_GAU_05,PT_GAU_2146,46-60,F,"['Loss of Appetite', 'Fatigue', 'Nausea']",Hepatitis A,Some,Recovered
+HLS_NER_20241108_0245,2024-11-08,23:52:59,ASHA_SHL_01,VLG_SHL_02,PT_SHL_1745,<5,F,"['Fever', 'Weakness', 'Headache', 'Abdominal Pain', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20241109_0080,2024-11-09,00:36:14,ASHA_SIL_01,VLG_SIL_04,PT_SIL_1580,15-45,F,"['Fever', 'Vomiting', 'Abdominal Pain', 'Diarrhea', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241109_0437,2024-11-09,03:23:29,ASHA_GAU_03,VLG_GAU_02,PT_GAU_1937,46-60,F,"['Cough', 'Runny Nose', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241109_0064,2024-11-09,03:59:35,ASHA_SHL_03,VLG_SHL_01,PT_SHL_1564,46-60,F,"['Vomiting', 'Fever', 'Abdominal Pain', 'Weakness']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241109_0485,2024-11-09,06:14:47,ASHA_SIL_01,VLG_SIL_04,PT_SIL_1985,15-45,M,"['Body Ache', 'Cough', 'Fever', 'Runny Nose', 'Headache']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241109_0079,2024-11-09,06:23:44,ASHA_AIZ_02,VLG_AIZ_03,PT_AIZ_1579,<5,M,"['Body Ache', 'Headache', 'Sore Throat', 'Cough']",Influenza-Like Illness,None,Referred
+HLS_NER_20241109_0809,2024-11-09,08:02:38,ASHA_AIZ_03,VLG_AIZ_04,PT_AIZ_2309,15-45,M,"['Rash', 'Headache', 'Abdominal Pain']",Typhoid Fever,Some,Under Treatment
+HLS_NER_20241109_0496,2024-11-09,10:44:10,ASHA_IMP_02,VLG_IMP_04,PT_IMP_1996,15-45,M,"['Weakness', 'Abdominal Pain', 'Fever']",Typhoid Fever,None,Referred
+HLS_NER_20241109_0366,2024-11-09,11:44:52,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_1866,15-45,F,"['Runny Nose', 'Cough', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241109_0172,2024-11-09,16:36:21,ASHA_AIZ_03,VLG_AIZ_02,PT_AIZ_1672,46-60,M,"['Rash', 'Weakness', 'Headache']",Typhoid Fever,None,Recovered
+HLS_NER_20241109_0135,2024-11-09,17:37:39,ASHA_IMP_01,VLG_IMP_01,PT_IMP_1635,>60,M,"['Body Ache', 'Runny Nose', 'Fever', 'Cough']",Influenza-Like Illness,None,Referred
+HLS_NER_20241109_0333,2024-11-09,19:19:17,ASHA_IMP_03,VLG_IMP_02,PT_IMP_1833,15-45,M,"['Cough', 'Runny Nose', 'Headache', 'Fever', 'Sore Throat']",Influenza-Like Illness,Some,Under Treatment
+HLS_NER_20241109_0934,2024-11-09,23:01:29,ASHA_IMP_02,VLG_IMP_02,PT_IMP_2434,15-45,M,"['Cough', 'Fever', 'Headache', 'Sore Throat', 'Runny Nose']",Influenza-Like Illness,None,Referred
+HLS_NER_20241109_0158,2024-11-09,23:15:39,ASHA_SIL_03,VLG_SIL_01,PT_SIL_1658,5-14,F,"['Weakness', 'Diarrhea', 'Fever', 'Vomiting']",Acute Diarrheal Disease,None,Referred
+HLS_NER_20241110_0277,2024-11-10,00:35:05,ASHA_SHL_02,VLG_SHL_02,PT_SHL_1777,15-45,M,"['Sore Throat', 'Body Ache', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241110_0620,2024-11-10,03:52:20,ASHA_GAU_02,VLG_GAU_02,PT_GAU_2120,<5,F,"['Body Ache', 'Headache', 'Sore Throat', 'Fever', 'Cough']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241110_0928,2024-11-10,04:14:08,ASHA_KOH_01,VLG_KOH_05,PT_KOH_2428,15-45,M,"['Weakness', 'Abdominal Pain', 'Fever', 'Vomiting', 'Diarrhea']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241110_0767,2024-11-10,04:20:56,ASHA_IMP_03,VLG_IMP_02,PT_IMP_2267,>60,M,"['Fever', 'Abdominal Pain', 'Headache']",Typhoid Fever,None,Recovered
+HLS_NER_20241110_0799,2024-11-10,08:48:07,ASHA_KOH_03,VLG_KOH_01,PT_KOH_2299,15-45,F,"['Jaundice', 'Fatigue', 'Dark Urine', 'Nausea', 'Loss of Appetite']",Hepatitis A,Some,Recovered
+HLS_NER_20241110_0464,2024-11-10,11:29:07,ASHA_GAU_01,VLG_GAU_01,PT_GAU_1964,5-14,M,"['Vomiting', 'Diarrhea', 'Abdominal Pain', 'Fever', 'Weakness']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20241110_0099,2024-11-10,17:28:03,ASHA_KOH_03,VLG_KOH_03,PT_KOH_1599,15-45,F,"['Runny Nose', 'Headache', 'Body Ache', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241110_0304,2024-11-10,18:43:51,ASHA_SIL_03,VLG_SIL_04,PT_SIL_1804,15-45,M,"['Weakness', 'Abdominal Pain', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241111_0781,2024-11-11,00:17:07,ASHA_AIZ_01,VLG_AIZ_04,PT_AIZ_2281,46-60,F,"['Body Ache', 'Sore Throat', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241111_0849,2024-11-11,00:21:16,ASHA_GAU_01,VLG_GAU_02,PT_GAU_2349,5-14,F,"['Fever', 'Cough', 'Runny Nose', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241111_0384,2024-11-11,04:10:51,ASHA_GAU_01,VLG_GAU_02,PT_GAU_1884,15-45,F,"['Sore Throat', 'Body Ache', 'Headache']",Influenza-Like Illness,None,Referred
+HLS_NER_20241111_0574,2024-11-11,10:09:13,ASHA_GAU_01,VLG_GAU_01,PT_GAU_2074,5-14,M,"['Headache', 'Cough', 'Fever', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241111_0414,2024-11-11,14:37:41,ASHA_SIL_02,VLG_SIL_05,PT_SIL_1914,15-45,F,"['Runny Nose', 'Headache', 'Body Ache', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241111_0588,2024-11-11,15:11:45,ASHA_AIZ_02,VLG_AIZ_04,PT_AIZ_2088,15-45,F,"['Vomiting', 'Diarrhea', 'Abdominal Pain', 'Fever', 'Weakness']",Acute Diarrheal Disease,None,Under Treatment
+HLS_NER_20241111_0098,2024-11-11,16:28:07,ASHA_IMP_02,VLG_IMP_05,PT_IMP_1598,5-14,F,"['Abdominal Pain', 'Headache', 'Fever']",Typhoid Fever,Some,Recovered
+HLS_NER_20241111_0042,2024-11-11,16:38:15,ASHA_GAU_03,VLG_GAU_03,PT_GAU_1542,<5,M,"['Abdominal Pain', 'Fever', 'Rash', 'Weakness', 'Headache']",Typhoid Fever,None,Referred
+HLS_NER_20241111_0047,2024-11-11,21:05:09,ASHA_GAU_01,VLG_GAU_05,PT_GAU_1547,5-14,F,"['Headache', 'Fever', 'Abdominal Pain', 'Weakness', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20241111_0320,2024-11-11,23:32:18,ASHA_KOH_02,VLG_KOH_04,PT_KOH_1820,>60,F,"['Headache', 'Runny Nose', 'Fever']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241112_0828,2024-11-12,02:20:11,ASHA_GAU_03,VLG_GAU_03,PT_GAU_2328,5-14,F,"['Fever', 'Tiredness', 'Itchy Blister-like Rash', 'Headache']",Chickenpox,Severe,Referred
+HLS_NER_20241112_0087,2024-11-12,02:24:14,ASHA_KOH_01,VLG_KOH_05,PT_KOH_1587,46-60,F,"['Sore Throat', 'Cough', 'Body Ache']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241112_0509,2024-11-12,02:53:50,ASHA_IMP_02,VLG_IMP_04,PT_IMP_2009,5-14,F,"['Fever', 'Weakness', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20241112_0343,2024-11-12,04:41:17,ASHA_IMP_01,VLG_IMP_03,PT_IMP_1843,<5,F,"['Fever', 'Sore Throat', 'Cough']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241112_0740,2024-11-12,09:02:19,ASHA_KOH_01,VLG_KOH_02,PT_KOH_2240,15-45,M,"['Tiredness', 'Fever', 'Itchy Blister-like Rash']",Chickenpox,Some,Referred
+HLS_NER_20241112_0720,2024-11-12,10:44:09,ASHA_KOH_01,VLG_KOH_04,PT_KOH_2220,>60,F,"['Dark Urine', 'Nausea', 'Fatigue', 'Loss of Appetite', 'Jaundice']",Hepatitis A,None,Recovered
+HLS_NER_20241112_0684,2024-11-12,11:01:53,ASHA_KOH_03,VLG_KOH_01,PT_KOH_2184,<5,M,"['Joint and Muscle Pain', 'High Fever', 'Severe Headache']",Dengue Fever,None,Under Treatment
+HLS_NER_20241112_0292,2024-11-12,13:37:17,ASHA_SIL_02,VLG_SIL_03,PT_SIL_1792,46-60,M,"['Sore Throat', 'Body Ache', 'Runny Nose']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20241112_0665,2024-11-12,14:18:47,ASHA_SIL_01,VLG_SIL_04,PT_SIL_2165,<5,M,"['Body Ache', 'Headache', 'Cough', 'Fever', 'Runny Nose']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241112_0555,2024-11-12,16:25:04,ASHA_AIZ_01,VLG_AIZ_02,PT_AIZ_2055,46-60,M,"['Headache', 'Itchy Blister-like Rash', 'Fever', 'Tiredness']",Chickenpox,Severe,Referred
+HLS_NER_20241113_0862,2024-11-13,02:33:19,ASHA_GAU_02,VLG_GAU_03,PT_GAU_2362,5-14,M,"['Diarrhea', 'Vomiting', 'Fever']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241113_0396,2024-11-13,02:53:38,ASHA_GAU_02,VLG_GAU_05,PT_GAU_1896,15-45,M,"['Dark Urine', 'Loss of Appetite', 'Jaundice']",Hepatitis A,Some,Recovered
+HLS_NER_20241113_0060,2024-11-13,07:07:54,ASHA_SHL_01,VLG_SHL_05,PT_SHL_1560,46-60,F,"['Cough', 'Fever', 'Body Ache', 'Sore Throat', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241113_0897,2024-11-13,08:30:51,ASHA_AIZ_03,VLG_AIZ_04,PT_AIZ_2397,5-14,F,"['Rash', 'Headache', 'Weakness', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20241113_0933,2024-11-13,14:55:43,ASHA_IMP_01,VLG_IMP_02,PT_IMP_2433,46-60,M,"['Fever', 'Runny Nose', 'Body Ache', 'Cough', 'Headache']",Influenza-Like Illness,None,Referred
+HLS_NER_20241113_0910,2024-11-13,17:23:43,ASHA_GAU_01,VLG_GAU_01,PT_GAU_2410,46-60,F,"['Cough', 'Runny Nose', 'Fever', 'Body Ache', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241113_0909,2024-11-13,18:19:13,ASHA_SHL_01,VLG_SHL_04,PT_SHL_2409,15-45,M,"['Fever', 'Headache', 'Itchy Blister-like Rash', 'Tiredness']",Chickenpox,None,Under Treatment
+HLS_NER_20241113_0178,2024-11-13,18:21:34,ASHA_KOH_02,VLG_KOH_03,PT_KOH_1678,15-45,F,"['Weakness', 'Abdominal Pain', 'Headache', 'Fever', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20241113_0826,2024-11-13,18:29:48,ASHA_SHL_01,VLG_SHL_04,PT_SHL_2326,<5,M,"['Loss of Appetite', 'Fatigue', 'Nausea', 'Jaundice']",Hepatitis A,None,Under Treatment
+HLS_NER_20241113_0270,2024-11-13,19:15:04,ASHA_SHL_03,VLG_SHL_05,PT_SHL_1770,5-14,M,"['Headache', 'Rash', 'Weakness']",Typhoid Fever,None,Recovered
+HLS_NER_20241113_0880,2024-11-13,19:26:30,ASHA_KOH_02,VLG_KOH_02,PT_KOH_2380,15-45,M,"['Fever', 'Chills', 'Headache', 'Sweating']",Malaria,None,Recovered
+HLS_NER_20241113_0263,2024-11-13,23:00:47,ASHA_KOH_02,VLG_KOH_05,PT_KOH_1763,46-60,M,"['Headache', 'Sweating', 'Chills', 'Fever']",Malaria,None,Referred
+HLS_NER_20241113_0264,2024-11-13,23:43:39,ASHA_AIZ_01,VLG_AIZ_04,PT_AIZ_1764,15-45,M,"['Fever', 'Weakness', 'Headache', 'Rash', 'Abdominal Pain']",Typhoid Fever,None,Under Treatment
+HLS_NER_20241113_0173,2024-11-13,23:58:53,ASHA_SHL_01,VLG_SHL_04,PT_SHL_1673,5-14,M,"['Fever', 'Rash', 'Headache', 'Weakness', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20241114_0411,2024-11-14,00:11:59,ASHA_KOH_01,VLG_KOH_05,PT_KOH_1911,5-14,F,"['Headache', 'Sore Throat', 'Fever', 'Runny Nose', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241114_0102,2024-11-14,00:52:09,ASHA_AIZ_02,VLG_AIZ_05,PT_AIZ_1602,15-45,F,"['Runny Nose', 'Cough', 'Body Ache', 'Sore Throat', 'Fever']",Influenza-Like Illness,None,Referred
+HLS_NER_20241114_0062,2024-11-14,05:14:56,ASHA_KOH_01,VLG_KOH_05,PT_KOH_1562,5-14,F,"['Body Ache', 'Headache', 'Cough', 'Runny Nose', 'Sore Throat']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241114_0249,2024-11-14,05:51:39,ASHA_SIL_03,VLG_SIL_01,PT_SIL_1749,>60,M,"['Fever', 'Diarrhea', 'Weakness', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241114_0447,2024-11-14,06:52:49,ASHA_AIZ_02,VLG_AIZ_03,PT_AIZ_1947,15-45,M,"['Abdominal Pain', 'Diarrhea', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241114_0614,2024-11-14,11:53:10,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_2114,5-14,M,"['Jaundice', 'Dark Urine', 'Fatigue', 'Loss of Appetite', 'Nausea']",Hepatitis A,None,Under Treatment
+HLS_NER_20241114_0946,2024-11-14,12:18:55,ASHA_IMP_01,VLG_IMP_04,PT_IMP_2446,15-45,M,"['Body Ache', 'Fever', 'Runny Nose']",Influenza-Like Illness,Some,Referred
+HLS_NER_20241114_0999,2024-11-14,12:42:40,ASHA_IMP_02,VLG_IMP_04,PT_IMP_2499,<5,M,"['Cough', 'Body Ache', 'Sore Throat', 'Fever']",Influenza-Like Illness,None,Referred
+HLS_NER_20241114_0475,2024-11-14,12:51:04,ASHA_GAU_02,VLG_GAU_05,PT_GAU_1975,15-45,F,"['Nausea', 'Fatigue', 'Loss of Appetite']",Hepatitis A,None,Recovered
+HLS_NER_20241114_0817,2024-11-14,15:42:17,ASHA_IMP_01,VLG_IMP_03,PT_IMP_2317,5-14,M,"['Diarrhea', 'Fever', 'Weakness', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241114_0113,2024-11-14,21:11:01,ASHA_AIZ_03,VLG_AIZ_03,PT_AIZ_1613,5-14,F,"['Jaundice', 'Loss of Appetite', 'Dark Urine']",Hepatitis A,None,Recovered
+HLS_NER_20241115_0240,2024-11-15,03:26:39,ASHA_SIL_01,VLG_SIL_01,PT_SIL_1740,<5,M,"['Vomiting', 'Abdominal Pain', 'Fever']",Acute Diarrheal Disease,None,Under Treatment
+HLS_NER_20241115_0709,2024-11-15,07:04:36,ASHA_GAU_02,VLG_GAU_05,PT_GAU_2209,15-45,F,"['Loss of Appetite', 'Nausea', 'Jaundice', 'Fatigue']",Hepatitis A,None,Referred
+HLS_NER_20241115_0219,2024-11-15,11:22:55,ASHA_SHL_02,VLG_SHL_03,PT_SHL_1719,15-45,F,"['Fatigue', 'Dark Urine', 'Nausea', 'Loss of Appetite', 'Jaundice']",Hepatitis A,Some,Recovered
+HLS_NER_20241115_0778,2024-11-15,12:41:29,ASHA_IMP_01,VLG_IMP_04,PT_IMP_2278,15-45,F,"['Fever', 'Tiredness', 'Headache', 'Itchy Blister-like Rash']",Chickenpox,None,Recovered
+HLS_NER_20241115_0942,2024-11-15,14:50:21,ASHA_SHL_02,VLG_SHL_03,PT_SHL_2442,46-60,F,"['Vomiting', 'Weakness', 'Diarrhea', 'Abdominal Pain']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241115_0882,2024-11-15,18:58:51,ASHA_AIZ_03,VLG_AIZ_03,PT_AIZ_2382,15-45,M,"['Sweating', 'Headache', 'Chills', 'Fever']",Malaria,Some,Referred
+HLS_NER_20241115_0059,2024-11-15,19:57:56,ASHA_SHL_03,VLG_SHL_04,PT_SHL_1559,<5,M,"['Dark Urine', 'Nausea', 'Loss of Appetite', 'Fatigue', 'Jaundice']",Hepatitis A,Some,Recovered
+HLS_NER_20241116_0345,2024-11-16,00:21:39,ASHA_AIZ_03,VLG_AIZ_03,PT_AIZ_1845,15-45,M,"['Weakness', 'Abdominal Pain', 'Diarrhea', 'Vomiting']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241116_0640,2024-11-16,01:14:55,ASHA_IMP_03,VLG_IMP_03,PT_IMP_2140,<5,M,"['Fever', 'Sore Throat', 'Body Ache']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241116_0702,2024-11-16,02:40:12,ASHA_SHL_02,VLG_SHL_05,PT_SHL_2202,5-14,F,"['Fever', 'Chills', 'Headache', 'Sweating']",Malaria,Some,Recovered
+HLS_NER_20241116_0964,2024-11-16,02:41:39,ASHA_KOH_01,VLG_KOH_05,PT_KOH_2464,15-45,F,"['Abdominal Pain', 'Fever', 'Vomiting', 'Diarrhea', 'Weakness']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20241116_0708,2024-11-16,02:53:12,ASHA_AIZ_03,VLG_AIZ_03,PT_AIZ_2208,46-60,M,"['Diarrhea', 'Weakness', 'Vomiting']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241116_0633,2024-11-16,03:01:57,ASHA_KOH_01,VLG_KOH_05,PT_KOH_2133,15-45,F,"['Runny Nose', 'Sore Throat', 'Headache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241116_0480,2024-11-16,03:49:32,ASHA_GAU_02,VLG_GAU_04,PT_GAU_1980,46-60,M,"['Diarrhea', 'Abdominal Pain', 'Vomiting', 'Weakness', 'Fever']",Acute Diarrheal Disease,None,Under Treatment
+HLS_NER_20241116_0491,2024-11-16,04:16:32,ASHA_AIZ_02,VLG_AIZ_04,PT_AIZ_1991,15-45,M,"['Weakness', 'Fever', 'Vomiting']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241116_0991,2024-11-16,10:59:46,ASHA_AIZ_03,VLG_AIZ_01,PT_AIZ_2491,5-14,M,"['Itchy Blister-like Rash', 'Headache', 'Tiredness', 'Fever']",Chickenpox,None,Recovered
+HLS_NER_20241116_0393,2024-11-16,13:05:47,ASHA_SHL_01,VLG_SHL_01,PT_SHL_1893,<5,M,"['Headache', 'Fever', 'Cough', 'Body Ache']",Influenza-Like Illness,None,Referred
+HLS_NER_20241116_0353,2024-11-16,17:57:14,ASHA_KOH_02,VLG_KOH_04,PT_KOH_1853,>60,F,"['Jaundice', 'Fatigue', 'Nausea', 'Dark Urine']",Hepatitis A,None,Recovered
+HLS_NER_20241116_0497,2024-11-16,18:12:58,ASHA_SIL_03,VLG_SIL_05,PT_SIL_1997,46-60,M,"['Vomiting', 'Diarrhea', 'Fever', 'Abdominal Pain', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241116_0854,2024-11-16,18:40:18,ASHA_SHL_02,VLG_SHL_05,PT_SHL_2354,15-45,M,"['Vomiting', 'Fever', 'Abdominal Pain', 'Diarrhea', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241116_0774,2024-11-16,18:56:01,ASHA_KOH_01,VLG_KOH_05,PT_KOH_2274,15-45,M,"['Cough', 'Headache', 'Sore Throat', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241116_0713,2024-11-16,19:56:38,ASHA_SHL_01,VLG_SHL_01,PT_SHL_2213,46-60,M,"['Sore Throat', 'Headache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241116_0981,2024-11-16,21:18:35,ASHA_KOH_01,VLG_KOH_04,PT_KOH_2481,15-45,F,"['Weakness', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241117_0179,2024-11-17,00:34:00,ASHA_SIL_03,VLG_SIL_04,PT_SIL_1679,<5,F,"['Sweating', 'Headache', 'Chills', 'Fever']",Malaria,Some,Referred
+HLS_NER_20241117_0349,2024-11-17,06:50:29,ASHA_KOH_03,VLG_KOH_04,PT_KOH_1849,<5,F,"['Itchy Blister-like Rash', 'Headache', 'Tiredness', 'Fever']",Chickenpox,None,Under Treatment
+HLS_NER_20241117_0089,2024-11-17,07:38:33,ASHA_SHL_03,VLG_SHL_05,PT_SHL_1589,15-45,M,"['Fatigue', 'Dark Urine', 'Loss of Appetite']",Hepatitis A,None,Under Treatment
+HLS_NER_20241117_0968,2024-11-17,10:53:21,ASHA_GAU_01,VLG_GAU_04,PT_GAU_2468,>60,F,"['Cough', 'Fever', 'Headache']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20241117_0186,2024-11-17,16:01:06,ASHA_IMP_01,VLG_IMP_02,PT_IMP_1686,46-60,F,"['Chills', 'Sweating', 'Fever', 'Headache']",Malaria,Some,Referred
+HLS_NER_20241117_0863,2024-11-17,21:44:45,ASHA_SHL_03,VLG_SHL_02,PT_SHL_2363,15-45,M,"['Body Ache', 'Cough', 'Headache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241118_0390,2024-11-18,01:10:14,ASHA_SHL_03,VLG_SHL_02,PT_SHL_1890,5-14,F,"['Body Ache', 'Fever', 'Headache', 'Cough']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20241118_0954,2024-11-18,01:56:59,ASHA_KOH_03,VLG_KOH_05,PT_KOH_2454,15-45,M,"['Nausea', 'Loss of Appetite', 'Dark Urine', 'Fatigue']",Hepatitis A,None,Under Treatment
+HLS_NER_20241118_0140,2024-11-18,06:00:26,ASHA_AIZ_02,VLG_AIZ_03,PT_AIZ_1640,15-45,F,"['Fever', 'Runny Nose', 'Cough', 'Headache']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20241118_0431,2024-11-18,08:34:13,ASHA_GAU_03,VLG_GAU_01,PT_GAU_1931,<5,F,"['Weakness', 'Vomiting', 'Diarrhea', 'Fever', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241118_0205,2024-11-18,11:58:32,ASHA_GAU_02,VLG_GAU_01,PT_GAU_1705,46-60,F,"['Vomiting', 'Abdominal Pain', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241118_0505,2024-11-18,14:05:06,ASHA_GAU_01,VLG_GAU_05,PT_GAU_2005,5-14,M,"['Itchy Blister-like Rash', 'Fever', 'Tiredness', 'Headache']",Chickenpox,None,Referred
+HLS_NER_20241118_0216,2024-11-18,14:38:43,ASHA_SIL_02,VLG_SIL_01,PT_SIL_1716,15-45,F,"['Fever', 'Sore Throat', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241118_0838,2024-11-18,16:17:59,ASHA_SIL_03,VLG_SIL_05,PT_SIL_2338,15-45,M,"['Sore Throat', 'Body Ache', 'Fever', 'Cough', 'Headache']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241118_0092,2024-11-18,20:06:00,ASHA_SHL_02,VLG_SHL_02,PT_SHL_1592,5-14,M,"['Sore Throat', 'Runny Nose', 'Body Ache', 'Cough', 'Headache']",Influenza-Like Illness,None,Referred
+HLS_NER_20241118_0011,2024-11-18,20:30:35,ASHA_SHL_02,VLG_SHL_02,PT_SHL_1511,15-45,M,"['Headache', 'Fever', 'Tiredness', 'Itchy Blister-like Rash']",Chickenpox,None,Recovered
+HLS_NER_20241118_0534,2024-11-18,21:43:53,ASHA_IMP_01,VLG_IMP_02,PT_IMP_2034,15-45,F,"['Weakness', 'Abdominal Pain', 'Diarrhea', 'Fever', 'Vomiting']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241118_0018,2024-11-18,22:13:05,ASHA_SHL_03,VLG_SHL_04,PT_SHL_1518,5-14,F,"['Cough', 'Runny Nose', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241118_0592,2024-11-18,22:58:30,ASHA_IMP_03,VLG_IMP_01,PT_IMP_2092,5-14,F,"['Fever', 'Headache', 'Itchy Blister-like Rash', 'Tiredness']",Chickenpox,None,Referred
+HLS_NER_20241119_0170,2024-11-19,02:26:41,ASHA_SHL_02,VLG_SHL_04,PT_SHL_1670,5-14,M,"['Tiredness', 'Itchy Blister-like Rash', 'Fever']",Chickenpox,None,Recovered
+HLS_NER_20241119_0617,2024-11-19,06:58:49,ASHA_IMP_01,VLG_IMP_04,PT_IMP_2117,15-45,F,"['Nausea', 'Fatigue', 'Loss of Appetite', 'Dark Urine', 'Jaundice']",Hepatitis A,Some,Recovered
+HLS_NER_20241119_0128,2024-11-19,09:06:18,ASHA_SIL_01,VLG_SIL_05,PT_SIL_1628,46-60,F,"['Body Ache', 'Sore Throat', 'Headache', 'Runny Nose', 'Cough']",Influenza-Like Illness,None,Referred
+HLS_NER_20241119_0094,2024-11-19,12:18:43,ASHA_GAU_03,VLG_GAU_02,PT_GAU_1594,15-45,F,"['Sore Throat', 'Headache', 'Body Ache', 'Cough']",Influenza-Like Illness,Some,Under Treatment
+HLS_NER_20241119_0376,2024-11-19,13:06:23,ASHA_AIZ_03,VLG_AIZ_03,PT_AIZ_1876,5-14,F,"['Fever', 'Weakness', 'Diarrhea', 'Vomiting']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241119_0155,2024-11-19,14:42:52,ASHA_GAU_02,VLG_GAU_01,PT_GAU_1655,>60,M,"['Rash', 'Fever', 'Weakness', 'Abdominal Pain', 'Headache']",Typhoid Fever,None,Recovered
+HLS_NER_20241119_0027,2024-11-19,22:06:00,ASHA_SIL_03,VLG_SIL_04,PT_SIL_1527,46-60,F,"['Cough', 'Body Ache', 'Headache', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241120_0132,2024-11-20,01:00:44,ASHA_IMP_03,VLG_IMP_04,PT_IMP_1632,5-14,F,"['Nausea', 'Dark Urine', 'Fatigue']",Hepatitis A,None,Recovered
+HLS_NER_20241120_0613,2024-11-20,02:18:27,ASHA_GAU_03,VLG_GAU_01,PT_GAU_2113,<5,F,"['Vomiting', 'Abdominal Pain', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241120_0344,2024-11-20,03:40:00,ASHA_SHL_02,VLG_SHL_01,PT_SHL_1844,15-45,F,"['Headache', 'Runny Nose', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241120_0319,2024-11-20,04:34:49,ASHA_GAU_01,VLG_GAU_02,PT_GAU_1819,5-14,M,"['Fever', 'Headache', 'Sore Throat', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241120_0209,2024-11-20,04:55:11,ASHA_GAU_03,VLG_GAU_02,PT_GAU_1709,46-60,M,"['Fever', 'Headache', 'Tiredness']",Chickenpox,None,Recovered
+HLS_NER_20241120_0825,2024-11-20,15:41:28,ASHA_IMP_02,VLG_IMP_03,PT_IMP_2325,46-60,F,"['Vomiting', 'Diarrhea', 'Weakness', 'Fever', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241120_0167,2024-11-20,16:46:30,ASHA_SIL_02,VLG_SIL_02,PT_SIL_1667,15-45,M,"['Headache', 'Sore Throat', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241120_0372,2024-11-20,18:46:54,ASHA_AIZ_02,VLG_AIZ_01,PT_AIZ_1872,15-45,F,"['Body Ache', 'Fever', 'Headache', 'Cough', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241120_0110,2024-11-20,18:56:29,ASHA_SIL_03,VLG_SIL_01,PT_SIL_1610,15-45,M,"['Tiredness', 'Itchy Blister-like Rash', 'Headache', 'Fever']",Chickenpox,None,Recovered
+HLS_NER_20241120_0690,2024-11-20,21:20:42,ASHA_SIL_02,VLG_SIL_03,PT_SIL_2190,<5,F,"['Vomiting', 'Weakness', 'Abdominal Pain', 'Diarrhea', 'Fever']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20241121_0057,2024-11-21,02:53:22,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_1557,<5,F,"['Fever', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,None,Referred
+HLS_NER_20241121_0718,2024-11-21,05:23:16,ASHA_GAU_02,VLG_GAU_03,PT_GAU_2218,15-45,M,"['Runny Nose', 'Fever', 'Sore Throat', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241121_0769,2024-11-21,05:38:03,ASHA_AIZ_02,VLG_AIZ_02,PT_AIZ_2269,5-14,M,"['Body Ache', 'Cough', 'Fever', 'Runny Nose', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241121_0861,2024-11-21,09:16:12,ASHA_KOH_01,VLG_KOH_03,PT_KOH_2361,15-45,M,"['Runny Nose', 'Sore Throat', 'Cough', 'Fever', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241121_0939,2024-11-21,10:39:17,ASHA_SIL_01,VLG_SIL_02,PT_SIL_2439,46-60,F,"['Headache', 'Sweating', 'Fever', 'Chills']",Malaria,None,Recovered
+HLS_NER_20241121_0365,2024-11-21,14:36:26,ASHA_KOH_02,VLG_KOH_02,PT_KOH_1865,15-45,M,"['Headache', 'Sore Throat', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241121_0884,2024-11-21,16:53:27,ASHA_IMP_01,VLG_IMP_03,PT_IMP_2384,<5,F,"['Rash', 'Weakness', 'Headache', 'Fever']",Typhoid Fever,None,Recovered
+HLS_NER_20241121_0805,2024-11-21,20:22:55,ASHA_GAU_03,VLG_GAU_01,PT_GAU_2305,<5,M,"['Cough', 'Headache', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241121_0283,2024-11-21,23:21:45,ASHA_IMP_03,VLG_IMP_05,PT_IMP_1783,15-45,M,"['Runny Nose', 'Sore Throat', 'Fever']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241122_0714,2024-11-22,00:47:59,ASHA_SHL_03,VLG_SHL_04,PT_SHL_2214,15-45,F,"['Fever', 'Headache', 'Cough', 'Body Ache']",Influenza-Like Illness,None,Referred
+HLS_NER_20241122_0040,2024-11-22,03:38:21,ASHA_KOH_03,VLG_KOH_03,PT_KOH_1540,5-14,M,"['Chills', 'Fever', 'Headache', 'Sweating']",Malaria,Some,Referred
+HLS_NER_20241122_0474,2024-11-22,08:33:13,ASHA_IMP_03,VLG_IMP_02,PT_IMP_1974,5-14,M,"['Sore Throat', 'Runny Nose', 'Body Ache']",Influenza-Like Illness,None,Referred
+HLS_NER_20241122_0763,2024-11-22,09:51:12,ASHA_AIZ_02,VLG_AIZ_01,PT_AIZ_2263,15-45,F,"['Fever', 'Cough', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241122_0379,2024-11-22,10:00:28,ASHA_IMP_02,VLG_IMP_05,PT_IMP_1879,<5,M,"['Nausea', 'Dark Urine', 'Loss of Appetite', 'Jaundice']",Hepatitis A,None,Recovered
+HLS_NER_20241122_0217,2024-11-22,13:00:58,ASHA_GAU_01,VLG_GAU_02,PT_GAU_1717,>60,M,"['Cough', 'Fever', 'Runny Nose', 'Headache', 'Sore Throat']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241122_0093,2024-11-22,13:32:04,ASHA_SIL_02,VLG_SIL_04,PT_SIL_1593,15-45,F,"['Abdominal Pain', 'Headache', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20241122_0432,2024-11-22,14:31:07,ASHA_GAU_03,VLG_GAU_03,PT_GAU_1932,5-14,F,"['Sore Throat', 'Runny Nose', 'Fever', 'Cough', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241122_0275,2024-11-22,20:36:48,ASHA_SIL_01,VLG_SIL_01,PT_SIL_1775,15-45,M,"['Jaundice', 'Dark Urine', 'Fatigue', 'Loss of Appetite']",Hepatitis A,Some,Recovered
+HLS_NER_20241122_0948,2024-11-22,21:02:33,ASHA_AIZ_03,VLG_AIZ_05,PT_AIZ_2448,<5,F,"['Cough', 'Runny Nose', 'Sore Throat', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241123_0325,2024-11-23,05:33:02,ASHA_AIZ_01,VLG_AIZ_01,PT_AIZ_1825,15-45,M,"['Severe Headache', 'Joint and Muscle Pain', 'High Fever']",Dengue Fever,Some,Recovered
+HLS_NER_20241123_0900,2024-11-23,05:50:54,ASHA_IMP_03,VLG_IMP_03,PT_IMP_2400,15-45,M,"['Fever', 'Cough', 'Headache', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241123_0903,2024-11-23,07:29:36,ASHA_SIL_01,VLG_SIL_03,PT_SIL_2403,15-45,F,"['Abdominal Pain', 'Weakness', 'Diarrhea', 'Vomiting', 'Fever']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241123_0012,2024-11-23,07:42:34,ASHA_GAU_02,VLG_GAU_04,PT_GAU_1512,5-14,M,"['Tiredness', 'Itchy Blister-like Rash', 'Fever', 'Headache']",Chickenpox,Severe,Referred
+HLS_NER_20241123_0642,2024-11-23,08:55:54,ASHA_AIZ_03,VLG_AIZ_05,PT_AIZ_2142,5-14,M,"['Fever', 'Weakness', 'Diarrhea', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241123_0801,2024-11-23,12:40:44,ASHA_GAU_01,VLG_GAU_04,PT_GAU_2301,46-60,M,"['Nausea', 'Fatigue', 'Loss of Appetite']",Hepatitis A,None,Recovered
+HLS_NER_20241123_0382,2024-11-23,12:48:25,ASHA_KOH_02,VLG_KOH_04,PT_KOH_1882,46-60,F,"['Headache', 'Weakness', 'Abdominal Pain', 'Rash', 'Fever']",Typhoid Fever,Some,Recovered
+HLS_NER_20241123_0045,2024-11-23,16:12:29,ASHA_KOH_03,VLG_KOH_02,PT_KOH_1545,15-45,F,"['Weakness', 'Headache', 'Fever']",Typhoid Fever,None,Under Treatment
+HLS_NER_20241123_0419,2024-11-23,17:18:46,ASHA_GAU_02,VLG_GAU_01,PT_GAU_1919,46-60,F,"['Headache', 'Fever', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241123_0619,2024-11-23,17:46:18,ASHA_SHL_02,VLG_SHL_02,PT_SHL_2119,<5,F,"['Runny Nose', 'Headache', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241123_0645,2024-11-23,20:03:51,ASHA_SHL_02,VLG_SHL_05,PT_SHL_2145,<5,F,"['Cough', 'Fever', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241123_0005,2024-11-23,23:52:28,ASHA_SHL_02,VLG_SHL_04,PT_SHL_1505,15-45,M,"['Fever', 'Vomiting', 'Diarrhea', 'Weakness']",Acute Diarrheal Disease,None,Referred
+HLS_NER_20241124_0527,2024-11-24,03:17:29,ASHA_AIZ_03,VLG_AIZ_04,PT_AIZ_2027,46-60,M,"['Headache', 'Fever', 'Tiredness']",Chickenpox,None,Referred
+HLS_NER_20241124_0076,2024-11-24,04:01:36,ASHA_GAU_02,VLG_GAU_01,PT_GAU_1576,15-45,M,"['Body Ache', 'Headache', 'Cough', 'Sore Throat', 'Runny Nose']",Influenza-Like Illness,None,Referred
+HLS_NER_20241124_0342,2024-11-24,08:43:24,ASHA_KOH_01,VLG_KOH_01,PT_KOH_1842,15-45,M,"['Fever', 'Diarrhea', 'Abdominal Pain', 'Vomiting']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241124_0568,2024-11-24,09:47:07,ASHA_AIZ_02,VLG_AIZ_04,PT_AIZ_2068,15-45,F,"['Headache', 'Sore Throat', 'Runny Nose', 'Cough', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241124_0294,2024-11-24,10:22:01,ASHA_SIL_03,VLG_SIL_05,PT_SIL_1794,15-45,M,"['Jaundice', 'Nausea', 'Fatigue']",Hepatitis A,None,Referred
+HLS_NER_20241124_0920,2024-11-24,11:41:06,ASHA_SIL_01,VLG_SIL_02,PT_SIL_2420,15-45,M,"['Nausea', 'Dark Urine', 'Jaundice', 'Loss of Appetite']",Hepatitis A,None,Recovered
+HLS_NER_20241124_0036,2024-11-24,12:47:03,ASHA_SHL_03,VLG_SHL_03,PT_SHL_1536,<5,F,"['Headache', 'Fever', 'Cough', 'Sore Throat', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241124_0351,2024-11-24,13:07:16,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_1851,15-45,F,"['Dark Urine', 'Nausea', 'Jaundice', 'Fatigue']",Hepatitis A,None,Recovered
+HLS_NER_20241124_0992,2024-11-24,13:10:36,ASHA_SHL_03,VLG_SHL_05,PT_SHL_2492,15-45,F,"['Headache', 'Cough', 'Runny Nose', 'Fever', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241124_0736,2024-11-24,17:56:27,ASHA_SIL_03,VLG_SIL_05,PT_SIL_2236,>60,M,"['Abdominal Pain', 'Weakness', 'Diarrhea']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241124_0739,2024-11-24,18:12:39,ASHA_SHL_02,VLG_SHL_04,PT_SHL_2239,15-45,F,"['Headache', 'Fever', 'Weakness']",Typhoid Fever,None,Recovered
+HLS_NER_20241124_0940,2024-11-24,18:48:58,ASHA_SHL_03,VLG_SHL_03,PT_SHL_2440,15-45,F,"['Sore Throat', 'Runny Nose', 'Body Ache', 'Headache']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241124_0557,2024-11-24,21:50:54,ASHA_IMP_01,VLG_IMP_02,PT_IMP_2057,46-60,F,"['Headache', 'Sore Throat', 'Cough', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241124_0535,2024-11-24,22:35:58,ASHA_AIZ_02,VLG_AIZ_04,PT_AIZ_2035,<5,F,"['Rash', 'Headache', 'Abdominal Pain', 'Fever']",Typhoid Fever,None,Under Treatment
+HLS_NER_20241125_0310,2024-11-25,03:55:05,ASHA_AIZ_03,VLG_AIZ_03,PT_AIZ_1810,15-45,F,"['Joint and Muscle Pain', 'Severe Headache', 'High Fever']",Dengue Fever,None,Recovered
+HLS_NER_20241125_0069,2024-11-25,11:53:33,ASHA_AIZ_03,VLG_AIZ_04,PT_AIZ_1569,15-45,F,"['Abdominal Pain', 'Fever', 'Vomiting', 'Weakness']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20241125_0443,2024-11-25,13:49:39,ASHA_SIL_03,VLG_SIL_04,PT_SIL_1943,15-45,F,"['Nausea', 'Loss of Appetite', 'Fatigue']",Hepatitis A,None,Recovered
+HLS_NER_20241125_0391,2024-11-25,19:06:24,ASHA_SHL_02,VLG_SHL_01,PT_SHL_1891,5-14,M,"['Vomiting', 'Weakness', 'Diarrhea', 'Abdominal Pain', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241126_0137,2024-11-26,00:15:09,ASHA_KOH_01,VLG_KOH_05,PT_KOH_1637,<5,M,"['Fever', 'Sweating', 'Headache']",Malaria,None,Referred
+HLS_NER_20241126_0299,2024-11-26,10:33:56,ASHA_AIZ_03,VLG_AIZ_02,PT_AIZ_1799,<5,F,"['Fever', 'Weakness', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20241126_0649,2024-11-26,10:58:13,ASHA_AIZ_01,VLG_AIZ_01,PT_AIZ_2149,15-45,M,"['Loss of Appetite', 'Nausea', 'Dark Urine', 'Jaundice', 'Fatigue']",Hepatitis A,None,Recovered
+HLS_NER_20241126_0239,2024-11-26,11:13:31,ASHA_IMP_02,VLG_IMP_05,PT_IMP_1739,15-45,M,"['Body Ache', 'Fever', 'Sore Throat', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241126_0931,2024-11-26,11:46:02,ASHA_SIL_02,VLG_SIL_01,PT_SIL_2431,5-14,M,"['Rash', 'Fever', 'Headache']",Typhoid Fever,None,Recovered
+HLS_NER_20241126_0169,2024-11-26,16:56:37,ASHA_AIZ_03,VLG_AIZ_01,PT_AIZ_1669,15-45,F,"['Joint and Muscle Pain', 'Severe Headache', 'High Fever']",Dengue Fever,None,Recovered
+HLS_NER_20241126_0317,2024-11-26,20:54:19,ASHA_KOH_03,VLG_KOH_01,PT_KOH_1817,5-14,F,"['Rash', 'Abdominal Pain', 'Weakness']",Typhoid Fever,None,Under Treatment
+HLS_NER_20241126_0395,2024-11-26,22:52:12,ASHA_KOH_03,VLG_KOH_03,PT_KOH_1895,15-45,M,"['Headache', 'Fever', 'Weakness', 'Rash']",Typhoid Fever,None,Referred
+HLS_NER_20241127_0250,2024-11-27,03:31:38,ASHA_KOH_03,VLG_KOH_01,PT_KOH_1750,<5,F,"['Fever', 'Sore Throat', 'Headache', 'Body Ache', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241127_0867,2024-11-27,08:13:17,ASHA_SHL_02,VLG_SHL_03,PT_SHL_2367,15-45,M,"['Sore Throat', 'Fever', 'Body Ache', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241127_0827,2024-11-27,08:41:22,ASHA_SIL_02,VLG_SIL_03,PT_SIL_2327,>60,M,"['High Fever', 'Severe Headache', 'Joint and Muscle Pain']",Dengue Fever,Some,Referred
+HLS_NER_20241127_0604,2024-11-27,09:13:38,ASHA_IMP_01,VLG_IMP_02,PT_IMP_2104,15-45,F,"['High Fever', 'Joint and Muscle Pain', 'Severe Headache']",Dengue Fever,None,Recovered
+HLS_NER_20241127_0161,2024-11-27,15:18:19,ASHA_AIZ_02,VLG_AIZ_02,PT_AIZ_1661,46-60,M,"['Headache', 'Fever', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241127_0721,2024-11-27,17:44:13,ASHA_GAU_03,VLG_GAU_01,PT_GAU_2221,15-45,F,"['Fever', 'Runny Nose', 'Sore Throat']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20241127_0597,2024-11-27,19:59:33,ASHA_GAU_02,VLG_GAU_05,PT_GAU_2097,15-45,M,"['Fever', 'Abdominal Pain', 'Diarrhea']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241127_0878,2024-11-27,21:27:29,ASHA_IMP_03,VLG_IMP_01,PT_IMP_2378,15-45,M,"['Runny Nose', 'Cough', 'Sore Throat']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241127_0851,2024-11-27,22:06:39,ASHA_IMP_03,VLG_IMP_01,PT_IMP_2351,5-14,M,"['Severe Headache', 'High Fever', 'Joint and Muscle Pain']",Dengue Fever,None,Recovered
+HLS_NER_20241127_0531,2024-11-27,22:18:09,ASHA_SIL_02,VLG_SIL_02,PT_SIL_2031,15-45,M,"['Headache', 'Fever', 'Runny Nose', 'Cough', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241127_0524,2024-11-27,22:34:46,ASHA_KOH_02,VLG_KOH_01,PT_KOH_2024,<5,F,"['Abdominal Pain', 'Weakness', 'Fever', 'Vomiting']",Acute Diarrheal Disease,None,Under Treatment
+HLS_NER_20241127_0808,2024-11-27,22:44:26,ASHA_KOH_03,VLG_KOH_03,PT_KOH_2308,46-60,F,"['Fever', 'Rash', 'Weakness', 'Headache']",Typhoid Fever,None,Recovered
+HLS_NER_20241127_0957,2024-11-27,22:55:42,ASHA_IMP_02,VLG_IMP_01,PT_IMP_2457,15-45,F,"['Cough', 'Runny Nose', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241127_0830,2024-11-27,22:59:32,ASHA_KOH_01,VLG_KOH_05,PT_KOH_2330,<5,M,"['Loss of Appetite', 'Jaundice', 'Nausea', 'Dark Urine']",Hepatitis A,None,Recovered
+HLS_NER_20241128_0053,2024-11-28,00:00:53,ASHA_IMP_01,VLG_IMP_01,PT_IMP_1553,15-45,M,"['Headache', 'Fever', 'Runny Nose', 'Cough', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241128_0926,2024-11-28,04:35:34,ASHA_GAU_03,VLG_GAU_05,PT_GAU_2426,15-45,M,"['Fever', 'Weakness', 'Abdominal Pain', 'Vomiting', 'Diarrhea']",Acute Diarrheal Disease,None,Referred
+HLS_NER_20241128_0476,2024-11-28,05:42:40,ASHA_GAU_03,VLG_GAU_03,PT_GAU_1976,5-14,M,"['Fever', 'Weakness', 'Headache', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20241128_0168,2024-11-28,08:40:52,ASHA_SIL_03,VLG_SIL_03,PT_SIL_1668,15-45,F,"['Headache', 'Sore Throat', 'Cough', 'Runny Nose', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241128_0211,2024-11-28,09:41:54,ASHA_IMP_03,VLG_IMP_01,PT_IMP_1711,<5,F,"['Runny Nose', 'Fever', 'Body Ache', 'Cough']",Influenza-Like Illness,None,Referred
+HLS_NER_20241128_0337,2024-11-28,10:37:51,ASHA_SHL_01,VLG_SHL_02,PT_SHL_1837,15-45,M,"['Headache', 'Itchy Blister-like Rash', 'Tiredness', 'Fever']",Chickenpox,Some,Referred
+HLS_NER_20241128_0405,2024-11-28,10:53:09,ASHA_KOH_01,VLG_KOH_05,PT_KOH_1905,46-60,M,"['Abdominal Pain', 'Rash', 'Headache', 'Weakness']",Typhoid Fever,None,Recovered
+HLS_NER_20241128_0679,2024-11-28,13:50:11,ASHA_GAU_03,VLG_GAU_04,PT_GAU_2179,5-14,F,"['Headache', 'Fever', 'Itchy Blister-like Rash', 'Tiredness']",Chickenpox,None,Recovered
+HLS_NER_20241128_0743,2024-11-28,13:51:21,ASHA_SIL_02,VLG_SIL_03,PT_SIL_2243,15-45,F,"['Itchy Blister-like Rash', 'Fever', 'Tiredness', 'Headache']",Chickenpox,None,Under Treatment
+HLS_NER_20241128_0246,2024-11-28,15:07:59,ASHA_GAU_02,VLG_GAU_05,PT_GAU_1746,5-14,M,"['Headache', 'Sore Throat', 'Cough']",Influenza-Like Illness,None,Referred
+HLS_NER_20241128_0958,2024-11-28,15:40:17,ASHA_IMP_03,VLG_IMP_01,PT_IMP_2458,5-14,F,"['Fever', 'Headache', 'Itchy Blister-like Rash', 'Tiredness']",Chickenpox,None,Under Treatment
+HLS_NER_20241128_0938,2024-11-28,15:40:32,ASHA_GAU_01,VLG_GAU_02,PT_GAU_2438,5-14,M,"['Runny Nose', 'Headache', 'Cough', 'Sore Throat', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241128_0371,2024-11-28,15:43:36,ASHA_AIZ_02,VLG_AIZ_04,PT_AIZ_1871,5-14,M,"['Fatigue', 'Dark Urine', 'Nausea', 'Loss of Appetite']",Hepatitis A,None,Recovered
+HLS_NER_20241128_0221,2024-11-28,18:42:42,ASHA_IMP_03,VLG_IMP_05,PT_IMP_1721,15-45,F,"['Headache', 'Cough', 'Sore Throat', 'Body Ache', 'Fever']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241128_0865,2024-11-28,20:39:50,ASHA_SIL_02,VLG_SIL_04,PT_SIL_2365,5-14,F,"['Fever', 'Abdominal Pain', 'Rash', 'Headache', 'Weakness']",Typhoid Fever,None,Recovered
+HLS_NER_20241128_0081,2024-11-28,20:48:44,ASHA_IMP_01,VLG_IMP_03,PT_IMP_1581,5-14,M,"['Fever', 'Weakness', 'Abdominal Pain', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241128_0625,2024-11-28,23:47:25,ASHA_AIZ_02,VLG_AIZ_01,PT_AIZ_2125,15-45,F,"['Weakness', 'Rash', 'Headache', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20241129_0401,2024-11-29,00:24:27,ASHA_SIL_03,VLG_SIL_04,PT_SIL_1901,15-45,F,"['Fatigue', 'Dark Urine', 'Loss of Appetite', 'Jaundice']",Hepatitis A,Some,Under Treatment
+HLS_NER_20241129_0488,2024-11-29,02:28:05,ASHA_SIL_03,VLG_SIL_03,PT_SIL_1988,15-45,F,"['Fever', 'Weakness', 'Headache', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20241129_0623,2024-11-29,04:59:02,ASHA_IMP_02,VLG_IMP_02,PT_IMP_2123,<5,F,"['Headache', 'Fever', 'Runny Nose', 'Cough', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241129_0392,2024-11-29,05:03:11,ASHA_IMP_01,VLG_IMP_05,PT_IMP_1892,46-60,M,"['Fever', 'Cough', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241129_0322,2024-11-29,07:17:47,ASHA_SHL_01,VLG_SHL_04,PT_SHL_1822,15-45,M,"['Fever', 'Vomiting', 'Weakness']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241129_0242,2024-11-29,08:02:55,ASHA_SIL_01,VLG_SIL_04,PT_SIL_1742,>60,F,"['Fever', 'Sore Throat', 'Runny Nose', 'Body Ache', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241129_0436,2024-11-29,08:21:59,ASHA_AIZ_03,VLG_AIZ_02,PT_AIZ_1936,<5,F,"['Body Ache', 'Runny Nose', 'Fever', 'Headache', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241129_0160,2024-11-29,09:05:13,ASHA_SHL_01,VLG_SHL_04,PT_SHL_1660,46-60,F,"['Sore Throat', 'Runny Nose', 'Cough', 'Body Ache', 'Fever']",Influenza-Like Illness,None,Referred
+HLS_NER_20241129_0423,2024-11-29,10:04:27,ASHA_KOH_01,VLG_KOH_01,PT_KOH_1923,5-14,F,"['Fever', 'Body Ache', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241129_0572,2024-11-29,12:02:35,ASHA_AIZ_02,VLG_AIZ_05,PT_AIZ_2072,15-45,F,"['Vomiting', 'Diarrhea', 'Abdominal Pain', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241129_0009,2024-11-29,12:15:37,ASHA_SIL_02,VLG_SIL_02,PT_SIL_1509,5-14,F,"['Chills', 'Sweating', 'Headache', 'Fever']",Malaria,None,Recovered
+HLS_NER_20241129_0577,2024-11-29,14:10:37,ASHA_SIL_01,VLG_SIL_02,PT_SIL_2077,15-45,F,"['Fever', 'Sweating', 'Headache', 'Chills']",Malaria,None,Recovered
+HLS_NER_20241129_0944,2024-11-29,14:52:18,ASHA_GAU_02,VLG_GAU_05,PT_GAU_2444,46-60,M,"['Fever', 'Chills', 'Headache']",Malaria,None,Recovered
+HLS_NER_20241129_0735,2024-11-29,20:58:24,ASHA_IMP_02,VLG_IMP_03,PT_IMP_2235,15-45,M,"['Dark Urine', 'Jaundice', 'Loss of Appetite', 'Fatigue']",Hepatitis A,None,Under Treatment
+HLS_NER_20241130_0919,2024-11-30,01:28:42,ASHA_IMP_01,VLG_IMP_05,PT_IMP_2419,<5,M,"['Body Ache', 'Runny Nose', 'Headache', 'Cough']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20241130_0492,2024-11-30,01:32:23,ASHA_IMP_03,VLG_IMP_05,PT_IMP_1992,<5,F,"['Weakness', 'Abdominal Pain', 'Fever', 'Rash', 'Headache']",Typhoid Fever,Some,Recovered
+HLS_NER_20241130_0971,2024-11-30,02:33:17,ASHA_SHL_02,VLG_SHL_01,PT_SHL_2471,<5,F,"['High Fever', 'Joint and Muscle Pain', 'Severe Headache']",Dengue Fever,None,Recovered
+HLS_NER_20241130_0316,2024-11-30,03:21:40,ASHA_KOH_02,VLG_KOH_04,PT_KOH_1816,15-45,M,"['Diarrhea', 'Abdominal Pain', 'Vomiting', 'Weakness', 'Fever']",Acute Diarrheal Disease,Severe,Under Treatment
+HLS_NER_20241130_0290,2024-11-30,04:05:59,ASHA_IMP_03,VLG_IMP_02,PT_IMP_1790,5-14,F,"['Itchy Blister-like Rash', 'Fever', 'Tiredness', 'Headache']",Chickenpox,None,Under Treatment
+HLS_NER_20241130_0699,2024-11-30,04:54:06,ASHA_KOH_03,VLG_KOH_05,PT_KOH_2199,15-45,F,"['Sore Throat', 'Cough', 'Body Ache', 'Headache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241130_0976,2024-11-30,05:55:01,ASHA_KOH_01,VLG_KOH_04,PT_KOH_2476,5-14,M,"['Fever', 'Abdominal Pain', 'Headache', 'Weakness', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20241130_0039,2024-11-30,06:51:36,ASHA_GAU_01,VLG_GAU_05,PT_GAU_1539,>60,M,"['Runny Nose', 'Fever', 'Sore Throat', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241130_0019,2024-11-30,06:54:47,ASHA_GAU_02,VLG_GAU_05,PT_GAU_1519,15-45,M,"['Headache', 'Sore Throat', 'Body Ache', 'Runny Nose', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241130_0653,2024-11-30,08:29:49,ASHA_SHL_02,VLG_SHL_05,PT_SHL_2153,5-14,F,"['Fever', 'Itchy Blister-like Rash', 'Tiredness']",Chickenpox,None,Recovered
+HLS_NER_20241130_0472,2024-11-30,09:01:56,ASHA_IMP_03,VLG_IMP_05,PT_IMP_1972,46-60,F,"['Body Ache', 'Runny Nose', 'Sore Throat', 'Fever', 'Headache']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241130_0416,2024-11-30,09:12:20,ASHA_KOH_01,VLG_KOH_02,PT_KOH_1916,15-45,F,"['Headache', 'Sore Throat', 'Body Ache', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241130_0154,2024-11-30,11:40:09,ASHA_KOH_03,VLG_KOH_02,PT_KOH_1654,15-45,F,"['Rash', 'Abdominal Pain', 'Fever', 'Headache']",Typhoid Fever,None,Recovered
+HLS_NER_20241130_0450,2024-11-30,13:07:01,ASHA_GAU_01,VLG_GAU_04,PT_GAU_1950,15-45,F,"['Tiredness', 'Fever', 'Itchy Blister-like Rash', 'Headache']",Chickenpox,Some,Referred
+HLS_NER_20241130_0522,2024-11-30,20:23:46,ASHA_SHL_01,VLG_SHL_01,PT_SHL_2022,15-45,M,"['Runny Nose', 'Sore Throat', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241130_0549,2024-11-30,21:15:48,ASHA_IMP_01,VLG_IMP_05,PT_IMP_2049,<5,F,"['Diarrhea', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20241201_0078,2024-12-01,00:06:15,ASHA_GAU_01,VLG_GAU_01,PT_GAU_1578,5-14,M,"['Sore Throat', 'Headache', 'Cough', 'Fever']",Influenza-Like Illness,None,Referred
+HLS_NER_20241201_0852,2024-12-01,00:38:38,ASHA_SHL_03,VLG_SHL_03,PT_SHL_2352,15-45,M,"['Headache', 'Tiredness', 'Itchy Blister-like Rash', 'Fever']",Chickenpox,Severe,Referred
+HLS_NER_20241201_0755,2024-12-01,01:17:00,ASHA_AIZ_01,VLG_AIZ_02,PT_AIZ_2255,46-60,F,"['Runny Nose', 'Fever', 'Body Ache', 'Headache', 'Cough']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20241201_0711,2024-12-01,01:48:37,ASHA_AIZ_03,VLG_AIZ_04,PT_AIZ_2211,5-14,F,"['High Fever', 'Severe Headache', 'Joint and Muscle Pain']",Dengue Fever,None,Recovered
+HLS_NER_20241201_0525,2024-12-01,04:05:49,ASHA_KOH_01,VLG_KOH_05,PT_KOH_2025,15-45,F,"['Sweating', 'Chills', 'Headache']",Malaria,None,Recovered
+HLS_NER_20241201_0987,2024-12-01,04:19:07,ASHA_SIL_03,VLG_SIL_05,PT_SIL_2487,15-45,F,"['Runny Nose', 'Body Ache', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241201_0821,2024-12-01,04:21:46,ASHA_IMP_02,VLG_IMP_05,PT_IMP_2321,5-14,F,"['Nausea', 'Jaundice', 'Loss of Appetite', 'Dark Urine', 'Fatigue']",Hepatitis A,None,Recovered
+HLS_NER_20241201_0017,2024-12-01,05:58:27,ASHA_GAU_01,VLG_GAU_02,PT_GAU_1517,15-45,F,"['Weakness', 'Abdominal Pain', 'Vomiting', 'Diarrhea']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241201_0350,2024-12-01,11:54:21,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_1850,>60,F,"['Body Ache', 'Sore Throat', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241201_0074,2024-12-01,12:41:27,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_1574,>60,F,"['Sore Throat', 'Runny Nose', 'Cough', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241201_0305,2024-12-01,13:09:07,ASHA_GAU_02,VLG_GAU_02,PT_GAU_1805,46-60,F,"['Runny Nose', 'Sore Throat', 'Body Ache', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241201_0853,2024-12-01,14:28:26,ASHA_IMP_01,VLG_IMP_04,PT_IMP_2353,<5,M,"['High Fever', 'Joint and Muscle Pain', 'Severe Headache']",Dengue Fever,Some,Recovered
+HLS_NER_20241201_0010,2024-12-01,15:14:58,ASHA_SHL_03,VLG_SHL_05,PT_SHL_1510,15-45,M,"['Body Ache', 'Headache', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241201_0312,2024-12-01,16:40:13,ASHA_SIL_01,VLG_SIL_05,PT_SIL_1812,46-60,F,"['Headache', 'Sweating', 'Fever', 'Chills']",Malaria,None,Recovered
+HLS_NER_20241201_0742,2024-12-01,17:45:13,ASHA_SHL_02,VLG_SHL_03,PT_SHL_2242,15-45,M,"['Fever', 'Headache', 'Itchy Blister-like Rash']",Chickenpox,None,Recovered
+HLS_NER_20241201_0465,2024-12-01,18:57:41,ASHA_IMP_01,VLG_IMP_05,PT_IMP_1965,<5,F,"['Fever', 'Sweating', 'Headache']",Malaria,None,Recovered
+HLS_NER_20241201_0765,2024-12-01,20:20:17,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_2265,5-14,M,"['Runny Nose', 'Cough', 'Body Ache', 'Headache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241201_0912,2024-12-01,20:59:00,ASHA_AIZ_03,VLG_AIZ_05,PT_AIZ_2412,46-60,M,"['Weakness', 'Vomiting', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241201_0048,2024-12-01,22:03:40,ASHA_IMP_03,VLG_IMP_03,PT_IMP_1548,15-45,M,"['Vomiting', 'Diarrhea', 'Weakness', 'Fever', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241202_0657,2024-12-02,02:05:18,ASHA_SHL_02,VLG_SHL_04,PT_SHL_2157,15-45,M,"['Runny Nose', 'Body Ache', 'Headache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241202_0360,2024-12-02,03:32:21,ASHA_AIZ_03,VLG_AIZ_02,PT_AIZ_1860,15-45,F,"['Vomiting', 'Abdominal Pain', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241202_0618,2024-12-02,04:31:34,ASHA_SHL_02,VLG_SHL_03,PT_SHL_2118,15-45,M,"['Fever', 'Tiredness', 'Headache', 'Itchy Blister-like Rash']",Chickenpox,None,Under Treatment
+HLS_NER_20241202_0095,2024-12-02,04:51:58,ASHA_KOH_01,VLG_KOH_04,PT_KOH_1595,<5,M,"['Weakness', 'Abdominal Pain', 'Fever', 'Diarrhea']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20241202_0744,2024-12-02,06:07:04,ASHA_AIZ_02,VLG_AIZ_03,PT_AIZ_2244,46-60,M,"['Vomiting', 'Diarrhea', 'Abdominal Pain', 'Weakness']",Acute Diarrheal Disease,Severe,Under Treatment
+HLS_NER_20241202_0737,2024-12-02,06:53:24,ASHA_AIZ_01,VLG_AIZ_04,PT_AIZ_2237,15-45,M,"['Headache', 'Fever', 'Sweating', 'Chills']",Malaria,None,Referred
+HLS_NER_20241202_0251,2024-12-02,07:36:12,ASHA_AIZ_02,VLG_AIZ_03,PT_AIZ_1751,<5,M,"['Sore Throat', 'Fever', 'Body Ache', 'Cough', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241202_0293,2024-12-02,09:09:09,ASHA_KOH_03,VLG_KOH_05,PT_KOH_1793,5-14,F,"['Itchy Blister-like Rash', 'Tiredness', 'Headache']",Chickenpox,Some,Recovered
+HLS_NER_20241202_0403,2024-12-02,09:38:48,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_1903,<5,F,"['High Fever', 'Joint and Muscle Pain', 'Severe Headache']",Dengue Fever,Some,Recovered
+HLS_NER_20241202_0598,2024-12-02,12:41:46,ASHA_KOH_03,VLG_KOH_04,PT_KOH_2098,15-45,M,"['Headache', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241202_0875,2024-12-02,12:45:44,ASHA_SIL_03,VLG_SIL_04,PT_SIL_2375,<5,F,"['Loss of Appetite', 'Dark Urine', 'Jaundice', 'Fatigue']",Hepatitis A,Some,Recovered
+HLS_NER_20241202_0266,2024-12-02,13:04:50,ASHA_SHL_02,VLG_SHL_02,PT_SHL_1766,15-45,M,"['Fever', 'Abdominal Pain', 'Weakness', 'Vomiting', 'Diarrhea']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241202_0908,2024-12-02,14:50:38,ASHA_GAU_03,VLG_GAU_04,PT_GAU_2408,<5,M,"['Headache', 'Cough', 'Body Ache', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241202_0836,2024-12-02,16:29:50,ASHA_GAU_02,VLG_GAU_01,PT_GAU_2336,5-14,F,"['Fatigue', 'Dark Urine', 'Jaundice']",Hepatitis A,None,Recovered
+HLS_NER_20241202_0274,2024-12-02,22:52:26,ASHA_SHL_02,VLG_SHL_04,PT_SHL_1774,5-14,M,"['Fatigue', 'Nausea', 'Loss of Appetite', 'Dark Urine']",Hepatitis A,None,Recovered
+HLS_NER_20241202_0848,2024-12-02,23:57:37,ASHA_SIL_01,VLG_SIL_05,PT_SIL_2348,15-45,M,"['Sore Throat', 'Fever', 'Cough', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241203_0117,2024-12-03,02:33:19,ASHA_SHL_02,VLG_SHL_03,PT_SHL_1617,<5,M,"['Body Ache', 'Runny Nose', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241203_0373,2024-12-03,03:16:52,ASHA_IMP_01,VLG_IMP_01,PT_IMP_1873,>60,M,"['Headache', 'Body Ache', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241203_0533,2024-12-03,03:21:10,ASHA_IMP_02,VLG_IMP_01,PT_IMP_2033,>60,M,"['Weakness', 'Fever', 'Diarrhea', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241203_0810,2024-12-03,04:35:07,ASHA_AIZ_02,VLG_AIZ_02,PT_AIZ_2310,5-14,F,"['Cough', 'Sore Throat', 'Body Ache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241203_0996,2024-12-03,08:54:32,ASHA_AIZ_03,VLG_AIZ_01,PT_AIZ_2496,15-45,M,"['Fever', 'Abdominal Pain', 'Weakness', 'Vomiting', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241203_0486,2024-12-03,09:17:08,ASHA_AIZ_02,VLG_AIZ_05,PT_AIZ_1986,5-14,F,"['Diarrhea', 'Vomiting', 'Weakness', 'Fever', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241203_0866,2024-12-03,15:49:54,ASHA_SIL_03,VLG_SIL_03,PT_SIL_2366,5-14,F,"['Body Ache', 'Headache', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241203_0949,2024-12-03,21:11:34,ASHA_IMP_01,VLG_IMP_02,PT_IMP_2449,5-14,M,"['Cough', 'Fever', 'Body Ache', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241204_0692,2024-12-04,00:41:38,ASHA_KOH_01,VLG_KOH_05,PT_KOH_2192,<5,F,"['Sore Throat', 'Runny Nose', 'Headache', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241204_0637,2024-12-04,02:49:44,ASHA_GAU_01,VLG_GAU_05,PT_GAU_2137,15-45,M,"['Joint and Muscle Pain', 'High Fever', 'Severe Headache']",Dengue Fever,None,Recovered
+HLS_NER_20241204_0962,2024-12-04,06:00:21,ASHA_GAU_01,VLG_GAU_04,PT_GAU_2462,5-14,F,"['Chills', 'Headache', 'Sweating', 'Fever']",Malaria,Some,Recovered
+HLS_NER_20241204_0703,2024-12-04,06:12:05,ASHA_SIL_01,VLG_SIL_05,PT_SIL_2203,46-60,M,"['High Fever', 'Severe Headache', 'Joint and Muscle Pain']",Dengue Fever,Severe,Referred
+HLS_NER_20241204_0510,2024-12-04,07:54:57,ASHA_SIL_01,VLG_SIL_03,PT_SIL_2010,15-45,M,"['Loss of Appetite', 'Fatigue', 'Nausea', 'Jaundice']",Hepatitis A,None,Recovered
+HLS_NER_20241204_0578,2024-12-04,09:59:36,ASHA_KOH_03,VLG_KOH_01,PT_KOH_2078,46-60,M,"['Abdominal Pain', 'Vomiting', 'Weakness', 'Fever', 'Diarrhea']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241204_0072,2024-12-04,10:57:21,ASHA_AIZ_01,VLG_AIZ_01,PT_AIZ_1572,<5,M,"['Jaundice', 'Loss of Appetite', 'Fatigue', 'Nausea']",Hepatitis A,Some,Recovered
+HLS_NER_20241204_0873,2024-12-04,12:20:30,ASHA_KOH_01,VLG_KOH_04,PT_KOH_2373,<5,F,"['Diarrhea', 'Weakness', 'Abdominal Pain', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241204_0541,2024-12-04,14:04:49,ASHA_IMP_02,VLG_IMP_04,PT_IMP_2041,5-14,F,"['Runny Nose', 'Sore Throat', 'Headache', 'Fever', 'Cough']",Influenza-Like Illness,None,Referred
+HLS_NER_20241204_0214,2024-12-04,16:24:58,ASHA_SIL_03,VLG_SIL_03,PT_SIL_1714,15-45,M,"['Fatigue', 'Dark Urine', 'Nausea']",Hepatitis A,None,Recovered
+HLS_NER_20241204_0982,2024-12-04,20:05:13,ASHA_AIZ_02,VLG_AIZ_02,PT_AIZ_2482,<5,F,"['Fever', 'Headache', 'Body Ache', 'Sore Throat']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241204_0921,2024-12-04,23:27:07,ASHA_SHL_01,VLG_SHL_01,PT_SHL_2421,15-45,F,"['Weakness', 'Vomiting', 'Fever', 'Abdominal Pain', 'Diarrhea']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241204_0311,2024-12-04,23:40:41,ASHA_KOH_02,VLG_KOH_01,PT_KOH_1811,15-45,M,"['Body Ache', 'Headache', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241205_0661,2024-12-05,02:24:08,ASHA_SHL_03,VLG_SHL_03,PT_SHL_2161,5-14,F,"['Severe Headache', 'Joint and Muscle Pain', 'High Fever']",Dengue Fever,None,Recovered
+HLS_NER_20241205_0408,2024-12-05,05:38:07,ASHA_SIL_03,VLG_SIL_04,PT_SIL_1908,15-45,F,"['Headache', 'Cough', 'Sore Throat', 'Body Ache', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241205_0647,2024-12-05,06:51:06,ASHA_GAU_03,VLG_GAU_04,PT_GAU_2147,15-45,M,"['Headache', 'Abdominal Pain', 'Weakness', 'Fever']",Typhoid Fever,None,Recovered
+HLS_NER_20241205_0728,2024-12-05,08:50:48,ASHA_KOH_01,VLG_KOH_03,PT_KOH_2228,5-14,F,"['Headache', 'Weakness', 'Abdominal Pain', 'Rash', 'Fever']",Typhoid Fever,None,Recovered
+HLS_NER_20241205_0050,2024-12-05,11:00:49,ASHA_IMP_01,VLG_IMP_01,PT_IMP_1550,15-45,M,"['High Fever', 'Severe Headache', 'Joint and Muscle Pain']",Dengue Fever,None,Recovered
+HLS_NER_20241205_0013,2024-12-05,13:38:06,ASHA_SIL_01,VLG_SIL_02,PT_SIL_1513,15-45,F,"['Runny Nose', 'Body Ache', 'Fever', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241205_0441,2024-12-05,16:11:46,ASHA_SHL_03,VLG_SHL_04,PT_SHL_1941,<5,M,"['Fever', 'Runny Nose', 'Cough']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20241205_0327,2024-12-05,18:07:28,ASHA_SIL_02,VLG_SIL_02,PT_SIL_1827,<5,F,"['Abdominal Pain', 'Fever', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241205_0584,2024-12-05,20:11:12,ASHA_SHL_03,VLG_SHL_02,PT_SHL_2084,15-45,M,"['Cough', 'Headache', 'Sore Throat', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241205_0124,2024-12-05,21:32:43,ASHA_SIL_01,VLG_SIL_05,PT_SIL_1624,<5,M,"['Weakness', 'Diarrhea', 'Vomiting', 'Abdominal Pain', 'Fever']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20241206_0898,2024-12-06,00:09:05,ASHA_SHL_02,VLG_SHL_02,PT_SHL_2398,15-45,F,"['Rash', 'Weakness', 'Fever']",Typhoid Fever,Some,Under Treatment
+HLS_NER_20241206_0066,2024-12-06,01:26:39,ASHA_IMP_03,VLG_IMP_02,PT_IMP_1566,5-14,F,"['Abdominal Pain', 'Headache', 'Weakness', 'Rash', 'Fever']",Typhoid Fever,None,Recovered
+HLS_NER_20241206_0945,2024-12-06,02:45:59,ASHA_IMP_02,VLG_IMP_04,PT_IMP_2445,5-14,M,"['Fatigue', 'Loss of Appetite', 'Dark Urine', 'Nausea', 'Jaundice']",Hepatitis A,Some,Recovered
+HLS_NER_20241206_0758,2024-12-06,03:59:58,ASHA_SIL_01,VLG_SIL_04,PT_SIL_2258,5-14,M,"['Vomiting', 'Fever', 'Diarrhea', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241206_0427,2024-12-06,05:56:18,ASHA_AIZ_01,VLG_AIZ_02,PT_AIZ_1927,5-14,F,"['Tiredness', 'Fever', 'Itchy Blister-like Rash']",Chickenpox,None,Recovered
+HLS_NER_20241206_0490,2024-12-06,18:31:41,ASHA_AIZ_01,VLG_AIZ_02,PT_AIZ_1990,15-45,M,"['Headache', 'Sweating', 'Chills', 'Fever']",Malaria,Some,Recovered
+HLS_NER_20241206_0262,2024-12-06,18:35:32,ASHA_AIZ_03,VLG_AIZ_03,PT_AIZ_1762,46-60,M,"['Fatigue', 'Jaundice', 'Loss of Appetite', 'Dark Urine', 'Nausea']",Hepatitis A,None,Under Treatment
+HLS_NER_20241206_0061,2024-12-06,19:26:27,ASHA_SIL_03,VLG_SIL_02,PT_SIL_1561,15-45,F,"['Fever', 'Cough', 'Runny Nose', 'Sore Throat', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241206_0654,2024-12-06,20:39:41,ASHA_SIL_01,VLG_SIL_03,PT_SIL_2154,15-45,M,"['Runny Nose', 'Headache', 'Sore Throat']",Influenza-Like Illness,None,Referred
+HLS_NER_20241206_0367,2024-12-06,20:58:44,ASHA_AIZ_03,VLG_AIZ_05,PT_AIZ_1867,15-45,F,"['Abdominal Pain', 'Vomiting', 'Fever', 'Weakness', 'Diarrhea']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20241206_0459,2024-12-06,21:06:37,ASHA_SIL_01,VLG_SIL_03,PT_SIL_1959,15-45,F,"['Body Ache', 'Fever', 'Cough', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241206_0644,2024-12-06,21:24:46,ASHA_IMP_02,VLG_IMP_03,PT_IMP_2144,5-14,M,"['Headache', 'Weakness', 'Rash']",Typhoid Fever,Some,Recovered
+HLS_NER_20241207_0255,2024-12-07,00:39:29,ASHA_AIZ_02,VLG_AIZ_01,PT_AIZ_1755,46-60,F,"['Cough', 'Sore Throat', 'Body Ache', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241207_0418,2024-12-07,01:36:54,ASHA_AIZ_03,VLG_AIZ_04,PT_AIZ_1918,5-14,M,"['Headache', 'Body Ache', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241207_0326,2024-12-07,01:46:33,ASHA_SHL_01,VLG_SHL_02,PT_SHL_1826,46-60,M,"['Loss of Appetite', 'Nausea', 'Fatigue']",Hepatitis A,None,Recovered
+HLS_NER_20241207_0151,2024-12-07,02:15:04,ASHA_IMP_03,VLG_IMP_02,PT_IMP_1651,46-60,M,"['Headache', 'Abdominal Pain', 'Rash', 'Weakness']",Typhoid Fever,Some,Recovered
+HLS_NER_20241207_0014,2024-12-07,04:11:42,ASHA_SHL_02,VLG_SHL_02,PT_SHL_1514,15-45,F,"['Weakness', 'Abdominal Pain', 'Headache']",Typhoid Fever,Some,Referred
+HLS_NER_20241207_0116,2024-12-07,04:53:11,ASHA_GAU_03,VLG_GAU_04,PT_GAU_1616,5-14,M,"['Vomiting', 'Fever', 'Weakness', 'Abdominal Pain', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241207_0434,2024-12-07,10:20:08,ASHA_AIZ_02,VLG_AIZ_02,PT_AIZ_1934,15-45,M,"['Cough', 'Runny Nose', 'Headache']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241207_0112,2024-12-07,10:51:47,ASHA_SHL_02,VLG_SHL_02,PT_SHL_1612,<5,M,"['Headache', 'Tiredness', 'Fever', 'Itchy Blister-like Rash']",Chickenpox,None,Recovered
+HLS_NER_20241207_0417,2024-12-07,11:01:56,ASHA_SIL_03,VLG_SIL_02,PT_SIL_1917,15-45,F,"['Fever', 'Weakness', 'Rash']",Typhoid Fever,None,Referred
+HLS_NER_20241207_0877,2024-12-07,13:07:14,ASHA_KOH_02,VLG_KOH_05,PT_KOH_2377,15-45,F,"['Loss of Appetite', 'Jaundice', 'Dark Urine', 'Nausea']",Hepatitis A,None,Referred
+HLS_NER_20241207_0515,2024-12-07,15:09:56,ASHA_GAU_01,VLG_GAU_01,PT_GAU_2015,5-14,F,"['Fever', 'Abdominal Pain', 'Vomiting']",Acute Diarrheal Disease,None,Under Treatment
+HLS_NER_20241207_0413,2024-12-07,23:23:54,ASHA_IMP_01,VLG_IMP_03,PT_IMP_1913,46-60,M,"['Headache', 'Runny Nose', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241207_0164,2024-12-07,23:28:02,ASHA_SHL_03,VLG_SHL_01,PT_SHL_1664,<5,M,"['Fever', 'Vomiting', 'Weakness']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241208_0630,2024-12-08,01:02:29,ASHA_KOH_02,VLG_KOH_02,PT_KOH_2130,5-14,M,"['High Fever', 'Joint and Muscle Pain', 'Severe Headache']",Dengue Fever,Some,Recovered
+HLS_NER_20241208_0589,2024-12-08,05:03:09,ASHA_AIZ_02,VLG_AIZ_04,PT_AIZ_2089,15-45,F,"['Fever', 'Sore Throat', 'Runny Nose', 'Cough']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20241208_0258,2024-12-08,08:03:13,ASHA_SIL_03,VLG_SIL_05,PT_SIL_1758,15-45,M,"['Fever', 'Headache', 'Weakness']",Typhoid Fever,None,Under Treatment
+HLS_NER_20241208_0983,2024-12-08,09:04:42,ASHA_SIL_01,VLG_SIL_04,PT_SIL_2483,<5,M,"['Body Ache', 'Sore Throat', 'Headache', 'Cough', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241208_0969,2024-12-08,09:31:36,ASHA_AIZ_02,VLG_AIZ_03,PT_AIZ_2469,5-14,F,"['Abdominal Pain', 'Fever', 'Weakness', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241208_0973,2024-12-08,09:54:42,ASHA_IMP_01,VLG_IMP_04,PT_IMP_2473,46-60,F,"['Headache', 'Fever', 'Itchy Blister-like Rash', 'Tiredness']",Chickenpox,None,Recovered
+HLS_NER_20241208_0271,2024-12-08,12:04:02,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_1771,5-14,M,"['Headache', 'Cough', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241208_0308,2024-12-08,12:31:07,ASHA_IMP_01,VLG_IMP_02,PT_IMP_1808,15-45,M,"['Tiredness', 'Itchy Blister-like Rash', 'Fever', 'Headache']",Chickenpox,None,Under Treatment
+HLS_NER_20241208_0051,2024-12-08,12:41:31,ASHA_GAU_03,VLG_GAU_04,PT_GAU_1551,15-45,M,"['Weakness', 'Diarrhea', 'Fever', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20241208_0180,2024-12-08,15:36:55,ASHA_GAU_03,VLG_GAU_01,PT_GAU_1680,<5,F,"['Jaundice', 'Loss of Appetite', 'Fatigue', 'Nausea']",Hepatitis A,None,Referred
+HLS_NER_20241208_0850,2024-12-08,20:20:15,ASHA_IMP_02,VLG_IMP_05,PT_IMP_2350,46-60,F,"['Fever', 'Headache', 'Chills', 'Sweating']",Malaria,Some,Referred
+HLS_NER_20241208_0591,2024-12-08,22:25:17,ASHA_KOH_03,VLG_KOH_02,PT_KOH_2091,46-60,F,"['Cough', 'Headache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241208_0750,2024-12-08,22:31:31,ASHA_SIL_01,VLG_SIL_04,PT_SIL_2250,46-60,M,"['Weakness', 'Diarrhea', 'Abdominal Pain', 'Vomiting', 'Fever']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241209_0832,2024-12-09,01:47:11,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_2332,<5,F,"['Cough', 'Sore Throat', 'Headache', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241209_0729,2024-12-09,03:54:17,ASHA_SIL_03,VLG_SIL_03,PT_SIL_2229,5-14,M,"['Vomiting', 'Weakness', 'Diarrhea', 'Abdominal Pain']",Acute Diarrheal Disease,None,Referred
+HLS_NER_20241209_0125,2024-12-09,04:50:26,ASHA_AIZ_02,VLG_AIZ_01,PT_AIZ_1625,15-45,M,"['Headache', 'Fever', 'Tiredness', 'Itchy Blister-like Rash']",Chickenpox,None,Recovered
+HLS_NER_20241209_0233,2024-12-09,06:05:38,ASHA_SHL_01,VLG_SHL_05,PT_SHL_1733,5-14,M,"['Fever', 'Vomiting', 'Diarrhea']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241209_0096,2024-12-09,09:14:37,ASHA_KOH_02,VLG_KOH_03,PT_KOH_1596,15-45,F,"['Fever', 'Weakness', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241209_0724,2024-12-09,09:45:45,ASHA_SIL_02,VLG_SIL_03,PT_SIL_2224,46-60,M,"['Fever', 'Headache', 'Chills', 'Sweating']",Malaria,None,Recovered
+HLS_NER_20241209_0280,2024-12-09,12:08:57,ASHA_IMP_03,VLG_IMP_01,PT_IMP_1780,15-45,F,"['Fever', 'Body Ache', 'Headache', 'Sore Throat']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20241209_0586,2024-12-09,12:30:13,ASHA_SIL_02,VLG_SIL_02,PT_SIL_2086,46-60,F,"['Weakness', 'Fever', 'Abdominal Pain', 'Vomiting']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241209_0267,2024-12-09,13:44:55,ASHA_SIL_01,VLG_SIL_05,PT_SIL_1767,5-14,M,"['Cough', 'Sore Throat', 'Headache', 'Body Ache', 'Runny Nose']",Influenza-Like Illness,None,Referred
+HLS_NER_20241209_0145,2024-12-09,16:03:18,ASHA_SIL_01,VLG_SIL_02,PT_SIL_1645,5-14,M,"['Runny Nose', 'Body Ache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241209_0021,2024-12-09,17:52:36,ASHA_SIL_01,VLG_SIL_03,PT_SIL_1521,46-60,F,"['Tiredness', 'Fever', 'Headache']",Chickenpox,Some,Recovered
+HLS_NER_20241209_0315,2024-12-09,20:57:20,ASHA_SIL_03,VLG_SIL_04,PT_SIL_1815,5-14,M,"['Fever', 'Sore Throat', 'Headache', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241209_0696,2024-12-09,21:55:12,ASHA_KOH_01,VLG_KOH_04,PT_KOH_2196,<5,F,"['Fatigue', 'Dark Urine', 'Loss of Appetite']",Hepatitis A,None,Recovered
+HLS_NER_20241210_0687,2024-12-10,00:13:52,ASHA_SIL_03,VLG_SIL_04,PT_SIL_2187,46-60,M,"['Weakness', 'Fever', 'Abdominal Pain', 'Vomiting', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241210_0675,2024-12-10,01:08:47,ASHA_AIZ_03,VLG_AIZ_01,PT_AIZ_2175,15-45,F,"['Fever', 'Tiredness', 'Headache']",Chickenpox,None,Under Treatment
+HLS_NER_20241210_0609,2024-12-10,05:07:09,ASHA_IMP_02,VLG_IMP_03,PT_IMP_2109,15-45,F,"['Headache', 'Cough', 'Body Ache', 'Runny Nose', 'Fever']",Influenza-Like Illness,None,Referred
+HLS_NER_20241210_0182,2024-12-10,05:34:03,ASHA_KOH_01,VLG_KOH_05,PT_KOH_1682,15-45,F,"['Fatigue', 'Jaundice', 'Nausea']",Hepatitis A,None,Recovered
+HLS_NER_20241210_0386,2024-12-10,11:35:20,ASHA_SIL_03,VLG_SIL_05,PT_SIL_1886,15-45,M,"['Runny Nose', 'Body Ache', 'Cough', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241210_0226,2024-12-10,14:33:13,ASHA_GAU_03,VLG_GAU_05,PT_GAU_1726,46-60,F,"['Abdominal Pain', 'Fever', 'Headache', 'Rash', 'Weakness']",Typhoid Fever,Some,Referred
+HLS_NER_20241210_0512,2024-12-10,21:19:10,ASHA_IMP_02,VLG_IMP_05,PT_IMP_2012,15-45,F,"['Fever', 'Diarrhea', 'Abdominal Pain', 'Weakness']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20241210_0141,2024-12-10,21:40:32,ASHA_AIZ_02,VLG_AIZ_04,PT_AIZ_1641,<5,M,"['Abdominal Pain', 'Fever', 'Weakness']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20241211_0398,2024-12-11,02:29:06,ASHA_SHL_02,VLG_SHL_01,PT_SHL_1898,>60,F,"['Sore Throat', 'Runny Nose', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241211_0988,2024-12-11,04:17:35,ASHA_SHL_03,VLG_SHL_01,PT_SHL_2488,<5,F,"['Diarrhea', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241211_0449,2024-12-11,05:24:51,ASHA_IMP_02,VLG_IMP_05,PT_IMP_1949,15-45,M,"['Fever', 'Abdominal Pain', 'Diarrhea', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241211_0301,2024-12-11,05:47:41,ASHA_SIL_01,VLG_SIL_03,PT_SIL_1801,<5,F,"['Rash', 'Headache', 'Abdominal Pain', 'Weakness']",Typhoid Fever,None,Recovered
+HLS_NER_20241211_0177,2024-12-11,06:02:20,ASHA_GAU_02,VLG_GAU_01,PT_GAU_1677,15-45,F,"['Joint and Muscle Pain', 'Severe Headache', 'High Fever']",Dengue Fever,None,Recovered
+HLS_NER_20241211_0762,2024-12-11,07:02:25,ASHA_SHL_03,VLG_SHL_02,PT_SHL_2262,46-60,M,"['Fever', 'Body Ache', 'Headache', 'Runny Nose', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241211_0200,2024-12-11,07:03:04,ASHA_IMP_03,VLG_IMP_02,PT_IMP_1700,15-45,M,"['High Fever', 'Severe Headache', 'Joint and Muscle Pain']",Dengue Fever,None,Under Treatment
+HLS_NER_20241211_0566,2024-12-11,08:10:04,ASHA_KOH_03,VLG_KOH_03,PT_KOH_2066,5-14,M,"['Abdominal Pain', 'Diarrhea', 'Fever']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241211_0869,2024-12-11,11:33:44,ASHA_AIZ_03,VLG_AIZ_01,PT_AIZ_2369,15-45,M,"['Sore Throat', 'Fever', 'Body Ache', 'Runny Nose']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241211_0215,2024-12-11,13:04:09,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_1715,46-60,M,"['Abdominal Pain', 'Rash', 'Headache', 'Weakness', 'Fever']",Typhoid Fever,None,Under Treatment
+HLS_NER_20241211_0364,2024-12-11,13:12:02,ASHA_IMP_03,VLG_IMP_01,PT_IMP_1864,5-14,M,"['Fever', 'Headache', 'Runny Nose', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241211_0044,2024-12-11,14:17:53,ASHA_GAU_03,VLG_GAU_04,PT_GAU_1544,15-45,M,"['Abdominal Pain', 'Diarrhea', 'Vomiting']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241211_0682,2024-12-11,20:47:58,ASHA_SHL_02,VLG_SHL_02,PT_SHL_2182,15-45,M,"['Nausea', 'Dark Urine', 'Fatigue', 'Jaundice']",Hepatitis A,None,Under Treatment
+HLS_NER_20241211_0130,2024-12-11,22:32:44,ASHA_SIL_01,VLG_SIL_05,PT_SIL_1630,5-14,F,"['High Fever', 'Severe Headache', 'Joint and Muscle Pain']",Dengue Fever,None,Recovered
+HLS_NER_20241212_0887,2024-12-12,03:35:15,ASHA_AIZ_02,VLG_AIZ_02,PT_AIZ_2387,15-45,M,"['Cough', 'Runny Nose', 'Body Ache', 'Headache', 'Fever']",Influenza-Like Illness,None,Referred
+HLS_NER_20241212_0670,2024-12-12,04:36:27,ASHA_IMP_02,VLG_IMP_04,PT_IMP_2170,46-60,M,"['Runny Nose', 'Headache', 'Sore Throat']",Influenza-Like Illness,None,Referred
+HLS_NER_20241212_0667,2024-12-12,05:31:43,ASHA_KOH_02,VLG_KOH_01,PT_KOH_2167,15-45,F,"['Fever', 'Chills', 'Sweating', 'Headache']",Malaria,None,Recovered
+HLS_NER_20241212_0289,2024-12-12,06:12:39,ASHA_SIL_01,VLG_SIL_05,PT_SIL_1789,15-45,M,"['Body Ache', 'Cough', 'Runny Nose', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241212_0286,2024-12-12,13:25:12,ASHA_IMP_01,VLG_IMP_02,PT_IMP_1786,46-60,F,"['Sore Throat', 'Runny Nose', 'Headache', 'Cough', 'Body Ache']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241212_0528,2024-12-12,14:51:52,ASHA_KOH_01,VLG_KOH_01,PT_KOH_2028,>60,M,"['Headache', 'Rash', 'Fever', 'Abdominal Pain']",Typhoid Fever,None,Referred
+HLS_NER_20241212_0430,2024-12-12,18:33:57,ASHA_SHL_02,VLG_SHL_01,PT_SHL_1930,5-14,M,"['Rash', 'Weakness', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20241212_0538,2024-12-12,23:01:18,ASHA_SHL_02,VLG_SHL_01,PT_SHL_2038,<5,F,"['Cough', 'Fever', 'Runny Nose', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241213_0321,2024-12-13,01:46:45,ASHA_IMP_02,VLG_IMP_02,PT_IMP_1821,15-45,M,"['Tiredness', 'Headache', 'Itchy Blister-like Rash', 'Fever']",Chickenpox,None,Recovered
+HLS_NER_20241213_0163,2024-12-13,02:29:09,ASHA_GAU_03,VLG_GAU_01,PT_GAU_1663,5-14,F,"['Sore Throat', 'Headache', 'Cough', 'Fever']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20241213_0185,2024-12-13,03:54:35,ASHA_SHL_01,VLG_SHL_05,PT_SHL_1685,15-45,F,"['Dark Urine', 'Jaundice', 'Nausea', 'Loss of Appetite']",Hepatitis A,Some,Recovered
+HLS_NER_20241213_0006,2024-12-13,06:46:03,ASHA_IMP_03,VLG_IMP_04,PT_IMP_1506,5-14,M,"['Runny Nose', 'Body Ache', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241213_0871,2024-12-13,09:16:01,ASHA_GAU_01,VLG_GAU_02,PT_GAU_2371,15-45,M,"['Cough', 'Body Ache', 'Headache', 'Sore Throat']",Influenza-Like Illness,Some,Referred
+HLS_NER_20241213_0314,2024-12-13,09:25:25,ASHA_GAU_02,VLG_GAU_04,PT_GAU_1814,46-60,M,"['Itchy Blister-like Rash', 'Fever', 'Headache', 'Tiredness']",Chickenpox,None,Recovered
+HLS_NER_20241213_0238,2024-12-13,12:27:05,ASHA_AIZ_02,VLG_AIZ_02,PT_AIZ_1738,15-45,M,"['Headache', 'Itchy Blister-like Rash', 'Tiredness', 'Fever']",Chickenpox,None,Under Treatment
+HLS_NER_20241213_0966,2024-12-13,15:40:58,ASHA_SIL_01,VLG_SIL_02,PT_SIL_2466,<5,M,"['Cough', 'Sore Throat', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241213_1000,2024-12-13,16:01:17,ASHA_AIZ_03,VLG_AIZ_02,PT_AIZ_2500,15-45,F,"['Headache', 'Body Ache', 'Cough', 'Fever']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241213_0306,2024-12-13,16:06:00,ASHA_SIL_02,VLG_SIL_04,PT_SIL_1806,15-45,M,"['Headache', 'Cough', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241213_0789,2024-12-13,21:38:43,ASHA_SIL_01,VLG_SIL_03,PT_SIL_2289,5-14,M,"['Chills', 'Sweating', 'Headache', 'Fever']",Malaria,Some,Recovered
+HLS_NER_20241213_0065,2024-12-13,21:46:04,ASHA_SIL_02,VLG_SIL_05,PT_SIL_1565,<5,M,"['Sweating', 'Headache', 'Chills']",Malaria,None,Referred
+HLS_NER_20241213_0046,2024-12-13,23:23:36,ASHA_SHL_02,VLG_SHL_01,PT_SHL_1546,5-14,M,"['Body Ache', 'Headache', 'Cough', 'Sore Throat', 'Fever']",Influenza-Like Illness,None,Referred
+HLS_NER_20241214_0285,2024-12-14,02:47:18,ASHA_AIZ_03,VLG_AIZ_02,PT_AIZ_1785,15-45,F,"['Chills', 'Sweating', 'Fever', 'Headache']",Malaria,None,Recovered
+HLS_NER_20241214_0470,2024-12-14,02:50:17,ASHA_AIZ_01,VLG_AIZ_02,PT_AIZ_1970,15-45,F,"['Fever', 'Weakness', 'Abdominal Pain', 'Headache']",Typhoid Fever,None,Recovered
+HLS_NER_20241214_0504,2024-12-14,02:51:00,ASHA_SHL_03,VLG_SHL_03,PT_SHL_2004,<5,M,"['Fever', 'Itchy Blister-like Rash', 'Tiredness']",Chickenpox,None,Recovered
+HLS_NER_20241214_0681,2024-12-14,07:06:03,ASHA_IMP_03,VLG_IMP_05,PT_IMP_2181,5-14,M,"['Sore Throat', 'Headache', 'Cough']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20241214_0791,2024-12-14,07:38:55,ASHA_KOH_01,VLG_KOH_03,PT_KOH_2291,15-45,M,"['Abdominal Pain', 'Weakness', 'Fever']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241214_0845,2024-12-14,11:04:52,ASHA_IMP_02,VLG_IMP_05,PT_IMP_2345,5-14,F,"['Headache', 'Weakness', 'Rash', 'Fever', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20241214_0593,2024-12-14,11:20:41,ASHA_SHL_02,VLG_SHL_05,PT_SHL_2093,46-60,M,"['Jaundice', 'Loss of Appetite', 'Nausea']",Hepatitis A,None,Under Treatment
+HLS_NER_20241214_0951,2024-12-14,11:24:11,ASHA_IMP_01,VLG_IMP_03,PT_IMP_2451,>60,M,"['Fever', 'Runny Nose', 'Cough', 'Sore Throat', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241214_0822,2024-12-14,12:41:39,ASHA_SIL_02,VLG_SIL_02,PT_SIL_2322,>60,F,"['Fever', 'Vomiting', 'Abdominal Pain', 'Diarrhea']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241214_0879,2024-12-14,14:56:46,ASHA_KOH_02,VLG_KOH_01,PT_KOH_2379,15-45,F,"['Vomiting', 'Abdominal Pain', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241214_0473,2024-12-14,18:44:40,ASHA_SIL_03,VLG_SIL_02,PT_SIL_1973,15-45,M,"['Cough', 'Runny Nose', 'Fever']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241214_0471,2024-12-14,23:21:28,ASHA_SHL_03,VLG_SHL_05,PT_SHL_1971,5-14,F,"['Diarrhea', 'Weakness', 'Vomiting', 'Fever', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241215_0893,2024-12-15,02:11:38,ASHA_IMP_02,VLG_IMP_02,PT_IMP_2393,15-45,M,"['Runny Nose', 'Fever', 'Headache', 'Sore Throat']",Influenza-Like Illness,None,Referred
+HLS_NER_20241215_0677,2024-12-15,03:18:17,ASHA_SHL_01,VLG_SHL_02,PT_SHL_2177,15-45,M,"['Vomiting', 'Fever', 'Diarrhea']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20241215_0424,2024-12-15,04:10:25,ASHA_AIZ_02,VLG_AIZ_03,PT_AIZ_1924,5-14,F,"['Body Ache', 'Headache', 'Sore Throat', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241215_0259,2024-12-15,05:02:06,ASHA_AIZ_01,VLG_AIZ_02,PT_AIZ_1759,46-60,M,"['Body Ache', 'Cough', 'Headache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241215_0610,2024-12-15,06:09:43,ASHA_SHL_01,VLG_SHL_04,PT_SHL_2110,5-14,M,"['Dark Urine', 'Nausea', 'Loss of Appetite', 'Jaundice']",Hepatitis A,None,Under Treatment
+HLS_NER_20241215_0513,2024-12-15,11:05:24,ASHA_KOH_01,VLG_KOH_03,PT_KOH_2013,15-45,F,"['Abdominal Pain', 'Fever', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241215_0218,2024-12-15,17:32:51,ASHA_SHL_02,VLG_SHL_01,PT_SHL_1718,15-45,F,"['Weakness', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241215_0359,2024-12-15,21:11:31,ASHA_SIL_03,VLG_SIL_02,PT_SIL_1859,15-45,F,"['Joint and Muscle Pain', 'High Fever', 'Severe Headache']",Dengue Fever,Some,Referred
+HLS_NER_20241216_0253,2024-12-16,00:39:48,ASHA_IMP_01,VLG_IMP_05,PT_IMP_1753,<5,F,"['Runny Nose', 'Fever', 'Cough', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241216_0228,2024-12-16,03:31:24,ASHA_IMP_01,VLG_IMP_03,PT_IMP_1728,46-60,M,"['Sore Throat', 'Cough', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241216_0885,2024-12-16,03:36:12,ASHA_KOH_02,VLG_KOH_02,PT_KOH_2385,15-45,M,"['Cough', 'Runny Nose', 'Fever', 'Sore Throat', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241216_0097,2024-12-16,04:40:39,ASHA_KOH_02,VLG_KOH_05,PT_KOH_1597,<5,F,"['Severe Headache', 'Joint and Muscle Pain', 'High Fever']",Dengue Fever,None,Recovered
+HLS_NER_20241216_0481,2024-12-16,05:29:25,ASHA_SHL_02,VLG_SHL_03,PT_SHL_1981,46-60,M,"['Cough', 'Runny Nose', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241216_0147,2024-12-16,05:55:01,ASHA_KOH_02,VLG_KOH_02,PT_KOH_1647,<5,F,"['Runny Nose', 'Cough', 'Headache']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241216_0152,2024-12-16,06:11:29,ASHA_AIZ_02,VLG_AIZ_03,PT_AIZ_1652,15-45,M,"['Dark Urine', 'Loss of Appetite', 'Jaundice', 'Nausea']",Hepatitis A,None,Recovered
+HLS_NER_20241216_0886,2024-12-16,10:08:31,ASHA_KOH_03,VLG_KOH_02,PT_KOH_2386,<5,F,"['Abdominal Pain', 'Vomiting', 'Diarrhea', 'Fever', 'Weakness']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241216_0761,2024-12-16,13:58:22,ASHA_AIZ_02,VLG_AIZ_02,PT_AIZ_2261,<5,F,"['Severe Headache', 'High Fever', 'Joint and Muscle Pain']",Dengue Fever,Some,Referred
+HLS_NER_20241216_0707,2024-12-16,19:26:59,ASHA_GAU_03,VLG_GAU_02,PT_GAU_2207,15-45,F,"['Fever', 'Body Ache', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241216_0190,2024-12-16,23:59:27,ASHA_SIL_01,VLG_SIL_03,PT_SIL_1690,5-14,F,"['Fever', 'Abdominal Pain', 'Diarrhea', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241217_0550,2024-12-17,02:50:15,ASHA_SIL_01,VLG_SIL_03,PT_SIL_2050,15-45,F,"['Cough', 'Runny Nose', 'Fever']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241217_0288,2024-12-17,03:15:12,ASHA_SIL_01,VLG_SIL_05,PT_SIL_1788,15-45,M,"['Loss of Appetite', 'Jaundice', 'Dark Urine']",Hepatitis A,None,Referred
+HLS_NER_20241217_0157,2024-12-17,03:17:48,ASHA_GAU_03,VLG_GAU_03,PT_GAU_1657,46-60,M,"['Fever', 'Abdominal Pain', 'Weakness']",Acute Diarrheal Disease,None,Under Treatment
+HLS_NER_20241217_0559,2024-12-17,04:10:35,ASHA_IMP_01,VLG_IMP_01,PT_IMP_2059,15-45,M,"['Abdominal Pain', 'Headache', 'Rash']",Typhoid Fever,None,Under Treatment
+HLS_NER_20241217_0138,2024-12-17,09:26:27,ASHA_GAU_02,VLG_GAU_03,PT_GAU_1638,5-14,M,"['Chills', 'Fever', 'Sweating']",Malaria,None,Recovered
+HLS_NER_20241217_0272,2024-12-17,11:15:03,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_1772,15-45,M,"['Rash', 'Fever', 'Weakness', 'Abdominal Pain']",Typhoid Fever,None,Under Treatment
+HLS_NER_20241217_0287,2024-12-17,11:35:20,ASHA_AIZ_02,VLG_AIZ_01,PT_AIZ_1787,46-60,F,"['Headache', 'Sweating', 'Chills', 'Fever']",Malaria,None,Recovered
+HLS_NER_20241217_0111,2024-12-17,13:03:13,ASHA_AIZ_02,VLG_AIZ_04,PT_AIZ_1611,5-14,M,"['Rash', 'Weakness', 'Abdominal Pain', 'Headache']",Typhoid Fever,None,Under Treatment
+HLS_NER_20241217_0542,2024-12-17,19:23:38,ASHA_SHL_03,VLG_SHL_05,PT_SHL_2042,15-45,M,"['Headache', 'Sore Throat', 'Runny Nose', 'Cough', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241217_0075,2024-12-17,19:32:18,ASHA_IMP_01,VLG_IMP_05,PT_IMP_1575,15-45,M,"['Fever', 'Itchy Blister-like Rash', 'Headache', 'Tiredness']",Chickenpox,None,Referred
+HLS_NER_20241217_0103,2024-12-17,20:16:21,ASHA_GAU_02,VLG_GAU_02,PT_GAU_1603,15-45,M,"['Headache', 'Tiredness', 'Itchy Blister-like Rash', 'Fever']",Chickenpox,None,Recovered
+HLS_NER_20241217_0191,2024-12-17,21:14:38,ASHA_IMP_01,VLG_IMP_04,PT_IMP_1691,15-45,M,"['Cough', 'Sore Throat', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241217_0579,2024-12-17,22:32:35,ASHA_SIL_03,VLG_SIL_02,PT_SIL_2079,46-60,F,"['Runny Nose', 'Headache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241218_0361,2024-12-18,03:02:26,ASHA_IMP_02,VLG_IMP_04,PT_IMP_1861,5-14,F,"['Headache', 'Rash', 'Weakness']",Typhoid Fever,None,Recovered
+HLS_NER_20241218_0369,2024-12-18,06:24:01,ASHA_SHL_01,VLG_SHL_04,PT_SHL_1869,15-45,M,"['Headache', 'Fever', 'Cough', 'Body Ache', 'Sore Throat']",Influenza-Like Illness,None,Referred
+HLS_NER_20241218_0712,2024-12-18,08:12:23,ASHA_KOH_03,VLG_KOH_03,PT_KOH_2212,46-60,F,"['Headache', 'Fever', 'Chills']",Malaria,None,Recovered
+HLS_NER_20241218_0002,2024-12-18,09:00:40,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_1502,5-14,M,"['Loss of Appetite', 'Fatigue', 'Dark Urine', 'Nausea']",Hepatitis A,None,Recovered
+HLS_NER_20241218_0896,2024-12-18,09:04:11,ASHA_KOH_01,VLG_KOH_04,PT_KOH_2396,5-14,M,"['Weakness', 'Vomiting', 'Fever']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241218_0463,2024-12-18,09:24:41,ASHA_GAU_03,VLG_GAU_04,PT_GAU_1963,<5,M,"['Weakness', 'Headache', 'Abdominal Pain']",Typhoid Fever,None,Under Treatment
+HLS_NER_20241218_0672,2024-12-18,11:07:01,ASHA_SHL_03,VLG_SHL_05,PT_SHL_2172,15-45,F,"['Jaundice', 'Loss of Appetite', 'Dark Urine', 'Fatigue']",Hepatitis A,None,Recovered
+HLS_NER_20241218_0291,2024-12-18,13:16:46,ASHA_KOH_02,VLG_KOH_03,PT_KOH_1791,<5,M,"['Sore Throat', 'Runny Nose', 'Cough', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241218_0003,2024-12-18,15:17:10,ASHA_GAU_02,VLG_GAU_01,PT_GAU_1503,5-14,F,"['Fever', 'Headache', 'Cough']",Influenza-Like Illness,None,Referred
+HLS_NER_20241218_0777,2024-12-18,17:49:32,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_2277,46-60,F,"['Cough', 'Sore Throat', 'Fever']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241218_0328,2024-12-18,23:07:33,ASHA_IMP_01,VLG_IMP_03,PT_IMP_1828,15-45,F,"['Dark Urine', 'Fatigue', 'Loss of Appetite', 'Nausea', 'Jaundice']",Hepatitis A,None,Referred
+HLS_NER_20241219_0330,2024-12-19,00:21:17,ASHA_SHL_02,VLG_SHL_05,PT_SHL_1830,<5,M,"['Runny Nose', 'Fever', 'Cough', 'Body Ache', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241219_0997,2024-12-19,02:18:40,ASHA_IMP_02,VLG_IMP_03,PT_IMP_2497,46-60,M,"['Runny Nose', 'Fever', 'Headache', 'Body Ache']",Influenza-Like Illness,None,Referred
+HLS_NER_20241219_0952,2024-12-19,02:31:19,ASHA_SHL_01,VLG_SHL_03,PT_SHL_2452,15-45,M,"['Headache', 'Fever', 'Runny Nose']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241219_0717,2024-12-19,04:55:49,ASHA_IMP_02,VLG_IMP_05,PT_IMP_2217,46-60,M,"['Sore Throat', 'Cough', 'Fever', 'Runny Nose', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241219_0159,2024-12-19,07:58:49,ASHA_SIL_01,VLG_SIL_05,PT_SIL_1659,46-60,M,"['Cough', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241219_0088,2024-12-19,09:18:11,ASHA_SIL_02,VLG_SIL_03,PT_SIL_1588,15-45,M,"['Sore Throat', 'Cough', 'Headache']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20241219_0975,2024-12-19,11:14:18,ASHA_IMP_02,VLG_IMP_04,PT_IMP_2475,>60,F,"['Loss of Appetite', 'Nausea', 'Fatigue', 'Dark Urine']",Hepatitis A,None,Recovered
+HLS_NER_20241219_0174,2024-12-19,13:35:15,ASHA_SIL_03,VLG_SIL_05,PT_SIL_1674,>60,F,"['Weakness', 'Rash', 'Headache', 'Fever', 'Abdominal Pain']",Typhoid Fever,Some,Under Treatment
+HLS_NER_20241219_0691,2024-12-19,14:19:13,ASHA_IMP_01,VLG_IMP_03,PT_IMP_2191,<5,M,"['Runny Nose', 'Body Ache', 'Sore Throat']",Influenza-Like Illness,None,Referred
+HLS_NER_20241219_0955,2024-12-19,16:00:57,ASHA_SHL_02,VLG_SHL_02,PT_SHL_2455,46-60,M,"['Chills', 'Fever', 'Headache', 'Sweating']",Malaria,None,Recovered
+HLS_NER_20241219_0548,2024-12-19,16:48:27,ASHA_IMP_03,VLG_IMP_04,PT_IMP_2048,5-14,F,"['Body Ache', 'Runny Nose', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241219_0700,2024-12-19,20:31:33,ASHA_IMP_02,VLG_IMP_05,PT_IMP_2200,15-45,M,"['Runny Nose', 'Cough', 'Body Ache', 'Headache', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241220_0166,2024-12-20,01:24:23,ASHA_AIZ_02,VLG_AIZ_02,PT_AIZ_1666,15-45,F,"['Dark Urine', 'Jaundice', 'Nausea', 'Loss of Appetite']",Hepatitis A,None,Recovered
+HLS_NER_20241220_0281,2024-12-20,06:59:29,ASHA_SHL_01,VLG_SHL_05,PT_SHL_1781,<5,F,"['Abdominal Pain', 'Rash', 'Weakness', 'Headache', 'Fever']",Typhoid Fever,None,Referred
+HLS_NER_20241220_0561,2024-12-20,09:17:55,ASHA_GAU_03,VLG_GAU_04,PT_GAU_2061,<5,M,"['Runny Nose', 'Sore Throat', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241220_0611,2024-12-20,18:42:55,ASHA_SHL_03,VLG_SHL_02,PT_SHL_2111,5-14,F,"['Abdominal Pain', 'Fever', 'Diarrhea', 'Weakness', 'Vomiting']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241220_0084,2024-12-20,19:27:14,ASHA_KOH_02,VLG_KOH_02,PT_KOH_1584,<5,F,"['Body Ache', 'Headache', 'Runny Nose']",Influenza-Like Illness,None,Referred
+HLS_NER_20241220_0448,2024-12-20,20:09:39,ASHA_SIL_01,VLG_SIL_03,PT_SIL_1948,15-45,F,"['Itchy Blister-like Rash', 'Fever', 'Headache']",Chickenpox,None,Recovered
+HLS_NER_20241220_0428,2024-12-20,23:56:04,ASHA_SHL_02,VLG_SHL_03,PT_SHL_1928,15-45,M,"['Severe Headache', 'High Fever', 'Joint and Muscle Pain']",Dengue Fever,None,Recovered
+HLS_NER_20241221_0041,2024-12-21,00:21:33,ASHA_GAU_03,VLG_GAU_04,PT_GAU_1541,5-14,F,"['Diarrhea', 'Abdominal Pain', 'Vomiting', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241221_0300,2024-12-21,01:18:43,ASHA_SHL_02,VLG_SHL_01,PT_SHL_1800,<5,M,"['Cough', 'Headache', 'Fever', 'Runny Nose', 'Sore Throat']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241221_0635,2024-12-21,03:47:06,ASHA_SHL_02,VLG_SHL_05,PT_SHL_2135,46-60,M,"['High Fever', 'Joint and Muscle Pain', 'Severe Headache']",Dengue Fever,Some,Recovered
+HLS_NER_20241221_0608,2024-12-21,04:55:05,ASHA_KOH_01,VLG_KOH_02,PT_KOH_2108,15-45,F,"['Itchy Blister-like Rash', 'Headache', 'Fever']",Chickenpox,None,Recovered
+HLS_NER_20241221_0024,2024-12-21,07:56:28,ASHA_AIZ_03,VLG_AIZ_01,PT_AIZ_1524,<5,F,"['Tiredness', 'Itchy Blister-like Rash', 'Fever', 'Headache']",Chickenpox,None,Under Treatment
+HLS_NER_20241221_0813,2024-12-21,10:00:16,ASHA_KOH_03,VLG_KOH_03,PT_KOH_2313,15-45,M,"['Nausea', 'Fatigue', 'Loss of Appetite', 'Jaundice', 'Dark Urine']",Hepatitis A,None,Recovered
+HLS_NER_20241221_0402,2024-12-21,13:12:26,ASHA_AIZ_01,VLG_AIZ_01,PT_AIZ_1902,5-14,M,"['Cough', 'Sore Throat', 'Headache', 'Body Ache', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241221_0990,2024-12-21,15:28:54,ASHA_SIL_03,VLG_SIL_04,PT_SIL_2490,5-14,M,"['Chills', 'Fever', 'Sweating', 'Headache']",Malaria,None,Recovered
+HLS_NER_20241221_0784,2024-12-21,16:10:07,ASHA_SIL_02,VLG_SIL_02,PT_SIL_2284,5-14,F,"['Headache', 'Body Ache', 'Runny Nose', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241221_0571,2024-12-21,18:03:31,ASHA_KOH_02,VLG_KOH_02,PT_KOH_2071,15-45,M,"['Weakness', 'Abdominal Pain', 'Headache', 'Rash', 'Fever']",Typhoid Fever,None,Referred
+HLS_NER_20241221_0318,2024-12-21,21:57:32,ASHA_AIZ_02,VLG_AIZ_05,PT_AIZ_1818,15-45,M,"['Cough', 'Fever', 'Headache', 'Body Ache']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241221_0153,2024-12-21,22:54:42,ASHA_SHL_02,VLG_SHL_04,PT_SHL_1653,5-14,F,"['Runny Nose', 'Cough', 'Headache', 'Fever']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241222_0881,2024-12-22,02:17:52,ASHA_IMP_03,VLG_IMP_02,PT_IMP_2381,15-45,M,"['Body Ache', 'Fever', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241222_0733,2024-12-22,06:06:08,ASHA_SHL_03,VLG_SHL_03,PT_SHL_2233,<5,F,"['Body Ache', 'Fever', 'Cough', 'Runny Nose']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241222_0202,2024-12-22,15:01:42,ASHA_KOH_01,VLG_KOH_04,PT_KOH_1702,46-60,F,"['Sweating', 'Chills', 'Fever', 'Headache']",Malaria,Some,Referred
+HLS_NER_20241222_0412,2024-12-22,18:22:48,ASHA_KOH_02,VLG_KOH_05,PT_KOH_1912,5-14,M,"['Runny Nose', 'Body Ache', 'Fever']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241222_0601,2024-12-22,18:51:13,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_2101,<5,M,"['Runny Nose', 'Sore Throat', 'Fever', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241222_0937,2024-12-22,21:24:17,ASHA_KOH_02,VLG_KOH_05,PT_KOH_2437,46-60,F,"['Fever', 'Headache', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241222_0643,2024-12-22,22:47:25,ASHA_GAU_02,VLG_GAU_02,PT_GAU_2143,15-45,F,"['Weakness', 'Headache', 'Rash', 'Abdominal Pain']",Typhoid Fever,None,Under Treatment
+HLS_NER_20241222_0101,2024-12-22,23:06:22,ASHA_AIZ_03,VLG_AIZ_03,PT_AIZ_1601,5-14,M,"['Headache', 'Itchy Blister-like Rash', 'Tiredness', 'Fever']",Chickenpox,None,Recovered
+HLS_NER_20241222_0181,2024-12-22,23:13:42,ASHA_AIZ_03,VLG_AIZ_05,PT_AIZ_1681,15-45,M,"['Vomiting', 'Diarrhea', 'Weakness', 'Fever', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241222_0650,2024-12-22,23:23:51,ASHA_SHL_03,VLG_SHL_01,PT_SHL_2150,15-45,M,"['Vomiting', 'Fever', 'Weakness', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Under Treatment
+HLS_NER_20241223_0669,2024-12-23,02:33:07,ASHA_SIL_03,VLG_SIL_02,PT_SIL_2169,46-60,F,"['Fever', 'Runny Nose', 'Headache', 'Body Ache', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241223_0458,2024-12-23,11:58:01,ASHA_AIZ_02,VLG_AIZ_02,PT_AIZ_1958,>60,F,"['Cough', 'Runny Nose', 'Body Ache', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241223_0495,2024-12-23,14:20:13,ASHA_IMP_03,VLG_IMP_01,PT_IMP_1995,15-45,F,"['Weakness', 'Abdominal Pain', 'Fever', 'Vomiting']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241223_0439,2024-12-23,18:57:25,ASHA_IMP_01,VLG_IMP_04,PT_IMP_1939,15-45,F,"['Fever', 'Chills', 'Sweating', 'Headache']",Malaria,None,Recovered
+HLS_NER_20241223_0688,2024-12-23,21:38:02,ASHA_IMP_01,VLG_IMP_05,PT_IMP_2188,46-60,F,"['Weakness', 'Rash', 'Headache', 'Fever']",Typhoid Fever,None,Recovered
+HLS_NER_20241224_0197,2024-12-24,03:35:26,ASHA_SHL_01,VLG_SHL_05,PT_SHL_1697,15-45,F,"['Fever', 'Weakness', 'Vomiting', 'Diarrhea']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241224_0855,2024-12-24,04:50:23,ASHA_GAU_03,VLG_GAU_05,PT_GAU_2355,15-45,M,"['Fever', 'Cough', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241224_0501,2024-12-24,05:26:58,ASHA_SHL_01,VLG_SHL_01,PT_SHL_2001,15-45,F,"['Fever', 'Headache', 'Itchy Blister-like Rash']",Chickenpox,None,Recovered
+HLS_NER_20241224_0380,2024-12-24,07:39:17,ASHA_KOH_01,VLG_KOH_01,PT_KOH_1880,46-60,M,"['Headache', 'Fever', 'Body Ache', 'Runny Nose', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241224_0176,2024-12-24,07:58:23,ASHA_KOH_03,VLG_KOH_03,PT_KOH_1676,15-45,F,"['Diarrhea', 'Weakness', 'Vomiting']",Acute Diarrheal Disease,None,Referred
+HLS_NER_20241224_0256,2024-12-24,09:46:11,ASHA_GAU_03,VLG_GAU_03,PT_GAU_1756,5-14,F,"['Headache', 'Sore Throat', 'Fever', 'Body Ache', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241224_0859,2024-12-24,10:05:58,ASHA_GAU_02,VLG_GAU_01,PT_GAU_2359,5-14,M,"['Headache', 'Cough', 'Sore Throat', 'Body Ache', 'Fever']",Influenza-Like Illness,Some,Under Treatment
+HLS_NER_20241224_0537,2024-12-24,10:37:11,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_2037,15-45,M,"['Rash', 'Fever', 'Headache', 'Weakness']",Typhoid Fever,None,Recovered
+HLS_NER_20241224_0556,2024-12-24,13:15:57,ASHA_AIZ_02,VLG_AIZ_01,PT_AIZ_2056,<5,M,"['Abdominal Pain', 'Vomiting', 'Diarrhea']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241224_0001,2024-12-24,19:15:21,ASHA_KOH_01,VLG_KOH_05,PT_KOH_1501,15-45,M,"['Fatigue', 'Jaundice', 'Nausea', 'Dark Urine']",Hepatitis A,None,Recovered
+HLS_NER_20241224_0506,2024-12-24,20:31:09,ASHA_SIL_02,VLG_SIL_01,PT_SIL_2006,5-14,F,"['Body Ache', 'Cough', 'Runny Nose', 'Sore Throat', 'Headache']",Influenza-Like Illness,None,Referred
+HLS_NER_20241224_0792,2024-12-24,21:56:26,ASHA_GAU_02,VLG_GAU_01,PT_GAU_2292,15-45,F,"['Runny Nose', 'Cough', 'Sore Throat', 'Body Ache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241224_0394,2024-12-24,22:27:10,ASHA_SHL_02,VLG_SHL_01,PT_SHL_1894,<5,M,"['Runny Nose', 'Fever', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241224_0627,2024-12-24,23:58:01,ASHA_GAU_03,VLG_GAU_03,PT_GAU_2127,46-60,M,"['Sore Throat', 'Fever', 'Body Ache', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241225_0839,2024-12-25,01:33:52,ASHA_GAU_01,VLG_GAU_02,PT_GAU_2339,<5,M,"['Runny Nose', 'Fever', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241225_0844,2024-12-25,04:15:21,ASHA_SIL_02,VLG_SIL_02,PT_SIL_2344,<5,F,"['Tiredness', 'Itchy Blister-like Rash', 'Headache', 'Fever']",Chickenpox,None,Referred
+HLS_NER_20241225_0915,2024-12-25,04:49:03,ASHA_SHL_01,VLG_SHL_04,PT_SHL_2415,<5,M,"['Fatigue', 'Jaundice', 'Nausea', 'Dark Urine', 'Loss of Appetite']",Hepatitis A,None,Recovered
+HLS_NER_20241225_0511,2024-12-25,07:43:32,ASHA_KOH_03,VLG_KOH_05,PT_KOH_2011,15-45,M,"['Sore Throat', 'Headache', 'Cough', 'Runny Nose', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241225_0297,2024-12-25,08:51:56,ASHA_AIZ_02,VLG_AIZ_03,PT_AIZ_1797,>60,F,"['Fever', 'Itchy Blister-like Rash', 'Tiredness']",Chickenpox,None,Referred
+HLS_NER_20241225_0460,2024-12-25,09:17:19,ASHA_SIL_02,VLG_SIL_02,PT_SIL_1960,>60,M,"['Rash', 'Weakness', 'Headache']",Typhoid Fever,Some,Recovered
+HLS_NER_20241225_0248,2024-12-25,10:37:57,ASHA_IMP_02,VLG_IMP_04,PT_IMP_1748,15-45,M,"['Body Ache', 'Fever', 'Headache', 'Runny Nose', 'Cough']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241225_0582,2024-12-25,11:44:58,ASHA_SIL_02,VLG_SIL_05,PT_SIL_2082,15-45,M,"['Headache', 'Runny Nose', 'Sore Throat', 'Fever', 'Body Ache']",Influenza-Like Illness,Some,Under Treatment
+HLS_NER_20241225_0247,2024-12-25,12:50:19,ASHA_SHL_02,VLG_SHL_03,PT_SHL_1747,46-60,M,"['Headache', 'Cough', 'Fever', 'Body Ache', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241225_0864,2024-12-25,13:12:38,ASHA_SIL_01,VLG_SIL_04,PT_SIL_2364,5-14,F,"['Joint and Muscle Pain', 'High Fever', 'Severe Headache']",Dengue Fever,Some,Recovered
+HLS_NER_20241225_0016,2024-12-25,15:42:55,ASHA_SHL_03,VLG_SHL_05,PT_SHL_1516,5-14,M,"['Fever', 'Sore Throat', 'Runny Nose', 'Body Ache', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241225_0279,2024-12-25,16:28:01,ASHA_SHL_02,VLG_SHL_04,PT_SHL_1779,15-45,F,"['Headache', 'Tiredness', 'Fever', 'Itchy Blister-like Rash']",Chickenpox,None,Recovered
+HLS_NER_20241225_0666,2024-12-25,17:10:46,ASHA_IMP_03,VLG_IMP_03,PT_IMP_2166,46-60,M,"['Joint and Muscle Pain', 'High Fever', 'Severe Headache']",Dengue Fever,None,Recovered
+HLS_NER_20241225_0223,2024-12-25,18:36:48,ASHA_AIZ_01,VLG_AIZ_02,PT_AIZ_1723,15-45,F,"['Runny Nose', 'Sore Throat', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241225_0532,2024-12-25,19:52:30,ASHA_GAU_02,VLG_GAU_05,PT_GAU_2032,15-45,M,"['Loss of Appetite', 'Jaundice', 'Dark Urine', 'Nausea', 'Fatigue']",Hepatitis A,None,Recovered
+HLS_NER_20241225_0547,2024-12-25,21:04:52,ASHA_SIL_03,VLG_SIL_04,PT_SIL_2047,5-14,F,"['Dark Urine', 'Jaundice', 'Nausea', 'Loss of Appetite']",Hepatitis A,None,Recovered
+HLS_NER_20241225_0841,2024-12-25,21:09:33,ASHA_KOH_03,VLG_KOH_01,PT_KOH_2341,15-45,F,"['Sore Throat', 'Fever', 'Headache', 'Body Ache', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241225_0377,2024-12-25,22:29:17,ASHA_SHL_03,VLG_SHL_03,PT_SHL_1877,46-60,F,"['Vomiting', 'Diarrhea', 'Fever']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241226_0058,2024-12-26,00:52:32,ASHA_GAU_03,VLG_GAU_04,PT_GAU_1558,5-14,F,"['Fever', 'Chills', 'Sweating']",Malaria,Some,Referred
+HLS_NER_20241226_0136,2024-12-26,09:37:30,ASHA_KOH_02,VLG_KOH_01,PT_KOH_1636,46-60,M,"['Body Ache', 'Cough', 'Runny Nose', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241226_0540,2024-12-26,10:05:26,ASHA_KOH_02,VLG_KOH_03,PT_KOH_2040,<5,F,"['Cough', 'Sore Throat', 'Headache', 'Body Ache', 'Runny Nose']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20241226_0374,2024-12-26,13:01:00,ASHA_SHL_02,VLG_SHL_02,PT_SHL_1874,<5,F,"['Cough', 'Headache', 'Sore Throat', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241226_0600,2024-12-26,15:03:30,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_2100,15-45,F,"['Fatigue', 'Dark Urine', 'Nausea', 'Jaundice', 'Loss of Appetite']",Hepatitis A,None,Recovered
+HLS_NER_20241226_0960,2024-12-26,19:14:47,ASHA_KOH_03,VLG_KOH_01,PT_KOH_2460,<5,F,"['Runny Nose', 'Sore Throat', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241226_0086,2024-12-26,19:37:15,ASHA_SIL_02,VLG_SIL_01,PT_SIL_1586,46-60,M,"['Runny Nose', 'Fever', 'Body Ache', 'Sore Throat']",Influenza-Like Illness,None,Referred
+HLS_NER_20241226_0144,2024-12-26,20:12:30,ASHA_SHL_03,VLG_SHL_05,PT_SHL_1644,46-60,M,"['Weakness', 'Vomiting', 'Fever', 'Abdominal Pain', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241226_0139,2024-12-26,22:38:03,ASHA_IMP_01,VLG_IMP_03,PT_IMP_1639,<5,M,"['Weakness', 'Vomiting', 'Fever', 'Diarrhea', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241227_0585,2024-12-27,02:18:32,ASHA_KOH_02,VLG_KOH_05,PT_KOH_2085,5-14,F,"['Fever', 'Sore Throat', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241227_0889,2024-12-27,03:43:25,ASHA_AIZ_01,VLG_AIZ_04,PT_AIZ_2389,15-45,M,"['High Fever', 'Severe Headache', 'Joint and Muscle Pain']",Dengue Fever,None,Recovered
+HLS_NER_20241227_0741,2024-12-27,04:30:29,ASHA_KOH_03,VLG_KOH_03,PT_KOH_2241,<5,M,"['Nausea', 'Dark Urine', 'Fatigue', 'Jaundice', 'Loss of Appetite']",Hepatitis A,None,Referred
+HLS_NER_20241227_0516,2024-12-27,04:52:12,ASHA_KOH_02,VLG_KOH_02,PT_KOH_2016,15-45,F,"['Fatigue', 'Nausea', 'Jaundice', 'Loss of Appetite']",Hepatitis A,Some,Recovered
+HLS_NER_20241227_0726,2024-12-27,06:38:31,ASHA_SHL_03,VLG_SHL_03,PT_SHL_2226,15-45,M,"['Runny Nose', 'Cough', 'Body Ache', 'Fever', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241227_0858,2024-12-27,08:12:04,ASHA_IMP_02,VLG_IMP_04,PT_IMP_2358,5-14,F,"['Tiredness', 'Itchy Blister-like Rash', 'Headache', 'Fever']",Chickenpox,Some,Recovered
+HLS_NER_20241227_0517,2024-12-27,09:01:52,ASHA_SIL_01,VLG_SIL_02,PT_SIL_2017,<5,M,"['Abdominal Pain', 'Weakness', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241227_0965,2024-12-27,09:57:07,ASHA_SIL_01,VLG_SIL_01,PT_SIL_2465,15-45,M,"['Loss of Appetite', 'Fatigue', 'Jaundice', 'Nausea', 'Dark Urine']",Hepatitis A,None,Under Treatment
+HLS_NER_20241227_0734,2024-12-27,15:52:44,ASHA_SHL_01,VLG_SHL_03,PT_SHL_2234,<5,M,"['Weakness', 'Headache', 'Abdominal Pain']",Typhoid Fever,None,Under Treatment
+HLS_NER_20241227_0580,2024-12-27,21:15:58,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_2080,46-60,F,"['Fatigue', 'Dark Urine', 'Loss of Appetite', 'Nausea', 'Jaundice']",Hepatitis A,None,Recovered
+HLS_NER_20241228_0785,2024-12-28,02:10:23,ASHA_IMP_03,VLG_IMP_01,PT_IMP_2285,15-45,F,"['Rash', 'Fever', 'Abdominal Pain', 'Weakness', 'Headache']",Typhoid Fever,None,Recovered
+HLS_NER_20241228_0628,2024-12-28,04:16:28,ASHA_AIZ_01,VLG_AIZ_02,PT_AIZ_2128,46-60,F,"['Headache', 'Fever', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241228_0165,2024-12-28,04:59:57,ASHA_GAU_01,VLG_GAU_02,PT_GAU_1665,15-45,F,"['Tiredness', 'Headache', 'Itchy Blister-like Rash']",Chickenpox,None,Under Treatment
+HLS_NER_20241228_0127,2024-12-28,06:38:42,ASHA_KOH_03,VLG_KOH_01,PT_KOH_1627,46-60,F,"['Tiredness', 'Fever', 'Headache', 'Itchy Blister-like Rash']",Chickenpox,None,Under Treatment
+HLS_NER_20241228_0324,2024-12-28,07:50:20,ASHA_SHL_03,VLG_SHL_03,PT_SHL_1824,15-45,F,"['Diarrhea', 'Vomiting', 'Fever', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20241228_0483,2024-12-28,13:16:55,ASHA_SIL_01,VLG_SIL_05,PT_SIL_1983,15-45,M,"['Body Ache', 'Fever', 'Runny Nose', 'Sore Throat']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241228_0616,2024-12-28,15:31:25,ASHA_SHL_01,VLG_SHL_02,PT_SHL_2116,46-60,M,"['Sore Throat', 'Cough', 'Headache', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241228_0033,2024-12-28,17:27:06,ASHA_SIL_02,VLG_SIL_02,PT_SIL_1533,46-60,F,"['Body Ache', 'Runny Nose', 'Cough', 'Headache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241228_0261,2024-12-28,18:23:10,ASHA_AIZ_02,VLG_AIZ_01,PT_AIZ_1761,<5,F,"['Fever', 'Chills', 'Headache', 'Sweating']",Malaria,None,Recovered
+HLS_NER_20241228_0594,2024-12-28,18:43:06,ASHA_GAU_03,VLG_GAU_05,PT_GAU_2094,5-14,F,"['Loss of Appetite', 'Dark Urine', 'Fatigue', 'Nausea']",Hepatitis A,None,Recovered
+HLS_NER_20241228_0689,2024-12-28,20:03:04,ASHA_AIZ_02,VLG_AIZ_04,PT_AIZ_2189,15-45,M,"['Vomiting', 'Weakness', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241229_0603,2024-12-29,00:44:26,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_2103,15-45,M,"['Abdominal Pain', 'Weakness', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20241229_0355,2024-12-29,02:21:12,ASHA_SIL_02,VLG_SIL_01,PT_SIL_1855,>60,F,"['Sore Throat', 'Fever', 'Headache', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241229_0935,2024-12-29,04:09:17,ASHA_KOH_02,VLG_KOH_05,PT_KOH_2435,46-60,F,"['Fatigue', 'Nausea', 'Dark Urine', 'Jaundice', 'Loss of Appetite']",Hepatitis A,None,Recovered
+HLS_NER_20241229_0599,2024-12-29,05:44:52,ASHA_AIZ_03,VLG_AIZ_03,PT_AIZ_2099,<5,F,"['Headache', 'Sore Throat', 'Cough', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241229_0888,2024-12-29,11:00:36,ASHA_AIZ_01,VLG_AIZ_04,PT_AIZ_2388,15-45,M,"['Weakness', 'Fever', 'Diarrhea', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20241229_0188,2024-12-29,13:56:38,ASHA_AIZ_03,VLG_AIZ_05,PT_AIZ_1688,15-45,M,"['Headache', 'Tiredness', 'Fever', 'Itchy Blister-like Rash']",Chickenpox,None,Under Treatment
+HLS_NER_20241229_0237,2024-12-29,19:01:28,ASHA_GAU_01,VLG_GAU_05,PT_GAU_1737,5-14,M,"['Body Ache', 'Fever', 'Runny Nose', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241229_0563,2024-12-29,22:30:16,ASHA_SIL_03,VLG_SIL_04,PT_SIL_2063,15-45,M,"['Jaundice', 'Fatigue', 'Loss of Appetite', 'Dark Urine', 'Nausea']",Hepatitis A,None,Recovered
+HLS_NER_20241230_0989,2024-12-30,06:25:18,ASHA_KOH_02,VLG_KOH_01,PT_KOH_2489,15-45,F,"['Runny Nose', 'Cough', 'Headache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241230_0083,2024-12-30,06:27:39,ASHA_KOH_01,VLG_KOH_03,PT_KOH_1583,15-45,M,"['Fever', 'Body Ache', 'Headache', 'Sore Throat']",Influenza-Like Illness,None,Referred
+HLS_NER_20241230_0329,2024-12-30,10:56:30,ASHA_GAU_01,VLG_GAU_01,PT_GAU_1829,15-45,F,"['Abdominal Pain', 'Headache', 'Rash', 'Weakness']",Typhoid Fever,None,Under Treatment
+HLS_NER_20241230_0694,2024-12-30,16:07:48,ASHA_AIZ_02,VLG_AIZ_03,PT_AIZ_2194,46-60,M,"['Cough', 'Body Ache', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241230_0435,2024-12-30,20:01:07,ASHA_IMP_01,VLG_IMP_03,PT_IMP_1935,15-45,F,"['Diarrhea', 'Weakness', 'Vomiting']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241230_0462,2024-12-30,21:53:48,ASHA_SIL_01,VLG_SIL_01,PT_SIL_1962,5-14,F,"['Runny Nose', 'Headache', 'Sore Throat', 'Cough', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241230_0426,2024-12-30,22:33:06,ASHA_AIZ_01,VLG_AIZ_04,PT_AIZ_1926,15-45,F,"['Loss of Appetite', 'Jaundice', 'Dark Urine']",Hepatitis A,None,Referred
+HLS_NER_20241230_0876,2024-12-30,22:43:40,ASHA_GAU_03,VLG_GAU_05,PT_GAU_2376,<5,M,"['Dark Urine', 'Jaundice', 'Nausea', 'Loss of Appetite', 'Fatigue']",Hepatitis A,None,Recovered
+HLS_NER_20241231_0175,2024-12-31,01:01:34,ASHA_IMP_01,VLG_IMP_04,PT_IMP_1675,15-45,F,"['Sore Throat', 'Body Ache', 'Runny Nose', 'Fever', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241231_0466,2024-12-31,03:10:12,ASHA_GAU_02,VLG_GAU_03,PT_GAU_1966,15-45,M,"['Weakness', 'Fever', 'Rash']",Typhoid Fever,Some,Recovered
+HLS_NER_20241231_0659,2024-12-31,04:51:27,ASHA_KOH_02,VLG_KOH_05,PT_KOH_2159,5-14,F,"['Fever', 'Runny Nose', 'Headache']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241231_0105,2024-12-31,05:51:29,ASHA_SHL_01,VLG_SHL_01,PT_SHL_1605,15-45,M,"['Fever', 'Sore Throat', 'Runny Nose', 'Headache', 'Cough']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241231_0621,2024-12-31,05:56:34,ASHA_SIL_03,VLG_SIL_02,PT_SIL_2121,15-45,F,"['Fever', 'Sore Throat', 'Runny Nose']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20241231_0335,2024-12-31,07:41:45,ASHA_AIZ_01,VLG_AIZ_04,PT_AIZ_1835,5-14,M,"['Abdominal Pain', 'Diarrhea', 'Fever', 'Vomiting', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20241231_0773,2024-12-31,08:27:27,ASHA_IMP_02,VLG_IMP_04,PT_IMP_2273,<5,F,"['Cough', 'Headache', 'Runny Nose', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241231_0913,2024-12-31,11:54:00,ASHA_KOH_01,VLG_KOH_05,PT_KOH_2413,46-60,M,"['Cough', 'Headache', 'Body Ache', 'Runny Nose', 'Sore Throat']",Influenza-Like Illness,None,Referred
+HLS_NER_20241231_0193,2024-12-31,14:34:31,ASHA_SHL_02,VLG_SHL_05,PT_SHL_1693,15-45,F,"['Diarrhea', 'Weakness', 'Fever', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,None,Under Treatment
+HLS_NER_20241231_0553,2024-12-31,17:25:07,ASHA_KOH_03,VLG_KOH_02,PT_KOH_2053,15-45,M,"['Fever', 'Weakness', 'Diarrhea']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20241231_0284,2024-12-31,21:22:32,ASHA_IMP_03,VLG_IMP_01,PT_IMP_1784,15-45,M,"['Body Ache', 'Sore Throat', 'Runny Nose', 'Fever', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20241231_0829,2024-12-31,21:26:52,ASHA_SIL_01,VLG_SIL_04,PT_SIL_2329,5-14,M,"['Fever', 'Headache', 'Sweating']",Malaria,None,Under Treatment
+HLS_NER_20241231_0054,2024-12-31,22:17:29,ASHA_SIL_02,VLG_SIL_02,PT_SIL_1554,15-45,F,"['Diarrhea', 'Weakness', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250101_0977,2025-01-01,01:35:59,ASHA_AIZ_02,VLG_AIZ_01,PT_AIZ_2477,5-14,F,"['Headache', 'Runny Nose', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250101_0641,2025-01-01,01:47:34,ASHA_IMP_01,VLG_IMP_04,PT_IMP_2141,5-14,M,"['Runny Nose', 'Cough', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250101_0295,2025-01-01,09:38:09,ASHA_SIL_02,VLG_SIL_05,PT_SIL_1795,15-45,F,"['Loss of Appetite', 'Nausea', 'Dark Urine', 'Jaundice']",Hepatitis A,None,Recovered
+HLS_NER_20250101_0456,2025-01-01,09:55:04,ASHA_GAU_01,VLG_GAU_04,PT_GAU_1956,15-45,M,"['Tiredness', 'Headache', 'Fever', 'Itchy Blister-like Rash']",Chickenpox,None,Referred
+HLS_NER_20250101_0967,2025-01-01,15:07:35,ASHA_SIL_01,VLG_SIL_04,PT_SIL_2467,5-14,F,"['Fatigue', 'Dark Urine', 'Nausea', 'Loss of Appetite']",Hepatitis A,None,Under Treatment
+HLS_NER_20250101_0034,2025-01-01,18:54:44,ASHA_IMP_03,VLG_IMP_05,PT_IMP_1534,15-45,M,"['Fever', 'Abdominal Pain', 'Vomiting', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250101_0477,2025-01-01,21:01:59,ASHA_GAU_01,VLG_GAU_03,PT_GAU_1977,46-60,F,"['Fever', 'Headache', 'Itchy Blister-like Rash', 'Tiredness']",Chickenpox,None,Recovered
+HLS_NER_20250101_0038,2025-01-01,21:03:17,ASHA_KOH_03,VLG_KOH_01,PT_KOH_1538,15-45,F,"['Fever', 'Runny Nose', 'Body Ache', 'Headache']",Influenza-Like Illness,None,Referred
+HLS_NER_20250101_0347,2025-01-01,21:42:48,ASHA_IMP_02,VLG_IMP_04,PT_IMP_1847,15-45,M,"['Runny Nose', 'Fever', 'Sore Throat', 'Body Ache', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250102_0680,2025-01-02,01:28:39,ASHA_IMP_02,VLG_IMP_03,PT_IMP_2180,46-60,F,"['Headache', 'Body Ache', 'Fever', 'Sore Throat', 'Runny Nose']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20250102_0148,2025-01-02,02:01:56,ASHA_SHL_03,VLG_SHL_01,PT_SHL_1648,<5,M,"['Fatigue', 'Nausea', 'Jaundice']",Hepatitis A,Some,Recovered
+HLS_NER_20250102_0243,2025-01-02,09:02:02,ASHA_SHL_01,VLG_SHL_05,PT_SHL_1743,5-14,M,"['Fever', 'Headache', 'Sweating', 'Chills']",Malaria,None,Recovered
+HLS_NER_20250102_0686,2025-01-02,09:47:36,ASHA_SHL_02,VLG_SHL_05,PT_SHL_2186,15-45,F,"['Fever', 'Weakness', 'Vomiting', 'Diarrhea', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20250102_0558,2025-01-02,11:12:33,ASHA_GAU_01,VLG_GAU_05,PT_GAU_2058,15-45,F,"['Fatigue', 'Dark Urine', 'Nausea', 'Jaundice', 'Loss of Appetite']",Hepatitis A,None,Recovered
+HLS_NER_20250102_0551,2025-01-02,13:18:24,ASHA_AIZ_02,VLG_AIZ_03,PT_AIZ_2051,15-45,F,"['Headache', 'Runny Nose', 'Sore Throat', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250102_0984,2025-01-02,14:16:34,ASHA_SHL_01,VLG_SHL_01,PT_SHL_2484,15-45,F,"['Runny Nose', 'Headache', 'Body Ache']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20250102_0438,2025-01-02,18:12:56,ASHA_GAU_03,VLG_GAU_05,PT_GAU_1938,5-14,F,"['Headache', 'Fever', 'Chills', 'Sweating']",Malaria,None,Recovered
+HLS_NER_20250102_0451,2025-01-02,21:49:04,ASHA_IMP_02,VLG_IMP_01,PT_IMP_1951,5-14,M,"['Itchy Blister-like Rash', 'Headache', 'Fever', 'Tiredness']",Chickenpox,None,Under Treatment
+HLS_NER_20250102_0425,2025-01-02,23:56:30,ASHA_KOH_01,VLG_KOH_01,PT_KOH_1925,5-14,F,"['Fever', 'Runny Nose', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250103_0552,2025-01-03,09:55:45,ASHA_KOH_01,VLG_KOH_01,PT_KOH_2052,5-14,M,"['Itchy Blister-like Rash', 'Tiredness', 'Headache', 'Fever']",Chickenpox,None,Recovered
+HLS_NER_20250103_0520,2025-01-03,16:14:02,ASHA_SIL_03,VLG_SIL_01,PT_SIL_2020,5-14,F,"['Fatigue', 'Dark Urine', 'Loss of Appetite', 'Nausea']",Hepatitis A,None,Recovered
+HLS_NER_20250104_0210,2025-01-04,01:28:10,ASHA_KOH_03,VLG_KOH_03,PT_KOH_1710,<5,F,"['Body Ache', 'Sore Throat', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250104_0199,2025-01-04,03:09:08,ASHA_SHL_01,VLG_SHL_03,PT_SHL_1699,5-14,M,"['Cough', 'Sore Throat', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250104_0227,2025-01-04,05:52:05,ASHA_IMP_02,VLG_IMP_01,PT_IMP_1727,<5,F,"['Cough', 'Sore Throat', 'Fever', 'Headache']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20250104_0268,2025-01-04,05:56:01,ASHA_KOH_01,VLG_KOH_04,PT_KOH_1768,46-60,M,"['Runny Nose', 'Sore Throat', 'Headache', 'Cough', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250104_0786,2025-01-04,06:24:13,ASHA_GAU_03,VLG_GAU_05,PT_GAU_2286,<5,F,"['Tiredness', 'Headache', 'Fever', 'Itchy Blister-like Rash']",Chickenpox,None,Recovered
+HLS_NER_20250104_0678,2025-01-04,06:42:19,ASHA_IMP_02,VLG_IMP_05,PT_IMP_2178,5-14,M,"['Headache', 'Fever', 'Itchy Blister-like Rash', 'Tiredness']",Chickenpox,None,Recovered
+HLS_NER_20250104_0241,2025-01-04,06:44:37,ASHA_AIZ_03,VLG_AIZ_02,PT_AIZ_1741,46-60,M,"['Runny Nose', 'Body Ache', 'Headache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250104_0956,2025-01-04,10:30:47,ASHA_IMP_01,VLG_IMP_03,PT_IMP_2456,<5,M,"['High Fever', 'Severe Headache', 'Joint and Muscle Pain']",Dengue Fever,Some,Recovered
+HLS_NER_20250104_0950,2025-01-04,11:16:45,ASHA_SIL_03,VLG_SIL_02,PT_SIL_2450,15-45,M,"['Headache', 'Cough', 'Body Ache', 'Runny Nose', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250104_0685,2025-01-04,11:49:38,ASHA_IMP_02,VLG_IMP_01,PT_IMP_2185,15-45,F,"['Itchy Blister-like Rash', 'Tiredness', 'Fever']",Chickenpox,None,Referred
+HLS_NER_20250104_0760,2025-01-04,13:58:42,ASHA_AIZ_03,VLG_AIZ_01,PT_AIZ_2260,<5,F,"['Jaundice', 'Fatigue', 'Dark Urine']",Hepatitis A,None,Recovered
+HLS_NER_20250104_0895,2025-01-04,14:47:36,ASHA_GAU_02,VLG_GAU_02,PT_GAU_2395,<5,M,"['Loss of Appetite', 'Fatigue', 'Dark Urine', 'Jaundice', 'Nausea']",Hepatitis A,None,Recovered
+HLS_NER_20250104_0914,2025-01-04,16:36:50,ASHA_AIZ_01,VLG_AIZ_02,PT_AIZ_2414,15-45,F,"['Fever', 'Headache', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20250104_0338,2025-01-04,17:25:00,ASHA_SHL_01,VLG_SHL_04,PT_SHL_1838,15-45,F,"['Fatigue', 'Nausea', 'Jaundice', 'Dark Urine']",Hepatitis A,Some,Recovered
+HLS_NER_20250104_0576,2025-01-04,19:02:43,ASHA_SIL_02,VLG_SIL_03,PT_SIL_2076,15-45,F,"['Body Ache', 'Headache', 'Runny Nose', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250104_0195,2025-01-04,23:52:12,ASHA_IMP_03,VLG_IMP_05,PT_IMP_1695,46-60,F,"['Cough', 'Headache', 'Fever', 'Body Ache']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20250104_0363,2025-01-04,23:53:48,ASHA_KOH_02,VLG_KOH_05,PT_KOH_1863,15-45,M,"['Vomiting', 'Diarrhea', 'Fever']",Acute Diarrheal Disease,None,Under Treatment
+HLS_NER_20250105_0143,2025-01-05,02:14:47,ASHA_IMP_03,VLG_IMP_05,PT_IMP_1643,46-60,F,"['Sore Throat', 'Fever', 'Headache', 'Body Ache', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250105_0768,2025-01-05,04:02:25,ASHA_SIL_02,VLG_SIL_01,PT_SIL_2268,<5,M,"['Tiredness', 'Headache', 'Fever']",Chickenpox,None,Recovered
+HLS_NER_20250105_0796,2025-01-05,05:09:37,ASHA_GAU_01,VLG_GAU_04,PT_GAU_2296,46-60,F,"['Cough', 'Runny Nose', 'Fever', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250105_0334,2025-01-05,05:52:47,ASHA_SIL_03,VLG_SIL_02,PT_SIL_1834,15-45,F,"['Abdominal Pain', 'Weakness', 'Vomiting', 'Diarrhea', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250105_0020,2025-01-05,12:13:56,ASHA_AIZ_02,VLG_AIZ_01,PT_AIZ_1520,<5,F,"['Abdominal Pain', 'Fever', 'Vomiting', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250105_0107,2025-01-05,13:23:47,ASHA_KOH_02,VLG_KOH_03,PT_KOH_1607,5-14,M,"['Joint and Muscle Pain', 'High Fever', 'Severe Headache']",Dengue Fever,Some,Recovered
+HLS_NER_20250105_0674,2025-01-05,14:35:35,ASHA_SIL_03,VLG_SIL_02,PT_SIL_2174,5-14,M,"['Nausea', 'Loss of Appetite', 'Dark Urine', 'Jaundice']",Hepatitis A,None,Referred
+HLS_NER_20250105_0063,2025-01-05,15:48:33,ASHA_SHL_02,VLG_SHL_01,PT_SHL_1563,15-45,M,"['Vomiting', 'Weakness', 'Fever', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20250105_0807,2025-01-05,20:37:06,ASHA_GAU_01,VLG_GAU_01,PT_GAU_2307,15-45,F,"['Fever', 'Tiredness', 'Headache']",Chickenpox,None,Referred
+HLS_NER_20250105_0979,2025-01-05,20:57:06,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_2479,5-14,M,"['Jaundice', 'Nausea', 'Loss of Appetite', 'Fatigue', 'Dark Urine']",Hepatitis A,None,Recovered
+HLS_NER_20250106_0731,2025-01-06,00:21:16,ASHA_IMP_02,VLG_IMP_01,PT_IMP_2231,46-60,F,"['Weakness', 'Fever', 'Diarrhea', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20250106_0798,2025-01-06,00:51:44,ASHA_KOH_03,VLG_KOH_02,PT_KOH_2298,46-60,M,"['Weakness', 'Fever', 'Diarrhea', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250106_0115,2025-01-06,04:07:31,ASHA_SHL_02,VLG_SHL_02,PT_SHL_1615,15-45,M,"['Joint and Muscle Pain', 'High Fever', 'Severe Headache']",Dengue Fever,None,Recovered
+HLS_NER_20250106_0008,2025-01-06,05:07:42,ASHA_SHL_02,VLG_SHL_05,PT_SHL_1508,15-45,F,"['Itchy Blister-like Rash', 'Tiredness', 'Headache', 'Fever']",Chickenpox,None,Under Treatment
+HLS_NER_20250106_0508,2025-01-06,07:13:01,ASHA_KOH_01,VLG_KOH_02,PT_KOH_2008,46-60,M,"['Headache', 'Runny Nose', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250106_0468,2025-01-06,12:00:10,ASHA_AIZ_03,VLG_AIZ_05,PT_AIZ_1968,46-60,F,"['Fever', 'Abdominal Pain', 'Weakness', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250106_0278,2025-01-06,13:22:18,ASHA_GAU_02,VLG_GAU_02,PT_GAU_1778,5-14,F,"['Diarrhea', 'Abdominal Pain', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250106_0129,2025-01-06,15:03:03,ASHA_GAU_01,VLG_GAU_04,PT_GAU_1629,15-45,M,"['High Fever', 'Joint and Muscle Pain', 'Severe Headache']",Dengue Fever,Some,Under Treatment
+HLS_NER_20250106_0420,2025-01-06,17:24:14,ASHA_SHL_01,VLG_SHL_04,PT_SHL_1920,46-60,F,"['Cough', 'Headache', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250106_0494,2025-01-06,17:53:28,ASHA_AIZ_02,VLG_AIZ_05,PT_AIZ_1994,46-60,M,"['Headache', 'Fever', 'Itchy Blister-like Rash', 'Tiredness']",Chickenpox,None,Recovered
+HLS_NER_20250106_0037,2025-01-06,20:58:49,ASHA_KOH_01,VLG_KOH_05,PT_KOH_1537,15-45,F,"['Fever', 'Diarrhea', 'Vomiting']",Acute Diarrheal Disease,None,Under Treatment
+HLS_NER_20250106_0440,2025-01-06,21:45:06,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_1940,15-45,M,"['Headache', 'Chills', 'Sweating', 'Fever']",Malaria,None,Recovered
+HLS_NER_20250107_0469,2025-01-07,01:07:32,ASHA_GAU_03,VLG_GAU_02,PT_GAU_1969,15-45,F,"['Sore Throat', 'Body Ache', 'Cough', 'Headache']",Influenza-Like Illness,None,Referred
+HLS_NER_20250107_0923,2025-01-07,01:11:32,ASHA_IMP_01,VLG_IMP_03,PT_IMP_2423,15-45,F,"['Fever', 'Weakness', 'Diarrhea']",Acute Diarrheal Disease,None,Referred
+HLS_NER_20250107_0187,2025-01-07,01:46:28,ASHA_SIL_03,VLG_SIL_01,PT_SIL_1687,15-45,F,"['Weakness', 'Rash', 'Abdominal Pain', 'Headache', 'Fever']",Typhoid Fever,None,Recovered
+HLS_NER_20250107_0671,2025-01-07,04:30:17,ASHA_KOH_02,VLG_KOH_05,PT_KOH_2171,15-45,M,"['Body Ache', 'Cough', 'Runny Nose', 'Headache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250107_0652,2025-01-07,04:36:49,ASHA_SIL_01,VLG_SIL_03,PT_SIL_2152,46-60,M,"['Body Ache', 'Cough', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250107_0587,2025-01-07,11:23:01,ASHA_AIZ_03,VLG_AIZ_01,PT_AIZ_2087,<5,M,"['Tiredness', 'Headache', 'Itchy Blister-like Rash', 'Fever']",Chickenpox,None,Recovered
+HLS_NER_20250107_0697,2025-01-07,11:53:21,ASHA_IMP_01,VLG_IMP_01,PT_IMP_2197,15-45,F,"['Tiredness', 'Itchy Blister-like Rash', 'Headache', 'Fever']",Chickenpox,None,Under Treatment
+HLS_NER_20250107_0503,2025-01-07,15:39:54,ASHA_SHL_01,VLG_SHL_05,PT_SHL_2003,>60,F,"['Itchy Blister-like Rash', 'Tiredness', 'Fever', 'Headache']",Chickenpox,None,Under Treatment
+HLS_NER_20250107_0156,2025-01-07,16:36:55,ASHA_GAU_01,VLG_GAU_02,PT_GAU_1656,>60,F,"['Tiredness', 'Fever', 'Headache', 'Itchy Blister-like Rash']",Chickenpox,None,Recovered
+HLS_NER_20250107_0068,2025-01-07,18:18:25,ASHA_KOH_03,VLG_KOH_03,PT_KOH_1568,5-14,F,"['Diarrhea', 'Abdominal Pain', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250108_0922,2025-01-08,01:44:13,ASHA_SHL_02,VLG_SHL_05,PT_SHL_2422,46-60,M,"['Body Ache', 'Cough', 'Headache', 'Fever', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250108_0487,2025-01-08,05:55:54,ASHA_GAU_03,VLG_GAU_02,PT_GAU_1987,15-45,F,"['Abdominal Pain', 'Rash', 'Fever', 'Weakness', 'Headache']",Typhoid Fever,Some,Recovered
+HLS_NER_20250108_0775,2025-01-08,10:32:00,ASHA_SHL_03,VLG_SHL_04,PT_SHL_2275,<5,M,"['Sore Throat', 'Cough', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250108_0442,2025-01-08,14:50:06,ASHA_AIZ_02,VLG_AIZ_05,PT_AIZ_1942,15-45,F,"['Dark Urine', 'Fatigue', 'Jaundice', 'Nausea', 'Loss of Appetite']",Hepatitis A,Some,Recovered
+HLS_NER_20250108_0518,2025-01-08,16:01:37,ASHA_SIL_03,VLG_SIL_05,PT_SIL_2018,<5,M,"['Vomiting', 'Diarrhea', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20250108_0224,2025-01-08,18:55:57,ASHA_KOH_03,VLG_KOH_02,PT_KOH_1724,15-45,F,"['Sore Throat', 'Body Ache', 'Fever', 'Runny Nose']",Influenza-Like Illness,None,Referred
+HLS_NER_20250108_0529,2025-01-08,19:05:24,ASHA_IMP_02,VLG_IMP_03,PT_IMP_2029,15-45,M,"['Weakness', 'Fever', 'Abdominal Pain', 'Headache']",Typhoid Fever,None,Recovered
+HLS_NER_20250108_0905,2025-01-08,21:18:46,ASHA_IMP_02,VLG_IMP_03,PT_IMP_2405,15-45,M,"['Sore Throat', 'Cough', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250108_0026,2025-01-08,21:28:31,ASHA_KOH_01,VLG_KOH_01,PT_KOH_1526,46-60,M,"['Sweating', 'Fever', 'Headache', 'Chills']",Malaria,Some,Referred
+HLS_NER_20250108_0049,2025-01-08,22:43:02,ASHA_GAU_02,VLG_GAU_02,PT_GAU_1549,15-45,F,"['Fever', 'Diarrhea', 'Vomiting']",Acute Diarrheal Disease,None,Referred
+HLS_NER_20250109_0530,2025-01-09,01:11:52,ASHA_AIZ_03,VLG_AIZ_03,PT_AIZ_2030,5-14,F,"['Severe Headache', 'High Fever', 'Joint and Muscle Pain']",Dengue Fever,Severe,Referred
+HLS_NER_20250109_0273,2025-01-09,01:52:10,ASHA_AIZ_02,VLG_AIZ_04,PT_AIZ_1773,15-45,M,"['Body Ache', 'Fever', 'Cough', 'Sore Throat', 'Runny Nose']",Influenza-Like Illness,None,Referred
+HLS_NER_20250109_0313,2025-01-09,04:41:56,ASHA_GAU_03,VLG_GAU_03,PT_GAU_1813,5-14,F,"['Abdominal Pain', 'Fever', 'Diarrhea']",Acute Diarrheal Disease,None,Referred
+HLS_NER_20250109_0846,2025-01-09,05:29:03,ASHA_GAU_03,VLG_GAU_03,PT_GAU_2346,<5,F,"['Abdominal Pain', 'Fever', 'Weakness']",Typhoid Fever,None,Referred
+HLS_NER_20250109_0114,2025-01-09,06:02:28,ASHA_SHL_02,VLG_SHL_05,PT_SHL_1614,>60,M,"['Diarrhea', 'Weakness', 'Abdominal Pain', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250109_0022,2025-01-09,08:05:17,ASHA_KOH_02,VLG_KOH_04,PT_KOH_1522,<5,F,"['Abdominal Pain', 'Weakness', 'Fever', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250109_0747,2025-01-09,11:56:00,ASHA_GAU_02,VLG_GAU_02,PT_GAU_2247,15-45,M,"['Headache', 'Runny Nose', 'Body Ache', 'Fever', 'Cough']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20250109_0204,2025-01-09,13:42:25,ASHA_AIZ_03,VLG_AIZ_01,PT_AIZ_1704,<5,F,"['Fever', 'Headache', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250109_0149,2025-01-09,15:26:54,ASHA_KOH_02,VLG_KOH_01,PT_KOH_1649,15-45,M,"['Body Ache', 'Sore Throat', 'Runny Nose', 'Cough', 'Headache']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20250109_0032,2025-01-09,15:46:39,ASHA_SHL_03,VLG_SHL_03,PT_SHL_1532,46-60,F,"['Weakness', 'Diarrhea', 'Abdominal Pain']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20250109_0254,2025-01-09,17:04:15,ASHA_GAU_01,VLG_GAU_05,PT_GAU_1754,15-45,F,"['Weakness', 'Abdominal Pain', 'Headache', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20250109_0856,2025-01-09,17:37:40,ASHA_SHL_03,VLG_SHL_05,PT_SHL_2356,15-45,F,"['Sore Throat', 'Body Ache', 'Cough', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250109_0998,2025-01-09,19:34:31,ASHA_KOH_02,VLG_KOH_01,PT_KOH_2498,15-45,F,"['Jaundice', 'Nausea', 'Fatigue', 'Loss of Appetite', 'Dark Urine']",Hepatitis A,None,Recovered
+HLS_NER_20250109_0664,2025-01-09,19:56:39,ASHA_IMP_02,VLG_IMP_02,PT_IMP_2164,5-14,F,"['Loss of Appetite', 'Nausea', 'Fatigue', 'Dark Urine']",Hepatitis A,None,Recovered
+HLS_NER_20250109_0452,2025-01-09,20:11:05,ASHA_GAU_01,VLG_GAU_05,PT_GAU_1952,15-45,M,"['Diarrhea', 'Fever', 'Weakness', 'Abdominal Pain', 'Vomiting']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20250109_0073,2025-01-09,23:14:16,ASHA_AIZ_02,VLG_AIZ_04,PT_AIZ_1573,46-60,M,"['High Fever', 'Severe Headache', 'Joint and Muscle Pain']",Dengue Fever,None,Recovered
+HLS_NER_20250110_0706,2025-01-10,03:54:45,ASHA_KOH_01,VLG_KOH_02,PT_KOH_2206,<5,F,"['Sore Throat', 'Fever', 'Cough', 'Body Ache']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20250110_0370,2025-01-10,12:09:11,ASHA_GAU_02,VLG_GAU_01,PT_GAU_1870,15-45,F,"['Itchy Blister-like Rash', 'Headache', 'Tiredness', 'Fever']",Chickenpox,None,Recovered
+HLS_NER_20250110_0489,2025-01-10,17:59:07,ASHA_IMP_03,VLG_IMP_05,PT_IMP_1989,46-60,F,"['Fatigue', 'Loss of Appetite', 'Dark Urine', 'Nausea', 'Jaundice']",Hepatitis A,None,Recovered
+HLS_NER_20250111_0612,2025-01-11,02:49:40,ASHA_KOH_01,VLG_KOH_02,PT_KOH_2112,5-14,M,"['Abdominal Pain', 'Vomiting', 'Fever']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250111_0872,2025-01-11,07:03:16,ASHA_SIL_01,VLG_SIL_04,PT_SIL_2372,5-14,M,"['Fever', 'Cough', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250111_0894,2025-01-11,09:49:11,ASHA_SIL_03,VLG_SIL_03,PT_SIL_2394,5-14,M,"['Headache', 'Body Ache', 'Runny Nose']",Influenza-Like Illness,None,Referred
+HLS_NER_20250111_0519,2025-01-11,11:29:37,ASHA_SHL_03,VLG_SHL_05,PT_SHL_2019,5-14,M,"['Fever', 'Cough', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250111_0309,2025-01-11,16:26:25,ASHA_SHL_02,VLG_SHL_05,PT_SHL_1809,46-60,F,"['Body Ache', 'Sore Throat', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250111_0302,2025-01-11,18:13:17,ASHA_SIL_02,VLG_SIL_01,PT_SIL_1802,46-60,F,"['Fever', 'Weakness', 'Rash', 'Abdominal Pain', 'Headache']",Typhoid Fever,None,Recovered
+HLS_NER_20250111_0323,2025-01-11,20:11:55,ASHA_SIL_02,VLG_SIL_03,PT_SIL_1823,<5,M,"['Sore Throat', 'Runny Nose', 'Fever', 'Headache', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250111_0260,2025-01-11,22:01:43,ASHA_KOH_01,VLG_KOH_04,PT_KOH_1760,15-45,F,"['Vomiting', 'Diarrhea', 'Fever']",Acute Diarrheal Disease,None,Under Treatment
+HLS_NER_20250112_0918,2025-01-12,00:14:04,ASHA_IMP_01,VLG_IMP_01,PT_IMP_2418,5-14,M,"['Sore Throat', 'Cough', 'Runny Nose', 'Fever']",Influenza-Like Illness,None,Referred
+HLS_NER_20250112_0189,2025-01-12,00:14:18,ASHA_AIZ_03,VLG_AIZ_02,PT_AIZ_1689,5-14,F,"['Runny Nose', 'Fever', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250112_0265,2025-01-12,02:27:53,ASHA_GAU_02,VLG_GAU_05,PT_GAU_1765,46-60,M,"['Vomiting', 'Weakness', 'Fever', 'Diarrhea']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250112_0802,2025-01-12,06:08:16,ASHA_GAU_01,VLG_GAU_05,PT_GAU_2302,5-14,M,"['Headache', 'Body Ache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250112_0814,2025-01-12,09:30:30,ASHA_KOH_02,VLG_KOH_03,PT_KOH_2314,5-14,F,"['Fever', 'Headache', 'Tiredness']",Chickenpox,None,Under Treatment
+HLS_NER_20250112_0782,2025-01-12,17:41:43,ASHA_SIL_01,VLG_SIL_04,PT_SIL_2282,<5,F,"['Headache', 'Tiredness', 'Fever', 'Itchy Blister-like Rash']",Chickenpox,None,Recovered
+HLS_NER_20250112_0212,2025-01-12,17:49:47,ASHA_IMP_01,VLG_IMP_03,PT_IMP_1712,15-45,M,"['Vomiting', 'Fever', 'Weakness', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250113_0757,2025-01-13,02:18:33,ASHA_SHL_02,VLG_SHL_02,PT_SHL_2257,15-45,F,"['Sore Throat', 'Headache', 'Runny Nose', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250113_0142,2025-01-13,03:55:22,ASHA_AIZ_03,VLG_AIZ_03,PT_AIZ_1642,<5,F,"['Cough', 'Headache', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250113_0902,2025-01-13,07:19:50,ASHA_KOH_01,VLG_KOH_02,PT_KOH_2402,46-60,F,"['Weakness', 'Diarrhea', 'Fever', 'Vomiting']",Acute Diarrheal Disease,Severe,Under Treatment
+HLS_NER_20250113_0539,2025-01-13,10:09:32,ASHA_SIL_01,VLG_SIL_01,PT_SIL_2039,15-45,M,"['Body Ache', 'Cough', 'Headache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250113_0727,2025-01-13,10:18:55,ASHA_SIL_02,VLG_SIL_05,PT_SIL_2227,15-45,M,"['Runny Nose', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Referred
+HLS_NER_20250113_0723,2025-01-13,10:25:50,ASHA_SIL_01,VLG_SIL_03,PT_SIL_2223,<5,M,"['Fever', 'Tiredness', 'Headache']",Chickenpox,None,Recovered
+HLS_NER_20250113_0629,2025-01-13,11:27:44,ASHA_SIL_03,VLG_SIL_05,PT_SIL_2129,<5,M,"['Diarrhea', 'Vomiting', 'Fever', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250113_0235,2025-01-13,11:43:20,ASHA_SHL_03,VLG_SHL_01,PT_SHL_1735,15-45,M,"['High Fever', 'Severe Headache', 'Joint and Muscle Pain']",Dengue Fever,None,Recovered
+HLS_NER_20250113_0082,2025-01-13,14:00:57,ASHA_IMP_03,VLG_IMP_01,PT_IMP_1582,15-45,M,"['Vomiting', 'Diarrhea', 'Fever']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250113_0521,2025-01-13,14:38:06,ASHA_GAU_02,VLG_GAU_01,PT_GAU_2021,15-45,F,"['Body Ache', 'Sore Throat', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250113_0595,2025-01-13,20:27:39,ASHA_IMP_01,VLG_IMP_04,PT_IMP_2095,46-60,F,"['Fever', 'Weakness', 'Abdominal Pain', 'Vomiting', 'Diarrhea']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20250113_0368,2025-01-13,23:11:04,ASHA_GAU_02,VLG_GAU_01,PT_GAU_1868,15-45,M,"['Vomiting', 'Fever', 'Abdominal Pain', 'Weakness', 'Diarrhea']",Acute Diarrheal Disease,None,Under Treatment
+HLS_NER_20250113_0422,2025-01-13,23:15:32,ASHA_SHL_03,VLG_SHL_02,PT_SHL_1922,15-45,M,"['Loss of Appetite', 'Fatigue', 'Jaundice', 'Dark Urine']",Hepatitis A,None,Recovered
+HLS_NER_20250113_0575,2025-01-13,23:33:48,ASHA_IMP_02,VLG_IMP_03,PT_IMP_2075,15-45,M,"['Headache', 'Tiredness', 'Fever', 'Itchy Blister-like Rash']",Chickenpox,None,Recovered
+HLS_NER_20250114_0972,2025-01-14,00:35:50,ASHA_AIZ_02,VLG_AIZ_04,PT_AIZ_2472,5-14,M,"['Nausea', 'Jaundice', 'Dark Urine', 'Loss of Appetite', 'Fatigue']",Hepatitis A,None,Recovered
+HLS_NER_20250114_0415,2025-01-14,03:21:06,ASHA_SHL_03,VLG_SHL_03,PT_SHL_1915,<5,F,"['Vomiting', 'Diarrhea', 'Fever', 'Weakness']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20250114_0544,2025-01-14,13:51:29,ASHA_IMP_03,VLG_IMP_03,PT_IMP_2044,5-14,M,"['Severe Headache', 'High Fever', 'Joint and Muscle Pain']",Dengue Fever,None,Recovered
+HLS_NER_20250114_0904,2025-01-14,22:12:46,ASHA_KOH_01,VLG_KOH_04,PT_KOH_2404,5-14,F,"['Nausea', 'Fatigue', 'Loss of Appetite', 'Jaundice', 'Dark Urine']",Hepatitis A,None,Referred
+HLS_NER_20250115_0816,2025-01-15,09:50:50,ASHA_KOH_03,VLG_KOH_05,PT_KOH_2316,<5,M,"['Fever', 'Weakness', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,None,Referred
+HLS_NER_20250115_0296,2025-01-15,11:21:16,ASHA_AIZ_03,VLG_AIZ_01,PT_AIZ_1796,<5,M,"['Runny Nose', 'Sore Throat', 'Cough']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20250115_0663,2025-01-15,11:35:11,ASHA_IMP_03,VLG_IMP_02,PT_IMP_2163,46-60,M,"['Diarrhea', 'Weakness', 'Vomiting']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250115_0891,2025-01-15,11:42:03,ASHA_IMP_03,VLG_IMP_03,PT_IMP_2391,46-60,M,"['Loss of Appetite', 'Fatigue', 'Jaundice']",Hepatitis A,Some,Under Treatment
+HLS_NER_20250115_0507,2025-01-15,12:41:14,ASHA_SHL_02,VLG_SHL_01,PT_SHL_2007,46-60,M,"['Cough', 'Fever', 'Sore Throat', 'Headache', 'Runny Nose']",Influenza-Like Illness,None,Referred
+HLS_NER_20250115_0133,2025-01-15,13:08:57,ASHA_SHL_03,VLG_SHL_02,PT_SHL_1633,5-14,F,"['Runny Nose', 'Sore Throat', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250116_0745,2025-01-16,00:33:56,ASHA_KOH_01,VLG_KOH_04,PT_KOH_2245,15-45,M,"['Sore Throat', 'Runny Nose', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250116_0815,2025-01-16,03:21:35,ASHA_IMP_02,VLG_IMP_01,PT_IMP_2315,<5,M,"['Weakness', 'Diarrhea', 'Fever', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250116_0974,2025-01-16,04:30:23,ASHA_SIL_01,VLG_SIL_01,PT_SIL_2474,<5,F,"['Rash', 'Headache', 'Weakness']",Typhoid Fever,None,Recovered
+HLS_NER_20250116_0793,2025-01-16,06:45:18,ASHA_SIL_01,VLG_SIL_02,PT_SIL_2293,15-45,M,"['Runny Nose', 'Sore Throat', 'Body Ache', 'Fever']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20250116_0523,2025-01-16,13:20:26,ASHA_GAU_02,VLG_GAU_05,PT_GAU_2023,5-14,M,"['Runny Nose', 'Fever', 'Headache', 'Sore Throat', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250116_0811,2025-01-16,13:26:47,ASHA_KOH_03,VLG_KOH_03,PT_KOH_2311,46-60,M,"['Abdominal Pain', 'Fever', 'Vomiting']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20250116_0399,2025-01-16,20:46:23,ASHA_KOH_02,VLG_KOH_05,PT_KOH_1899,46-60,M,"['Fatigue', 'Nausea', 'Dark Urine', 'Loss of Appetite', 'Jaundice']",Hepatitis A,None,Recovered
+HLS_NER_20250116_0388,2025-01-16,20:58:42,ASHA_KOH_01,VLG_KOH_04,PT_KOH_1888,46-60,M,"['Joint and Muscle Pain', 'Severe Headache', 'High Fever']",Dengue Fever,None,Recovered
+HLS_NER_20250116_0759,2025-01-16,21:04:43,ASHA_SHL_03,VLG_SHL_02,PT_SHL_2259,15-45,F,"['Fever', 'Runny Nose', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250116_0673,2025-01-16,23:42:13,ASHA_AIZ_03,VLG_AIZ_05,PT_AIZ_2173,<5,F,"['Loss of Appetite', 'Jaundice', 'Fatigue', 'Nausea', 'Dark Urine']",Hepatitis A,None,Recovered
+HLS_NER_20250117_0282,2025-01-17,00:24:42,ASHA_SIL_01,VLG_SIL_04,PT_SIL_1782,5-14,M,"['Headache', 'Fever', 'Tiredness', 'Itchy Blister-like Rash']",Chickenpox,Severe,Under Treatment
+HLS_NER_20250117_0119,2025-01-17,05:15:28,ASHA_KOH_01,VLG_KOH_05,PT_KOH_1619,<5,F,"['Abdominal Pain', 'Weakness', 'Headache', 'Fever', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20250117_0698,2025-01-17,08:39:42,ASHA_IMP_02,VLG_IMP_03,PT_IMP_2198,5-14,M,"['High Fever', 'Joint and Muscle Pain', 'Severe Headache']",Dengue Fever,Some,Under Treatment
+HLS_NER_20250117_0843,2025-01-17,11:02:56,ASHA_SIL_02,VLG_SIL_05,PT_SIL_2343,<5,M,"['Fever', 'Itchy Blister-like Rash', 'Tiredness']",Chickenpox,None,Under Treatment
+HLS_NER_20250117_0357,2025-01-17,15:40:35,ASHA_SIL_02,VLG_SIL_03,PT_SIL_1857,15-45,M,"['Cough', 'Runny Nose', 'Body Ache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250117_0340,2025-01-17,17:34:21,ASHA_GAU_03,VLG_GAU_01,PT_GAU_1840,5-14,M,"['Fever', 'Abdominal Pain', 'Rash', 'Headache', 'Weakness']",Typhoid Fever,None,Referred
+HLS_NER_20250117_0383,2025-01-17,19:44:44,ASHA_GAU_01,VLG_GAU_03,PT_GAU_1883,46-60,M,"['Tiredness', 'Fever', 'Headache']",Chickenpox,Some,Recovered
+HLS_NER_20250117_0500,2025-01-17,19:46:58,ASHA_GAU_01,VLG_GAU_03,PT_GAU_2000,15-45,F,"['Cough', 'Sore Throat', 'Body Ache', 'Runny Nose', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250117_0754,2025-01-17,20:51:36,ASHA_IMP_01,VLG_IMP_05,PT_IMP_2254,5-14,F,"['Headache', 'Chills', 'Sweating', 'Fever']",Malaria,None,Recovered
+HLS_NER_20250117_0710,2025-01-17,22:54:25,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_2210,46-60,M,"['Headache', 'Weakness', 'Abdominal Pain', 'Rash']",Typhoid Fever,Some,Recovered
+HLS_NER_20250117_0162,2025-01-17,23:04:52,ASHA_AIZ_03,VLG_AIZ_05,PT_AIZ_1662,15-45,F,"['Rash', 'Fever', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20250118_0985,2025-01-18,03:18:07,ASHA_IMP_01,VLG_IMP_01,PT_IMP_2485,15-45,M,"['Rash', 'Fever', 'Abdominal Pain', 'Weakness', 'Headache']",Typhoid Fever,Some,Recovered
+HLS_NER_20250118_0660,2025-01-18,05:51:00,ASHA_KOH_02,VLG_KOH_03,PT_KOH_2160,15-45,M,"['High Fever', 'Joint and Muscle Pain', 'Severe Headache']",Dengue Fever,None,Recovered
+HLS_NER_20250118_0925,2025-01-18,09:09:58,ASHA_AIZ_01,VLG_AIZ_01,PT_AIZ_2425,46-60,F,"['Headache', 'Cough', 'Sore Throat', 'Runny Nose', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250118_0043,2025-01-18,09:51:44,ASHA_SHL_02,VLG_SHL_01,PT_SHL_1543,5-14,M,"['Loss of Appetite', 'Fatigue', 'Nausea']",Hepatitis A,Some,Referred
+HLS_NER_20250118_0331,2025-01-18,10:19:25,ASHA_SIL_03,VLG_SIL_04,PT_SIL_1831,5-14,F,"['Abdominal Pain', 'Weakness', 'Diarrhea', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250118_0835,2025-01-18,11:34:25,ASHA_GAU_01,VLG_GAU_04,PT_GAU_2335,<5,M,"['Fatigue', 'Jaundice', 'Nausea', 'Dark Urine']",Hepatitis A,None,Recovered
+HLS_NER_20250118_0493,2025-01-18,17:28:29,ASHA_KOH_02,VLG_KOH_01,PT_KOH_1993,<5,F,"['Runny Nose', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250118_0911,2025-01-18,23:21:03,ASHA_SIL_02,VLG_SIL_04,PT_SIL_2411,15-45,M,"['Fever', 'Body Ache', 'Sore Throat', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250119_0831,2025-01-19,05:40:33,ASHA_GAU_01,VLG_GAU_01,PT_GAU_2331,15-45,M,"['Sore Throat', 'Fever', 'Runny Nose']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20250119_0126,2025-01-19,10:33:42,ASHA_SIL_01,VLG_SIL_02,PT_SIL_1626,15-45,F,"['Sore Throat', 'Headache', 'Cough', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250119_0514,2025-01-19,11:02:38,ASHA_SHL_03,VLG_SHL_04,PT_SHL_2014,46-60,M,"['Fever', 'Tiredness', 'Headache', 'Itchy Blister-like Rash']",Chickenpox,None,Recovered
+HLS_NER_20250119_0892,2025-01-19,11:52:15,ASHA_SHL_02,VLG_SHL_04,PT_SHL_2392,46-60,F,"['Body Ache', 'Runny Nose', 'Cough']",Influenza-Like Illness,None,Referred
+HLS_NER_20250119_0624,2025-01-19,12:33:38,ASHA_IMP_01,VLG_IMP_05,PT_IMP_2124,5-14,F,"['Fatigue', 'Dark Urine', 'Jaundice', 'Loss of Appetite', 'Nausea']",Hepatitis A,None,Under Treatment
+HLS_NER_20250119_0980,2025-01-19,13:40:18,ASHA_KOH_03,VLG_KOH_02,PT_KOH_2480,15-45,M,"['Diarrhea', 'Fever', 'Vomiting', 'Weakness', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20250119_0429,2025-01-19,16:49:29,ASHA_GAU_01,VLG_GAU_01,PT_GAU_1929,15-45,F,"['Headache', 'Abdominal Pain', 'Weakness', 'Fever', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20250119_0842,2025-01-19,17:59:33,ASHA_SHL_02,VLG_SHL_01,PT_SHL_2342,46-60,M,"['Cough', 'Runny Nose', 'Headache', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20250119_0725,2025-01-19,18:56:34,ASHA_GAU_02,VLG_GAU_05,PT_GAU_2225,5-14,M,"['Body Ache', 'Sore Throat', 'Fever', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250119_0007,2025-01-19,22:25:59,ASHA_SHL_02,VLG_SHL_05,PT_SHL_1507,15-45,F,"['Cough', 'Sore Throat', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250119_0823,2025-01-19,23:08:45,ASHA_GAU_03,VLG_GAU_03,PT_GAU_2323,15-45,F,"['Joint and Muscle Pain', 'High Fever', 'Severe Headache']",Dengue Fever,None,Recovered
+HLS_NER_20250120_0738,2025-01-20,01:11:58,ASHA_AIZ_03,VLG_AIZ_02,PT_AIZ_2238,5-14,M,"['Fever', 'Rash', 'Abdominal Pain', 'Weakness', 'Headache']",Typhoid Fever,None,Recovered
+HLS_NER_20250120_0870,2025-01-20,01:23:50,ASHA_KOH_02,VLG_KOH_01,PT_KOH_2370,<5,F,"['Fever', 'Itchy Blister-like Rash', 'Headache', 'Tiredness']",Chickenpox,Some,Recovered
+HLS_NER_20250120_0236,2025-01-20,04:36:30,ASHA_KOH_01,VLG_KOH_01,PT_KOH_1736,<5,F,"['Vomiting', 'Abdominal Pain', 'Diarrhea', 'Weakness', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250120_0346,2025-01-20,06:16:48,ASHA_SHL_03,VLG_SHL_05,PT_SHL_1846,15-45,M,"['Abdominal Pain', 'Vomiting', 'Fever', 'Diarrhea', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250120_0502,2025-01-20,10:15:35,ASHA_SIL_03,VLG_SIL_01,PT_SIL_2002,5-14,M,"['Headache', 'Weakness', 'Abdominal Pain']",Typhoid Fever,None,Referred
+HLS_NER_20250120_0109,2025-01-20,11:04:03,ASHA_AIZ_03,VLG_AIZ_01,PT_AIZ_1609,<5,M,"['Itchy Blister-like Rash', 'Fever', 'Tiredness', 'Headache']",Chickenpox,Severe,Referred
+HLS_NER_20250120_0025,2025-01-20,11:27:46,ASHA_SHL_03,VLG_SHL_04,PT_SHL_1525,15-45,M,"['Vomiting', 'Diarrhea', 'Weakness', 'Fever', 'Abdominal Pain']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20250120_0704,2025-01-20,15:43:26,ASHA_SHL_01,VLG_SHL_03,PT_SHL_2204,15-45,F,"['Fever', 'Tiredness', 'Headache']",Chickenpox,None,Under Treatment
+HLS_NER_20250120_0857,2025-01-20,19:28:59,ASHA_SIL_02,VLG_SIL_02,PT_SIL_2357,46-60,M,"['Cough', 'Sore Throat', 'Body Ache', 'Headache', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250121_0232,2025-01-21,02:36:41,ASHA_IMP_03,VLG_IMP_01,PT_IMP_1732,5-14,F,"['Headache', 'Sore Throat', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250121_0636,2025-01-21,04:15:53,ASHA_GAU_03,VLG_GAU_01,PT_GAU_2136,5-14,F,"['Headache', 'Runny Nose', 'Cough', 'Body Ache']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20250121_0936,2025-01-21,05:24:01,ASHA_KOH_01,VLG_KOH_04,PT_KOH_2436,15-45,F,"['Fever', 'Weakness', 'Diarrhea', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20250121_0970,2025-01-21,06:07:28,ASHA_IMP_01,VLG_IMP_03,PT_IMP_2470,5-14,M,"['Vomiting', 'Fever', 'Weakness', 'Diarrhea', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250121_0994,2025-01-21,06:20:07,ASHA_AIZ_03,VLG_AIZ_04,PT_AIZ_2494,>60,M,"['Fever', 'Headache', 'Abdominal Pain', 'Weakness', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20250121_0526,2025-01-21,06:36:41,ASHA_AIZ_01,VLG_AIZ_02,PT_AIZ_2026,<5,F,"['Body Ache', 'Fever', 'Headache', 'Runny Nose', 'Sore Throat']",Influenza-Like Illness,Some,Referred
+HLS_NER_20250121_0478,2025-01-21,07:11:32,ASHA_AIZ_03,VLG_AIZ_05,PT_AIZ_1978,15-45,M,"['Headache', 'Rash', 'Weakness', 'Abdominal Pain', 'Fever']",Typhoid Fever,None,Recovered
+HLS_NER_20250121_0779,2025-01-21,10:22:49,ASHA_SHL_02,VLG_SHL_02,PT_SHL_2279,<5,F,"['Body Ache', 'Headache', 'Runny Nose', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250121_0605,2025-01-21,20:18:24,ASHA_AIZ_01,VLG_AIZ_02,PT_AIZ_2105,46-60,M,"['Itchy Blister-like Rash', 'Fever', 'Headache']",Chickenpox,None,Referred
+HLS_NER_20250121_0800,2025-01-21,21:34:57,ASHA_IMP_02,VLG_IMP_03,PT_IMP_2300,>60,M,"['Cough', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Referred
+HLS_NER_20250122_0959,2025-01-22,06:48:04,ASHA_IMP_02,VLG_IMP_04,PT_IMP_2459,15-45,M,"['Body Ache', 'Cough', 'Sore Throat', 'Fever', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250122_0421,2025-01-22,07:05:33,ASHA_SHL_01,VLG_SHL_02,PT_SHL_1921,15-45,F,"['Fever', 'Headache', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250122_0917,2025-01-22,09:28:41,ASHA_KOH_03,VLG_KOH_01,PT_KOH_2417,15-45,F,"['Fever', 'Weakness', 'Headache', 'Rash', 'Abdominal Pain']",Typhoid Fever,None,Referred
+HLS_NER_20250122_0546,2025-01-22,10:10:41,ASHA_KOH_01,VLG_KOH_02,PT_KOH_2046,15-45,F,"['Diarrhea', 'Fever', 'Vomiting']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250122_0648,2025-01-22,11:11:57,ASHA_SIL_01,VLG_SIL_01,PT_SIL_2148,15-45,M,"['Fever', 'Rash', 'Weakness', 'Abdominal Pain']",Typhoid Fever,None,Referred
+HLS_NER_20250122_0766,2025-01-22,12:31:59,ASHA_KOH_01,VLG_KOH_05,PT_KOH_2266,<5,F,"['Tiredness', 'Headache', 'Fever', 'Itchy Blister-like Rash']",Chickenpox,None,Recovered
+HLS_NER_20250122_0748,2025-01-22,12:37:37,ASHA_AIZ_03,VLG_AIZ_05,PT_AIZ_2248,5-14,M,"['Runny Nose', 'Cough', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250122_0499,2025-01-22,16:23:33,ASHA_AIZ_02,VLG_AIZ_01,PT_AIZ_1999,>60,M,"['Abdominal Pain', 'Diarrhea', 'Weakness', 'Fever']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20250122_0705,2025-01-22,16:57:26,ASHA_GAU_02,VLG_GAU_02,PT_GAU_2205,<5,M,"['Loss of Appetite', 'Nausea', 'Jaundice', 'Dark Urine', 'Fatigue']",Hepatitis A,None,Recovered
+HLS_NER_20250122_0719,2025-01-22,17:55:22,ASHA_KOH_02,VLG_KOH_04,PT_KOH_2219,5-14,M,"['Sore Throat', 'Headache', 'Cough', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250122_0400,2025-01-22,20:32:53,ASHA_AIZ_02,VLG_AIZ_05,PT_AIZ_1900,5-14,F,"['Rash', 'Abdominal Pain', 'Weakness']",Typhoid Fever,None,Recovered
+HLS_NER_20250122_0631,2025-01-22,22:23:19,ASHA_SIL_03,VLG_SIL_04,PT_SIL_2131,15-45,F,"['Fever', 'Headache', 'Runny Nose', 'Sore Throat', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250123_0930,2025-01-23,00:06:24,ASHA_GAU_02,VLG_GAU_03,PT_GAU_2430,<5,M,"['Cough', 'Headache', 'Body Ache', 'Runny Nose', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250123_0753,2025-01-23,05:17:16,ASHA_IMP_03,VLG_IMP_02,PT_IMP_2253,46-60,F,"['Itchy Blister-like Rash', 'Fever', 'Headache']",Chickenpox,None,Recovered
+HLS_NER_20250123_0543,2025-01-23,08:45:33,ASHA_AIZ_03,VLG_AIZ_03,PT_AIZ_2043,5-14,M,"['Cough', 'Sore Throat', 'Body Ache']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20250123_0756,2025-01-23,09:07:06,ASHA_GAU_02,VLG_GAU_01,PT_GAU_2256,<5,F,"['Runny Nose', 'Body Ache', 'Cough', 'Headache', 'Fever']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20250123_0899,2025-01-23,12:03:32,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_2399,5-14,F,"['Tiredness', 'Itchy Blister-like Rash', 'Fever', 'Headache']",Chickenpox,Severe,Referred
+HLS_NER_20250123_0752,2025-01-23,12:52:19,ASHA_SHL_01,VLG_SHL_05,PT_SHL_2252,15-45,M,"['Cough', 'Sore Throat', 'Headache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250123_0339,2025-01-23,13:24:27,ASHA_SIL_01,VLG_SIL_05,PT_SIL_1839,15-45,F,"['Cough', 'Sore Throat', 'Runny Nose', 'Headache']",Influenza-Like Illness,None,Referred
+HLS_NER_20250123_0834,2025-01-23,15:15:32,ASHA_AIZ_03,VLG_AIZ_02,PT_AIZ_2334,15-45,F,"['Sore Throat', 'Headache', 'Cough', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250123_0847,2025-01-23,17:25:27,ASHA_SIL_03,VLG_SIL_05,PT_SIL_2347,15-45,M,"['Severe Headache', 'High Fever', 'Joint and Muscle Pain']",Dengue Fever,Severe,Referred
+HLS_NER_20250123_0070,2025-01-23,20:00:04,ASHA_IMP_03,VLG_IMP_02,PT_IMP_1570,15-45,F,"['Fatigue', 'Loss of Appetite', 'Dark Urine', 'Jaundice']",Hepatitis A,Some,Recovered
+HLS_NER_20250124_0569,2025-01-24,00:11:46,ASHA_IMP_03,VLG_IMP_02,PT_IMP_2069,15-45,F,"['Fever', 'Tiredness', 'Headache', 'Itchy Blister-like Rash']",Chickenpox,None,Under Treatment
+HLS_NER_20250124_0484,2025-01-24,03:10:38,ASHA_SHL_02,VLG_SHL_03,PT_SHL_1984,5-14,M,"['Loss of Appetite', 'Fatigue', 'Dark Urine']",Hepatitis A,None,Recovered
+HLS_NER_20250124_0222,2025-01-24,03:38:33,ASHA_AIZ_03,VLG_AIZ_04,PT_AIZ_1722,5-14,M,"['Headache', 'Runny Nose', 'Cough', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250124_0381,2025-01-24,08:32:49,ASHA_GAU_03,VLG_GAU_01,PT_GAU_1881,<5,M,"['Headache', 'Tiredness', 'Fever']",Chickenpox,None,Recovered
+HLS_NER_20250124_0583,2025-01-24,10:38:10,ASHA_GAU_01,VLG_GAU_03,PT_GAU_2083,46-60,M,"['Weakness', 'Diarrhea', 'Vomiting', 'Fever']",Acute Diarrheal Disease,None,Under Treatment
+HLS_NER_20250124_0953,2025-01-24,10:40:42,ASHA_SIL_01,VLG_SIL_04,PT_SIL_2453,15-45,F,"['Abdominal Pain', 'Vomiting', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250124_0868,2025-01-24,11:43:10,ASHA_KOH_02,VLG_KOH_03,PT_KOH_2368,<5,M,"['Vomiting', 'Weakness', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250124_0978,2025-01-24,12:29:38,ASHA_AIZ_02,VLG_AIZ_04,PT_AIZ_2478,15-45,F,"['Weakness', 'Abdominal Pain', 'Vomiting', 'Diarrhea', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250124_0303,2025-01-24,12:30:47,ASHA_AIZ_02,VLG_AIZ_03,PT_AIZ_1803,15-45,F,"['Body Ache', 'Sore Throat', 'Fever', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250124_0907,2025-01-24,19:01:02,ASHA_KOH_01,VLG_KOH_04,PT_KOH_2407,<5,M,"['Runny Nose', 'Cough', 'Headache', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250124_0770,2025-01-24,20:25:20,ASHA_SHL_03,VLG_SHL_03,PT_SHL_2270,46-60,F,"['Abdominal Pain', 'Rash', 'Headache']",Typhoid Fever,None,Under Treatment
+HLS_NER_20250124_0257,2025-01-24,21:02:20,ASHA_IMP_01,VLG_IMP_05,PT_IMP_1757,<5,F,"['Weakness', 'Fever', 'Diarrhea', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250124_0332,2025-01-24,23:37:19,ASHA_KOH_03,VLG_KOH_02,PT_KOH_1832,15-45,M,"['Fever', 'Runny Nose', 'Cough', 'Headache', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250125_0927,2025-01-25,01:08:13,ASHA_KOH_03,VLG_KOH_02,PT_KOH_2427,<5,F,"['Weakness', 'Fever', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250125_0565,2025-01-25,01:46:14,ASHA_KOH_01,VLG_KOH_05,PT_KOH_2065,46-60,M,"['Joint and Muscle Pain', 'High Fever', 'Severe Headache']",Dengue Fever,None,Recovered
+HLS_NER_20250125_0198,2025-01-25,04:59:55,ASHA_GAU_02,VLG_GAU_01,PT_GAU_1698,46-60,M,"['Diarrhea', 'Abdominal Pain', 'Weakness', 'Vomiting', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250125_0820,2025-01-25,05:10:03,ASHA_AIZ_02,VLG_AIZ_04,PT_AIZ_2320,15-45,F,"['Body Ache', 'Fever', 'Sore Throat']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20250125_0269,2025-01-25,05:26:27,ASHA_KOH_03,VLG_KOH_04,PT_KOH_1769,46-60,F,"['Dark Urine', 'Loss of Appetite', 'Fatigue']",Hepatitis A,None,Recovered
+HLS_NER_20250125_0695,2025-01-25,10:42:33,ASHA_IMP_02,VLG_IMP_04,PT_IMP_2195,<5,F,"['Jaundice', 'Dark Urine', 'Loss of Appetite']",Hepatitis A,None,Recovered
+HLS_NER_20250125_0498,2025-01-25,13:31:39,ASHA_AIZ_03,VLG_AIZ_05,PT_AIZ_1998,15-45,F,"['Jaundice', 'Nausea', 'Loss of Appetite', 'Fatigue']",Hepatitis A,None,Recovered
+HLS_NER_20250125_0890,2025-01-25,16:33:30,ASHA_AIZ_03,VLG_AIZ_02,PT_AIZ_2390,15-45,M,"['Fever', 'Headache', 'Tiredness']",Chickenpox,None,Recovered
+HLS_NER_20250125_0307,2025-01-25,18:13:38,ASHA_SIL_02,VLG_SIL_04,PT_SIL_1807,15-45,F,"['Cough', 'Fever', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250125_0201,2025-01-25,22:19:10,ASHA_KOH_02,VLG_KOH_01,PT_KOH_1701,5-14,M,"['High Fever', 'Joint and Muscle Pain', 'Severe Headache']",Dengue Fever,None,Recovered
+HLS_NER_20250125_0446,2025-01-25,22:45:40,ASHA_GAU_03,VLG_GAU_05,PT_GAU_1946,15-45,M,"['Itchy Blister-like Rash', 'Headache', 'Tiredness']",Chickenpox,None,Recovered
+HLS_NER_20250126_0824,2025-01-26,05:02:13,ASHA_GAU_02,VLG_GAU_01,PT_GAU_2324,15-45,F,"['Cough', 'Sore Throat', 'Fever', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250126_0797,2025-01-26,06:09:46,ASHA_SHL_02,VLG_SHL_02,PT_SHL_2297,5-14,M,"['Headache', 'Runny Nose', 'Sore Throat', 'Fever', 'Body Ache']",Influenza-Like Illness,None,Referred
+HLS_NER_20250126_0378,2025-01-26,06:27:27,ASHA_KOH_02,VLG_KOH_05,PT_KOH_1878,<5,M,"['Runny Nose', 'Headache', 'Fever', 'Sore Throat', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250126_0091,2025-01-26,06:59:48,ASHA_IMP_02,VLG_IMP_03,PT_IMP_1591,5-14,M,"['Rash', 'Weakness', 'Headache', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20250126_0035,2025-01-26,10:25:03,ASHA_SHL_01,VLG_SHL_02,PT_SHL_1535,5-14,M,"['Weakness', 'Fever', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Under Treatment
+HLS_NER_20250126_0722,2025-01-26,10:51:20,ASHA_IMP_02,VLG_IMP_05,PT_IMP_2222,>60,F,"['Cough', 'Fever', 'Sore Throat', 'Body Ache', 'Runny Nose']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20250126_0104,2025-01-26,11:24:48,ASHA_SHL_01,VLG_SHL_01,PT_SHL_1604,15-45,M,"['Tiredness', 'Headache', 'Itchy Blister-like Rash']",Chickenpox,None,Recovered
+HLS_NER_20250126_0229,2025-01-26,13:30:47,ASHA_SIL_01,VLG_SIL_04,PT_SIL_1729,15-45,M,"['Fever', 'Headache', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250126_0230,2025-01-26,13:33:31,ASHA_SHL_01,VLG_SHL_01,PT_SHL_1730,15-45,M,"['Fever', 'Weakness', 'Diarrhea', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250126_0837,2025-01-26,15:58:49,ASHA_SIL_02,VLG_SIL_05,PT_SIL_2337,<5,M,"['Vomiting', 'Diarrhea', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250126_0715,2025-01-26,16:25:30,ASHA_GAU_03,VLG_GAU_05,PT_GAU_2215,<5,F,"['Fever', 'Tiredness', 'Itchy Blister-like Rash', 'Headache']",Chickenpox,None,Recovered
+HLS_NER_20250126_0455,2025-01-26,17:40:19,ASHA_KOH_01,VLG_KOH_04,PT_KOH_1955,<5,F,"['Runny Nose', 'Headache', 'Sore Throat', 'Cough', 'Body Ache']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20250126_0986,2025-01-26,18:42:27,ASHA_IMP_03,VLG_IMP_05,PT_IMP_2486,5-14,F,"['Fever', 'Headache', 'Tiredness']",Chickenpox,None,Under Treatment
+HLS_NER_20250126_0658,2025-01-26,23:39:49,ASHA_GAU_02,VLG_GAU_04,PT_GAU_2158,15-45,F,"['Sore Throat', 'Fever', 'Body Ache', 'Cough', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250127_0348,2025-01-27,02:58:08,ASHA_KOH_03,VLG_KOH_02,PT_KOH_1848,<5,F,"['Itchy Blister-like Rash', 'Fever', 'Headache']",Chickenpox,None,Recovered
+HLS_NER_20250127_0457,2025-01-27,03:56:45,ASHA_GAU_03,VLG_GAU_05,PT_GAU_1957,46-60,F,"['Runny Nose', 'Cough', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250127_0206,2025-01-27,08:05:39,ASHA_GAU_03,VLG_GAU_05,PT_GAU_1706,46-60,M,"['Sore Throat', 'Runny Nose', 'Cough', 'Fever']",Influenza-Like Illness,None,Referred
+HLS_NER_20250127_0590,2025-01-27,10:09:16,ASHA_SHL_02,VLG_SHL_04,PT_SHL_2090,15-45,F,"['Sore Throat', 'Fever', 'Runny Nose', 'Headache']",Influenza-Like Illness,None,Referred
+HLS_NER_20250127_0943,2025-01-27,12:04:46,ASHA_AIZ_03,VLG_AIZ_03,PT_AIZ_2443,<5,M,"['High Fever', 'Joint and Muscle Pain', 'Severe Headache']",Dengue Fever,None,Recovered
+HLS_NER_20250127_0651,2025-01-27,12:22:36,ASHA_AIZ_01,VLG_AIZ_01,PT_AIZ_2151,15-45,F,"['Headache', 'Itchy Blister-like Rash', 'Tiredness']",Chickenpox,None,Recovered
+HLS_NER_20250127_0192,2025-01-27,14:17:35,ASHA_IMP_03,VLG_IMP_02,PT_IMP_1692,15-45,M,"['Loss of Appetite', 'Dark Urine', 'Fatigue', 'Jaundice', 'Nausea']",Hepatitis A,None,Recovered
+HLS_NER_20250127_0562,2025-01-27,20:40:05,ASHA_IMP_02,VLG_IMP_05,PT_IMP_2062,5-14,F,"['Fever', 'Abdominal Pain', 'Vomiting', 'Diarrhea', 'Weakness']",Acute Diarrheal Disease,None,Referred
+HLS_NER_20250127_0818,2025-01-27,23:02:40,ASHA_KOH_03,VLG_KOH_02,PT_KOH_2318,15-45,F,"['Cough', 'Fever', 'Body Ache', 'Headache']",Influenza-Like Illness,None,Referred
+HLS_NER_20250128_0410,2025-01-28,01:06:28,ASHA_KOH_02,VLG_KOH_05,PT_KOH_1910,15-45,M,"['Cough', 'Headache', 'Runny Nose', 'Body Ache', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250128_0067,2025-01-28,05:36:34,ASHA_IMP_02,VLG_IMP_04,PT_IMP_1567,5-14,M,"['Severe Headache', 'High Fever', 'Joint and Muscle Pain']",Dengue Fever,None,Recovered
+HLS_NER_20250128_0131,2025-01-28,06:59:22,ASHA_AIZ_03,VLG_AIZ_04,PT_AIZ_1631,15-45,F,"['Body Ache', 'Runny Nose', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250128_0806,2025-01-28,11:22:47,ASHA_GAU_02,VLG_GAU_04,PT_GAU_2306,15-45,F,"['Cough', 'Fever', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250128_0622,2025-01-28,13:37:18,ASHA_AIZ_03,VLG_AIZ_03,PT_AIZ_2122,15-45,M,"['Runny Nose', 'Sore Throat', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250128_0453,2025-01-28,14:47:26,ASHA_KOH_02,VLG_KOH_01,PT_KOH_1953,15-45,M,"['Cough', 'Sore Throat', 'Fever', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250128_0056,2025-01-28,17:26:49,ASHA_GAU_03,VLG_GAU_04,PT_GAU_1556,46-60,M,"['Runny Nose', 'Sore Throat', 'Body Ache', 'Headache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250128_0445,2025-01-28,20:35:29,ASHA_SIL_01,VLG_SIL_04,PT_SIL_1945,15-45,F,"['Cough', 'Headache', 'Fever', 'Runny Nose', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250128_0479,2025-01-28,23:55:42,ASHA_AIZ_02,VLG_AIZ_04,PT_AIZ_1979,5-14,M,"['Runny Nose', 'Body Ache', 'Cough', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250129_0780,2025-01-29,00:28:11,ASHA_AIZ_03,VLG_AIZ_01,PT_AIZ_2280,<5,F,"['Nausea', 'Dark Urine', 'Loss of Appetite', 'Jaundice']",Hepatitis A,None,Under Treatment
+HLS_NER_20250129_0567,2025-01-29,03:27:16,ASHA_SHL_01,VLG_SHL_05,PT_SHL_2067,15-45,F,"['Body Ache', 'Runny Nose', 'Cough', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250129_0352,2025-01-29,03:33:32,ASHA_SHL_02,VLG_SHL_05,PT_SHL_1852,<5,M,"['Abdominal Pain', 'Weakness', 'Diarrhea', 'Fever', 'Vomiting']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250129_0860,2025-01-29,04:36:54,ASHA_IMP_03,VLG_IMP_03,PT_IMP_2360,5-14,M,"['Runny Nose', 'Headache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250129_0120,2025-01-29,08:36:50,ASHA_GAU_02,VLG_GAU_02,PT_GAU_1620,15-45,M,"['Cough', 'Fever', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250129_0941,2025-01-29,11:55:38,ASHA_IMP_02,VLG_IMP_04,PT_IMP_2441,5-14,M,"['Fever', 'Cough', 'Body Ache', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250129_0336,2025-01-29,14:23:42,ASHA_GAU_02,VLG_GAU_02,PT_GAU_1836,<5,F,"['Body Ache', 'Headache', 'Runny Nose', 'Fever']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20250129_0482,2025-01-29,15:57:02,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_1982,5-14,M,"['Headache', 'Fever', 'Abdominal Pain', 'Weakness']",Typhoid Fever,None,Recovered
+HLS_NER_20250129_0171,2025-01-29,20:59:43,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_1671,15-45,F,"['Diarrhea', 'Vomiting', 'Weakness', 'Abdominal Pain', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250129_0794,2025-01-29,21:11:09,ASHA_SIL_03,VLG_SIL_01,PT_SIL_2294,<5,F,"['Abdominal Pain', 'Vomiting', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250130_0788,2025-01-30,00:39:47,ASHA_GAU_01,VLG_GAU_01,PT_GAU_2288,15-45,M,"['Fever', 'Abdominal Pain', 'Diarrhea', 'Vomiting', 'Weakness']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20250130_0683,2025-01-30,02:40:46,ASHA_SIL_03,VLG_SIL_03,PT_SIL_2183,15-45,F,"['Sweating', 'Headache', 'Fever', 'Chills']",Malaria,None,Recovered
+HLS_NER_20250130_0146,2025-01-30,04:05:56,ASHA_GAU_03,VLG_GAU_04,PT_GAU_1646,15-45,M,"['Headache', 'Sore Throat', 'Runny Nose', 'Fever', 'Cough']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20250130_0924,2025-01-30,04:07:46,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_2424,15-45,M,"['Headache', 'Abdominal Pain', 'Fever', 'Weakness']",Typhoid Fever,Severe,Referred
+HLS_NER_20250130_0668,2025-01-30,06:50:22,ASHA_SIL_03,VLG_SIL_02,PT_SIL_2168,5-14,F,"['Abdominal Pain', 'Diarrhea', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250130_0208,2025-01-30,06:51:26,ASHA_AIZ_03,VLG_AIZ_03,PT_AIZ_1708,15-45,M,"['Headache', 'Fever', 'Rash', 'Abdominal Pain']",Typhoid Fever,None,Referred
+HLS_NER_20250130_0150,2025-01-30,08:01:03,ASHA_SHL_01,VLG_SHL_01,PT_SHL_1650,15-45,F,"['Nausea', 'Dark Urine', 'Fatigue', 'Jaundice']",Hepatitis A,None,Recovered
+HLS_NER_20250130_0404,2025-01-30,08:14:05,ASHA_KOH_03,VLG_KOH_05,PT_KOH_1904,46-60,M,"['Fever', 'Runny Nose', 'Sore Throat', 'Body Ache', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250130_0536,2025-01-30,11:59:02,ASHA_KOH_03,VLG_KOH_01,PT_KOH_2036,46-60,M,"['Body Ache', 'Fever', 'Headache', 'Runny Nose']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20250130_0634,2025-01-30,13:28:51,ASHA_IMP_03,VLG_IMP_04,PT_IMP_2134,46-60,M,"['High Fever', 'Joint and Muscle Pain', 'Severe Headache']",Dengue Fever,Some,Recovered
+HLS_NER_20250130_0676,2025-01-30,14:01:31,ASHA_SIL_02,VLG_SIL_03,PT_SIL_2176,46-60,M,"['Vomiting', 'Abdominal Pain', 'Fever', 'Weakness']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20250130_0207,2025-01-30,14:44:50,ASHA_SHL_02,VLG_SHL_04,PT_SHL_1707,15-45,F,"['Cough', 'Body Ache', 'Sore Throat', 'Headache', 'Runny Nose']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20250130_0220,2025-01-30,15:22:25,ASHA_KOH_01,VLG_KOH_05,PT_KOH_1720,>60,M,"['Vomiting', 'Weakness', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250130_0362,2025-01-30,15:55:26,ASHA_AIZ_03,VLG_AIZ_02,PT_AIZ_1862,<5,F,"['Fever', 'Body Ache', 'Runny Nose', 'Cough', 'Headache']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20250130_0776,2025-01-30,16:02:06,ASHA_SIL_01,VLG_SIL_01,PT_SIL_2276,5-14,F,"['Dark Urine', 'Loss of Appetite', 'Nausea', 'Fatigue', 'Jaundice']",Hepatitis A,None,Recovered
+HLS_NER_20250130_0052,2025-01-30,18:38:50,ASHA_IMP_02,VLG_IMP_04,PT_IMP_1552,15-45,M,"['Severe Headache', 'High Fever', 'Joint and Muscle Pain']",Dengue Fever,None,Recovered
+HLS_NER_20250130_0354,2025-01-30,19:04:06,ASHA_SIL_02,VLG_SIL_02,PT_SIL_1854,15-45,M,"['Weakness', 'Headache', 'Rash', 'Abdominal Pain', 'Fever']",Typhoid Fever,None,Under Treatment
+HLS_NER_20250130_0467,2025-01-30,20:05:15,ASHA_KOH_03,VLG_KOH_01,PT_KOH_1967,46-60,F,"['Rash', 'Abdominal Pain', 'Weakness', 'Fever', 'Headache']",Typhoid Fever,Some,Recovered
+HLS_NER_20250130_0606,2025-01-30,20:21:43,ASHA_AIZ_03,VLG_AIZ_05,PT_AIZ_2106,15-45,F,"['Fatigue', 'Dark Urine', 'Loss of Appetite', 'Nausea', 'Jaundice']",Hepatitis A,None,Recovered
+HLS_NER_20250130_0607,2025-01-30,22:15:47,ASHA_SHL_03,VLG_SHL_05,PT_SHL_2107,15-45,F,"['Headache', 'Cough', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250130_0203,2025-01-30,22:28:28,ASHA_KOH_02,VLG_KOH_04,PT_KOH_1703,15-45,M,"['High Fever', 'Severe Headache', 'Joint and Muscle Pain']",Dengue Fever,None,Recovered
+HLS_NER_20250130_0375,2025-01-30,23:23:05,ASHA_GAU_02,VLG_GAU_04,PT_GAU_1875,<5,M,"['Diarrhea', 'Fever', 'Weakness', 'Vomiting']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250130_0901,2025-01-30,23:53:42,ASHA_AIZ_02,VLG_AIZ_01,PT_AIZ_2401,46-60,M,"['Body Ache', 'Runny Nose', 'Headache', 'Sore Throat']",Influenza-Like Illness,None,Referred
+HLS_NER_20250131_0764,2025-01-31,00:01:19,ASHA_IMP_03,VLG_IMP_05,PT_IMP_2264,15-45,M,"['Dark Urine', 'Loss of Appetite', 'Fatigue', 'Jaundice']",Hepatitis A,None,Recovered
+HLS_NER_20250131_0906,2025-01-31,01:59:15,ASHA_SIL_02,VLG_SIL_05,PT_SIL_2406,46-60,M,"['Cough', 'Runny Nose', 'Body Ache', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250131_0196,2025-01-31,02:52:31,ASHA_AIZ_01,VLG_AIZ_04,PT_AIZ_1696,46-60,M,"['Chills', 'Headache', 'Sweating', 'Fever']",Malaria,None,Recovered
+HLS_NER_20250131_0358,2025-01-31,03:51:01,ASHA_SHL_03,VLG_SHL_04,PT_SHL_1858,15-45,F,"['Fever', 'Body Ache', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250131_0795,2025-01-31,06:15:17,ASHA_KOH_01,VLG_KOH_05,PT_KOH_2295,15-45,M,"['Cough', 'Runny Nose', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250131_0461,2025-01-31,06:47:04,ASHA_SHL_02,VLG_SHL_02,PT_SHL_1961,5-14,M,"['Headache', 'Cough', 'Body Ache', 'Fever', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250131_0615,2025-01-31,08:37:46,ASHA_IMP_01,VLG_IMP_04,PT_IMP_2115,46-60,M,"['Fever', 'Weakness', 'Vomiting']",Acute Diarrheal Disease,Severe,Under Treatment
+HLS_NER_20250131_0225,2025-01-31,08:40:24,ASHA_SIL_03,VLG_SIL_04,PT_SIL_1725,5-14,F,"['Fever', 'Vomiting', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250131_0932,2025-01-31,09:32:40,ASHA_SIL_02,VLG_SIL_01,PT_SIL_2432,<5,M,"['Body Ache', 'Sore Throat', 'Runny Nose', 'Headache', 'Cough']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20250131_0028,2025-01-31,11:07:42,ASHA_KOH_01,VLG_KOH_02,PT_KOH_1528,15-45,M,"['Weakness', 'Fever', 'Headache', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20250131_0570,2025-01-31,14:18:28,ASHA_SHL_02,VLG_SHL_04,PT_SHL_2070,46-60,M,"['Chills', 'Headache', 'Sweating']",Malaria,None,Recovered
+HLS_NER_20250131_0602,2025-01-31,16:24:05,ASHA_IMP_01,VLG_IMP_02,PT_IMP_2102,>60,M,"['Loss of Appetite', 'Nausea', 'Fatigue', 'Jaundice', 'Dark Urine']",Hepatitis A,None,Recovered
+HLS_NER_20250131_0573,2025-01-31,17:48:15,ASHA_IMP_01,VLG_IMP_05,PT_IMP_2073,15-45,M,"['Itchy Blister-like Rash', 'Headache', 'Tiredness', 'Fever']",Chickenpox,None,Recovered
+HLS_NER_20250131_0596,2025-01-31,18:56:03,ASHA_AIZ_01,VLG_AIZ_01,PT_AIZ_2096,5-14,F,"['Cough', 'Sore Throat', 'Fever']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20250131_0231,2025-01-31,21:41:48,ASHA_IMP_02,VLG_IMP_04,PT_IMP_1731,<5,F,"['Sore Throat', 'Body Ache', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250131_0213,2025-01-31,21:59:27,ASHA_AIZ_01,VLG_AIZ_01,PT_AIZ_1713,5-14,M,"['Headache', 'Sore Throat', 'Runny Nose', 'Fever', 'Body Ache']",Influenza-Like Illness,None,Under Treatment

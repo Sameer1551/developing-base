@@ -1,0 +1,501 @@
+Record_ID,Submission_Date,Submission_Time,ASHA_ID,Location_ID,Patient_ID,Age_Group,Gender,Symptoms,Diagnosis_Syndrome,Dehydration_Status,Outcome
+HLS_NER_20250601_337,2025-06-01,00:52:07,ASHA_KOH_03,VLG_KOH_01,PT_KOH_0337,>60,F,"['Cough', 'Sore Throat', 'Body Ache']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20250601_100,2025-06-01,01:51:26,ASHA_IMP_01,VLG_IMP_02,PT_IMP_0100,>60,F,"['Headache', 'Muscle Pain', 'Sweating']",Malaria,Severe,Under Treatment
+HLS_NER_20250601_235,2025-06-01,05:05:59,ASHA_SIL_01,VLG_SIL_02,PT_SIL_0235,5-14,F,"['Abdominal Pain', 'Vomiting', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250601_432,2025-06-01,06:47:06,ASHA_AIZ_02,VLG_AIZ_03,PT_AIZ_0432,15-45,M,"['Jaundice', 'Nausea', 'Loss of Appetite', 'Dark Urine']",Hepatitis A,Some,Referred
+HLS_NER_20250601_456,2025-06-01,19:40:25,ASHA_GAU_02,VLG_GAU_02,PT_GAU_0456,15-45,M,"['Diarrhea', 'Fever', 'Abdominal Pain', 'Vomiting', 'Weakness']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20250601_449,2025-06-01,22:01:23,ASHA_AIZ_02,VLG_AIZ_02,PT_AIZ_0449,46-60,M,"['Fatigue', 'Jaundice', 'Dark Urine', 'Loss of Appetite', 'Nausea']",Hepatitis A,Some,Referred
+HLS_NER_20250601_092,2025-06-01,22:42:44,ASHA_IMP_03,VLG_IMP_04,PT_IMP_0092,5-14,M,"['Leg Cramps', 'Vomiting', 'Severe Diarrhea', 'Dehydration', 'Rice-Water Stools']",Cholera,Severe,Referred
+HLS_NER_20250602_477,2025-06-02,00:14:34,ASHA_AIZ_02,VLG_AIZ_03,PT_AIZ_0477,>60,F,"['Jaundice', 'Fatigue', 'Dark Urine', 'Nausea', 'Loss of Appetite']",Hepatitis A,None,Recovered
+HLS_NER_20250602_288,2025-06-02,11:04:27,ASHA_SHL_02,VLG_SHL_04,PT_SHL_0288,15-45,F,"['Fever', 'Abdominal Pain', 'Weakness', 'Diarrhea', 'Vomiting']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250602_413,2025-06-02,12:50:33,ASHA_KOH_01,VLG_KOH_01,PT_KOH_0413,5-14,F,"['Fever', 'Chills', 'Sweating']",Malaria,Some,Recovered
+HLS_NER_20250602_001,2025-06-02,14:43:42,ASHA_KOH_03,VLG_KOH_02,PT_KOH_0001,46-60,F,"['Leg Cramps', 'Vomiting', 'Severe Diarrhea']",Cholera,Some,Recovered
+HLS_NER_20250602_166,2025-06-02,15:38:11,ASHA_KOH_02,VLG_KOH_01,PT_KOH_0166,46-60,F,"['Weakness', 'Diarrhea', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Under Treatment
+HLS_NER_20250602_129,2025-06-02,18:06:08,ASHA_GAU_03,VLG_GAU_01,PT_GAU_0129,15-45,F,"['Weakness', 'Fever', 'Vomiting', 'Diarrhea', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Under Treatment
+HLS_NER_20250603_034,2025-06-03,00:28:29,ASHA_GAU_03,VLG_GAU_03,PT_GAU_0034,<5,M,"['Diarrhea', 'Vomiting', 'Weakness', 'Abdominal Pain', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250603_495,2025-06-03,01:06:00,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_0495,<5,M,"['Fever', 'Vomiting', 'Weakness', 'Abdominal Pain', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250603_035,2025-06-03,02:30:08,ASHA_SHL_02,VLG_SHL_04,PT_SHL_0035,15-45,M,"['Rash', 'Pain behind Eyes', 'High Fever', 'Joint and Muscle Pain', 'Severe Headache']",Dengue Fever,None,Referred
+HLS_NER_20250603_499,2025-06-03,03:58:17,ASHA_SHL_01,VLG_SHL_01,PT_SHL_0499,<5,F,"['Runny Nose', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20250603_412,2025-06-03,08:33:26,ASHA_SIL_01,VLG_SIL_04,PT_SIL_0412,15-45,M,"['Body Ache', 'Cough', 'Sore Throat']",Influenza-Like Illness,None,Referred
+HLS_NER_20250603_159,2025-06-03,10:05:51,ASHA_SHL_02,VLG_SHL_03,PT_SHL_0159,46-60,M,"['Weakness', 'Vomiting', 'Fever', 'Abdominal Pain', 'Diarrhea']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250603_287,2025-06-03,14:23:06,ASHA_GAU_01,VLG_GAU_05,PT_GAU_0287,<5,M,"['Fever', 'Body Ache', 'Runny Nose', 'Cough']",Influenza-Like Illness,Some,Referred
+HLS_NER_20250603_055,2025-06-03,16:42:08,ASHA_GAU_01,VLG_GAU_02,PT_GAU_0055,15-45,M,"['Abdominal Pain', 'Vomiting', 'Weakness', 'Fever']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250604_298,2025-06-04,02:10:27,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_0298,5-14,F,"['Fever', 'Diarrhea', 'Vomiting']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250604_382,2025-06-04,04:28:31,ASHA_KOH_02,VLG_KOH_04,PT_KOH_0382,46-60,F,"['Abdominal Pain', 'Diarrhea', 'Weakness', 'Fever', 'Vomiting']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250605_257,2025-06-05,00:16:08,ASHA_KOH_03,VLG_KOH_04,PT_KOH_0257,5-14,M,"['Headache', 'Abdominal Pain', 'Fever', 'Rash', 'Weakness']",Typhoid Fever,None,Recovered
+HLS_NER_20250605_261,2025-06-05,02:09:26,ASHA_AIZ_02,VLG_AIZ_04,PT_AIZ_0261,15-45,M,"['High Fever', 'Joint and Muscle Pain', 'Severe Headache', 'Rash', 'Pain behind Eyes']",Dengue Fever,Some,Referred
+HLS_NER_20250605_414,2025-06-05,07:44:09,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_0414,46-60,F,"['Sweating', 'Chills', 'Headache']",Malaria,None,Recovered
+HLS_NER_20250605_039,2025-06-05,20:58:41,ASHA_AIZ_02,VLG_AIZ_02,PT_AIZ_0039,46-60,F,"['Abdominal Pain', 'Fever', 'Diarrhea', 'Vomiting', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250605_206,2025-06-05,21:55:37,ASHA_KOH_03,VLG_KOH_02,PT_KOH_0206,>60,M,"['Fever', 'Vomiting', 'Weakness', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250606_218,2025-06-06,00:10:13,ASHA_KOH_01,VLG_KOH_04,PT_KOH_0218,15-45,M,"['Diarrhea', 'Fever', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250606_241,2025-06-06,14:26:30,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_0241,15-45,F,"['Headache', 'Rash', 'Abdominal Pain', 'Fever', 'Weakness']",Typhoid Fever,None,Under Treatment
+HLS_NER_20250606_363,2025-06-06,17:07:44,ASHA_IMP_03,VLG_IMP_03,PT_IMP_0363,46-60,M,"['Abdominal Pain', 'Weakness', 'Fever', 'Vomiting']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20250606_362,2025-06-06,19:47:27,ASHA_GAU_01,VLG_GAU_03,PT_GAU_0362,15-45,F,"['Runny Nose', 'Fever', 'Sore Throat', 'Cough', 'Body Ache']",Influenza-Like Illness,Some,Referred
+HLS_NER_20250606_339,2025-06-06,21:12:34,ASHA_GAU_03,VLG_GAU_01,PT_GAU_0339,5-14,F,"['Fatigue', 'Dark Urine', 'Loss of Appetite', 'Nausea']",Hepatitis A,None,Recovered
+HLS_NER_20250606_356,2025-06-06,23:25:25,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_0356,46-60,F,"['Rash', 'High Fever', 'Joint and Muscle Pain', 'Pain behind Eyes']",Dengue Fever,Some,Recovered
+HLS_NER_20250607_109,2025-06-07,19:36:41,ASHA_IMP_02,VLG_IMP_01,PT_IMP_0109,15-45,F,"['Fever', 'Muscle Pain', 'Sweating']",Malaria,None,Recovered
+HLS_NER_20250608_314,2025-06-08,07:20:44,ASHA_IMP_02,VLG_IMP_03,PT_IMP_0314,15-45,F,"['Rash', 'Pain behind Eyes', 'Joint and Muscle Pain', 'Severe Headache']",Dengue Fever,None,Under Treatment
+HLS_NER_20250608_466,2025-06-08,07:37:04,ASHA_SHL_02,VLG_SHL_02,PT_SHL_0466,15-45,F,"['Headache', 'Rash', 'Fever']",Typhoid Fever,None,Recovered
+HLS_NER_20250608_232,2025-06-08,10:35:55,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_0232,<5,F,"['Joint and Muscle Pain', 'Rash', 'High Fever', 'Pain behind Eyes', 'Severe Headache']",Dengue Fever,Some,Recovered
+HLS_NER_20250608_117,2025-06-08,16:22:44,ASHA_SIL_01,VLG_SIL_04,PT_SIL_0117,<5,F,"['Severe Headache', 'Rash', 'Pain behind Eyes', 'Joint and Muscle Pain', 'High Fever']",Dengue Fever,None,Recovered
+HLS_NER_20250609_168,2025-06-09,16:07:52,ASHA_KOH_01,VLG_KOH_02,PT_KOH_0168,5-14,F,"['Weakness', 'Abdominal Pain', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250610_376,2025-06-10,04:35:53,ASHA_SIL_03,VLG_SIL_01,PT_SIL_0376,>60,F,"['Joint and Muscle Pain', 'Pain behind Eyes', 'Severe Headache']",Dengue Fever,Some,Under Treatment
+HLS_NER_20250610_081,2025-06-10,06:09:15,ASHA_KOH_02,VLG_KOH_05,PT_KOH_0081,15-45,M,"['Loss of Appetite', 'Dark Urine', 'Jaundice', 'Nausea']",Hepatitis A,None,Recovered
+HLS_NER_20250610_173,2025-06-10,16:14:02,ASHA_SHL_03,VLG_SHL_04,PT_SHL_0173,15-45,F,"['Fever', 'Diarrhea', 'Abdominal Pain', 'Vomiting']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250610_158,2025-06-10,18:34:11,ASHA_GAU_02,VLG_GAU_04,PT_GAU_0158,15-45,M,"['Loss of Appetite', 'Jaundice', 'Dark Urine', 'Fatigue', 'Nausea']",Hepatitis A,None,Referred
+HLS_NER_20250611_485,2025-06-11,01:50:28,ASHA_SHL_02,VLG_SHL_01,PT_SHL_0485,<5,F,"['Sore Throat', 'Cough', 'Runny Nose', 'Body Ache', 'Fever']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20250611_184,2025-06-11,06:41:42,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_0184,5-14,F,"['Fever', 'Sweating', 'Headache']",Malaria,None,Referred
+HLS_NER_20250611_440,2025-06-11,07:00:47,ASHA_KOH_03,VLG_KOH_04,PT_KOH_0440,<5,M,"['Cough', 'Runny Nose', 'Fever']",Influenza-Like Illness,Some,Referred
+HLS_NER_20250611_489,2025-06-11,07:16:44,ASHA_KOH_02,VLG_KOH_02,PT_KOH_0489,15-45,M,"['Pain behind Eyes', 'Joint and Muscle Pain', 'Severe Headache']",Dengue Fever,Some,Recovered
+HLS_NER_20250611_460,2025-06-11,13:12:48,ASHA_IMP_02,VLG_IMP_04,PT_IMP_0460,<5,F,"['Runny Nose', 'Body Ache', 'Fever', 'Sore Throat', 'Cough']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250611_289,2025-06-11,16:48:19,ASHA_AIZ_01,VLG_AIZ_02,PT_AIZ_0289,>60,F,"['Dehydration', 'Rice-Water Stools', 'Severe Diarrhea']",Cholera,Severe,Under Treatment
+HLS_NER_20250611_283,2025-06-11,20:26:51,ASHA_AIZ_01,VLG_AIZ_04,PT_AIZ_0283,46-60,M,"['Runny Nose', 'Body Ache', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250611_041,2025-06-11,21:33:40,ASHA_SHL_02,VLG_SHL_02,PT_SHL_0041,46-60,M,"['Fever', 'Sweating', 'Muscle Pain', 'Chills', 'Headache']",Malaria,None,Under Treatment
+HLS_NER_20250612_076,2025-06-12,03:30:02,ASHA_IMP_02,VLG_IMP_04,PT_IMP_0076,5-14,F,"['Fever', 'Abdominal Pain', 'Weakness', 'Headache']",Typhoid Fever,Severe,Under Treatment
+HLS_NER_20250612_176,2025-06-12,17:24:20,ASHA_GAU_01,VLG_GAU_02,PT_GAU_0176,<5,F,"['Muscle Pain', 'Chills', 'Fever', 'Sweating', 'Headache']",Malaria,None,Under Treatment
+HLS_NER_20250613_355,2025-06-13,09:32:01,ASHA_AIZ_03,VLG_AIZ_04,PT_AIZ_0355,15-45,F,"['Rash', 'Joint and Muscle Pain', 'Severe Headache']",Dengue Fever,Severe,Referred
+HLS_NER_20250613_229,2025-06-13,11:40:35,ASHA_SHL_02,VLG_SHL_03,PT_SHL_0229,15-45,F,"['Fever', 'Body Ache', 'Cough', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250613_421,2025-06-13,19:10:36,ASHA_AIZ_03,VLG_AIZ_03,PT_AIZ_0421,<5,F,"['Vomiting', 'Abdominal Pain', 'Diarrhea', 'Fever']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250613_215,2025-06-13,22:13:19,ASHA_KOH_02,VLG_KOH_05,PT_KOH_0215,15-45,M,"['Rash', 'Weakness', 'Headache', 'Fever', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20250614_481,2025-06-14,00:46:34,ASHA_SHL_01,VLG_SHL_01,PT_SHL_0481,15-45,M,"['Abdominal Pain', 'Fever', 'Diarrhea', 'Vomiting']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20250614_012,2025-06-14,08:39:09,ASHA_SIL_03,VLG_SIL_04,PT_SIL_0012,15-45,M,"['Sweating', 'Fever', 'Muscle Pain', 'Chills']",Malaria,None,Recovered
+HLS_NER_20250614_427,2025-06-14,21:05:37,ASHA_SHL_02,VLG_SHL_04,PT_SHL_0427,>60,F,"['Cough', 'Fever', 'Body Ache', 'Runny Nose', 'Sore Throat']",Influenza-Like Illness,None,Referred
+HLS_NER_20250615_354,2025-06-15,02:34:18,ASHA_KOH_03,VLG_KOH_02,PT_KOH_0354,<5,F,"['Fever', 'Chills', 'Muscle Pain', 'Sweating', 'Headache']",Malaria,Some,Recovered
+HLS_NER_20250615_124,2025-06-15,17:57:15,ASHA_IMP_02,VLG_IMP_05,PT_IMP_0124,15-45,M,"['Weakness', 'Abdominal Pain', 'Fever']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250616_094,2025-06-16,17:05:35,ASHA_KOH_02,VLG_KOH_02,PT_KOH_0094,15-45,M,"['Fever', 'Headache', 'Abdominal Pain', 'Rash', 'Weakness']",Typhoid Fever,None,Recovered
+HLS_NER_20250617_251,2025-06-17,18:03:50,ASHA_SIL_03,VLG_SIL_03,PT_SIL_0251,5-14,F,"['Abdominal Pain', 'Headache', 'Rash', 'Weakness']",Typhoid Fever,None,Under Treatment
+HLS_NER_20250617_316,2025-06-17,19:24:12,ASHA_AIZ_02,VLG_AIZ_04,PT_AIZ_0316,<5,M,"['Muscle Pain', 'Headache', 'Sweating']",Malaria,Severe,Under Treatment
+HLS_NER_20250618_459,2025-06-18,00:11:26,ASHA_SHL_01,VLG_SHL_03,PT_SHL_0459,46-60,M,"['Weakness', 'Diarrhea', 'Abdominal Pain', 'Fever', 'Vomiting']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250618_351,2025-06-18,07:36:40,ASHA_GAU_02,VLG_GAU_01,PT_GAU_0351,46-60,F,"['Fever', 'Vomiting', 'Diarrhea']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20250618_125,2025-06-18,17:03:26,ASHA_SHL_01,VLG_SHL_01,PT_SHL_0125,>60,F,"['Rash', 'Abdominal Pain', 'Fever', 'Weakness', 'Headache']",Typhoid Fever,None,Recovered
+HLS_NER_20250618_127,2025-06-18,23:28:16,ASHA_IMP_03,VLG_IMP_04,PT_IMP_0127,5-14,M,"['Severe Headache', 'Joint and Muscle Pain', 'Rash', 'Pain behind Eyes']",Dengue Fever,Some,Recovered
+HLS_NER_20250619_347,2025-06-19,01:59:21,ASHA_KOH_01,VLG_KOH_05,PT_KOH_0347,46-60,M,"['Abdominal Pain', 'Vomiting', 'Fever', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250619_209,2025-06-19,14:20:40,ASHA_IMP_02,VLG_IMP_02,PT_IMP_0209,<5,M,"['Diarrhea', 'Vomiting', 'Weakness', 'Fever']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250619_406,2025-06-19,15:54:59,ASHA_IMP_02,VLG_IMP_04,PT_IMP_0406,<5,M,"['Fever', 'Muscle Pain', 'Chills', 'Headache', 'Sweating']",Malaria,None,Recovered
+HLS_NER_20250619_401,2025-06-19,22:16:54,ASHA_AIZ_01,VLG_AIZ_02,PT_AIZ_0401,>60,F,"['Abdominal Pain', 'Fever', 'Diarrhea', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250620_310,2025-06-20,01:28:23,ASHA_SIL_01,VLG_SIL_05,PT_SIL_0310,5-14,F,"['Nausea', 'Dark Urine', 'Fatigue', 'Jaundice', 'Loss of Appetite']",Hepatitis A,Some,Referred
+HLS_NER_20250620_231,2025-06-20,02:41:35,ASHA_KOH_01,VLG_KOH_05,PT_KOH_0231,46-60,F,"['Weakness', 'Fever', 'Abdominal Pain', 'Diarrhea']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250620_037,2025-06-20,05:17:03,ASHA_SHL_03,VLG_SHL_05,PT_SHL_0037,<5,F,"['Sweating', 'Muscle Pain', 'Fever', 'Headache', 'Chills']",Malaria,None,Recovered
+HLS_NER_20250620_160,2025-06-20,12:18:13,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_0160,15-45,F,"['Headache', 'Muscle Pain', 'Sweating', 'Chills', 'Fever']",Malaria,Some,Under Treatment
+HLS_NER_20250620_480,2025-06-20,16:18:47,ASHA_SIL_02,VLG_SIL_03,PT_SIL_0480,15-45,F,"['Jaundice', 'Fatigue', 'Nausea', 'Dark Urine', 'Loss of Appetite']",Hepatitis A,None,Recovered
+HLS_NER_20250620_072,2025-06-20,17:43:24,ASHA_SIL_01,VLG_SIL_04,PT_SIL_0072,15-45,F,"['Sweating', 'Muscle Pain', 'Fever', 'Chills']",Malaria,None,Recovered
+HLS_NER_20250620_234,2025-06-20,21:21:33,ASHA_KOH_01,VLG_KOH_03,PT_KOH_0234,5-14,F,"['Diarrhea', 'Weakness', 'Vomiting', 'Fever']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250620_373,2025-06-20,21:33:36,ASHA_IMP_03,VLG_IMP_05,PT_IMP_0373,46-60,M,"['Dehydration', 'Vomiting', 'Leg Cramps']",Cholera,Some,Under Treatment
+HLS_NER_20250620_186,2025-06-20,21:35:50,ASHA_IMP_02,VLG_IMP_01,PT_IMP_0186,46-60,M,"['Joint and Muscle Pain', 'Severe Headache', 'Rash']",Dengue Fever,Some,Under Treatment
+HLS_NER_20250621_284,2025-06-21,15:18:21,ASHA_SIL_02,VLG_SIL_02,PT_SIL_0284,15-45,F,"['Diarrhea', 'Fever', 'Abdominal Pain', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250621_293,2025-06-21,20:12:23,ASHA_KOH_02,VLG_KOH_02,PT_KOH_0293,15-45,F,"['Pain behind Eyes', 'Severe Headache', 'Joint and Muscle Pain', 'High Fever', 'Rash']",Dengue Fever,None,Recovered
+HLS_NER_20250622_096,2025-06-22,07:51:17,ASHA_GAU_01,VLG_GAU_01,PT_GAU_0096,<5,F,"['Rash', 'Joint and Muscle Pain', 'Pain behind Eyes', 'High Fever', 'Severe Headache']",Dengue Fever,Some,Recovered
+HLS_NER_20250622_399,2025-06-22,08:01:49,ASHA_KOH_01,VLG_KOH_03,PT_KOH_0399,5-14,F,"['Pain behind Eyes', 'Severe Headache', 'Rash']",Dengue Fever,None,Recovered
+HLS_NER_20250622_113,2025-06-22,08:59:52,ASHA_KOH_01,VLG_KOH_02,PT_KOH_0113,<5,M,"['Chills', 'Fever', 'Headache', 'Muscle Pain', 'Sweating']",Malaria,None,Under Treatment
+HLS_NER_20250622_392,2025-06-22,10:50:47,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_0392,15-45,F,"['Diarrhea', 'Vomiting', 'Weakness', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20250622_042,2025-06-22,21:39:12,ASHA_SHL_01,VLG_SHL_02,PT_SHL_0042,15-45,M,"['Diarrhea', 'Weakness', 'Fever', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250622_419,2025-06-22,23:15:58,ASHA_IMP_01,VLG_IMP_01,PT_IMP_0419,5-14,M,"['Weakness', 'Headache', 'Rash']",Typhoid Fever,Some,Recovered
+HLS_NER_20250623_473,2025-06-23,03:06:13,ASHA_IMP_03,VLG_IMP_05,PT_IMP_0473,15-45,M,"['Fever', 'Diarrhea', 'Weakness', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20250623_267,2025-06-23,09:38:25,ASHA_IMP_02,VLG_IMP_05,PT_IMP_0267,46-60,M,"['Headache', 'Fever', 'Weakness', 'Abdominal Pain']",Typhoid Fever,Severe,Referred
+HLS_NER_20250623_487,2025-06-23,16:48:56,ASHA_SHL_02,VLG_SHL_05,PT_SHL_0487,15-45,M,"['Rash', 'Headache', 'Fever', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20250623_175,2025-06-23,16:49:03,ASHA_SIL_01,VLG_SIL_03,PT_SIL_0175,15-45,M,"['Diarrhea', 'Vomiting', 'Abdominal Pain', 'Weakness', 'Fever']",Acute Diarrheal Disease,Severe,Under Treatment
+HLS_NER_20250623_422,2025-06-23,17:40:18,ASHA_SIL_01,VLG_SIL_03,PT_SIL_0422,15-45,M,"['Fever', 'Diarrhea', 'Abdominal Pain', 'Vomiting']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250624_448,2025-06-24,02:56:10,ASHA_SHL_02,VLG_SHL_01,PT_SHL_0448,<5,F,"['Fever', 'Abdominal Pain', 'Weakness', 'Vomiting', 'Diarrhea']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250624_060,2025-06-24,05:56:14,ASHA_SHL_03,VLG_SHL_03,PT_SHL_0060,>60,M,"['Pain behind Eyes', 'Rash', 'Severe Headache', 'Joint and Muscle Pain']",Dengue Fever,None,Referred
+HLS_NER_20250624_236,2025-06-24,09:59:18,ASHA_GAU_01,VLG_GAU_02,PT_GAU_0236,5-14,F,"['Diarrhea', 'Abdominal Pain', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250624_245,2025-06-24,11:36:48,ASHA_GAU_03,VLG_GAU_04,PT_GAU_0245,5-14,F,"['Abdominal Pain', 'Weakness', 'Headache', 'Fever', 'Rash']",Typhoid Fever,Some,Recovered
+HLS_NER_20250624_368,2025-06-24,13:51:17,ASHA_GAU_03,VLG_GAU_01,PT_GAU_0368,15-45,M,"['Diarrhea', 'Vomiting', 'Weakness', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250624_004,2025-06-24,15:13:00,ASHA_AIZ_03,VLG_AIZ_05,PT_AIZ_0004,15-45,M,"['Diarrhea', 'Fever', 'Weakness']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20250624_372,2025-06-24,17:59:01,ASHA_SHL_02,VLG_SHL_03,PT_SHL_0372,15-45,F,"['Rice-Water Stools', 'Dehydration', 'Vomiting', 'Severe Diarrhea', 'Leg Cramps']",Cholera,Severe,Referred
+HLS_NER_20250625_388,2025-06-25,02:08:25,ASHA_SIL_02,VLG_SIL_01,PT_SIL_0388,15-45,M,"['Headache', 'Abdominal Pain', 'Fever', 'Rash', 'Weakness']",Typhoid Fever,Some,Recovered
+HLS_NER_20250625_151,2025-06-25,06:35:46,ASHA_SIL_01,VLG_SIL_04,PT_SIL_0151,5-14,F,"['Weakness', 'Fever', 'Abdominal Pain', 'Vomiting']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250625_179,2025-06-25,08:06:05,ASHA_SIL_03,VLG_SIL_01,PT_SIL_0179,<5,M,"['High Fever', 'Joint and Muscle Pain', 'Pain behind Eyes']",Dengue Fever,Some,Recovered
+HLS_NER_20250626_478,2025-06-26,10:08:29,ASHA_AIZ_01,VLG_AIZ_04,PT_AIZ_0478,15-45,F,"['Nausea', 'Dark Urine', 'Fatigue', 'Loss of Appetite']",Hepatitis A,None,Recovered
+HLS_NER_20250626_364,2025-06-26,12:12:13,ASHA_GAU_02,VLG_GAU_05,PT_GAU_0364,46-60,M,"['Abdominal Pain', 'Weakness', 'Vomiting', 'Fever']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20250626_247,2025-06-26,12:41:42,ASHA_SHL_03,VLG_SHL_01,PT_SHL_0247,5-14,F,"['Abdominal Pain', 'Rash', 'Headache', 'Weakness']",Typhoid Fever,None,Referred
+HLS_NER_20250626_021,2025-06-26,14:05:57,ASHA_IMP_03,VLG_IMP_04,PT_IMP_0021,5-14,F,"['Fever', 'Weakness', 'Abdominal Pain', 'Vomiting']",Acute Diarrheal Disease,None,Under Treatment
+HLS_NER_20250627_299,2025-06-27,13:42:15,ASHA_GAU_01,VLG_GAU_04,PT_GAU_0299,46-60,F,"['Vomiting', 'Diarrhea', 'Weakness', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250628_150,2025-06-28,04:02:26,ASHA_SIL_01,VLG_SIL_04,PT_SIL_0150,15-45,F,"['Dehydration', 'Rice-Water Stools', 'Leg Cramps', 'Vomiting']",Cholera,Severe,Referred
+HLS_NER_20250628_275,2025-06-28,08:50:11,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_0275,5-14,F,"['Diarrhea', 'Fever', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20250628_194,2025-06-28,10:06:41,ASHA_SIL_02,VLG_SIL_04,PT_SIL_0194,15-45,M,"['Fever', 'Diarrhea', 'Weakness', 'Vomiting']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250628_027,2025-06-28,10:27:43,ASHA_IMP_02,VLG_IMP_01,PT_IMP_0027,15-45,F,"['Sweating', 'Chills', 'Muscle Pain', 'Headache']",Malaria,None,Under Treatment
+HLS_NER_20250628_295,2025-06-28,18:28:41,ASHA_IMP_03,VLG_IMP_01,PT_IMP_0295,<5,M,"['Headache', 'Muscle Pain', 'Chills', 'Sweating', 'Fever']",Malaria,None,Under Treatment
+HLS_NER_20250629_017,2025-06-29,07:32:14,ASHA_GAU_02,VLG_GAU_04,PT_GAU_0017,46-60,F,"['Diarrhea', 'Vomiting', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250629_479,2025-06-29,16:01:15,ASHA_GAU_02,VLG_GAU_02,PT_GAU_0479,15-45,M,"['Vomiting', 'Weakness', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Under Treatment
+HLS_NER_20250629_090,2025-06-29,21:52:05,ASHA_SIL_02,VLG_SIL_01,PT_SIL_0090,<5,M,"['Severe Diarrhea', 'Rice-Water Stools', 'Vomiting', 'Dehydration', 'Leg Cramps']",Cholera,Severe,Referred
+HLS_NER_20250630_273,2025-06-30,02:03:04,ASHA_SIL_02,VLG_SIL_01,PT_SIL_0273,46-60,F,"['Headache', 'Chills', 'Sweating']",Malaria,None,Referred
+HLS_NER_20250630_278,2025-06-30,08:36:28,ASHA_IMP_01,VLG_IMP_01,PT_IMP_0278,<5,M,"['Fever', 'Abdominal Pain', 'Rash', 'Weakness']",Typhoid Fever,None,Referred
+HLS_NER_20250630_065,2025-06-30,17:06:25,ASHA_IMP_03,VLG_IMP_04,PT_IMP_0065,5-14,M,"['Fever', 'Sweating', 'Headache', 'Muscle Pain']",Malaria,None,Under Treatment
+HLS_NER_20250701_014,2025-07-01,01:25:18,ASHA_KOH_01,VLG_KOH_03,PT_KOH_0014,<5,F,"['Sweating', 'Fever', 'Headache', 'Chills']",Malaria,None,Referred
+HLS_NER_20250701_280,2025-07-01,01:57:43,ASHA_IMP_02,VLG_IMP_05,PT_IMP_0280,5-14,M,"['Abdominal Pain', 'Weakness', 'Headache']",Typhoid Fever,None,Referred
+HLS_NER_20250701_188,2025-07-01,04:15:24,ASHA_AIZ_01,VLG_AIZ_01,PT_AIZ_0188,<5,M,"['Weakness', 'Fever', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250701_233,2025-07-01,08:13:09,ASHA_KOH_02,VLG_KOH_04,PT_KOH_0233,46-60,F,"['Headache', 'Rash', 'Abdominal Pain', 'Weakness']",Typhoid Fever,None,Referred
+HLS_NER_20250701_274,2025-07-01,12:14:08,ASHA_IMP_01,VLG_IMP_01,PT_IMP_0274,15-45,M,"['Vomiting', 'Diarrhea', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250701_474,2025-07-01,15:34:56,ASHA_GAU_02,VLG_GAU_05,PT_GAU_0474,46-60,F,"['Fever', 'Muscle Pain', 'Sweating']",Malaria,None,Under Treatment
+HLS_NER_20250702_389,2025-07-02,03:34:15,ASHA_SIL_02,VLG_SIL_01,PT_SIL_0389,46-60,M,"['Abdominal Pain', 'Fever', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250702_394,2025-07-02,04:22:35,ASHA_GAU_03,VLG_GAU_02,PT_GAU_0394,15-45,F,"['Chills', 'Fever', 'Headache', 'Muscle Pain', 'Sweating']",Malaria,None,Referred
+HLS_NER_20250702_471,2025-07-02,05:12:42,ASHA_SHL_01,VLG_SHL_02,PT_SHL_0471,5-14,M,"['Diarrhea', 'Fever', 'Vomiting']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250702_015,2025-07-02,17:37:14,ASHA_KOH_02,VLG_KOH_01,PT_KOH_0015,<5,M,"['Weakness', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250702_323,2025-07-02,18:37:45,ASHA_SHL_03,VLG_SHL_02,PT_SHL_0323,5-14,M,"['Vomiting', 'Weakness', 'Fever', 'Diarrhea', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20250702_087,2025-07-02,19:54:40,ASHA_GAU_02,VLG_GAU_02,PT_GAU_0087,<5,M,"['Abdominal Pain', 'Fever', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250703_187,2025-07-03,02:47:37,ASHA_KOH_02,VLG_KOH_05,PT_KOH_0187,<5,F,"['Headache', 'Fever', 'Weakness']",Typhoid Fever,None,Referred
+HLS_NER_20250703_262,2025-07-03,04:53:26,ASHA_SIL_02,VLG_SIL_03,PT_SIL_0262,>60,M,"['Weakness', 'Fever', 'Diarrhea', 'Vomiting']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250703_016,2025-07-03,05:11:06,ASHA_AIZ_03,VLG_AIZ_05,PT_AIZ_0016,46-60,F,"['Headache', 'Muscle Pain', 'Fever', 'Chills']",Malaria,Some,Referred
+HLS_NER_20250703_029,2025-07-03,06:27:30,ASHA_AIZ_01,VLG_AIZ_01,PT_AIZ_0029,15-45,F,"['Nausea', 'Dark Urine', 'Jaundice', 'Fatigue']",Hepatitis A,None,Referred
+HLS_NER_20250703_403,2025-07-03,10:17:43,ASHA_GAU_03,VLG_GAU_03,PT_GAU_0403,46-60,F,"['Headache', 'Muscle Pain', 'Fever']",Malaria,Some,Recovered
+HLS_NER_20250704_383,2025-07-04,22:23:25,ASHA_GAU_01,VLG_GAU_04,PT_GAU_0383,<5,M,"['Diarrhea', 'Vomiting', 'Abdominal Pain', 'Fever', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250705_486,2025-07-05,06:57:37,ASHA_KOH_01,VLG_KOH_05,PT_KOH_0486,15-45,F,"['Dark Urine', 'Loss of Appetite', 'Nausea', 'Fatigue']",Hepatitis A,None,Recovered
+HLS_NER_20250706_402,2025-07-06,02:05:58,ASHA_SIL_03,VLG_SIL_05,PT_SIL_0402,<5,M,"['Muscle Pain', 'Chills', 'Headache', 'Sweating']",Malaria,Some,Recovered
+HLS_NER_20250706_030,2025-07-06,06:33:54,ASHA_SHL_03,VLG_SHL_01,PT_SHL_0030,15-45,F,"['Runny Nose', 'Body Ache', 'Sore Throat', 'Cough']",Influenza-Like Illness,None,Referred
+HLS_NER_20250706_107,2025-07-06,07:01:00,ASHA_KOH_03,VLG_KOH_05,PT_KOH_0107,5-14,F,"['High Fever', 'Pain behind Eyes', 'Severe Headache', 'Rash']",Dengue Fever,None,Referred
+HLS_NER_20250706_031,2025-07-06,08:02:05,ASHA_SIL_02,VLG_SIL_02,PT_SIL_0031,46-60,M,"['Loss of Appetite', 'Nausea', 'Jaundice', 'Fatigue']",Hepatitis A,Some,Recovered
+HLS_NER_20250706_239,2025-07-06,09:11:29,ASHA_IMP_02,VLG_IMP_03,PT_IMP_0239,15-45,M,"['Diarrhea', 'Abdominal Pain', 'Fever', 'Vomiting']",Acute Diarrheal Disease,None,Under Treatment
+HLS_NER_20250706_343,2025-07-06,20:38:59,ASHA_IMP_03,VLG_IMP_02,PT_IMP_0343,5-14,F,"['Diarrhea', 'Vomiting', 'Weakness', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250707_010,2025-07-07,13:30:39,ASHA_AIZ_02,VLG_AIZ_01,PT_AIZ_0010,15-45,M,"['Headache', 'Muscle Pain', 'Chills', 'Fever', 'Sweating']",Malaria,None,Recovered
+HLS_NER_20250708_165,2025-07-08,01:22:01,ASHA_KOH_01,VLG_KOH_05,PT_KOH_0165,15-45,F,"['Fever', 'Headache', 'Chills', 'Muscle Pain', 'Sweating']",Malaria,None,Recovered
+HLS_NER_20250708_051,2025-07-08,12:51:25,ASHA_IMP_02,VLG_IMP_04,PT_IMP_0051,15-45,F,"['Vomiting', 'Diarrhea', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250708_407,2025-07-08,16:00:27,ASHA_SHL_03,VLG_SHL_04,PT_SHL_0407,46-60,F,"['Fever', 'Abdominal Pain', 'Weakness']",Typhoid Fever,None,Under Treatment
+HLS_NER_20250708_378,2025-07-08,16:56:28,ASHA_GAU_02,VLG_GAU_05,PT_GAU_0378,<5,F,"['Weakness', 'Abdominal Pain', 'Vomiting', 'Diarrhea']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20250708_282,2025-07-08,23:14:01,ASHA_GAU_03,VLG_GAU_01,PT_GAU_0282,15-45,M,"['Fever', 'Rash', 'Weakness']",Typhoid Fever,None,Recovered
+HLS_NER_20250709_468,2025-07-09,00:56:25,ASHA_AIZ_02,VLG_AIZ_05,PT_AIZ_0468,<5,F,"['Diarrhea', 'Fever', 'Abdominal Pain', 'Vomiting', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250709_050,2025-07-09,05:26:51,ASHA_AIZ_01,VLG_AIZ_04,PT_AIZ_0050,15-45,F,"['Rash', 'Headache', 'Abdominal Pain', 'Weakness', 'Fever']",Typhoid Fever,None,Recovered
+HLS_NER_20250710_311,2025-07-10,02:29:49,ASHA_SIL_02,VLG_SIL_03,PT_SIL_0311,5-14,F,"['Rash', 'Joint and Muscle Pain', 'Severe Headache']",Dengue Fever,None,Under Treatment
+HLS_NER_20250710_045,2025-07-10,03:17:00,ASHA_SHL_02,VLG_SHL_01,PT_SHL_0045,46-60,F,"['Abdominal Pain', 'Weakness', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20250710_195,2025-07-10,04:37:34,ASHA_IMP_01,VLG_IMP_03,PT_IMP_0195,5-14,F,"['Diarrhea', 'Weakness', 'Abdominal Pain', 'Fever', 'Vomiting']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20250710_469,2025-07-10,06:33:13,ASHA_SIL_02,VLG_SIL_01,PT_SIL_0469,>60,M,"['Fever', 'Abdominal Pain', 'Diarrhea']",Acute Diarrheal Disease,None,Under Treatment
+HLS_NER_20250710_022,2025-07-10,08:24:30,ASHA_SHL_03,VLG_SHL_01,PT_SHL_0022,15-45,M,"['Fever', 'Diarrhea', 'Weakness', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250710_458,2025-07-10,09:23:46,ASHA_KOH_02,VLG_KOH_03,PT_KOH_0458,15-45,M,"['Rash', 'Pain behind Eyes', 'Joint and Muscle Pain', 'High Fever']",Dengue Fever,None,Under Treatment
+HLS_NER_20250710_325,2025-07-10,11:36:43,ASHA_SIL_01,VLG_SIL_02,PT_SIL_0325,15-45,F,"['Sweating', 'Headache', 'Fever']",Malaria,Some,Recovered
+HLS_NER_20250710_443,2025-07-10,16:03:07,ASHA_SIL_02,VLG_SIL_05,PT_SIL_0443,15-45,M,"['Fever', 'Diarrhea', 'Abdominal Pain', 'Weakness', 'Vomiting']",Acute Diarrheal Disease,Severe,Under Treatment
+HLS_NER_20250710_047,2025-07-10,17:51:49,ASHA_IMP_01,VLG_IMP_02,PT_IMP_0047,15-45,M,"['Weakness', 'Abdominal Pain', 'Headache']",Typhoid Fever,None,Referred
+HLS_NER_20250711_101,2025-07-11,05:12:49,ASHA_AIZ_03,VLG_AIZ_04,PT_AIZ_0101,15-45,M,"['Weakness', 'Vomiting', 'Diarrhea', 'Fever']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250711_385,2025-07-11,07:55:36,ASHA_GAU_02,VLG_GAU_02,PT_GAU_0385,15-45,M,"['Vomiting', 'Weakness', 'Diarrhea', 'Fever']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250711_433,2025-07-11,10:43:12,ASHA_SIL_02,VLG_SIL_04,PT_SIL_0433,15-45,M,"['Diarrhea', 'Abdominal Pain', 'Vomiting']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250711_145,2025-07-11,17:55:39,ASHA_SHL_01,VLG_SHL_02,PT_SHL_0145,15-45,M,"['Abdominal Pain', 'Rash', 'Fever']",Typhoid Fever,None,Recovered
+HLS_NER_20250711_496,2025-07-11,18:31:03,ASHA_GAU_03,VLG_GAU_01,PT_GAU_0496,<5,M,"['Runny Nose', 'Cough', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250712_098,2025-07-12,10:22:13,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_0098,15-45,M,"['Diarrhea', 'Fever', 'Abdominal Pain']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20250713_097,2025-07-13,13:01:01,ASHA_KOH_03,VLG_KOH_03,PT_KOH_0097,>60,M,"['Abdominal Pain', 'Fever', 'Headache', 'Rash', 'Weakness']",Typhoid Fever,Severe,Referred
+HLS_NER_20250714_005,2025-07-14,02:20:01,ASHA_KOH_03,VLG_KOH_04,PT_KOH_0005,5-14,F,"['Dark Urine', 'Fatigue', 'Jaundice', 'Loss of Appetite']",Hepatitis A,Some,Recovered
+HLS_NER_20250714_331,2025-07-14,12:40:30,ASHA_SIL_01,VLG_SIL_03,PT_SIL_0331,15-45,M,"['Headache', 'Muscle Pain', 'Chills', 'Fever']",Malaria,None,Recovered
+HLS_NER_20250715_462,2025-07-15,00:29:53,ASHA_KOH_02,VLG_KOH_03,PT_KOH_0462,15-45,M,"['Abdominal Pain', 'Headache', 'Rash', 'Fever', 'Weakness']",Typhoid Fever,None,Recovered
+HLS_NER_20250715_164,2025-07-15,08:22:12,ASHA_AIZ_02,VLG_AIZ_01,PT_AIZ_0164,5-14,M,"['Sweating', 'Headache', 'Chills', 'Muscle Pain']",Malaria,Severe,Referred
+HLS_NER_20250715_317,2025-07-15,16:46:00,ASHA_SIL_02,VLG_SIL_02,PT_SIL_0317,15-45,M,"['Headache', 'Muscle Pain', 'Sweating', 'Chills']",Malaria,None,Recovered
+HLS_NER_20250715_123,2025-07-15,16:59:11,ASHA_SIL_03,VLG_SIL_04,PT_SIL_0123,>60,F,"['Rash', 'Headache', 'Fever', 'Weakness']",Typhoid Fever,None,Recovered
+HLS_NER_20250715_447,2025-07-15,23:15:41,ASHA_GAU_01,VLG_GAU_05,PT_GAU_0447,<5,F,"['Rash', 'Weakness', 'Fever']",Typhoid Fever,Some,Recovered
+HLS_NER_20250716_359,2025-07-16,03:41:06,ASHA_IMP_02,VLG_IMP_02,PT_IMP_0359,15-45,M,"['Rash', 'Joint and Muscle Pain', 'Severe Headache', 'Pain behind Eyes', 'High Fever']",Dengue Fever,Some,Referred
+HLS_NER_20250716_276,2025-07-16,21:23:29,ASHA_IMP_03,VLG_IMP_02,PT_IMP_0276,15-45,M,"['Diarrhea', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20250716_201,2025-07-16,22:57:33,ASHA_GAU_02,VLG_GAU_01,PT_GAU_0201,<5,F,"['Vomiting', 'Diarrhea', 'Weakness', 'Fever', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20250717_380,2025-07-17,09:42:06,ASHA_GAU_02,VLG_GAU_05,PT_GAU_0380,15-45,F,"['Dark Urine', 'Nausea', 'Jaundice', 'Loss of Appetite']",Hepatitis A,Some,Recovered
+HLS_NER_20250717_216,2025-07-17,20:44:42,ASHA_GAU_01,VLG_GAU_01,PT_GAU_0216,46-60,M,"['Weakness', 'Rash', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20250717_181,2025-07-17,23:49:45,ASHA_IMP_02,VLG_IMP_04,PT_IMP_0181,15-45,M,"['Abdominal Pain', 'Weakness', 'Rash', 'Fever']",Typhoid Fever,None,Referred
+HLS_NER_20250718_370,2025-07-18,11:08:33,ASHA_SHL_02,VLG_SHL_05,PT_SHL_0370,15-45,F,"['Joint and Muscle Pain', 'Rash', 'High Fever']",Dengue Fever,Some,Recovered
+HLS_NER_20250718_309,2025-07-18,11:28:43,ASHA_GAU_02,VLG_GAU_03,PT_GAU_0309,15-45,M,"['Joint and Muscle Pain', 'Pain behind Eyes', 'Rash']",Dengue Fever,Some,Referred
+HLS_NER_20250718_067,2025-07-18,11:41:51,ASHA_SIL_03,VLG_SIL_04,PT_SIL_0067,15-45,M,"['High Fever', 'Pain behind Eyes', 'Rash']",Dengue Fever,None,Recovered
+HLS_NER_20250718_191,2025-07-18,12:19:41,ASHA_SHL_01,VLG_SHL_03,PT_SHL_0191,>60,M,"['Vomiting', 'Severe Diarrhea', 'Rice-Water Stools']",Cholera,Severe,Under Treatment
+HLS_NER_20250718_308,2025-07-18,17:13:30,ASHA_GAU_01,VLG_GAU_03,PT_GAU_0308,<5,M,"['Leg Cramps', 'Severe Diarrhea', 'Dehydration', 'Rice-Water Stools']",Cholera,Severe,Referred
+HLS_NER_20250718_200,2025-07-18,22:42:26,ASHA_SHL_02,VLG_SHL_03,PT_SHL_0200,5-14,F,"['Muscle Pain', 'Chills', 'Sweating']",Malaria,None,Under Treatment
+HLS_NER_20250719_152,2025-07-19,03:41:07,ASHA_KOH_03,VLG_KOH_02,PT_KOH_0152,46-60,F,"['Fever', 'Weakness', 'Vomiting', 'Diarrhea']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20250719_028,2025-07-19,07:57:56,ASHA_GAU_03,VLG_GAU_05,PT_GAU_0028,15-45,M,"['Vomiting', 'Abdominal Pain', 'Weakness', 'Diarrhea', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250719_083,2025-07-19,13:11:53,ASHA_SHL_02,VLG_SHL_05,PT_SHL_0083,<5,M,"['Leg Cramps', 'Vomiting', 'Rice-Water Stools', 'Severe Diarrhea']",Cholera,Severe,Referred
+HLS_NER_20250719_397,2025-07-19,18:00:06,ASHA_KOH_01,VLG_KOH_04,PT_KOH_0397,15-45,F,"['Rash', 'Severe Headache', 'High Fever', 'Pain behind Eyes']",Dengue Fever,Some,Recovered
+HLS_NER_20250720_197,2025-07-20,03:14:27,ASHA_IMP_01,VLG_IMP_03,PT_IMP_0197,<5,F,"['Rash', 'Weakness', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20250720_301,2025-07-20,05:50:53,ASHA_KOH_01,VLG_KOH_01,PT_KOH_0301,<5,M,"['Abdominal Pain', 'Diarrhea', 'Vomiting', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250720_340,2025-07-20,15:36:19,ASHA_GAU_02,VLG_GAU_03,PT_GAU_0340,<5,M,"['Diarrhea', 'Vomiting', 'Abdominal Pain', 'Fever']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20250720_265,2025-07-20,21:00:30,ASHA_SHL_02,VLG_SHL_04,PT_SHL_0265,<5,F,"['Headache', 'Abdominal Pain', 'Weakness', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20250720_089,2025-07-20,22:26:03,ASHA_KOH_03,VLG_KOH_05,PT_KOH_0089,15-45,M,"['Fever', 'Abdominal Pain', 'Headache', 'Rash']",Typhoid Fever,Some,Recovered
+HLS_NER_20250721_252,2025-07-21,07:17:09,ASHA_KOH_01,VLG_KOH_03,PT_KOH_0252,5-14,M,"['Sore Throat', 'Body Ache', 'Runny Nose']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250721_319,2025-07-21,13:00:20,ASHA_SIL_01,VLG_SIL_02,PT_SIL_0319,15-45,M,"['Diarrhea', 'Fever', 'Vomiting']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250721_300,2025-07-21,20:31:10,ASHA_IMP_03,VLG_IMP_03,PT_IMP_0300,<5,M,"['Weakness', 'Vomiting', 'Fever']",Acute Diarrheal Disease,Severe,Under Treatment
+HLS_NER_20250722_172,2025-07-22,00:58:18,ASHA_IMP_01,VLG_IMP_04,PT_IMP_0172,15-45,F,"['Fever', 'Weakness', 'Abdominal Pain', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20250722_439,2025-07-22,08:33:42,ASHA_SHL_01,VLG_SHL_01,PT_SHL_0439,5-14,M,"['Weakness', 'Abdominal Pain', 'Fever']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20250722_154,2025-07-22,15:22:50,ASHA_KOH_01,VLG_KOH_01,PT_KOH_0154,15-45,F,"['Muscle Pain', 'Chills', 'Headache', 'Sweating']",Malaria,None,Recovered
+HLS_NER_20250722_454,2025-07-22,16:15:43,ASHA_GAU_02,VLG_GAU_02,PT_GAU_0454,<5,M,"['Weakness', 'Fever', 'Headache', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20250722_134,2025-07-22,18:34:35,ASHA_GAU_02,VLG_GAU_04,PT_GAU_0134,5-14,F,"['Diarrhea', 'Abdominal Pain', 'Fever', 'Weakness']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20250722_210,2025-07-22,18:50:30,ASHA_GAU_03,VLG_GAU_05,PT_GAU_0210,5-14,F,"['Weakness', 'Vomiting', 'Fever', 'Abdominal Pain', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250722_395,2025-07-22,19:06:34,ASHA_GAU_01,VLG_GAU_05,PT_GAU_0395,5-14,M,"['Abdominal Pain', 'Weakness', 'Diarrhea', 'Fever', 'Vomiting']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250722_248,2025-07-22,22:20:12,ASHA_SIL_02,VLG_SIL_03,PT_SIL_0248,15-45,F,"['Cough', 'Fever', 'Body Ache']",Influenza-Like Illness,Some,Recovered
+HLS_NER_20250723_313,2025-07-23,12:32:55,ASHA_KOH_02,VLG_KOH_02,PT_KOH_0313,5-14,F,"['Diarrhea', 'Weakness', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250723_441,2025-07-23,21:55:05,ASHA_KOH_01,VLG_KOH_05,PT_KOH_0441,5-14,M,"['Abdominal Pain', 'Headache', 'Weakness', 'Rash', 'Fever']",Typhoid Fever,None,Referred
+HLS_NER_20250723_161,2025-07-23,22:52:25,ASHA_GAU_03,VLG_GAU_05,PT_GAU_0161,46-60,M,"['Headache', 'Abdominal Pain', 'Fever', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20250724_044,2025-07-24,09:29:30,ASHA_SIL_01,VLG_SIL_01,PT_SIL_0044,<5,F,"['Fever', 'Weakness', 'Vomiting']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250725_494,2025-07-25,13:26:52,ASHA_IMP_03,VLG_IMP_01,PT_IMP_0494,15-45,M,"['Chills', 'Muscle Pain', 'Sweating']",Malaria,None,Under Treatment
+HLS_NER_20250725_281,2025-07-25,20:05:11,ASHA_GAU_02,VLG_GAU_03,PT_GAU_0281,46-60,F,"['Weakness', 'Fever', 'Diarrhea', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250725_061,2025-07-25,20:29:21,ASHA_GAU_01,VLG_GAU_05,PT_GAU_0061,15-45,M,"['Diarrhea', 'Weakness', 'Fever', 'Abdominal Pain', 'Vomiting']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20250725_497,2025-07-25,21:40:00,ASHA_SHL_03,VLG_SHL_04,PT_SHL_0497,5-14,M,"['Dehydration', 'Rice-Water Stools', 'Severe Diarrhea', 'Leg Cramps']",Cholera,Severe,Referred
+HLS_NER_20250725_082,2025-07-25,21:56:53,ASHA_IMP_01,VLG_IMP_02,PT_IMP_0082,15-45,F,"['Abdominal Pain', 'Rash', 'Headache']",Typhoid Fever,Some,Recovered
+HLS_NER_20250725_329,2025-07-25,22:01:44,ASHA_SIL_03,VLG_SIL_05,PT_SIL_0329,<5,M,"['Weakness', 'Headache', 'Fever']",Typhoid Fever,None,Referred
+HLS_NER_20250726_140,2025-07-26,05:47:55,ASHA_IMP_02,VLG_IMP_03,PT_IMP_0140,46-60,F,"['Pain behind Eyes', 'Severe Headache', 'Joint and Muscle Pain', 'High Fever']",Dengue Fever,Some,Referred
+HLS_NER_20250726_043,2025-07-26,15:14:50,ASHA_IMP_02,VLG_IMP_02,PT_IMP_0043,5-14,F,"['Loss of Appetite', 'Jaundice', 'Nausea']",Hepatitis A,None,Referred
+HLS_NER_20250726_146,2025-07-26,15:27:29,ASHA_IMP_03,VLG_IMP_05,PT_IMP_0146,15-45,F,"['Diarrhea', 'Vomiting', 'Weakness', 'Abdominal Pain', 'Fever']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250726_464,2025-07-26,17:33:15,ASHA_SHL_03,VLG_SHL_03,PT_SHL_0464,<5,F,"['Muscle Pain', 'Chills', 'Fever', 'Sweating']",Malaria,None,Recovered
+HLS_NER_20250727_428,2025-07-27,09:44:49,ASHA_KOH_02,VLG_KOH_01,PT_KOH_0428,<5,M,"['Headache', 'Sweating', 'Fever', 'Chills', 'Muscle Pain']",Malaria,Some,Referred
+HLS_NER_20250727_156,2025-07-27,11:41:36,ASHA_KOH_01,VLG_KOH_01,PT_KOH_0156,<5,M,"['Joint and Muscle Pain', 'Severe Headache', 'Rash', 'Pain behind Eyes']",Dengue Fever,None,Under Treatment
+HLS_NER_20250727_408,2025-07-27,23:23:37,ASHA_SHL_02,VLG_SHL_03,PT_SHL_0408,15-45,F,"['Vomiting', 'Abdominal Pain', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250728_074,2025-07-28,05:32:15,ASHA_SIL_02,VLG_SIL_02,PT_SIL_0074,<5,F,"['Abdominal Pain', 'Weakness', 'Vomiting']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250728_103,2025-07-28,13:24:23,ASHA_SIL_01,VLG_SIL_01,PT_SIL_0103,46-60,M,"['Severe Headache', 'Rash', 'Joint and Muscle Pain']",Dengue Fever,Some,Recovered
+HLS_NER_20250728_038,2025-07-28,15:17:09,ASHA_SHL_03,VLG_SHL_05,PT_SHL_0038,<5,M,"['Rash', 'High Fever', 'Pain behind Eyes', 'Joint and Muscle Pain', 'Severe Headache']",Dengue Fever,None,Referred
+HLS_NER_20250728_013,2025-07-28,17:12:51,ASHA_SHL_03,VLG_SHL_04,PT_SHL_0013,46-60,M,"['Fever', 'Weakness', 'Vomiting']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250728_205,2025-07-28,18:10:04,ASHA_AIZ_03,VLG_AIZ_01,PT_AIZ_0205,<5,F,"['Diarrhea', 'Abdominal Pain', 'Vomiting']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20250729_112,2025-07-29,00:46:58,ASHA_SIL_01,VLG_SIL_01,PT_SIL_0112,15-45,F,"['Abdominal Pain', 'Diarrhea', 'Fever']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250729_102,2025-07-29,16:12:11,ASHA_SIL_02,VLG_SIL_02,PT_SIL_0102,15-45,M,"['Abdominal Pain', 'Weakness', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250729_214,2025-07-29,16:47:40,ASHA_AIZ_03,VLG_AIZ_02,PT_AIZ_0214,46-60,M,"['Diarrhea', 'Abdominal Pain', 'Weakness', 'Vomiting', 'Fever']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250729_238,2025-07-29,22:22:34,ASHA_IMP_01,VLG_IMP_01,PT_IMP_0238,15-45,F,"['Diarrhea', 'Fever', 'Abdominal Pain', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250730_221,2025-07-30,02:21:43,ASHA_AIZ_02,VLG_AIZ_03,PT_AIZ_0221,<5,F,"['Weakness', 'Rash', 'Abdominal Pain', 'Headache']",Typhoid Fever,None,Recovered
+HLS_NER_20250730_132,2025-07-30,02:29:31,ASHA_SHL_02,VLG_SHL_03,PT_SHL_0132,46-60,F,"['Fever', 'Diarrhea', 'Weakness']",Acute Diarrheal Disease,Severe,Under Treatment
+HLS_NER_20250731_400,2025-07-31,04:11:23,ASHA_AIZ_01,VLG_AIZ_04,PT_AIZ_0400,5-14,F,"['Severe Headache', 'High Fever', 'Rash', 'Joint and Muscle Pain', 'Pain behind Eyes']",Dengue Fever,None,Recovered
+HLS_NER_20250731_052,2025-07-31,05:11:28,ASHA_IMP_03,VLG_IMP_04,PT_IMP_0052,15-45,F,"['Headache', 'Weakness', 'Rash', 'Abdominal Pain', 'Fever']",Typhoid Fever,None,Recovered
+HLS_NER_20250731_110,2025-07-31,06:55:51,ASHA_SHL_02,VLG_SHL_04,PT_SHL_0110,46-60,F,"['Fatigue', 'Loss of Appetite', 'Dark Urine']",Hepatitis A,None,Under Treatment
+HLS_NER_20250731_057,2025-07-31,09:36:52,ASHA_IMP_01,VLG_IMP_04,PT_IMP_0057,<5,F,"['Rash', 'Joint and Muscle Pain', 'High Fever', 'Severe Headache']",Dengue Fever,None,Recovered
+HLS_NER_20250731_387,2025-07-31,11:02:54,ASHA_SIL_02,VLG_SIL_02,PT_SIL_0387,<5,M,"['Fever', 'Headache', 'Muscle Pain', 'Chills', 'Sweating']",Malaria,None,Referred
+HLS_NER_20250731_417,2025-07-31,11:56:46,ASHA_KOH_01,VLG_KOH_04,PT_KOH_0417,15-45,F,"['Fever', 'Weakness', 'Abdominal Pain', 'Vomiting', 'Diarrhea']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20250801_436,2025-08-01,01:38:01,ASHA_IMP_01,VLG_IMP_02,PT_IMP_0436,15-45,M,"['Severe Headache', 'Rash', 'Joint and Muscle Pain', 'High Fever']",Dengue Fever,None,Recovered
+HLS_NER_20250801_011,2025-08-01,05:17:50,ASHA_IMP_01,VLG_IMP_01,PT_IMP_0011,46-60,F,"['Fever', 'Abdominal Pain', 'Weakness', 'Headache', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20250801_285,2025-08-01,11:08:54,ASHA_SHL_03,VLG_SHL_01,PT_SHL_0285,5-14,F,"['Fatigue', 'Jaundice', 'Nausea', 'Dark Urine', 'Loss of Appetite']",Hepatitis A,None,Recovered
+HLS_NER_20250802_155,2025-08-02,22:44:28,ASHA_GAU_01,VLG_GAU_02,PT_GAU_0155,15-45,M,"['Dehydration', 'Rice-Water Stools', 'Leg Cramps', 'Severe Diarrhea', 'Vomiting']",Cholera,Severe,Referred
+HLS_NER_20250803_204,2025-08-03,04:24:09,ASHA_IMP_03,VLG_IMP_02,PT_IMP_0204,15-45,F,"['Joint and Muscle Pain', 'Pain behind Eyes', 'Rash', 'Severe Headache']",Dengue Fever,None,Recovered
+HLS_NER_20250803_342,2025-08-03,05:39:53,ASHA_SHL_02,VLG_SHL_02,PT_SHL_0342,5-14,F,"['Pain behind Eyes', 'Rash', 'Severe Headache', 'High Fever']",Dengue Fever,None,Under Treatment
+HLS_NER_20250804_174,2025-08-04,12:53:29,ASHA_KOH_02,VLG_KOH_01,PT_KOH_0174,<5,F,"['Dark Urine', 'Nausea', 'Jaundice', 'Loss of Appetite']",Hepatitis A,Some,Recovered
+HLS_NER_20250805_330,2025-08-05,00:50:29,ASHA_GAU_01,VLG_GAU_04,PT_GAU_0330,15-45,M,"['Muscle Pain', 'Headache', 'Sweating', 'Chills']",Malaria,None,Recovered
+HLS_NER_20250805_430,2025-08-05,10:08:15,ASHA_SHL_01,VLG_SHL_05,PT_SHL_0430,5-14,F,"['Headache', 'Fever', 'Muscle Pain', 'Sweating']",Malaria,Severe,Referred
+HLS_NER_20250805_446,2025-08-05,13:29:12,ASHA_SHL_01,VLG_SHL_03,PT_SHL_0446,<5,F,"['Fever', 'Abdominal Pain', 'Weakness']",Typhoid Fever,Some,Referred
+HLS_NER_20250805_135,2025-08-05,19:52:52,ASHA_SIL_02,VLG_SIL_05,PT_SIL_0135,<5,F,"['Fever', 'Diarrhea', 'Vomiting', 'Weakness', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250805_084,2025-08-05,20:34:36,ASHA_SHL_02,VLG_SHL_01,PT_SHL_0084,15-45,F,"['Abdominal Pain', 'Vomiting', 'Fever', 'Diarrhea', 'Weakness']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20250805_269,2025-08-05,21:38:51,ASHA_KOH_02,VLG_KOH_02,PT_KOH_0269,5-14,M,"['Weakness', 'Fever', 'Vomiting', 'Diarrhea', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250806_349,2025-08-06,04:00:42,ASHA_IMP_01,VLG_IMP_05,PT_IMP_0349,<5,F,"['Vomiting', 'Abdominal Pain', 'Diarrhea', 'Fever']",Acute Diarrheal Disease,None,Under Treatment
+HLS_NER_20250806_391,2025-08-06,05:01:00,ASHA_AIZ_01,VLG_AIZ_02,PT_AIZ_0391,>60,M,"['Vomiting', 'Fever', 'Abdominal Pain', 'Diarrhea']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250806_118,2025-08-06,08:21:39,ASHA_IMP_03,VLG_IMP_02,PT_IMP_0118,46-60,M,"['Headache', 'Abdominal Pain', 'Rash', 'Weakness', 'Fever']",Typhoid Fever,None,Recovered
+HLS_NER_20250806_243,2025-08-06,08:59:09,ASHA_SIL_01,VLG_SIL_05,PT_SIL_0243,15-45,M,"['Sweating', 'Fever', 'Muscle Pain', 'Headache', 'Chills']",Malaria,Severe,Under Treatment
+HLS_NER_20250806_116,2025-08-06,17:20:02,ASHA_KOH_01,VLG_KOH_01,PT_KOH_0116,15-45,F,"['Diarrhea', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250806_078,2025-08-06,19:07:38,ASHA_SIL_01,VLG_SIL_01,PT_SIL_0078,15-45,F,"['Fever', 'Rash', 'Abdominal Pain', 'Headache', 'Weakness']",Typhoid Fever,None,Recovered
+HLS_NER_20250807_128,2025-08-07,01:53:29,ASHA_SIL_02,VLG_SIL_01,PT_SIL_0128,46-60,M,"['Severe Diarrhea', 'Rice-Water Stools', 'Leg Cramps', 'Vomiting', 'Dehydration']",Cholera,Severe,Referred
+HLS_NER_20250807_068,2025-08-07,09:46:40,ASHA_SHL_01,VLG_SHL_04,PT_SHL_0068,15-45,M,"['Weakness', 'Fever', 'Diarrhea']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250807_386,2025-08-07,10:36:24,ASHA_SIL_03,VLG_SIL_04,PT_SIL_0386,>60,M,"['Headache', 'Fever', 'Rash', 'Weakness']",Typhoid Fever,None,Recovered
+HLS_NER_20250808_148,2025-08-08,01:03:11,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_0148,46-60,F,"['Weakness', 'Fever', 'Abdominal Pain', 'Diarrhea']",Acute Diarrheal Disease,Severe,Under Treatment
+HLS_NER_20250808_213,2025-08-08,15:25:57,ASHA_AIZ_01,VLG_AIZ_02,PT_AIZ_0213,>60,M,"['Fever', 'Weakness', 'Rash']",Typhoid Fever,Some,Recovered
+HLS_NER_20250808_377,2025-08-08,16:20:50,ASHA_AIZ_02,VLG_AIZ_02,PT_AIZ_0377,15-45,M,"['Sweating', 'Fever', 'Chills', 'Headache', 'Muscle Pain']",Malaria,None,Recovered
+HLS_NER_20250808_384,2025-08-08,18:44:08,ASHA_IMP_02,VLG_IMP_05,PT_IMP_0384,46-60,F,"['Weakness', 'Abdominal Pain', 'Fever', 'Headache']",Typhoid Fever,None,Referred
+HLS_NER_20250808_304,2025-08-08,21:29:47,ASHA_KOH_02,VLG_KOH_02,PT_KOH_0304,<5,F,"['Weakness', 'Diarrhea', 'Fever', 'Abdominal Pain', 'Vomiting']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250809_106,2025-08-09,08:24:05,ASHA_AIZ_03,VLG_AIZ_01,PT_AIZ_0106,15-45,F,"['Diarrhea', 'Abdominal Pain', 'Fever', 'Vomiting']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250809_225,2025-08-09,09:01:45,ASHA_KOH_01,VLG_KOH_04,PT_KOH_0225,15-45,F,"['Leg Cramps', 'Vomiting', 'Dehydration']",Cholera,Some,Recovered
+HLS_NER_20250809_219,2025-08-09,13:05:24,ASHA_AIZ_02,VLG_AIZ_04,PT_AIZ_0219,>60,M,"['Fever', 'Abdominal Pain', 'Vomiting', 'Weakness', 'Diarrhea']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250809_224,2025-08-09,14:43:25,ASHA_SIL_02,VLG_SIL_05,PT_SIL_0224,<5,M,"['Diarrhea', 'Vomiting', 'Weakness', 'Fever', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Under Treatment
+HLS_NER_20250809_361,2025-08-09,19:14:55,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_0361,46-60,F,"['Fever', 'Chills', 'Sweating', 'Muscle Pain', 'Headache']",Malaria,Some,Referred
+HLS_NER_20250809_054,2025-08-09,20:24:23,ASHA_GAU_02,VLG_GAU_05,PT_GAU_0054,15-45,M,"['Vomiting', 'Diarrhea', 'Abdominal Pain']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20250809_226,2025-08-09,21:25:42,ASHA_SIL_02,VLG_SIL_02,PT_SIL_0226,5-14,F,"['Rash', 'Headache', 'Abdominal Pain', 'Fever']",Typhoid Fever,None,Recovered
+HLS_NER_20250810_009,2025-08-10,04:21:41,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_0009,15-45,F,"['Chills', 'Sweating', 'Headache']",Malaria,None,Recovered
+HLS_NER_20250810_002,2025-08-10,04:34:09,ASHA_SHL_03,VLG_SHL_03,PT_SHL_0002,5-14,F,"['Fever', 'Rash', 'Weakness', 'Headache']",Typhoid Fever,None,Recovered
+HLS_NER_20250811_222,2025-08-11,00:23:44,ASHA_SIL_01,VLG_SIL_02,PT_SIL_0222,15-45,F,"['Nausea', 'Dark Urine', 'Fatigue', 'Jaundice', 'Loss of Appetite']",Hepatitis A,None,Recovered
+HLS_NER_20250811_396,2025-08-11,01:43:38,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_0396,15-45,F,"['Fever', 'Sore Throat', 'Body Ache', 'Cough', 'Runny Nose']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20250811_476,2025-08-11,04:39:31,ASHA_SHL_01,VLG_SHL_03,PT_SHL_0476,15-45,M,"['Rash', 'Severe Headache', 'High Fever', 'Pain behind Eyes', 'Joint and Muscle Pain']",Dengue Fever,None,Recovered
+HLS_NER_20250811_025,2025-08-11,04:41:00,ASHA_GAU_01,VLG_GAU_01,PT_GAU_0025,5-14,F,"['Jaundice', 'Nausea', 'Dark Urine']",Hepatitis A,Some,Referred
+HLS_NER_20250811_070,2025-08-11,11:23:39,ASHA_GAU_01,VLG_GAU_01,PT_GAU_0070,>60,F,"['Weakness', 'Fever', 'Rash', 'Abdominal Pain', 'Headache']",Typhoid Fever,None,Recovered
+HLS_NER_20250811_336,2025-08-11,12:06:53,ASHA_SHL_01,VLG_SHL_02,PT_SHL_0336,15-45,F,"['Rash', 'Abdominal Pain', 'Weakness', 'Headache', 'Fever']",Typhoid Fever,None,Recovered
+HLS_NER_20250811_036,2025-08-11,23:06:56,ASHA_IMP_03,VLG_IMP_01,PT_IMP_0036,15-45,F,"['High Fever', 'Joint and Muscle Pain', 'Rash']",Dengue Fever,Some,Recovered
+HLS_NER_20250811_303,2025-08-11,23:45:31,ASHA_KOH_02,VLG_KOH_01,PT_KOH_0303,<5,M,"['Abdominal Pain', 'Weakness', 'Vomiting', 'Fever', 'Diarrhea']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250812_302,2025-08-12,00:50:16,ASHA_SHL_03,VLG_SHL_03,PT_SHL_0302,5-14,F,"['Dark Urine', 'Loss of Appetite', 'Nausea', 'Jaundice', 'Fatigue']",Hepatitis A,None,Recovered
+HLS_NER_20250812_360,2025-08-12,05:30:31,ASHA_SHL_02,VLG_SHL_03,PT_SHL_0360,15-45,M,"['Headache', 'Abdominal Pain', 'Weakness']",Typhoid Fever,None,Recovered
+HLS_NER_20250812_411,2025-08-12,07:14:44,ASHA_KOH_01,VLG_KOH_04,PT_KOH_0411,15-45,M,"['High Fever', 'Severe Headache', 'Pain behind Eyes']",Dengue Fever,None,Recovered
+HLS_NER_20250813_183,2025-08-13,04:21:45,ASHA_GAU_01,VLG_GAU_01,PT_GAU_0183,15-45,F,"['Fever', 'Headache', 'Chills']",Malaria,None,Recovered
+HLS_NER_20250813_465,2025-08-13,07:53:23,ASHA_IMP_03,VLG_IMP_01,PT_IMP_0465,15-45,M,"['Fever', 'Weakness', 'Rash', 'Headache', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20250813_367,2025-08-13,12:05:03,ASHA_SIL_02,VLG_SIL_02,PT_SIL_0367,15-45,M,"['Vomiting', 'Diarrhea', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250813_463,2025-08-13,14:42:19,ASHA_SIL_03,VLG_SIL_01,PT_SIL_0463,46-60,F,"['Dark Urine', 'Fatigue', 'Jaundice', 'Nausea']",Hepatitis A,None,Referred
+HLS_NER_20250813_077,2025-08-13,15:15:24,ASHA_KOH_03,VLG_KOH_02,PT_KOH_0077,<5,F,"['Pain behind Eyes', 'High Fever', 'Joint and Muscle Pain', 'Severe Headache', 'Rash']",Dengue Fever,None,Recovered
+HLS_NER_20250814_058,2025-08-14,02:15:46,ASHA_IMP_03,VLG_IMP_04,PT_IMP_0058,<5,F,"['Leg Cramps', 'Severe Diarrhea', 'Rice-Water Stools']",Cholera,Severe,Referred
+HLS_NER_20250814_185,2025-08-14,07:09:49,ASHA_AIZ_02,VLG_AIZ_03,PT_AIZ_0185,46-60,F,"['Severe Headache', 'High Fever', 'Rash', 'Pain behind Eyes']",Dengue Fever,Some,Recovered
+HLS_NER_20250814_451,2025-08-14,13:42:29,ASHA_GAU_01,VLG_GAU_01,PT_GAU_0451,5-14,F,"['Diarrhea', 'Weakness', 'Vomiting', 'Abdominal Pain', 'Fever']",Acute Diarrheal Disease,Severe,Under Treatment
+HLS_NER_20250814_470,2025-08-14,23:09:43,ASHA_KOH_01,VLG_KOH_02,PT_KOH_0470,15-45,M,"['Weakness', 'Rash', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20250815_182,2025-08-15,09:34:31,ASHA_SIL_01,VLG_SIL_01,PT_SIL_0182,15-45,M,"['Weakness', 'Abdominal Pain', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250815_404,2025-08-15,19:49:56,ASHA_KOH_01,VLG_KOH_03,PT_KOH_0404,46-60,M,"['Jaundice', 'Dark Urine', 'Loss of Appetite', 'Nausea']",Hepatitis A,None,Referred
+HLS_NER_20250815_335,2025-08-15,21:02:57,ASHA_SHL_03,VLG_SHL_01,PT_SHL_0335,<5,M,"['Chills', 'Muscle Pain', 'Headache', 'Sweating']",Malaria,None,Referred
+HLS_NER_20250816_093,2025-08-16,06:45:43,ASHA_IMP_01,VLG_IMP_03,PT_IMP_0093,5-14,M,"['Vomiting', 'Weakness', 'Diarrhea']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250816_371,2025-08-16,14:36:39,ASHA_SHL_03,VLG_SHL_05,PT_SHL_0371,46-60,M,"['Weakness', 'Abdominal Pain', 'Fever', 'Rash']",Typhoid Fever,Some,Recovered
+HLS_NER_20250816_141,2025-08-16,19:25:12,ASHA_KOH_02,VLG_KOH_01,PT_KOH_0141,5-14,M,"['Muscle Pain', 'Chills', 'Headache']",Malaria,Some,Recovered
+HLS_NER_20250816_237,2025-08-16,22:00:30,ASHA_SIL_02,VLG_SIL_05,PT_SIL_0237,5-14,F,"['Chills', 'Muscle Pain', 'Sweating']",Malaria,None,Under Treatment
+HLS_NER_20250817_196,2025-08-17,06:24:24,ASHA_SHL_03,VLG_SHL_05,PT_SHL_0196,15-45,M,"['Fever', 'Abdominal Pain', 'Vomiting']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250818_297,2025-08-18,01:19:45,ASHA_AIZ_01,VLG_AIZ_04,PT_AIZ_0297,<5,M,"['Weakness', 'Vomiting', 'Diarrhea', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20250818_091,2025-08-18,05:54:10,ASHA_GAU_03,VLG_GAU_03,PT_GAU_0091,15-45,F,"['Headache', 'Muscle Pain', 'Sweating']",Malaria,Some,Under Treatment
+HLS_NER_20250818_490,2025-08-18,09:30:18,ASHA_GAU_03,VLG_GAU_03,PT_GAU_0490,15-45,F,"['Loss of Appetite', 'Jaundice', 'Fatigue', 'Dark Urine', 'Nausea']",Hepatitis A,None,Recovered
+HLS_NER_20250818_326,2025-08-18,09:39:16,ASHA_SHL_01,VLG_SHL_01,PT_SHL_0326,15-45,M,"['Vomiting', 'Weakness', 'Diarrhea', 'Fever']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20250818_264,2025-08-18,10:38:01,ASHA_SHL_03,VLG_SHL_04,PT_SHL_0264,15-45,F,"['Rash', 'Severe Headache', 'Pain behind Eyes', 'Joint and Muscle Pain']",Dengue Fever,None,Recovered
+HLS_NER_20250818_066,2025-08-18,15:26:29,ASHA_AIZ_02,VLG_AIZ_05,PT_AIZ_0066,>60,M,"['Weakness', 'Abdominal Pain', 'Headache', 'Rash', 'Fever']",Typhoid Fever,None,Recovered
+HLS_NER_20250818_211,2025-08-18,15:30:47,ASHA_SIL_02,VLG_SIL_05,PT_SIL_0211,15-45,F,"['Headache', 'Abdominal Pain', 'Weakness']",Typhoid Fever,None,Under Treatment
+HLS_NER_20250819_049,2025-08-19,04:10:53,ASHA_GAU_03,VLG_GAU_01,PT_GAU_0049,<5,M,"['Diarrhea', 'Abdominal Pain', 'Weakness', 'Vomiting']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250819_493,2025-08-19,05:45:54,ASHA_SIL_02,VLG_SIL_02,PT_SIL_0493,15-45,F,"['Pain behind Eyes', 'Rash', 'Severe Headache']",Dengue Fever,None,Recovered
+HLS_NER_20250819_472,2025-08-19,14:12:43,ASHA_SHL_02,VLG_SHL_01,PT_SHL_0472,5-14,F,"['Severe Headache', 'High Fever', 'Rash', 'Pain behind Eyes']",Dengue Fever,Some,Referred
+HLS_NER_20250819_230,2025-08-19,14:29:08,ASHA_IMP_02,VLG_IMP_04,PT_IMP_0230,5-14,M,"['Weakness', 'Headache', 'Abdominal Pain', 'Rash']",Typhoid Fever,Severe,Under Treatment
+HLS_NER_20250819_398,2025-08-19,14:31:41,ASHA_GAU_01,VLG_GAU_02,PT_GAU_0398,<5,F,"['Rash', 'Abdominal Pain', 'Fever']",Typhoid Fever,None,Recovered
+HLS_NER_20250819_482,2025-08-19,20:12:50,ASHA_IMP_03,VLG_IMP_01,PT_IMP_0482,15-45,M,"['Nausea', 'Jaundice', 'Fatigue', 'Dark Urine']",Hepatitis A,None,Under Treatment
+HLS_NER_20250820_305,2025-08-20,00:33:46,ASHA_IMP_03,VLG_IMP_05,PT_IMP_0305,46-60,F,"['Headache', 'Rash', 'Fever', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20250820_105,2025-08-20,05:49:53,ASHA_SIL_01,VLG_SIL_02,PT_SIL_0105,46-60,F,"['Abdominal Pain', 'Rash', 'Headache', 'Weakness', 'Fever']",Typhoid Fever,None,Recovered
+HLS_NER_20250820_073,2025-08-20,17:29:01,ASHA_SIL_03,VLG_SIL_03,PT_SIL_0073,15-45,M,"['Abdominal Pain', 'Fever', 'Diarrhea', 'Vomiting', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250820_286,2025-08-20,19:29:15,ASHA_SHL_02,VLG_SHL_03,PT_SHL_0286,15-45,M,"['Jaundice', 'Nausea', 'Fatigue', 'Dark Urine']",Hepatitis A,None,Referred
+HLS_NER_20250820_033,2025-08-20,23:27:51,ASHA_SIL_02,VLG_SIL_01,PT_SIL_0033,5-14,M,"['Loss of Appetite', 'Dark Urine', 'Nausea', 'Jaundice', 'Fatigue']",Hepatitis A,None,Recovered
+HLS_NER_20250821_130,2025-08-21,06:24:48,ASHA_IMP_01,VLG_IMP_02,PT_IMP_0130,5-14,M,"['Abdominal Pain', 'Rash', 'Weakness']",Typhoid Fever,None,Recovered
+HLS_NER_20250821_366,2025-08-21,09:03:48,ASHA_SHL_03,VLG_SHL_01,PT_SHL_0366,15-45,M,"['Fever', 'Weakness', 'Abdominal Pain']",Typhoid Fever,None,Under Treatment
+HLS_NER_20250821_467,2025-08-21,09:18:35,ASHA_GAU_01,VLG_GAU_01,PT_GAU_0467,5-14,F,"['Abdominal Pain', 'Rash', 'Headache', 'Weakness']",Typhoid Fever,None,Referred
+HLS_NER_20250821_208,2025-08-21,09:56:01,ASHA_SHL_02,VLG_SHL_02,PT_SHL_0208,5-14,M,"['Headache', 'Rash', 'Abdominal Pain']",Typhoid Fever,None,Referred
+HLS_NER_20250821_223,2025-08-21,11:12:59,ASHA_AIZ_02,VLG_AIZ_01,PT_AIZ_0223,15-45,F,"['Dark Urine', 'Nausea', 'Fatigue']",Hepatitis A,None,Recovered
+HLS_NER_20250821_425,2025-08-21,11:29:04,ASHA_GAU_01,VLG_GAU_03,PT_GAU_0425,15-45,F,"['Diarrhea', 'Fever', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250821_271,2025-08-21,21:01:21,ASHA_KOH_01,VLG_KOH_04,PT_KOH_0271,5-14,F,"['Pain behind Eyes', 'Rash', 'High Fever', 'Joint and Muscle Pain']",Dengue Fever,None,Referred
+HLS_NER_20250822_119,2025-08-22,02:33:24,ASHA_IMP_01,VLG_IMP_05,PT_IMP_0119,15-45,F,"['Muscle Pain', 'Fever', 'Chills', 'Sweating', 'Headache']",Malaria,None,Under Treatment
+HLS_NER_20250823_040,2025-08-23,00:51:39,ASHA_SHL_01,VLG_SHL_01,PT_SHL_0040,46-60,M,"['Diarrhea', 'Abdominal Pain', 'Vomiting', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250823_157,2025-08-23,08:13:33,ASHA_IMP_03,VLG_IMP_03,PT_IMP_0157,<5,M,"['Fever', 'Weakness', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20250823_079,2025-08-23,08:41:30,ASHA_KOH_02,VLG_KOH_04,PT_KOH_0079,<5,M,"['Nausea', 'Jaundice', 'Dark Urine']",Hepatitis A,None,Recovered
+HLS_NER_20250823_199,2025-08-23,15:51:44,ASHA_IMP_01,VLG_IMP_01,PT_IMP_0199,<5,F,"['Fever', 'Vomiting', 'Abdominal Pain', 'Diarrhea', 'Weakness']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20250823_059,2025-08-23,17:24:19,ASHA_IMP_01,VLG_IMP_02,PT_IMP_0059,<5,F,"['Headache', 'Weakness', 'Abdominal Pain', 'Fever', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20250823_429,2025-08-23,21:25:21,ASHA_KOH_03,VLG_KOH_05,PT_KOH_0429,5-14,F,"['Rash', 'Weakness', 'Headache', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20250824_003,2025-08-24,01:40:51,ASHA_AIZ_03,VLG_AIZ_05,PT_AIZ_0003,15-45,M,"['Headache', 'Abdominal Pain', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20250824_277,2025-08-24,02:43:21,ASHA_AIZ_03,VLG_AIZ_05,PT_AIZ_0277,15-45,M,"['High Fever', 'Joint and Muscle Pain', 'Rash']",Dengue Fever,None,Referred
+HLS_NER_20250824_162,2025-08-24,03:40:26,ASHA_SHL_03,VLG_SHL_05,PT_SHL_0162,15-45,M,"['Diarrhea', 'Weakness', 'Vomiting']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250825_244,2025-08-25,02:08:14,ASHA_AIZ_02,VLG_AIZ_02,PT_AIZ_0244,15-45,M,"['Nausea', 'Jaundice', 'Dark Urine', 'Loss of Appetite']",Hepatitis A,None,Recovered
+HLS_NER_20250825_108,2025-08-25,07:02:38,ASHA_SIL_02,VLG_SIL_05,PT_SIL_0108,15-45,F,"['Cough', 'Fever', 'Body Ache', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250825_260,2025-08-25,18:28:12,ASHA_SHL_03,VLG_SHL_05,PT_SHL_0260,15-45,M,"['High Fever', 'Severe Headache', 'Joint and Muscle Pain', 'Rash', 'Pain behind Eyes']",Dengue Fever,Some,Recovered
+HLS_NER_20250826_099,2025-08-26,14:49:37,ASHA_IMP_01,VLG_IMP_01,PT_IMP_0099,<5,M,"['Pain behind Eyes', 'Severe Headache', 'Rash', 'Joint and Muscle Pain', 'High Fever']",Dengue Fever,Some,Recovered
+HLS_NER_20250826_071,2025-08-26,15:35:37,ASHA_SHL_03,VLG_SHL_04,PT_SHL_0071,46-60,M,"['Fever', 'Abdominal Pain', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250826_475,2025-08-26,19:15:55,ASHA_AIZ_02,VLG_AIZ_04,PT_AIZ_0475,46-60,F,"['Jaundice', 'Nausea', 'Fatigue']",Hepatitis A,None,Recovered
+HLS_NER_20250826_390,2025-08-26,22:00:08,ASHA_GAU_03,VLG_GAU_02,PT_GAU_0390,5-14,M,"['Leg Cramps', 'Severe Diarrhea', 'Vomiting', 'Rice-Water Stools', 'Dehydration']",Cholera,Some,Recovered
+HLS_NER_20250827_220,2025-08-27,06:09:03,ASHA_SIL_03,VLG_SIL_02,PT_SIL_0220,46-60,M,"['Headache', 'Fever', 'Rash']",Typhoid Fever,None,Under Treatment
+HLS_NER_20250827_461,2025-08-27,17:03:17,ASHA_KOH_01,VLG_KOH_03,PT_KOH_0461,15-45,F,"['Diarrhea', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250828_032,2025-08-28,04:11:30,ASHA_SIL_03,VLG_SIL_02,PT_SIL_0032,<5,F,"['Abdominal Pain', 'Weakness', 'Fever']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250828_442,2025-08-28,06:06:30,ASHA_SHL_03,VLG_SHL_04,PT_SHL_0442,15-45,M,"['Weakness', 'Fever', 'Rash', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20250828_435,2025-08-28,12:27:43,ASHA_GAU_01,VLG_GAU_05,PT_GAU_0435,15-45,M,"['Rice-Water Stools', 'Leg Cramps', 'Severe Diarrhea']",Cholera,Severe,Referred
+HLS_NER_20250828_006,2025-08-28,18:17:26,ASHA_SIL_02,VLG_SIL_02,PT_SIL_0006,<5,M,"['Abdominal Pain', 'Rash', 'Weakness', 'Headache']",Typhoid Fever,None,Recovered
+HLS_NER_20250828_431,2025-08-28,20:08:14,ASHA_SHL_03,VLG_SHL_02,PT_SHL_0431,5-14,F,"['Weakness', 'Abdominal Pain', 'Headache', 'Fever', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20250829_350,2025-08-29,05:42:26,ASHA_SIL_03,VLG_SIL_05,PT_SIL_0350,46-60,F,"['Headache', 'Chills', 'Muscle Pain', 'Fever', 'Sweating']",Malaria,None,Recovered
+HLS_NER_20250829_131,2025-08-29,07:34:46,ASHA_SIL_01,VLG_SIL_01,PT_SIL_0131,15-45,M,"['Sweating', 'Fever', 'Muscle Pain']",Malaria,Some,Under Treatment
+HLS_NER_20250829_240,2025-08-29,17:39:36,ASHA_IMP_01,VLG_IMP_02,PT_IMP_0240,<5,F,"['Fever', 'Muscle Pain', 'Sweating']",Malaria,Some,Recovered
+HLS_NER_20250829_207,2025-08-29,18:18:30,ASHA_GAU_01,VLG_GAU_04,PT_GAU_0207,15-45,M,"['Jaundice', 'Loss of Appetite', 'Fatigue', 'Nausea', 'Dark Urine']",Hepatitis A,None,Recovered
+HLS_NER_20250830_279,2025-08-30,18:31:26,ASHA_SIL_03,VLG_SIL_03,PT_SIL_0279,15-45,M,"['Weakness', 'Fever', 'Diarrhea', 'Abdominal Pain', 'Vomiting']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250831_189,2025-08-31,04:05:37,ASHA_AIZ_03,VLG_AIZ_02,PT_AIZ_0189,15-45,M,"['Fever', 'Diarrhea', 'Vomiting', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250831_369,2025-08-31,09:57:05,ASHA_GAU_03,VLG_GAU_02,PT_GAU_0369,5-14,F,"['Weakness', 'Abdominal Pain', 'Fever', 'Vomiting']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250831_453,2025-08-31,14:58:37,ASHA_AIZ_02,VLG_AIZ_05,PT_AIZ_0453,5-14,F,"['Fever', 'Abdominal Pain', 'Diarrhea', 'Weakness', 'Vomiting']",Acute Diarrheal Disease,Severe,Under Treatment
+HLS_NER_20250831_426,2025-08-31,15:27:08,ASHA_GAU_02,VLG_GAU_04,PT_GAU_0426,15-45,F,"['Headache', 'Sweating', 'Fever', 'Chills']",Malaria,None,Recovered
+HLS_NER_20250831_320,2025-08-31,16:27:11,ASHA_SHL_01,VLG_SHL_03,PT_SHL_0320,>60,M,"['Muscle Pain', 'Sweating', 'Headache']",Malaria,None,Under Treatment
+HLS_NER_20250901_346,2025-09-01,15:29:46,ASHA_GAU_02,VLG_GAU_03,PT_GAU_0346,46-60,M,"['Nausea', 'Fatigue', 'Dark Urine', 'Loss of Appetite', 'Jaundice']",Hepatitis A,None,Referred
+HLS_NER_20250901_500,2025-09-01,17:15:51,ASHA_AIZ_01,VLG_AIZ_04,PT_AIZ_0500,15-45,M,"['Fever', 'Chills', 'Sweating', 'Muscle Pain']",Malaria,None,Recovered
+HLS_NER_20250901_263,2025-09-01,17:43:51,ASHA_KOH_03,VLG_KOH_05,PT_KOH_0263,15-45,M,"['Rash', 'Headache', 'Fever', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20250902_192,2025-09-02,09:22:31,ASHA_GAU_03,VLG_GAU_05,PT_GAU_0192,46-60,M,"['Dark Urine', 'Jaundice', 'Nausea', 'Loss of Appetite', 'Fatigue']",Hepatitis A,None,Under Treatment
+HLS_NER_20250902_120,2025-09-02,13:10:16,ASHA_IMP_01,VLG_IMP_03,PT_IMP_0120,<5,F,"['Headache', 'Fever', 'Sweating', 'Chills', 'Muscle Pain']",Malaria,None,Under Treatment
+HLS_NER_20250902_488,2025-09-02,14:09:53,ASHA_KOH_02,VLG_KOH_04,PT_KOH_0488,15-45,F,"['Body Ache', 'Sore Throat', 'Runny Nose', 'Cough', 'Fever']",Influenza-Like Illness,None,Under Treatment
+HLS_NER_20250902_291,2025-09-02,16:46:55,ASHA_KOH_01,VLG_KOH_02,PT_KOH_0291,<5,F,"['Rash', 'Pain behind Eyes', 'Severe Headache', 'High Fever', 'Joint and Muscle Pain']",Dengue Fever,Some,Under Treatment
+HLS_NER_20250903_019,2025-09-03,08:09:11,ASHA_AIZ_01,VLG_AIZ_02,PT_AIZ_0019,15-45,M,"['Chills', 'Sweating', 'Fever', 'Muscle Pain']",Malaria,Some,Recovered
+HLS_NER_20250903_332,2025-09-03,08:57:42,ASHA_SIL_02,VLG_SIL_05,PT_SIL_0332,46-60,F,"['Rash', 'Fever', 'Abdominal Pain']",Typhoid Fever,Severe,Referred
+HLS_NER_20250904_046,2025-09-04,00:00:31,ASHA_IMP_01,VLG_IMP_01,PT_IMP_0046,<5,F,"['Pain behind Eyes', 'Rash', 'High Fever', 'Joint and Muscle Pain']",Dengue Fever,None,Under Treatment
+HLS_NER_20250904_246,2025-09-04,00:23:52,ASHA_KOH_02,VLG_KOH_02,PT_KOH_0246,5-14,F,"['Nausea', 'Jaundice', 'Fatigue', 'Dark Urine', 'Loss of Appetite']",Hepatitis A,None,Recovered
+HLS_NER_20250904_450,2025-09-04,03:41:18,ASHA_SIL_01,VLG_SIL_05,PT_SIL_0450,15-45,F,"['Vomiting', 'Diarrhea', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250904_374,2025-09-04,19:54:04,ASHA_KOH_03,VLG_KOH_05,PT_KOH_0374,5-14,M,"['Dark Urine', 'Nausea', 'Fatigue', 'Jaundice', 'Loss of Appetite']",Hepatitis A,Some,Referred
+HLS_NER_20250904_249,2025-09-04,20:10:17,ASHA_IMP_03,VLG_IMP_04,PT_IMP_0249,<5,M,"['Weakness', 'Diarrhea', 'Abdominal Pain', 'Vomiting']",Acute Diarrheal Disease,None,Recovered
+HLS_NER_20250904_318,2025-09-04,20:22:45,ASHA_SIL_03,VLG_SIL_01,PT_SIL_0318,15-45,M,"['Body Ache', 'Runny Nose', 'Cough', 'Sore Throat', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250905_018,2025-09-05,06:35:07,ASHA_GAU_01,VLG_GAU_01,PT_GAU_0018,15-45,F,"['Diarrhea', 'Fever', 'Abdominal Pain', 'Vomiting', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250905_270,2025-09-05,10:26:35,ASHA_SHL_03,VLG_SHL_05,PT_SHL_0270,5-14,F,"['Chills', 'Muscle Pain', 'Fever', 'Headache']",Malaria,None,Under Treatment
+HLS_NER_20250905_492,2025-09-05,13:39:38,ASHA_GAU_02,VLG_GAU_04,PT_GAU_0492,>60,M,"['Cough', 'Sore Throat', 'Fever']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250905_357,2025-09-05,14:20:49,ASHA_IMP_01,VLG_IMP_03,PT_IMP_0357,5-14,M,"['Chills', 'Headache', 'Fever', 'Muscle Pain']",Malaria,Some,Under Treatment
+HLS_NER_20250905_457,2025-09-05,15:21:19,ASHA_AIZ_01,VLG_AIZ_05,PT_AIZ_0457,46-60,F,"['Pain behind Eyes', 'Rash', 'Severe Headache']",Dengue Fever,Some,Recovered
+HLS_NER_20250906_324,2025-09-06,00:43:40,ASHA_IMP_01,VLG_IMP_04,PT_IMP_0324,46-60,F,"['Rash', 'High Fever', 'Pain behind Eyes', 'Severe Headache', 'Joint and Muscle Pain']",Dengue Fever,Some,Recovered
+HLS_NER_20250906_455,2025-09-06,19:16:08,ASHA_IMP_02,VLG_IMP_01,PT_IMP_0455,<5,M,"['Rice-Water Stools', 'Severe Diarrhea', 'Vomiting', 'Leg Cramps', 'Dehydration']",Cholera,Some,Recovered
+HLS_NER_20250906_114,2025-09-06,19:37:47,ASHA_GAU_02,VLG_GAU_05,PT_GAU_0114,15-45,F,"['Weakness', 'Diarrhea', 'Vomiting']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250906_180,2025-09-06,19:40:31,ASHA_SIL_03,VLG_SIL_01,PT_SIL_0180,15-45,M,"['Pain behind Eyes', 'Rash', 'High Fever', 'Joint and Muscle Pain']",Dengue Fever,None,Referred
+HLS_NER_20250907_008,2025-09-07,00:43:36,ASHA_AIZ_01,VLG_AIZ_04,PT_AIZ_0008,5-14,M,"['Dark Urine', 'Nausea', 'Fatigue', 'Loss of Appetite']",Hepatitis A,None,Referred
+HLS_NER_20250907_345,2025-09-07,03:00:19,ASHA_GAU_03,VLG_GAU_04,PT_GAU_0345,>60,M,"['Headache', 'Chills', 'Muscle Pain', 'Sweating', 'Fever']",Malaria,Severe,Referred
+HLS_NER_20250907_144,2025-09-07,06:20:59,ASHA_AIZ_02,VLG_AIZ_02,PT_AIZ_0144,>60,F,"['Fatigue', 'Jaundice', 'Dark Urine', 'Nausea', 'Loss of Appetite']",Hepatitis A,None,Under Treatment
+HLS_NER_20250907_333,2025-09-07,14:10:48,ASHA_KOH_02,VLG_KOH_02,PT_KOH_0333,15-45,M,"['Joint and Muscle Pain', 'Pain behind Eyes', 'High Fever', 'Rash', 'Severe Headache']",Dengue Fever,Some,Referred
+HLS_NER_20250907_053,2025-09-07,14:55:24,ASHA_KOH_03,VLG_KOH_01,PT_KOH_0053,5-14,F,"['Fever', 'Chills', 'Sweating', 'Headache', 'Muscle Pain']",Malaria,Some,Referred
+HLS_NER_20250907_445,2025-09-07,14:57:39,ASHA_AIZ_02,VLG_AIZ_02,PT_AIZ_0445,15-45,F,"['Muscle Pain', 'Sweating', 'Chills']",Malaria,None,Referred
+HLS_NER_20250907_410,2025-09-07,15:34:49,ASHA_GAU_01,VLG_GAU_04,PT_GAU_0410,15-45,M,"['Rash', 'Abdominal Pain', 'Fever']",Typhoid Fever,None,Under Treatment
+HLS_NER_20250907_178,2025-09-07,19:20:37,ASHA_KOH_01,VLG_KOH_02,PT_KOH_0178,15-45,F,"['Fever', 'Sweating', 'Headache', 'Chills']",Malaria,Some,Recovered
+HLS_NER_20250907_177,2025-09-07,22:07:27,ASHA_GAU_03,VLG_GAU_01,PT_GAU_0177,5-14,M,"['Nausea', 'Jaundice', 'Dark Urine', 'Fatigue']",Hepatitis A,None,Under Treatment
+HLS_NER_20250908_358,2025-09-08,06:11:06,ASHA_AIZ_02,VLG_AIZ_03,PT_AIZ_0358,5-14,F,"['Severe Headache', 'Rash', 'Joint and Muscle Pain']",Dengue Fever,Some,Referred
+HLS_NER_20250908_198,2025-09-08,07:15:38,ASHA_IMP_03,VLG_IMP_03,PT_IMP_0198,5-14,F,"['Chills', 'Muscle Pain', 'Headache', 'Sweating', 'Fever']",Malaria,Some,Recovered
+HLS_NER_20250908_268,2025-09-08,11:25:08,ASHA_GAU_01,VLG_GAU_02,PT_GAU_0268,15-45,F,"['Runny Nose', 'Fever', 'Sore Throat']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250908_147,2025-09-08,15:21:49,ASHA_SIL_01,VLG_SIL_05,PT_SIL_0147,15-45,M,"['Vomiting', 'Diarrhea', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250908_126,2025-09-08,19:19:33,ASHA_KOH_01,VLG_KOH_02,PT_KOH_0126,46-60,F,"['Joint and Muscle Pain', 'Severe Headache', 'Pain behind Eyes', 'Rash']",Dengue Fever,None,Recovered
+HLS_NER_20250909_149,2025-09-09,03:36:47,ASHA_AIZ_03,VLG_AIZ_01,PT_AIZ_0149,46-60,M,"['Abdominal Pain', 'Vomiting', 'Diarrhea', 'Fever', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250909_242,2025-09-09,09:02:41,ASHA_SHL_02,VLG_SHL_02,PT_SHL_0242,<5,F,"['Jaundice', 'Nausea', 'Fatigue', 'Dark Urine', 'Loss of Appetite']",Hepatitis A,None,Recovered
+HLS_NER_20250909_290,2025-09-09,16:37:48,ASHA_KOH_03,VLG_KOH_02,PT_KOH_0290,5-14,M,"['Weakness', 'Diarrhea', 'Vomiting']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250909_341,2025-09-09,23:15:14,ASHA_AIZ_02,VLG_AIZ_03,PT_AIZ_0341,15-45,M,"['Weakness', 'Rash', 'Abdominal Pain', 'Headache', 'Fever']",Typhoid Fever,Severe,Referred
+HLS_NER_20250910_294,2025-09-10,20:52:47,ASHA_KOH_02,VLG_KOH_04,PT_KOH_0294,<5,M,"['Loss of Appetite', 'Dark Urine', 'Fatigue', 'Nausea']",Hepatitis A,None,Referred
+HLS_NER_20250910_258,2025-09-10,21:43:14,ASHA_IMP_03,VLG_IMP_05,PT_IMP_0258,46-60,F,"['Fatigue', 'Nausea', 'Loss of Appetite', 'Jaundice', 'Dark Urine']",Hepatitis A,None,Under Treatment
+HLS_NER_20250911_227,2025-09-11,07:57:56,ASHA_SHL_01,VLG_SHL_01,PT_SHL_0227,5-14,M,"['Severe Headache', 'Joint and Muscle Pain', 'Pain behind Eyes', 'High Fever', 'Rash']",Dengue Fever,Some,Under Treatment
+HLS_NER_20250911_334,2025-09-11,20:00:46,ASHA_AIZ_03,VLG_AIZ_01,PT_AIZ_0334,46-60,F,"['Muscle Pain', 'Headache', 'Sweating', 'Chills']",Malaria,None,Recovered
+HLS_NER_20250911_088,2025-09-11,20:27:47,ASHA_KOH_03,VLG_KOH_02,PT_KOH_0088,15-45,M,"['Fever', 'Chills', 'Headache', 'Muscle Pain', 'Sweating']",Malaria,Some,Recovered
+HLS_NER_20250911_064,2025-09-11,22:48:59,ASHA_GAU_03,VLG_GAU_03,PT_GAU_0064,5-14,M,"['Rash', 'Headache', 'Weakness', 'Abdominal Pain', 'Fever']",Typhoid Fever,None,Recovered
+HLS_NER_20250912_415,2025-09-12,08:01:40,ASHA_GAU_01,VLG_GAU_05,PT_GAU_0415,5-14,F,"['Severe Diarrhea', 'Leg Cramps', 'Dehydration', 'Rice-Water Stools', 'Vomiting']",Cholera,Severe,Referred
+HLS_NER_20250912_348,2025-09-12,18:05:12,ASHA_KOH_03,VLG_KOH_05,PT_KOH_0348,<5,F,"['Diarrhea', 'Fever', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250912_133,2025-09-12,18:48:04,ASHA_IMP_03,VLG_IMP_02,PT_IMP_0133,15-45,M,"['Weakness', 'Vomiting', 'Fever', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250912_048,2025-09-12,19:08:34,ASHA_IMP_01,VLG_IMP_03,PT_IMP_0048,<5,F,"['Rash', 'Joint and Muscle Pain', 'Severe Headache']",Dengue Fever,None,Recovered
+HLS_NER_20250913_075,2025-09-13,00:42:07,ASHA_KOH_02,VLG_KOH_04,PT_KOH_0075,15-45,F,"['Vomiting', 'Diarrhea', 'Fever', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250913_498,2025-09-13,13:59:27,ASHA_SIL_01,VLG_SIL_05,PT_SIL_0498,46-60,F,"['Nausea', 'Fatigue', 'Jaundice']",Hepatitis A,None,Recovered
+HLS_NER_20250913_167,2025-09-13,20:13:33,ASHA_SHL_03,VLG_SHL_05,PT_SHL_0167,15-45,F,"['Headache', 'Chills', 'Muscle Pain', 'Sweating']",Malaria,None,Recovered
+HLS_NER_20250914_375,2025-09-14,05:16:37,ASHA_AIZ_01,VLG_AIZ_02,PT_AIZ_0375,46-60,F,"['Abdominal Pain', 'Weakness', 'Fever']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20250914_328,2025-09-14,09:54:48,ASHA_KOH_02,VLG_KOH_03,PT_KOH_0328,5-14,F,"['Rash', 'Headache', 'Weakness', 'Abdominal Pain', 'Fever']",Typhoid Fever,None,Recovered
+HLS_NER_20250914_153,2025-09-14,13:53:41,ASHA_AIZ_02,VLG_AIZ_05,PT_AIZ_0153,15-45,F,"['Fever', 'Rash', 'Headache', 'Weakness', 'Abdominal Pain']",Typhoid Fever,None,Recovered
+HLS_NER_20250914_416,2025-09-14,19:23:58,ASHA_IMP_02,VLG_IMP_05,PT_IMP_0416,15-45,M,"['Jaundice', 'Loss of Appetite', 'Dark Urine', 'Fatigue', 'Nausea']",Hepatitis A,None,Under Treatment
+HLS_NER_20250914_190,2025-09-14,22:15:38,ASHA_KOH_01,VLG_KOH_05,PT_KOH_0190,15-45,M,"['Abdominal Pain', 'Diarrhea', 'Weakness', 'Fever', 'Vomiting']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20250915_491,2025-09-15,10:54:46,ASHA_GAU_02,VLG_GAU_04,PT_GAU_0491,15-45,F,"['Chills', 'Muscle Pain', 'Fever', 'Sweating', 'Headache']",Malaria,None,Recovered
+HLS_NER_20250916_338,2025-09-16,04:11:41,ASHA_KOH_02,VLG_KOH_03,PT_KOH_0338,5-14,M,"['Headache', 'Rash', 'Fever']",Typhoid Fever,None,Under Treatment
+HLS_NER_20250916_142,2025-09-16,15:36:54,ASHA_AIZ_01,VLG_AIZ_04,PT_AIZ_0142,15-45,M,"['Nausea', 'Fatigue', 'Loss of Appetite', 'Jaundice', 'Dark Urine']",Hepatitis A,None,Recovered
+HLS_NER_20250916_381,2025-09-16,20:35:26,ASHA_SIL_02,VLG_SIL_03,PT_SIL_0381,46-60,F,"['Weakness', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Under Treatment
+HLS_NER_20250917_069,2025-09-17,09:07:26,ASHA_SHL_02,VLG_SHL_05,PT_SHL_0069,15-45,M,"['Sweating', 'Fever', 'Chills', 'Muscle Pain', 'Headache']",Malaria,None,Recovered
+HLS_NER_20250917_250,2025-09-17,09:19:22,ASHA_IMP_01,VLG_IMP_03,PT_IMP_0250,5-14,M,"['Muscle Pain', 'Headache', 'Chills']",Malaria,None,Recovered
+HLS_NER_20250917_256,2025-09-17,15:47:20,ASHA_SIL_03,VLG_SIL_02,PT_SIL_0256,5-14,M,"['Dark Urine', 'Jaundice', 'Nausea', 'Loss of Appetite']",Hepatitis A,None,Recovered
+HLS_NER_20250917_202,2025-09-17,16:20:20,ASHA_KOH_01,VLG_KOH_02,PT_KOH_0202,5-14,M,"['Pain behind Eyes', 'Rash', 'Joint and Muscle Pain', 'Severe Headache']",Dengue Fever,Some,Recovered
+HLS_NER_20250917_272,2025-09-17,18:59:00,ASHA_SIL_02,VLG_SIL_01,PT_SIL_0272,>60,M,"['Weakness', 'Vomiting', 'Abdominal Pain', 'Fever', 'Diarrhea']",Acute Diarrheal Disease,Some,Referred
+HLS_NER_20250917_171,2025-09-17,20:46:33,ASHA_KOH_02,VLG_KOH_01,PT_KOH_0171,5-14,F,"['Weakness', 'Vomiting', 'Fever', 'Diarrhea', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250918_104,2025-09-18,06:16:43,ASHA_AIZ_03,VLG_AIZ_04,PT_AIZ_0104,15-45,F,"['Abdominal Pain', 'Weakness', 'Diarrhea', 'Vomiting']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250918_170,2025-09-18,16:16:18,ASHA_SIL_01,VLG_SIL_05,PT_SIL_0170,15-45,F,"['Rash', 'Severe Headache', 'Pain behind Eyes']",Dengue Fever,Severe,Under Treatment
+HLS_NER_20250918_193,2025-09-18,19:49:11,ASHA_AIZ_02,VLG_AIZ_01,PT_AIZ_0193,<5,M,"['Leg Cramps', 'Vomiting', 'Severe Diarrhea']",Cholera,Severe,Under Treatment
+HLS_NER_20250918_423,2025-09-18,22:55:22,ASHA_IMP_02,VLG_IMP_05,PT_IMP_0423,46-60,M,"['Abdominal Pain', 'Fever', 'Weakness', 'Vomiting']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250919_353,2025-09-19,00:57:00,ASHA_KOH_03,VLG_KOH_01,PT_KOH_0353,15-45,F,"['Muscle Pain', 'Chills', 'Fever', 'Sweating', 'Headache']",Malaria,None,Recovered
+HLS_NER_20250919_056,2025-09-19,03:49:57,ASHA_IMP_02,VLG_IMP_05,PT_IMP_0056,15-45,F,"['Headache', 'Abdominal Pain', 'Fever', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20250919_312,2025-09-19,06:06:29,ASHA_GAU_01,VLG_GAU_05,PT_GAU_0312,15-45,M,"['Vomiting', 'Fever', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250919_203,2025-09-19,07:03:06,ASHA_SHL_01,VLG_SHL_03,PT_SHL_0203,15-45,M,"['Headache', 'Abdominal Pain', 'Weakness']",Typhoid Fever,None,Under Treatment
+HLS_NER_20250919_095,2025-09-19,13:10:45,ASHA_IMP_02,VLG_IMP_04,PT_IMP_0095,15-45,M,"['Weakness', 'Rash', 'Fever', 'Headache', 'Abdominal Pain']",Typhoid Fever,Some,Recovered
+HLS_NER_20250919_137,2025-09-19,16:23:02,ASHA_AIZ_03,VLG_AIZ_02,PT_AIZ_0137,<5,M,"['Rice-Water Stools', 'Severe Diarrhea', 'Dehydration']",Cholera,Severe,Referred
+HLS_NER_20250920_322,2025-09-20,01:57:28,ASHA_KOH_01,VLG_KOH_03,PT_KOH_0322,46-60,F,"['High Fever', 'Pain behind Eyes', 'Rash', 'Severe Headache']",Dengue Fever,None,Recovered
+HLS_NER_20250920_344,2025-09-20,06:43:24,ASHA_KOH_03,VLG_KOH_04,PT_KOH_0344,46-60,F,"['Weakness', 'Headache', 'Rash', 'Abdominal Pain', 'Fever']",Typhoid Fever,Severe,Referred
+HLS_NER_20250920_007,2025-09-20,16:11:26,ASHA_SIL_03,VLG_SIL_03,PT_SIL_0007,46-60,M,"['Fatigue', 'Loss of Appetite', 'Dark Urine', 'Nausea', 'Jaundice']",Hepatitis A,None,Recovered
+HLS_NER_20250920_424,2025-09-20,16:29:52,ASHA_SIL_03,VLG_SIL_05,PT_SIL_0424,<5,M,"['Vomiting', 'Abdominal Pain', 'Fever', 'Diarrhea', 'Weakness']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20250920_026,2025-09-20,19:48:29,ASHA_IMP_02,VLG_IMP_02,PT_IMP_0026,5-14,M,"['Pain behind Eyes', 'Rash', 'High Fever', 'Severe Headache']",Dengue Fever,Some,Under Treatment
+HLS_NER_20250920_139,2025-09-20,21:31:46,ASHA_SIL_01,VLG_SIL_04,PT_SIL_0139,15-45,M,"['Vomiting', 'Leg Cramps', 'Severe Diarrhea']",Cholera,Severe,Referred
+HLS_NER_20250920_315,2025-09-20,22:16:06,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_0315,<5,F,"['Nausea', 'Dark Urine', 'Jaundice', 'Fatigue']",Hepatitis A,None,Recovered
+HLS_NER_20250920_217,2025-09-20,22:35:22,ASHA_KOH_02,VLG_KOH_02,PT_KOH_0217,<5,F,"['Severe Diarrhea', 'Vomiting', 'Leg Cramps']",Cholera,Severe,Referred
+HLS_NER_20250921_255,2025-09-21,01:53:34,ASHA_IMP_03,VLG_IMP_02,PT_IMP_0255,5-14,F,"['Abdominal Pain', 'Weakness', 'Fever', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250921_266,2025-09-21,02:20:46,ASHA_GAU_03,VLG_GAU_01,PT_GAU_0266,5-14,M,"['Weakness', 'Fever', 'Vomiting', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250921_365,2025-09-21,03:36:37,ASHA_GAU_01,VLG_GAU_01,PT_GAU_0365,<5,M,"['Weakness', 'Headache', 'Rash', 'Fever']",Typhoid Fever,None,Recovered
+HLS_NER_20250921_111,2025-09-21,06:04:58,ASHA_KOH_01,VLG_KOH_04,PT_KOH_0111,46-60,F,"['Abdominal Pain', 'Diarrhea', 'Vomiting']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250921_122,2025-09-21,19:16:06,ASHA_AIZ_03,VLG_AIZ_05,PT_AIZ_0122,15-45,M,"['Headache', 'Sweating', 'Fever', 'Chills']",Malaria,Some,Recovered
+HLS_NER_20250921_452,2025-09-21,22:13:48,ASHA_AIZ_02,VLG_AIZ_04,PT_AIZ_0452,<5,F,"['Diarrhea', 'Vomiting', 'Fever']",Acute Diarrheal Disease,Some,Under Treatment
+HLS_NER_20250922_024,2025-09-22,03:16:39,ASHA_IMP_01,VLG_IMP_03,PT_IMP_0024,<5,M,"['Fatigue', 'Jaundice', 'Loss of Appetite', 'Dark Urine', 'Nausea']",Hepatitis A,None,Recovered
+HLS_NER_20250922_434,2025-09-22,06:22:47,ASHA_AIZ_01,VLG_AIZ_01,PT_AIZ_0434,>60,F,"['Fever', 'Abdominal Pain', 'Weakness']",Typhoid Fever,None,Recovered
+HLS_NER_20250922_062,2025-09-22,08:43:03,ASHA_GAU_01,VLG_GAU_05,PT_GAU_0062,15-45,M,"['High Fever', 'Rash', 'Severe Headache', 'Joint and Muscle Pain', 'Pain behind Eyes']",Dengue Fever,Some,Referred
+HLS_NER_20250923_327,2025-09-23,20:14:32,ASHA_KOH_03,VLG_KOH_03,PT_KOH_0327,46-60,M,"['Diarrhea', 'Fever', 'Vomiting', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250923_253,2025-09-23,22:06:38,ASHA_KOH_02,VLG_KOH_04,PT_KOH_0253,46-60,F,"['Severe Diarrhea', 'Vomiting', 'Rice-Water Stools']",Cholera,Severe,Under Treatment
+HLS_NER_20250923_136,2025-09-23,22:33:12,ASHA_KOH_02,VLG_KOH_03,PT_KOH_0136,15-45,F,"['High Fever', 'Rash', 'Severe Headache', 'Joint and Muscle Pain']",Dengue Fever,Some,Recovered
+HLS_NER_20250924_143,2025-09-24,07:58:18,ASHA_SHL_03,VLG_SHL_04,PT_SHL_0143,15-45,M,"['Rash', 'Fever', 'Abdominal Pain']",Typhoid Fever,Severe,Referred
+HLS_NER_20250924_292,2025-09-24,14:03:49,ASHA_IMP_02,VLG_IMP_01,PT_IMP_0292,15-45,M,"['Fever', 'Diarrhea', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250924_121,2025-09-24,17:50:19,ASHA_IMP_01,VLG_IMP_04,PT_IMP_0121,<5,F,"['Abdominal Pain', 'Fever', 'Weakness', 'Headache', 'Rash']",Typhoid Fever,None,Recovered
+HLS_NER_20250924_138,2025-09-24,20:15:37,ASHA_SHL_01,VLG_SHL_03,PT_SHL_0138,<5,M,"['Nausea', 'Jaundice', 'Loss of Appetite', 'Dark Urine', 'Fatigue']",Hepatitis A,None,Under Treatment
+HLS_NER_20250924_437,2025-09-24,20:48:12,ASHA_IMP_01,VLG_IMP_03,PT_IMP_0437,>60,F,"['Abdominal Pain', 'Vomiting', 'Weakness']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250925_352,2025-09-25,12:34:38,ASHA_IMP_03,VLG_IMP_05,PT_IMP_0352,46-60,F,"['Rash', 'Joint and Muscle Pain', 'High Fever', 'Pain behind Eyes', 'Severe Headache']",Dengue Fever,Some,Referred
+HLS_NER_20250925_115,2025-09-25,17:17:15,ASHA_AIZ_02,VLG_AIZ_01,PT_AIZ_0115,15-45,F,"['Loss of Appetite', 'Jaundice', 'Fatigue', 'Nausea', 'Dark Urine']",Hepatitis A,None,Recovered
+HLS_NER_20250925_169,2025-09-25,22:03:24,ASHA_SHL_03,VLG_SHL_04,PT_SHL_0169,46-60,F,"['Runny Nose', 'Body Ache', 'Cough']",Influenza-Like Illness,None,Referred
+HLS_NER_20250926_438,2025-09-26,19:49:07,ASHA_SIL_03,VLG_SIL_05,PT_SIL_0438,<5,F,"['Chills', 'Headache', 'Sweating', 'Fever']",Malaria,None,Recovered
+HLS_NER_20250926_393,2025-09-26,21:43:13,ASHA_SHL_03,VLG_SHL_03,PT_SHL_0393,5-14,M,"['Headache', 'Fever', 'Rash', 'Abdominal Pain']",Typhoid Fever,Severe,Referred
+HLS_NER_20250927_085,2025-09-27,04:53:23,ASHA_KOH_02,VLG_KOH_02,PT_KOH_0085,15-45,F,"['Sweating', 'Muscle Pain', 'Fever', 'Headache']",Malaria,None,Under Treatment
+HLS_NER_20250927_483,2025-09-27,05:28:15,ASHA_AIZ_01,VLG_AIZ_03,PT_AIZ_0483,>60,F,"['Abdominal Pain', 'Fever', 'Diarrhea']",Acute Diarrheal Disease,Severe,Under Treatment
+HLS_NER_20250927_212,2025-09-27,09:37:41,ASHA_KOH_02,VLG_KOH_05,PT_KOH_0212,15-45,F,"['Vomiting', 'Diarrhea', 'Fever']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250927_296,2025-09-27,10:47:38,ASHA_SHL_03,VLG_SHL_04,PT_SHL_0296,15-45,F,"['Abdominal Pain', 'Weakness', 'Rash']",Typhoid Fever,None,Under Treatment
+HLS_NER_20250927_306,2025-09-27,13:25:17,ASHA_AIZ_03,VLG_AIZ_02,PT_AIZ_0306,<5,M,"['Headache', 'Chills', 'Sweating', 'Muscle Pain', 'Fever']",Malaria,None,Referred
+HLS_NER_20250927_420,2025-09-27,19:18:38,ASHA_IMP_02,VLG_IMP_01,PT_IMP_0420,15-45,F,"['Rash', 'Pain behind Eyes', 'High Fever']",Dengue Fever,Some,Referred
+HLS_NER_20250927_405,2025-09-27,20:55:05,ASHA_IMP_02,VLG_IMP_03,PT_IMP_0405,15-45,F,"['Weakness', 'Abdominal Pain', 'Fever', 'Rash']",Typhoid Fever,None,Under Treatment
+HLS_NER_20250927_063,2025-09-27,22:48:45,ASHA_SHL_03,VLG_SHL_02,PT_SHL_0063,46-60,F,"['Pain behind Eyes', 'Severe Headache', 'High Fever']",Dengue Fever,None,Referred
+HLS_NER_20250928_321,2025-09-28,04:20:19,ASHA_AIZ_02,VLG_AIZ_05,PT_AIZ_0321,15-45,F,"['Chills', 'Headache', 'Sweating']",Malaria,None,Under Treatment
+HLS_NER_20250928_020,2025-09-28,04:48:50,ASHA_GAU_01,VLG_GAU_03,PT_GAU_0020,46-60,F,"['Rash', 'Pain behind Eyes', 'High Fever', 'Severe Headache']",Dengue Fever,None,Recovered
+HLS_NER_20250928_409,2025-09-28,11:23:27,ASHA_GAU_03,VLG_GAU_02,PT_GAU_0409,5-14,F,"['Vomiting', 'Weakness', 'Abdominal Pain', 'Fever']",Acute Diarrheal Disease,Severe,Under Treatment
+HLS_NER_20250929_080,2025-09-29,01:32:13,ASHA_IMP_01,VLG_IMP_03,PT_IMP_0080,15-45,F,"['Diarrhea', 'Fever', 'Vomiting', 'Weakness', 'Abdominal Pain']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250929_254,2025-09-29,04:45:18,ASHA_SIL_01,VLG_SIL_03,PT_SIL_0254,15-45,F,"['Fatigue', 'Jaundice', 'Nausea']",Hepatitis A,None,Recovered
+HLS_NER_20250929_163,2025-09-29,07:12:16,ASHA_IMP_02,VLG_IMP_04,PT_IMP_0163,46-60,F,"['Abdominal Pain', 'Weakness', 'Diarrhea']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250929_418,2025-09-29,14:58:44,ASHA_KOH_02,VLG_KOH_04,PT_KOH_0418,15-45,M,"['Headache', 'Fever', 'Muscle Pain', 'Sweating', 'Chills']",Malaria,Some,Recovered
+HLS_NER_20250929_379,2025-09-29,17:00:49,ASHA_KOH_02,VLG_KOH_05,PT_KOH_0379,15-45,M,"['Fatigue', 'Jaundice', 'Dark Urine']",Hepatitis A,None,Under Treatment
+HLS_NER_20250929_307,2025-09-29,18:07:29,ASHA_AIZ_02,VLG_AIZ_04,PT_AIZ_0307,5-14,F,"['Fever', 'Chills', 'Headache']",Malaria,Some,Recovered
+HLS_NER_20250929_259,2025-09-29,18:16:56,ASHA_KOH_02,VLG_KOH_04,PT_KOH_0259,15-45,M,"['Abdominal Pain', 'Fever', 'Weakness']",Typhoid Fever,None,Referred
+HLS_NER_20250929_228,2025-09-29,18:39:39,ASHA_KOH_02,VLG_KOH_05,PT_KOH_0228,<5,F,"['Vomiting', 'Diarrhea', 'Abdominal Pain', 'Fever', 'Weakness']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250929_086,2025-09-29,22:51:45,ASHA_AIZ_02,VLG_AIZ_01,PT_AIZ_0086,5-14,F,"['Weakness', 'Abdominal Pain', 'Vomiting', 'Diarrhea']",Acute Diarrheal Disease,Severe,Referred
+HLS_NER_20250930_023,2025-09-30,08:27:21,ASHA_GAU_01,VLG_GAU_04,PT_GAU_0023,<5,M,"['Cough', 'Fever', 'Runny Nose', 'Body Ache']",Influenza-Like Illness,None,Recovered
+HLS_NER_20250930_444,2025-09-30,14:43:17,ASHA_KOH_01,VLG_KOH_05,PT_KOH_0444,15-45,M,"['Diarrhea', 'Fever', 'Vomiting', 'Weakness', 'Abdominal Pain']",Acute Diarrheal Disease,Some,Recovered
+HLS_NER_20250930_484,2025-09-30,22:58:55,ASHA_AIZ_01,VLG_AIZ_04,PT_AIZ_0484,15-45,F,"['Muscle Pain', 'Chills', 'Headache', 'Fever']",Malaria,Severe,Under Treatment

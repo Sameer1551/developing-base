@@ -12,11 +12,28 @@ import {
   UserManagementTab,
   AlertManagementTab
 } from '../components/AdminDashboard';
+import { aiPredictionService, Prediction } from '../services/aiPredictionService';
 
 function AdminDashboard() {
   const { user, isAuthenticated } = useAuth();
   const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState('overview');
+  const [predictions, setPredictions] = useState<Prediction[]>([]);
+  const [isLoadingPredictions, setIsLoadingPredictions] = useState(false);
+
+  // Load AI predictions
+  const loadPredictions = async () => {
+    setIsLoadingPredictions(true);
+    try {
+      const aiPredictions = await aiPredictionService.getPredictionsWithFallback();
+      setPredictions(aiPredictions);
+    } catch (error) {
+      console.error('Failed to load predictions:', error);
+      // Keep existing predictions or use mock data
+    } finally {
+      setIsLoadingPredictions(false);
+    }
+  };
 
   // Check authentication and role on component mount
   useEffect(() => {
@@ -29,6 +46,9 @@ function AdminDashboard() {
       navigate('/', { replace: true });
       return;
     }
+
+    // Load AI predictions when component mounts
+    loadPredictions();
   }, [isAuthenticated, user, navigate]);
 
   const districtData: Array<{
@@ -45,31 +65,6 @@ function AdminDashboard() {
     { district: 'Churachandpur', population: 290000, cases: 34, risk: 'Medium', trend: '+5%' },
   ];
 
-  const predictions: Array<{
-    district: string;
-    disease: string;
-    riskLevel: 'Low' | 'Medium' | 'High';
-    probability: string;
-    timeframe: string;
-    factors: string[];
-  }> = [
-    {
-      district: 'Senapati',
-      disease: 'Cholera',
-      riskLevel: 'High',
-      probability: '78%',
-      timeframe: '7-10 days',
-      factors: ['Recent flooding', 'Poor water quality', 'Population density']
-    },
-    {
-      district: 'Churachandpur',
-      disease: 'Dengue',
-      riskLevel: 'Medium',
-      probability: '45%',
-      timeframe: '2-3 weeks',
-      factors: ['Monsoon season', 'Standing water', 'Previous cases']
-    },
-  ];
 
 
 
@@ -80,7 +75,7 @@ function AdminDashboard() {
       case 'health-map':
         return <HealthMapTab />;
       case 'predictions':
-        return <PredictionsTab predictions={predictions} />;
+        return <PredictionsTab predictions={predictions} isLoading={isLoadingPredictions} onRefresh={loadPredictions} />;
       case 'analytics':
         return <AnalyticsTab />;
       case 'users':
@@ -93,8 +88,19 @@ function AdminDashboard() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 py-8">
-      <div className="max-w-full mx-auto px-6 sm:px-8 lg:px-12">
+    <div className="min-h-screen bg-gray-50 py-8 relative">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <img 
+          src="/images/pexels-debraj-roy-282189167-17259824.jpg" 
+          alt="Health monitoring dashboard background" 
+          className="w-full h-full object-cover opacity-10"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-green-900/20"></div>
+      </div>
+      
+      {/* Content */}
+      <div className="relative z-10 max-w-full mx-auto px-6 sm:px-8 lg:px-12">
         <AdminHeader
           title="Government Health Analytics"
           subtitle="Real-time health monitoring and predictive analytics for Northeast India"

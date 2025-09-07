@@ -93,11 +93,21 @@ function ReportIssuePage() {
         </div>
 
         {/* Header */}
-        <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold text-gray-900 mb-4">Report Health Issue</h1>
-          <p className="text-lg text-gray-600">
-            Help us monitor community health by reporting symptoms and health concerns
-          </p>
+        <div className="relative text-center mb-8 rounded-2xl overflow-hidden">
+          <div className="absolute inset-0">
+            <img 
+              src="/images/shashank-sharma-C2iZMCROPXo-unsplash.jpg" 
+              alt="Health reporting" 
+              className="w-full h-full object-cover opacity-30"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-900/60 to-green-900/60"></div>
+          </div>
+          <div className="relative z-10 py-12 px-8">
+            <h1 className="text-3xl font-bold text-white mb-4 drop-shadow-lg">Report Health Issue</h1>
+            <p className="text-lg text-white drop-shadow-md">
+              Help us monitor community health by reporting symptoms and health concerns
+            </p>
+          </div>
         </div>
 
         <form onSubmit={handleSubmit} className="bg-white rounded-2xl shadow-xl p-8">

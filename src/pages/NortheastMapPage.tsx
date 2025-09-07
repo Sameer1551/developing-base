@@ -3,8 +3,19 @@ import NortheastMap from '../components/NortheastMap';
 
 const NortheastMapPage: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gray-100">
-      <div className="container mx-auto py-6">
+    <div className="min-h-screen bg-gray-100 relative">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <img 
+          src="/images/pexels-hpchothe93-14138930.jpg" 
+          alt="Northeast India landscape" 
+          className="w-full h-full object-cover opacity-15"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/30 to-green-900/30"></div>
+      </div>
+      
+      {/* Content */}
+      <div className="relative z-10 container mx-auto py-6">
         <div className="mb-6">
           <h1 className="text-3xl font-bold text-gray-800 mb-2">
             Northeast India Interactive Map

@@ -1,0 +1,9 @@
+@echo off
+echo Starting NE HealthNet AI Prediction Service...
+echo.
+echo Installing dependencies...
+pip install -r requirements.txt
+echo.
+echo Starting FastAPI server...
+python start_service.py
+pause
