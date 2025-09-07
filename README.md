@@ -1,7 +1,7 @@
 # NE HealthNet - Northeast India Health Monitoring System
 
 ## 🌟 Overview
-NE HealthNet is a comprehensive health monitoring and management system designed specifically for Northeast India. It provides multilingual support for 25+ regional languages, open access health reporting for citizens, and role-based dashboards for health workers and administrators. The system is built as a modern frontend application with local data storage and comprehensive health analytics.
+NE HealthNet is a comprehensive health monitoring and management system designed specifically for Northeast India. It provides multilingual support for 25+ regional languages, open access health reporting for citizens, and role-based dashboards for health workers and administrators. The system is built as a full-stack application with a React frontend and Express.js backend, featuring real-time data persistence and comprehensive health analytics.
 
 ## 🚀 Key Features
 
@@ -40,17 +40,27 @@ NE HealthNet is a comprehensive health monitoring and management system designed
 - **Leaflet** for interactive mapping
 - **Lucide React** for consistent iconography
 
+### Backend (Express.js + Node.js)
+- **Express.js** REST API server for data management
+- **CORS** enabled for cross-origin requests
+- **JSON File Storage**: Direct file-based data persistence
+- **RESTful API**: Standard HTTP endpoints for CRUD operations
+- **Error Handling**: Comprehensive error handling and validation
+- **Health Monitoring**: Built-in health check endpoints
+
 ### Data & Storage
-- **Local Storage**: Browser-based data persistence for user data and settings
-- **JSON Data Files**: Static data files for geographic and health information
+- **API-First Architecture**: Frontend communicates with backend via REST API
+- **JSON Data Files**: Persistent storage in `Data-UAD/` directory
+- **Fallback Mechanism**: Local storage fallback when API is unavailable
+- **Real-time Persistence**: Immediate data saving to JSON files
 - **Client-Side State Management**: React contexts for application state
-- **File-based Data**: Direct access to health data and geographic information
 
 ### Data & Analytics
 - **Health Reports**: Structured health incident reporting with photo uploads
-- **Alert System**: Real-time health alerts and notifications
+- **Alert System**: Real-time health alerts and notifications with API persistence
+- **User Management**: Complete user CRUD operations via API
 - **Analytics Dashboard**: Comprehensive health statistics and trends
-- **Local Data Processing**: Client-side data analysis and visualization
+- **Server-Side Processing**: Backend data validation and processing
 
 ## 🛠️ Technology Stack
 
@@ -64,15 +74,28 @@ NE HealthNet is a comprehensive health monitoring and management system designed
   "react-router-dom": "^7.8.2",
   "i18next": "^25.4.2",
   "leaflet": "^1.9.4",
-  "lucide-react": "^0.344.0"
+  "lucide-react": "^0.344.0",
+  "react-leaflet": "^4.2.1",
+  "axios": "^1.6.0"
+}
+```
+
+### Backend
+```json
+{
+  "express": "^4.18.2",
+  "cors": "^2.8.5",
+  "concurrently": "^8.2.2",
+  "fs-extra": "^11.1.1"
 }
 ```
 
 ### Data Storage
 ```json
 {
-  "localStorage": "Browser-based data persistence",
-  "jsonFiles": "Static data files for geographic and health data",
+  "apiFirst": "REST API with Express.js backend",
+  "jsonFiles": "Persistent JSON file storage in Data-UAD/",
+  "localStorage": "Browser fallback when API unavailable",
   "clientState": "React contexts for application state management"
 }
 ```
@@ -90,19 +113,56 @@ NE HealthNet is a comprehensive health monitoring and management system designed
    cd ne-healthnet
    ```
 
-2. **Install frontend dependencies**
+2. **Install dependencies**
    ```bash
    npm install
    ```
 
-3. **Start the development server**
+3. **Start the full-stack application**
    ```bash
-   # Starts the frontend development server
+   # Starts both backend and frontend servers
    npm run dev
    ```
 
 4. **Access the application**
-   - Frontend: `http://localhost:5173`
+   - **Frontend**: `http://localhost:5173`
+   - **Backend API**: `http://localhost:3001`
+   - **API Health Check**: `http://localhost:3001/api/health`
+
+### Alternative: Run Servers Separately
+
+```bash
+# Terminal 1 - Backend Server
+npm run server
+
+# Terminal 2 - Frontend Client
+npm run client
+```
+
+## 🔌 API Endpoints
+
+The backend provides RESTful API endpoints for data management:
+
+### User Management
+- `GET /api/users` - Get all users
+- `POST /api/users` - Add a new user
+- `PUT /api/users/:id` - Update a user
+- `DELETE /api/users/:id` - Delete a user
+
+### Alert Management
+- `GET /api/alerts` - Get all alerts (sorted by creation date)
+- `POST /api/alerts` - Add a new alert
+- `PUT /api/alerts/:id` - Update an alert
+- `DELETE /api/alerts/:id` - Delete an alert
+
+### System
+- `GET /api/health` - Health check endpoint
+
+### Data Persistence
+- **User Data**: Stored in `Data-UAD/DATAUAD.json`
+- **Alert Data**: Stored in `Data-UAD/alert.json`
+- **Real-time Updates**: Changes are immediately saved to JSON files
+- **Fallback Support**: Frontend falls back to localStorage if API is unavailable
 
 ## 📱 User Interfaces
 
@@ -195,7 +255,7 @@ The system supports 25+ languages with complete localization:
 
 ### Development
 ```bash
-# Start development environment
+# Start full-stack development environment
 npm run dev
 ```
 
@@ -205,8 +265,40 @@ npm run dev
 npm run build
 ```
 
-### Static Hosting
-The application can be deployed to any static hosting service:
+### Full-Stack Deployment Options
+
+#### Option 1: Traditional VPS/Cloud Server
+- **Frontend**: Serve built files from `dist/` directory
+- **Backend**: Run Express server with PM2 or similar process manager
+- **Requirements**: Node.js runtime, file system access for JSON storage
+
+#### Option 2: Platform-as-a-Service
+- **Railway**: Deploy both frontend and backend
+- **Heroku**: Deploy with buildpacks for Node.js
+- **DigitalOcean App Platform**: Full-stack deployment
+- **AWS Elastic Beanstalk**: Container-based deployment
+
+#### Option 3: Container Deployment
+```dockerfile
+# Example Dockerfile for backend
+FROM node:18-alpine
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . .
+EXPOSE 3001
+CMD ["npm", "run", "server"]
+```
+
+### Environment Variables
+```bash
+# Backend configuration
+PORT=3001
+NODE_ENV=production
+```
+
+### Static Hosting (Frontend Only)
+For frontend-only deployment with API fallback:
 - **Vercel**: `vercel --prod`
 - **Netlify**: `netlify deploy --prod`
 - **GitHub Pages**: Deploy from GitHub Actions
@@ -226,11 +318,20 @@ ne-healthnet/
 │   ├── locales/                  # Translation files (25+ languages)
 │   ├── pages/                    # Main application pages
 │   ├── types/                    # TypeScript type definitions
-│   └── utils/                    # Utility functions
+│   └── utils/                    # Utility functions (API integration)
+├── server/                       # Backend Express.js server
+│   └── index.js                  # Main server file with API endpoints
+├── Data-UAD/                     # Data persistence directory
+│   ├── DATAUAD.json              # User data storage
+│   ├── alert.json                # Alert data storage
+│   └── population.json           # Population data
 ├── public/                       # Static assets
 │   └── data/                     # Geographic and health data
+├── dist/                         # Production build output
 ├── scripts/                      # Utility scripts
-└── docs/                         # Documentation files
+├── package.json                  # Dependencies and scripts
+├── BACKEND_SETUP.md              # Backend setup documentation
+└── README.md                     # This file
 ```
 
 ## 🧪 Testing
@@ -241,17 +342,35 @@ ne-healthnet/
 3. **Role-based Access**: Switch between different user roles to test interfaces
 4. **Geographic Features**: Test map functionality and location services
 5. **Form Submission**: Test health reporting and alert creation
-6. **Data Persistence**: Test local data storage and retrieval
+6. **API Integration**: Test user and alert CRUD operations via REST API
+7. **Data Persistence**: Test real-time data saving to JSON files
+8. **Fallback Mechanism**: Test localStorage fallback when API is unavailable
+
+### API Testing
+```bash
+# Test API endpoints
+curl http://localhost:3001/api/health
+curl http://localhost:3001/api/users
+curl http://localhost:3001/api/alerts
+```
 
 ## 🔧 Configuration
 
 ### Language Configuration
 Languages are configured in `src/i18n.ts` and translation files are located in `src/locales/`.
 
+### Backend Configuration
+- **Server Port**: Configured in `server/index.js` (default: 3001)
+- **CORS**: Enabled for cross-origin requests
+- **Data Files**: JSON files in `Data-UAD/` directory
+- **API Endpoints**: RESTful endpoints for data management
+
 ### Data Configuration
-- **User Data**: Stored in browser localStorage
+- **User Data**: Stored in `Data-UAD/DATAUAD.json` via API
+- **Alert Data**: Stored in `Data-UAD/alert.json` via API
 - **Geographic Data**: Static JSON files in `public/data/`
 - **Health Data**: Static JSON files in `public/data/`
+- **Fallback Storage**: Browser localStorage when API unavailable
 
 ## 📈 Performance
 
@@ -292,18 +411,21 @@ For support and questions:
 
 ## 🗺️ Roadmap
 
-### Phase 1 (Current)
+### Phase 1 (Completed)
 - ✅ Multilingual support (25+ languages)
 - ✅ Open access health reporting
 - ✅ Role-based dashboards
 - ✅ Interactive maps
-- ✅ Frontend-only architecture with local data storage
+- ✅ Full-stack architecture with Express.js backend
+- ✅ REST API for data management
+- ✅ Real-time data persistence
 
-### Phase 2 (Upcoming)
+### Phase 2 (Current/Upcoming)
 - 🔄 Mobile app development
 - 🔄 Advanced AI/ML models
 - 🔄 Real-time notifications
-- 🔄 Integration with health department systems
+- 🔄 Database integration (PostgreSQL/MongoDB)
+- 🔄 User authentication and authorization
 - 🔄 Advanced analytics and reporting
 
 ### Phase 3 (Future)
@@ -312,6 +434,7 @@ For support and questions:
 - 📋 Advanced predictive analytics
 - 📋 Telemedicine integration
 - 📋 Community health worker app
+- 📋 Microservices architecture
 
 ---
 
