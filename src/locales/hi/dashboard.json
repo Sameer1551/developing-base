@@ -1,0 +1,22 @@
+{
+  "welcome": "डैशबोर्ड में आपका स्वागत है",
+  "overview": "अवलोकन",
+  "reports": "रिपोर्ट",
+  "alerts": "अलर्ट",
+  "users": "उपयोगकर्ता",
+  "health_reports": "स्वास्थ्य रिपोर्ट",
+  "water_testing": "जल परीक्षण",
+  "medicine": "दवा",
+  "total_reports": "कुल रिपोर्ट",
+  "active_cases": "सक्रिय मामले",
+  "water_quality_issues": "जल गुणवत्ता समस्याएं",
+  "health_alerts": "स्वास्थ्य अलर्ट",
+  "population_coverage": "जनसंख्या कवरेज",
+  "export_reports": "रिपोर्ट निर्यात करें",
+  "recent_reports": "हाल की स्वास्थ्य रिपोर्ट",
+  "urgency_level": "तत्कालता स्तर",
+  "filter_reports": "रिपोर्ट फ़िल्टर करें",
+  "search_reports": "रिपोर्ट खोजें...",
+  "view_report": "रिपोर्ट देखें",
+  "download_report": "रिपोर्ट डाउनलोड करें"
+}

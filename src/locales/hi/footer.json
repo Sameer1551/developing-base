@@ -1,0 +1,23 @@
+{
+  "emergency_contact": "आपातकाल संपर्क",
+  "emergency": "आपातकाल",
+  "health_helpline": "स्वास्थ्य हेल्पलाइन",
+  "email": "health@ne.gov.in",
+  "nearest_centers": "निकटतम स्वास्थ्य केंद्र",
+  "district_hospital": "इम्फाल जिला अस्पताल",
+  "chc_bishnupur": "सीएचसी बिष्णुपुर",
+  "distance": "{{distance}} किमी दूर",
+  "quick_links": "त्वरित लिंक",
+  "water_guidelines": "जल गुणवत्ता दिशानिर्देश",
+  "disease_prevention": "रोग रोकथाम टिप्स",
+  "government_schemes": "सरकारी स्वास्थ्य योजनाएं",
+  "report_fake_news": "फेक न्यूज रिपोर्ट करें",
+  "mobile_app": "मोबाइल ऐप",
+  "app_description": "रीयल-टाइम अलर्ट प्राप्त करें और चलते-फिरते मुद्दे रिपोर्ट करें",
+  "download_android": "एंड्रॉइड के लिए डाउनलोड करें",
+  "download_ios": "iOS के लिए डाउनलोड करें",
+  "copyright": "© 2025 उत्तरी पूर्व भारत सरकार। स्वास्थ्य और परिवार कल्याण मंत्रालय।",
+  "privacy_policy": "गोपनीयता नीति",
+  "terms_service": "सेवा की शर्तें",
+  "accessibility": "पहुंचनीयता"
+}

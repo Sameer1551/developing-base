@@ -1,0 +1,22 @@
+{
+  "welcome": "Welcome to Dashboard",
+  "overview": "Overview",
+  "reports": "Reports",
+  "alerts": "Alerts",
+  "users": "Users",
+  "health_reports": "Health Reports",
+  "water_testing": "Water Testing",
+  "medicine": "Medicine",
+  "total_reports": "Total Reports",
+  "active_cases": "Active Cases",
+  "water_quality_issues": "Water Quality Issues",
+  "health_alerts": "Health Alerts",
+  "population_coverage": "Population Coverage",
+  "export_reports": "Export Reports",
+  "recent_reports": "Recent Health Reports",
+  "urgency_level": "Urgency Level",
+  "filter_reports": "Filter Reports",
+  "search_reports": "Search reports...",
+  "view_report": "View Report",
+  "download_report": "Download Report"
+}

@@ -1,0 +1,17 @@
+{
+  "home": "In",
+  "report": "Hriat tirh",
+  "alerts": "Hriatna hrilh",
+  "awareness": "Hriatna hrilh",
+  "login": "Login",
+  "logout": "Logout",
+  "dashboard": "Dashboard",
+  "profile": "Profile",
+  "settings": "Settings",
+  "water_quality": "Water Quality",
+  "northeast_map": "Northeast Map",
+  "staff_dashboard": "Staff Dashboard",
+  "admin_dashboard": "Admin Dashboard",
+  "health_worker": "Health Worker",
+  "administrator": "Administrator"
+}

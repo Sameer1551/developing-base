@@ -1,0 +1,224 @@
+{
+  "alerts": [
+    {
+      "id": "1",
+      "title": "Water Contamination in Imphal East",
+      "description": "Residents reporting foul smell and discolored water in multiple households. Suspected sewage contamination.",
+      "type": "Water Quality",
+      "priority": "Critical",
+      "status": "Active",
+      "district": "Imphal East",
+      "location": "Lamphelpat area, near NIT campus",
+      "reporter": "Dr. Rajesh Kumar",
+      "reporterContact": "+91 98765 43210",
+      "createdAt": "2024-01-15 08:30",
+      "updatedAt": "2024-01-15 14:20",
+      "assignedTo": "Water Quality Team",
+      "responseTime": "2 hours",
+      "notes": [
+        "Initial assessment completed",
+        "Water samples collected for testing",
+        "Temporary water supply arranged"
+      ],
+      "attachments": ["water_sample_001.jpg", "location_map.pdf"]
+    },
+    {
+      "id": "2",
+      "title": "Dengue Outbreak in Senapati",
+      "description": "Multiple cases of dengue fever reported in Senapati district. Need immediate vector control measures.",
+      "type": "Disease Outbreak",
+      "priority": "High",
+      "status": "In Progress",
+      "district": "Senapati",
+      "location": "Senapati town and surrounding villages",
+      "reporter": "Priya Sharma",
+      "reporterContact": "+91 87654 32109",
+      "createdAt": "2024-01-14 16:45",
+      "updatedAt": "2024-01-15 10:15",
+      "assignedTo": "Vector Control Team",
+      "responseTime": "4 hours",
+      "notes": [
+        "Fogging operations initiated",
+        "Public awareness campaign started",
+        "Medical teams deployed"
+      ],
+      "attachments": ["case_report.pdf", "fogging_schedule.xlsx"]
+    },
+    {
+      "id": "3",
+      "title": "Hospital Power Outage",
+      "description": "District hospital experiencing intermittent power supply. Affecting critical medical equipment.",
+      "type": "Infrastructure",
+      "priority": "High",
+      "status": "Resolved",
+      "district": "Bishnupur",
+      "location": "Bishnupur District Hospital",
+      "reporter": "Amit Patel",
+      "reporterContact": "+91 76543 21098",
+      "createdAt": "2024-01-13 22:15",
+      "updatedAt": "2024-01-14 06:30",
+      "assignedTo": "Infrastructure Team",
+      "responseTime": "1 hour",
+      "notes": [
+        "Generator backup activated",
+        "Power restored at 06:30",
+        "Equipment checked and functional"
+      ],
+      "attachments": ["power_log.pdf", "equipment_status.pdf"]
+    },
+    {
+      "id": "4",
+      "title": "Heavy Rainfall Alert",
+      "description": "IMD warning for heavy rainfall in next 48 hours. Risk of flooding in low-lying areas.",
+      "type": "Weather",
+      "priority": "Medium",
+      "status": "Active",
+      "district": "All Districts",
+      "location": "Northeast India region",
+      "reporter": "Weather Department",
+      "reporterContact": "weather@imd.gov.in",
+      "createdAt": "2024-01-15 12:00",
+      "updatedAt": "2024-01-15 12:00",
+      "assignedTo": "Disaster Management Team",
+      "responseTime": "30 minutes",
+      "notes": [
+        "Public advisory issued",
+        "Emergency response teams on standby",
+        "Shelter locations identified"
+      ],
+      "attachments": ["weather_forecast.pdf", "emergency_plan.pdf"]
+    },
+    {
+      "id": "5",
+      "title": "Food Poisoning Incident",
+      "description": "Multiple cases of food poisoning reported after community feast. Need immediate investigation.",
+      "type": "Health Emergency",
+      "priority": "Critical",
+      "status": "In Progress",
+      "district": "Churachandpur",
+      "location": "Churachandpur town market area",
+      "reporter": "Dr. Meena Devi",
+      "reporterContact": "+91 65432 10987",
+      "createdAt": "2024-01-15 19:20",
+      "updatedAt": "2024-01-15 20:45",
+      "assignedTo": "Food Safety Team",
+      "responseTime": "1 hour",
+      "notes": [
+        "Food samples collected",
+        "Affected individuals identified",
+        "Medical treatment provided"
+      ],
+      "attachments": ["food_sample_001.jpg", "medical_report.pdf"]
+    },
+    {
+      "id": "6",
+      "title": "Malaria Cases Spike in Dimapur",
+      "description": "Unusual increase in malaria cases reported in Dimapur district. Need immediate vector surveillance.",
+      "type": "Disease Outbreak",
+      "priority": "High",
+      "status": "Active",
+      "district": "Dimapur",
+      "location": "Dimapur city and surrounding areas",
+      "reporter": "Dr. Sanjay Verma",
+      "reporterContact": "+91 43210 98765",
+      "createdAt": "2024-01-16 09:15",
+      "updatedAt": "2024-01-16 11:30",
+      "assignedTo": "Vector Control Team",
+      "responseTime": "2 hours",
+      "notes": [
+        "Blood samples collected for testing",
+        "Mosquito breeding sites identified",
+        "Preventive medication distributed"
+      ],
+      "attachments": ["malaria_report.pdf", "breeding_sites_map.pdf"]
+    },
+    {
+      "id": "7",
+      "title": "Water Treatment Plant Failure",
+      "description": "Main water treatment plant experiencing technical issues. Water supply affected in multiple areas.",
+      "type": "Infrastructure",
+      "priority": "Critical",
+      "status": "In Progress",
+      "district": "Aizawl",
+      "location": "Aizawl Water Treatment Plant",
+      "reporter": "Kavita Reddy",
+      "reporterContact": "+91 32109 87654",
+      "createdAt": "2024-01-16 14:20",
+      "updatedAt": "2024-01-16 16:45",
+      "assignedTo": "Water Infrastructure Team",
+      "responseTime": "1 hour",
+      "notes": [
+        "Emergency repair team dispatched",
+        "Alternative water sources activated",
+        "Public notification sent"
+      ],
+      "attachments": ["plant_diagnosis.pdf", "repair_schedule.pdf"]
+    },
+    {
+      "id": "8",
+      "title": "Heat Wave Warning",
+      "description": "IMD issues heat wave warning for next 3 days. Temperature expected to reach 40°C+.",
+      "type": "Weather",
+      "priority": "Medium",
+      "status": "Active",
+      "district": "All Districts",
+      "location": "Northeast India region",
+      "reporter": "Weather Department",
+      "reporterContact": "weather@imd.gov.in",
+      "createdAt": "2024-01-16 10:00",
+      "updatedAt": "2024-01-16 10:00",
+      "assignedTo": "Public Health Team",
+      "responseTime": "15 minutes",
+      "notes": [
+        "Heat wave advisory issued",
+        "Cooling centers identified",
+        "Health workers alerted"
+      ],
+      "attachments": ["heat_wave_forecast.pdf", "cooling_centers_list.pdf"]
+    },
+    {
+      "id": "9",
+      "title": "Road Accident - Medical Emergency",
+      "description": "Multiple vehicle accident on NH-39. Several casualties requiring immediate medical attention.",
+      "type": "Health Emergency",
+      "priority": "Critical",
+      "status": "Resolved",
+      "district": "Kohima",
+      "location": "NH-39, near Kohima city",
+      "reporter": "Rahul Singh",
+      "reporterContact": "+91 54321 09876",
+      "createdAt": "2024-01-15 18:30",
+      "updatedAt": "2024-01-15 22:15",
+      "assignedTo": "Emergency Response Team",
+      "responseTime": "30 minutes",
+      "notes": [
+        "Ambulances dispatched immediately",
+        "All casualties transported to hospital",
+        "Road cleared and traffic restored"
+      ],
+      "attachments": ["accident_report.pdf", "medical_treatment_log.pdf"]
+    },
+    {
+      "id": "10",
+      "title": "Cholera Outbreak Suspected",
+      "description": "Multiple cases of severe diarrhea reported in Thoubal district. Suspected cholera outbreak.",
+      "type": "Disease Outbreak",
+      "priority": "Critical",
+      "status": "In Progress",
+      "district": "Thoubal",
+      "location": "Thoubal town and nearby villages",
+      "reporter": "Dr. Arjun Mehta",
+      "reporterContact": "+91 21098 76543",
+      "createdAt": "2024-01-16 07:45",
+      "updatedAt": "2024-01-16 13:20",
+      "assignedTo": "Disease Control Team",
+      "responseTime": "1 hour",
+      "notes": [
+        "Stool samples collected for testing",
+        "Isolation wards prepared",
+        "Contact tracing initiated"
+      ],
+      "attachments": ["cholera_symptoms.pdf", "contact_tracing_log.pdf"]
+    }
+  ]
+}

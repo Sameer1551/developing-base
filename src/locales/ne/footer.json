@@ -1,0 +1,23 @@
+{
+  "emergency_contact": "Emergency Contact",
+  "emergency": "Emergency",
+  "health_helpline": "Health Helpline",
+  "email": "health@ne.gov.in",
+  "nearest_centers": "Nearest Health Centers",
+  "district_hospital": "Imphal District Hospital",
+  "chc_bishnupur": "CHC Bishnupur",
+  "distance": "{{distance}} km away",
+  "quick_links": "Quick Links",
+  "water_guidelines": "Water Quality Guidelines",
+  "disease_prevention": "Disease Prevention Tips",
+  "government_schemes": "Government Health Schemes",
+  "report_fake_news": "Report Fake News",
+  "mobile_app": "Mobile App",
+  "app_description": "Get real-time alerts and report issues on the go",
+  "download_android": "Download for Android",
+  "download_ios": "Download for iOS",
+  "copyright": "© 2025 Government of Northeast India. Ministry of Health & Family Welfare.",
+  "privacy_policy": "Privacy Policy",
+  "terms_service": "Terms of Service",
+  "accessibility": "Accessibility"
+}

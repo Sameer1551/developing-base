@@ -1,0 +1,17 @@
+{
+  "home": "বাড়ি",
+  "report": "সমস্যা রিপোর্ট করুন",
+  "alerts": "সতর্কতা পরীক্ষা করুন",
+  "awareness": "সচেতনতা",
+  "login": "লগইন",
+  "logout": "লগ আউট",
+  "dashboard": "ড্যাশবোর্ড",
+  "profile": "প্রোফাইল",
+  "settings": "সেটিংস",
+  "water_quality": "জলের গুণমান",
+  "northeast_map": "উত্তর-পূর্ব মানচিত্র",
+  "staff_dashboard": "কর্মচারী ড্যাশবোর্ড",
+  "admin_dashboard": "প্রশাসক ড্যাশবোর্ড",
+  "health_worker": "স্বাস্থ্য কর্মী",
+  "administrator": "প্রশাসক"
+}

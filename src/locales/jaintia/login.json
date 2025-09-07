@@ -1,0 +1,21 @@
+{
+  "title": "Shon sha ka Account jong phi",
+  "subtitle": "Access your health monitoring dashboard",
+  "email": "Email Address",
+  "password": "Password",
+  "submit": "Shon ha ka Shon-in",
+  "signing_in": "Shon ha ka Shon-in...",
+  "forgot_password": "Klet Password?",
+  "no_account": "Ym don Account?",
+  "signup": "Shon ha ka Sign-up",
+  "select_role": "Select Your Role",
+  "health_worker": "Health Worker",
+  "administrator": "Administrator",
+  "health_worker_desc": "ASHA Workers, ANM, Nurses, Health Staff",
+  "administrator_desc": "Government Officials, District Health Officer",
+  "invalid_credentials": "Invalid credentials. Please try again.",
+  "login_failed": "Login failed. Please check your connection and try again.",
+  "demo_credentials": "Sample Credentials:",
+  "password_note": "Password is the mobile number from DATAUAD.json",
+  "need_help": "Need help accessing your account?"
+}

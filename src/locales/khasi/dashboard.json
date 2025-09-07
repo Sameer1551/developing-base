@@ -1,0 +1,22 @@
+{
+  "welcome": "Sngewbha sha ka Dashboard",
+  "overview": "Ka jingbatai",
+  "reports": "Ki Reports",
+  "alerts": "Ki Alerts",
+  "users": "Ki Nongtrei",
+  "health_reports": "Ki Reports shaphang ka Koit ka Khiah",
+  "water_testing": "Ka Jingpeit ia ka Um",
+  "medicine": "Ka Dawa",
+  "total_reports": "Baroh ki Reports",
+  "active_cases": "Ki Cases ba Shong",
+  "water_quality_issues": "Ki Jingeh shaphang ka Jinglong ka Um",
+  "health_alerts": "Ki Alerts shaphang ka Koit ka Khiah",
+  "population_coverage": "Ka Jingkup ia ki Briew",
+  "export_reports": "Export ia ki Reports",
+  "recent_reports": "Ki Reports ba Kynmaw shaphang ka Koit ka Khiah",
+  "urgency_level": "Ka Level ba Donkam",
+  "filter_reports": "Filter ia ki Reports",
+  "search_reports": "Shim ia ki reports...",
+  "view_report": "Peit ia ka Report",
+  "download_report": "Download ia ka Report"
+}

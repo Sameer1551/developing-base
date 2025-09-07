@@ -1,0 +1,23 @@
+{
+  "emergency_contact": "आपातकाल संपर्क",
+  "emergency": "आपातकाल",
+  "health_helpline": "सुबुं हेल्पलाइन",
+  "email": "health@ne.gov.in",
+  "nearest_centers": "निकटतम सुबुं केंद्र",
+  "district_hospital": "इम्फाल जिला अस्पताल",
+  "chc_bishnupur": "सीएचसी बिष्णुपुर",
+  "distance": "{{distance}} किमी दूर",
+  "quick_links": "त्वरित लिंक",
+  "water_guidelines": "दै गुणवत्ता दिशानिर्देश",
+  "disease_prevention": "बेराम रोकथाम सुझाव",
+  "government_schemes": "सरकारी सुबुं योजना",
+  "report_fake_news": "झूठी खबर रिपोर्ट",
+  "mobile_app": "मोबाइल ऐप",
+  "app_description": "रियल-टाइम जागोन आरो मोबाइलाव समस्या रिपोर्ट",
+  "download_android": "एंड्रॉयड के लिए डाउनलोड",
+  "download_ios": "iOS के लिए डाउनलोड",
+  "copyright": "© 2025 नॉर्थईस्ट भारत सरकार। स्वास्थ्य एवं परिवार कल्याण मंत्रालय।",
+  "privacy_policy": "गोपनीयता नीति",
+  "terms_service": "सेवा की शर्तें",
+  "accessibility": "पहुंच योग्यता"
+}

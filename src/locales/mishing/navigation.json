@@ -1,0 +1,17 @@
+{
+  "home": "হোম",
+  "report": "সমস্যা ৰিপোৰ্ট",
+  "alerts": "আলাৰ্ট চেক",
+  "awareness": "সজাগতা",
+  "login": "লগইন",
+  "logout": "লগ আউট",
+  "dashboard": "ডেশ্ববোর্ড",
+  "profile": "প্ৰফাইল",
+  "settings": "ছেটিংছ",
+  "water_quality": "পানীৰ মানদণ্ড",
+  "northeast_map": "উত্তৰ-পূব মানচিত্ৰ",
+  "staff_dashboard": "কৰ্মচাৰী ডেশ্ববোর্ড",
+  "admin_dashboard": "প্ৰশাসক ডেশ্ববোর্ড",
+  "health_worker": "স্বাস্থ্য কৰ্মী",
+  "administrator": "প্ৰশাসক"
+}

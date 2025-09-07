@@ -1,0 +1,17 @@
+{
+  "home": "घर",
+  "report": "समस्या रिपोर्ट गर्नुहोस्",
+  "alerts": "अलर्ट जाँच गर्नुहोस्",
+  "awareness": "जागरूकता",
+  "login": "लगइन",
+  "logout": "लग आउट",
+  "dashboard": "ड्यासबोर्ड",
+  "profile": "प्रोफाइल",
+  "settings": "सेटिङहरू",
+  "water_quality": "पानीको गुणस्तर",
+  "northeast_map": "उत्तर-पूर्व नक्शा",
+  "staff_dashboard": "कर्मचारी ड्यासबोर्ड",
+  "admin_dashboard": "प्रशासक ड्यासबोर्ड",
+  "health_worker": "स्वास्थ्य कर्मचारी",
+  "administrator": "प्रशासक"
+}
