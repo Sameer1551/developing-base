@@ -139,6 +139,36 @@ const FutureForecastChart: React.FC<FutureForecastChartProps> = ({ prediction, s
   const effectiveChartHeight = chartHeight - topPadding;
   const barWidth = 100 / allCases.length;
 
+  // Calculate risk level based on future forecast data
+  const calculateForecastRiskLevel = (futureCases: number[], maxCases: number) => {
+    if (futureCases.length === 0) return 'Low';
+    
+    // Calculate average future cases
+    const avgFutureCases = futureCases.reduce((sum, cases) => sum + cases, 0) / futureCases.length;
+    const avgPercentage = avgFutureCases / maxCases;
+    
+    // Calculate peak future cases
+    const peakFutureCases = Math.max(...futureCases);
+    const peakPercentage = peakFutureCases / maxCases;
+    
+    // Calculate trend (increasing, stable, decreasing)
+    const firstHalf = futureCases.slice(0, Math.floor(futureCases.length / 2));
+    const secondHalf = futureCases.slice(Math.floor(futureCases.length / 2));
+    const firstHalfAvg = firstHalf.reduce((sum, cases) => sum + cases, 0) / firstHalf.length;
+    const secondHalfAvg = secondHalf.reduce((sum, cases) => sum + cases, 0) / secondHalf.length;
+    const trendFactor = secondHalfAvg > firstHalfAvg ? 1.2 : secondHalfAvg < firstHalfAvg ? 0.8 : 1.0;
+    
+    // Calculate weighted risk score
+    const riskScore = (avgPercentage * 0.4 + peakPercentage * 0.4 + (avgPercentage * trendFactor) * 0.2);
+    
+    // Determine risk level based on score
+    if (riskScore > 0.7) return 'High';
+    else if (riskScore > 0.4) return 'Medium';
+    else return 'Low';
+  };
+
+  const forecastRiskLevel = calculateForecastRiskLevel(futureCases, maxCases);
+
   return (
     <div className="bg-white rounded-lg p-4 border">
       <div className="flex items-center justify-between mb-4">
@@ -150,6 +180,16 @@ const FutureForecastChart: React.FC<FutureForecastChartProps> = ({ prediction, s
           <p className="text-xs text-gray-500 mt-1">
             Forecast Period: Next {forecastDays} Days
           </p>
+          <div className="mt-2">
+            <span className="text-sm font-medium text-gray-700">Forecast Risk Level: </span>
+            <span className={`px-2 py-1 rounded-full text-xs font-medium ${
+              forecastRiskLevel === 'High' ? 'bg-red-100 text-red-800 border border-red-200' :
+              forecastRiskLevel === 'Medium' ? 'bg-amber-100 text-amber-800 border border-amber-200' :
+              'bg-green-100 text-green-800 border border-green-200'
+            }`}>
+              {forecastRiskLevel} Risk
+            </span>
+          </div>
         </div>
         <div className="flex items-center space-x-2 text-sm text-gray-600">
           <Brain className="h-4 w-4" />

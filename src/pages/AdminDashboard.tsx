@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import {
   AdminHeader,
-  KeyMetrics,
   TabNavigation,
   OverviewTab,
   PredictionsTab,
@@ -105,8 +104,6 @@ function AdminDashboard() {
           title="Government Health Analytics"
           subtitle="Real-time health monitoring and predictive analytics for Northeast India"
         />
-
-        <KeyMetrics />
 
         <TabNavigation activeTab={activeTab} onTabChange={setActiveTab}>
           {renderTabContent()}

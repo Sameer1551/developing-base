@@ -279,6 +279,53 @@ const PredictionsTab: React.FC<PredictionsTabProps> = ({ predictions, isLoading 
     return <FutureForecastChart prediction={prediction} selectedTimeRange={selectedTimeRange} />;
   };
 
+  // Calculate forecast-based risk level for the selected prediction
+  const getForecastRiskLevel = (prediction: Prediction) => {
+    if (!prediction.historicalTrend || prediction.historicalTrend.cases.length === 0) {
+      return prediction.riskLevel; // Fallback to original risk level
+    }
+
+    const { cases } = prediction.historicalTrend;
+    const lastValue = cases[cases.length - 1];
+    const trend = cases.length > 1 ? (cases[cases.length - 1] - cases[0]) / cases.length : 0;
+    
+    // Generate future cases (same logic as in FutureForecastChart)
+    let forecastDays = 14;
+    if (selectedTimeRange === '30d') forecastDays = 14;
+    else if (selectedTimeRange === '90d') forecastDays = 21;
+    else if (selectedTimeRange === 'all') forecastDays = 30;
+    
+    const futureCases = Array.from({ length: forecastDays }, (_, i) => {
+      const baseValue = lastValue + (trend * (i + 1));
+      const variation = Math.random() * 0.2 - 0.1;
+      return Math.max(0, Math.round(baseValue * (1 + variation)));
+    });
+
+    const allCases = [...cases, ...futureCases];
+    const maxCases = Math.max(...allCases, 1);
+    
+    // Calculate risk level based on future forecast data
+    if (futureCases.length === 0) return 'Low';
+    
+    const avgFutureCases = futureCases.reduce((sum, cases) => sum + cases, 0) / futureCases.length;
+    const avgPercentage = avgFutureCases / maxCases;
+    
+    const peakFutureCases = Math.max(...futureCases);
+    const peakPercentage = peakFutureCases / maxCases;
+    
+    const firstHalf = futureCases.slice(0, Math.floor(futureCases.length / 2));
+    const secondHalf = futureCases.slice(Math.floor(futureCases.length / 2));
+    const firstHalfAvg = firstHalf.reduce((sum, cases) => sum + cases, 0) / firstHalf.length;
+    const secondHalfAvg = secondHalf.reduce((sum, cases) => sum + cases, 0) / secondHalf.length;
+    const trendFactor = secondHalfAvg > firstHalfAvg ? 1.2 : secondHalfAvg < firstHalfAvg ? 0.8 : 1.0;
+    
+    const riskScore = (avgPercentage * 0.4 + peakPercentage * 0.4 + (avgPercentage * trendFactor) * 0.2);
+    
+    if (riskScore > 0.7) return 'High';
+    else if (riskScore > 0.4) return 'Medium';
+    else return 'Low';
+  };
+
   const handleIssueAlert = (prediction: Prediction) => {
     setSelectedPrediction(prediction);
     setIsCreateModalOpen(true);
@@ -674,8 +721,15 @@ const PredictionsTab: React.FC<PredictionsTabProps> = ({ predictions, isLoading 
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-600">Risk Level:</span>
-                    <span className={`font-medium px-2 py-1 rounded-full text-xs ${getRiskColor(selectedPredictionForChart.riskLevel)}`}>
-                      {selectedPredictionForChart.riskLevel}
+                    <span className={`font-medium px-2 py-1 rounded-full text-xs ${
+                      selectedChartType === 'forecast' 
+                        ? getRiskColor(getForecastRiskLevel(selectedPredictionForChart))
+                        : getRiskColor(selectedPredictionForChart.riskLevel)
+                    }`}>
+                      {selectedChartType === 'forecast' 
+                        ? getForecastRiskLevel(selectedPredictionForChart)
+                        : selectedPredictionForChart.riskLevel
+                      }
                     </span>
                   </div>
                   <div className="flex justify-between">
