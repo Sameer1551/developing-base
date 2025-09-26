@@ -1,0 +1,22 @@
+{
+  "welcome": "ডেচবৰ্ডত আপোনাক স্বাগতম",
+  "overview": "অৱলোকন",
+  "reports": "ৰিপৰ্ট",
+  "alerts": "সতর্কতা",
+  "users": "ব্যৱহাৰকাৰী",
+  "health_reports": "স্বাস্থ্য ৰিপৰ্ট",
+  "water_testing": "পানী পৰীক্ষণ",
+  "medicine": "ঔষধ",
+  "total_reports": "মুঠ ৰিপৰ্ট",
+  "active_cases": "সক্ৰিয় কেছ",
+  "water_quality_issues": "পানীৰ গুণগত মান সমস্যা",
+  "health_alerts": "স্বাস্থ্য সতর্কতা",
+  "population_coverage": "জনসংখ্যা আচ্ছাদন",
+  "export_reports": "ৰিপৰ্ট ৰপ্তানি কৰক",
+  "recent_reports": "শেহতীয়া স্বাস্থ্য ৰিপৰ্ট",
+  "urgency_level": "জৰুৰীকালীন স্তৰ",
+  "filter_reports": "ৰিপৰ্ট ফিল্টাৰ কৰক",
+  "search_reports": "ৰিপৰ্ট সন্ধান কৰক...",
+  "view_report": "ৰিপৰ্ট চাওক",
+  "download_report": "ৰিপৰ্ট ডাউনলোড কৰক"
+}

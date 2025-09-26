@@ -1,0 +1,23 @@
+{
+  "emergency_contact": "Ka Jingkhot ba Donkam",
+  "emergency": "Ka Jingpang",
+  "health_helpline": "Ka Helpline na ka bynta ka Koit ka Khiah",
+  "email": "health@ne.gov.in",
+  "nearest_centers": "Ki Centers ba Kynmaw na ka bynta ka Koit ka Khiah",
+  "district_hospital": "Imphal District Hospital",
+  "chc_bishnupur": "CHC Bishnupur",
+  "distance": "{{distance}} km away",
+  "quick_links": "Ki Links ba Kynmaw",
+  "water_guidelines": "Ki Guidelines na ka bynta ka Jinglong ka Um",
+  "disease_prevention": "Ki Tips na ka bynta ka Jingiada na ki Jingpang",
+  "government_schemes": "Ki Schemes jong ka Government na ka bynta ka Koit ka Khiah",
+  "report_fake_news": "Pynmih ia ki Jingtip ba Kynmaw",
+  "mobile_app": "Mobile App",
+  "app_description": "Peit ia ki alerts ba real-time bad pynmih ia ki jingeh ha ka mobile",
+  "download_android": "Download na ka bynta Android",
+  "download_ios": "Download na ka bynta iOS",
+  "copyright": "© 2025 Government of Northeast India. Ministry of Health & Family Welfare.",
+  "privacy_policy": "Privacy Policy",
+  "terms_service": "Terms of Service",
+  "accessibility": "Accessibility"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Login to Your Account",
+  "subtitle": "Access your health monitoring dashboard",
+  "email": "Email Address",
+  "password": "Password",
+  "submit": "Sign In",
+  "signing_in": "Signing In...",
+  "forgot_password": "Forgot Password?",
+  "no_account": "Don't have an account?",
+  "signup": "Sign Up",
+  "select_role": "Select Your Role",
+  "health_worker": "Health Worker",
+  "administrator": "Administrator",
+  "health_worker_desc": "ASHA Workers, ANM, Nurses, Health Staff",
+  "administrator_desc": "Government Officials, District Health Officer",
+  "invalid_credentials": "Invalid credentials. Please try again.",
+  "login_failed": "Login failed. Please check your connection and try again.",
+  "demo_credentials": "Sample Credentials:",
+  "password_note": "Password is the mobile number from DATAUAD.json",
+  "need_help": "Need help accessing your account?"
+}

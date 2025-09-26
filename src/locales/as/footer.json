@@ -1,0 +1,23 @@
+{
+  "emergency_contact": "জৰুৰীকালীন সংযোগ",
+  "emergency": "জৰুৰীকালীন",
+  "health_helpline": "স্বাস্থ্য হেল্পলাইন",
+  "email": "health@ne.gov.in",
+  "nearest_centers": "নিকটতম স্বাস্থ্য কেন্দ্ৰ",
+  "district_hospital": "ইম্ফল জিলা হাস্পতাল",
+  "chc_bishnupur": "চিএইচচি বিষ্ণুপুৰ",
+  "distance": "{{distance}} কিমি দূৰত",
+  "quick_links": "দ্ৰুত লিংক",
+  "water_guidelines": "পানীৰ গুণগত মান নিৰ্দেশনা",
+  "disease_prevention": "ৰোগ প্ৰতিৰোধ টিপ্স",
+  "government_schemes": "চৰকাৰী স্বাস্থ্য আঁচনি",
+  "report_fake_news": "ভূয়া খবৰ ৰিপৰ্ট কৰক",
+  "mobile_app": "মোবাইল এপ",
+  "app_description": "চলিত অৱস্থাত ৰিয়েল-টাইম সতর্কতা লাভ কৰক আৰু সমস্যা ৰিপৰ্ট কৰক",
+  "download_android": "এণ্ড্ৰইডৰ বাবে ডাউনলোড কৰক",
+  "download_ios": "iOS ৰ বাবে ডাউনলোড কৰক",
+  "copyright": "© 2025 উত্তৰ-পূব ভাৰত চৰকাৰ। স্বাস্থ্য আৰু পৰিয়াল কল্যাণ মন্ত্ৰালয়।",
+  "privacy_policy": "গোপনীয়তা নীতি",
+  "terms_service": "সেৱাৰ চৰ্তাৱলী",
+  "accessibility": "প্ৰৱেশযোগ্যতা"
+}

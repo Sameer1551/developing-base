@@ -1,0 +1,268 @@
+{
+  "users": [
+    {
+      "id": "1756751349872",
+      "name": "aad",
+      "email": "aad@gmail.com",
+      "phone": "9988774455",
+      "role": "Admin",
+      "status": "Active",
+      "district": "Phek",
+      "lastActive": "2025-09-01T18:29:09.872Z",
+      "joinDate": "2025-09-01T18:29:09.872Z",
+      "permissions": [
+        "admin",
+        "manage_users"
+      ],
+      "state": "Nagaland",
+      "mobile": "9988774455",
+      "originalRole": "Administrator"
+    },
+    {
+      "id": "1756751433096",
+      "name": "kkl",
+      "email": "kkl@gmail.com",
+      "phone": "2233665544",
+      "role": "Health Officer",
+      "status": "Active",
+      "district": "Shi Yomi",
+      "lastActive": "2025-09-01T18:30:33.096Z",
+      "joinDate": "2025-09-01T18:30:33.096Z",
+      "permissions": [
+        "basic"
+      ],
+      "state": "Arunachal Pradesh",
+      "mobile": "2233665544",
+      "originalRole": "Health Worker"
+    },
+    {
+      "id": "1756752000001",
+      "name": "Amit Patel",
+      "email": "amit.patel@health.gov.in",
+      "phone": "7654321098",
+      "role": "Admin",
+      "status": "Active",
+      "district": "Baksa",
+      "lastActive": "2025-09-01T18:40:00.000Z",
+      "joinDate": "2025-09-01T18:40:00.000Z",
+      "permissions": [
+        "admin",
+        "manage_users"
+      ],
+      "state": "Assam",
+      "mobile": "7654321098",
+      "originalRole": "Administrator"
+    },
+    {
+      "id": "1756752000002",
+      "name": "Dr. Arjun Mehta",
+      "email": "arjun.mehta@health.gov.in",
+      "phone": "2109876543",
+      "role": "Admin",
+      "status": "Active",
+      "district": "Bishnupur",
+      "lastActive": "2025-09-01T18:40:00.000Z",
+      "joinDate": "2025-09-01T18:40:00.000Z",
+      "permissions": [
+        "admin",
+        "manage_users"
+      ],
+      "state": "Manipur",
+      "mobile": "2109876543",
+      "originalRole": "Administrator"
+    },
+    {
+      "id": "1756752000003",
+      "name": "Dr. Rajesh Kumar",
+      "email": "rajesh.kumar@health.gov.in",
+      "phone": "9876543210",
+      "role": "Health Officer",
+      "status": "Active",
+      "district": "East Garo Hills",
+      "lastActive": "2025-09-01T18:40:00.000Z",
+      "joinDate": "2025-09-01T18:40:00.000Z",
+      "permissions": [
+        "basic"
+      ],
+      "state": "Meghalaya",
+      "mobile": "9876543210",
+      "originalRole": "Health Worker"
+    },
+    {
+      "id": "1756752000004",
+      "name": "Dr. Meena Devi",
+      "email": "meena.devi@health.gov.in",
+      "phone": "6543210987",
+      "role": "Health Officer",
+      "status": "Active",
+      "district": "Aizawl",
+      "lastActive": "2025-09-01T18:40:00.000Z",
+      "joinDate": "2025-09-01T18:40:00.000Z",
+      "permissions": [
+        "basic"
+      ],
+      "state": "Mizoram",
+      "mobile": "6543210987",
+      "originalRole": "Health Worker"
+    },
+    {
+      "id": "1756752000005",
+      "name": "Dr. Sanjay Verma",
+      "email": "sanjay.verma@health.gov.in",
+      "phone": "4321098765",
+      "role": "Health Officer",
+      "status": "Active",
+      "district": "Dimapur",
+      "lastActive": "2025-09-01T18:40:00.000Z",
+      "joinDate": "2025-09-01T18:40:00.000Z",
+      "permissions": [
+        "basic"
+      ],
+      "state": "Nagaland",
+      "mobile": "4321098765",
+      "originalRole": "Health Worker"
+    },
+    {
+      "id": "1756752000006",
+      "name": "Priya Sharma",
+      "email": "priya.sharma@health.gov.in",
+      "phone": "8765432109",
+      "role": "Staff",
+      "status": "Active",
+      "district": "Dhalai",
+      "lastActive": "2025-09-01T18:40:00.000Z",
+      "joinDate": "2025-09-01T18:40:00.000Z",
+      "permissions": [
+        "basic"
+      ],
+      "state": "Tripura",
+      "mobile": "8765432109",
+      "originalRole": "Staff"
+    },
+    {
+      "id": "1756752000007",
+      "name": "Rahul Singh",
+      "email": "rahul.singh@health.gov.in",
+      "phone": "5432109876",
+      "role": "Staff",
+      "status": "Active",
+      "district": "Changlang",
+      "lastActive": "2025-09-01T18:40:00.000Z",
+      "joinDate": "2025-09-01T18:40:00.000Z",
+      "permissions": [
+        "basic"
+      ],
+      "state": "Arunachal Pradesh",
+      "mobile": "5432109876",
+      "originalRole": "Staff"
+    },
+    {
+      "id": "1756752000008",
+      "name": "Kavita Reddy",
+      "email": "kavita.reddy@health.gov.in",
+      "phone": "3210987654",
+      "role": "Staff",
+      "status": "Active",
+      "district": "Cachar",
+      "lastActive": "2025-09-01T18:40:00.000Z",
+      "joinDate": "2025-09-01T18:40:00.000Z",
+      "permissions": [
+        "basic"
+      ],
+      "state": "Assam",
+      "mobile": "3210987654",
+      "originalRole": "Staff"
+    },
+    {
+      "id": "1756753000001",
+      "name": "SV",
+      "email": "SV@gmail.com",
+      "phone": "9966332255",
+      "role": "Government Officials",
+      "status": "Active",
+      "district": "Aizawl",
+      "lastActive": "2025-09-01T19:00:00.000Z",
+      "joinDate": "2025-09-01T19:00:00.000Z",
+      "permissions": [
+        "basic"
+      ],
+      "state": "Mizoram",
+      "mobile": "9966332255",
+      "originalRole": "Government Officials"
+    },
+    {
+      "id": "1756875092410",
+      "name": "Test User",
+      "email": "test@example.com",
+      "phone": "1234567890",
+      "role": "Government Officials",
+      "status": "Active",
+      "district": "Aizawl",
+      "lastActive": "2025-09-03T04:51:32.410Z",
+      "joinDate": "2025-09-03T04:51:32.410Z",
+      "permissions": [
+        "basic"
+      ],
+      "state": "Mizoram",
+      "mobile": "1234567890",
+      "originalRole": "Government Officials"
+    },
+    {
+      "name": "ttp",
+      "email": "ttp@gmail.com",
+      "phone": "8877556699",
+      "role": "Health Staff",
+      "status": "Active",
+      "district": "South Tripura",
+      "state": "Tripura",
+      "permissions": [
+        "view_reports",
+        "create_reports",
+        "view_alerts"
+      ],
+      "id": "1757192140158_bz1a8ivh2",
+      "lastActive": "2025-09-06T20:55:40.158Z",
+      "joinDate": "2025-09-06T20:55:40.158Z",
+      "mobile": "8877556699",
+      "originalRole": "Health Staff"
+    },
+    {
+      "name": "kkt ",
+      "email": "kkt@gmail.com",
+      "phone": "2233665588",
+      "role": "Health Staff",
+      "status": "Active",
+      "district": "Hojai",
+      "state": "Assam",
+      "permissions": [
+        "view_reports",
+        "create_reports",
+        "view_alerts"
+      ],
+      "id": "1757193062766_mne87ejlo",
+      "lastActive": "2025-09-06T21:11:02.766Z",
+      "joinDate": "2025-09-06T21:11:02.766Z",
+      "mobile": "2233665588",
+      "originalRole": "Health Staff"
+    },
+    {
+      "name": "mmnf",
+      "email": "mmnf@gmail.com",
+      "phone": "9874562365",
+      "role": "Health Staff",
+      "status": "Active",
+      "district": "Tengnoupal",
+      "state": "Manipur",
+      "permissions": [
+        "view_reports",
+        "create_reports",
+        "view_alerts"
+      ],
+      "id": "1757220009344_8v3u33c8v",
+      "lastActive": "2025-09-07T04:40:09.344Z",
+      "joinDate": "2025-09-07T04:40:09.344Z",
+      "mobile": "9874562365",
+      "originalRole": "Health Staff"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "welcome": "डैशबोर्डआव खुलुमदों",
+  "overview": "माबा नाय",
+  "reports": "रिपोर्टफोर",
+  "alerts": "जागोनफोर",
+  "users": "बाहायगिरिफोर",
+  "health_reports": "सुबुं रिपोर्ट",
+  "water_testing": "दै परीक्षण",
+  "medicine": "दवा",
+  "total_reports": "मोनथाम रिपोर्ट",
+  "active_cases": "सक्रिय मामला",
+  "water_quality_issues": "दैनि गुन समस्या",
+  "health_alerts": "सुबुं जागोन",
+  "population_coverage": "जनसंख्या कवरेज",
+  "export_reports": "रिपोर्ट निर्यात",
+  "recent_reports": "हालनि सुबुं रिपोर्ट",
+  "urgency_level": "तात्कालिकता स्तर",
+  "filter_reports": "रिपोर्ट फिल्टर",
+  "search_reports": "रिपोर्ट खोज...",
+  "view_report": "रिपोर्ट नाय",
+  "download_report": "रिपोर्ट डाउनलोड"
+}

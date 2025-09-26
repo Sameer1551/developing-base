@@ -1,0 +1,21 @@
+{
+  "title": "Hriatna hrilh",
+  "subtitle": "Access your health monitoring dashboard",
+  "email": "Hriatna hrilh",
+  "password": "Hriatna hrilh",
+  "submit": "Hriatna hrilh",
+  "signing_in": "Hriatna hrilh...",
+  "forgot_password": "Hriatna hrilh",
+  "no_account": "Hriatna hrilh",
+  "signup": "Hriatna hrilh",
+  "select_role": "Select Your Role",
+  "health_worker": "Health Worker",
+  "administrator": "Administrator",
+  "health_worker_desc": "ASHA Workers, ANM, Nurses, Health Staff",
+  "administrator_desc": "Government Officials, District Health Officer",
+  "invalid_credentials": "Invalid credentials. Please try again.",
+  "login_failed": "Login failed. Please check your connection and try again.",
+  "demo_credentials": "Sample Credentials:",
+  "password_note": "Password is the mobile number from DATAUAD.json",
+  "need_help": "Need help accessing your account?"
+}

@@ -1,0 +1,17 @@
+{
+  "home": "होम",
+  "report": "मुद्दा रिपोर्ट करें",
+  "alerts": "अलर्ट जांचें",
+  "awareness": "जागरूकता",
+  "login": "लॉगिन",
+  "logout": "लॉगआउट",
+  "dashboard": "डैशबोर्ड",
+  "profile": "प्रोफाइल",
+  "settings": "सेटिंग्स",
+  "water_quality": "जल गुणवत्ता",
+  "northeast_map": "उत्तरी पूर्व मानचित्र",
+  "staff_dashboard": "स्टाफ डैशबोर्ड",
+  "admin_dashboard": "एडमिन डैशबोर्ड",
+  "health_worker": "स्वास्थ्य कार्यकर्ता",
+  "administrator": "प्रशासक"
+}

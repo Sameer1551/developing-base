@@ -1,0 +1,17 @@
+{
+  "home": "Ochima",
+  "report": "Problem Report",
+  "alerts": "Alerts Check",
+  "awareness": "Awareness",
+  "login": "Login",
+  "logout": "Logout",
+  "dashboard": "Dashboard",
+  "profile": "Profile",
+  "settings": "Settings",
+  "water_quality": "Water Quality",
+  "northeast_map": "Northeast Map",
+  "staff_dashboard": "Staff Dashboard",
+  "admin_dashboard": "Admin Dashboard",
+  "health_worker": "Health Worker",
+  "administrator": "Administrator"
+}
