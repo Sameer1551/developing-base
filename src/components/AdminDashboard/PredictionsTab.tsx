@@ -87,7 +87,10 @@ const PredictionsTab: React.FC<PredictionsTabProps> = ({ predictions, isLoading 
   const [viewMode, setViewMode] = useState<'grid' | 'list' | 'charts'>('grid');
   const [selectedChartType, setSelectedChartType] = useState<'trend' | 'risk' | 'environmental' | 'forecast'>('trend');
   const [selectedPredictionForChart, setSelectedPredictionForChart] = useState<Prediction | null>(null);
+<<<<<<< HEAD
   const [selectedRiskFilter, setSelectedRiskFilter] = useState<string | null>(null);
+=======
+>>>>>>> 54298f5d2bbc8fcd2d22899ecc2099b48729bf9f
 
   // Filter predictions based on selected filters
   useEffect(() => {
@@ -103,6 +106,7 @@ const PredictionsTab: React.FC<PredictionsTabProps> = ({ predictions, isLoading 
       filtered = filtered.filter(p => filters.district.includes(p.district));
     }
 
+<<<<<<< HEAD
     // Apply risk filter from stat card clicks
     if (selectedRiskFilter) {
       filtered = filtered.filter(p => p.riskLevel === selectedRiskFilter);
@@ -110,6 +114,10 @@ const PredictionsTab: React.FC<PredictionsTabProps> = ({ predictions, isLoading 
 
     setFilteredPredictions(filtered);
   }, [predictions, filters, selectedRiskFilter]);
+=======
+    setFilteredPredictions(filtered);
+  }, [predictions, filters]);
+>>>>>>> 54298f5d2bbc8fcd2d22899ecc2099b48729bf9f
 
   const getRiskColor = (riskLevel: string) => {
     switch (riskLevel) {
@@ -183,6 +191,7 @@ const PredictionsTab: React.FC<PredictionsTabProps> = ({ predictions, isLoading 
     window.URL.revokeObjectURL(url);
   };
 
+<<<<<<< HEAD
   const handleRiskCardClick = (riskLevel: string | null) => {
     setSelectedRiskFilter(riskLevel);
     // Clear other filters when clicking a risk card
@@ -193,6 +202,335 @@ const PredictionsTab: React.FC<PredictionsTabProps> = ({ predictions, isLoading 
   // Chart rendering functions
   const renderTrendChart = (prediction: Prediction) => {
     return <TrendAnalysisChart prediction={prediction} selectedTimeRange={selectedTimeRange} />;
+=======
+  // Helper function to process historical data based on selected time range
+  const processHistoricalData = (prediction: Prediction, timeRange: string) => {
+    const { cases, dates } = prediction.historicalTrend;
+    
+    let filteredCases: number[] = [];
+    let filteredDates: string[] = [];
+    let chartType: 'bar' | 'line' = 'bar';
+    let granularity: string = '';
+    
+    switch (timeRange) {
+      case '30d':
+        // Last 30 days - daily granularity
+        const thirtyDayData = cases.slice(-30);
+        const thirtyDayDates = dates.slice(-30);
+        
+        filteredCases = thirtyDayData;
+        filteredDates = thirtyDayDates;
+        chartType = 'bar';
+        granularity = 'Daily';
+        break;
+        
+      case '90d':
+        // Last 90 days - 3-day intervals (30 data points)
+        const ninetyDayData = cases.slice(-90);
+        const ninetyDayDates = dates.slice(-90);
+        
+        // Group into 3-day intervals
+        const groupedData: { cases: number[], dates: string[] } = { cases: [], dates: [] };
+        for (let i = 0; i < ninetyDayData.length; i += 3) {
+          const group = ninetyDayData.slice(i, i + 3);
+          const groupDates = ninetyDayDates.slice(i, i + 3);
+          
+          if (group.length > 0) {
+            groupedData.cases.push(Math.round(group.reduce((sum, val) => sum + val, 0) / group.length));
+            groupedData.dates.push(groupDates[0]); // Use first date of the group
+          }
+        }
+        
+        filteredCases = groupedData.cases;
+        filteredDates = groupedData.dates;
+        chartType = 'line';
+        granularity = '3-Day Average';
+        break;
+        
+      case 'all':
+        // All time - monthly aggregation
+        const monthlyData: { cases: number[], dates: string[] } = { cases: [], dates: [] };
+        const monthlyGroups: { [key: string]: number[] } = {};
+        
+        // Group by month
+        dates.forEach((date, index) => {
+          const dateObj = new Date(date);
+          const monthKey = `${dateObj.getFullYear()}-${String(dateObj.getMonth() + 1).padStart(2, '0')}`;
+          
+          if (!monthlyGroups[monthKey]) {
+            monthlyGroups[monthKey] = [];
+          }
+          monthlyGroups[monthKey].push(cases[index]);
+        });
+        
+        // Calculate monthly averages
+        Object.keys(monthlyGroups).sort().forEach(monthKey => {
+          const monthCases = monthlyGroups[monthKey];
+          monthlyData.cases.push(Math.round(monthCases.reduce((sum, val) => sum + val, 0) / monthCases.length));
+          monthlyData.dates.push(`${monthKey}-01`); // First day of month
+        });
+        
+        filteredCases = monthlyData.cases;
+        filteredDates = monthlyData.dates;
+        chartType = 'bar';
+        granularity = 'Monthly Average';
+        break;
+        
+      default:
+        filteredCases = cases;
+        filteredDates = dates;
+        chartType = 'bar';
+        granularity = 'All Data';
+    }
+    
+    return {
+      cases: filteredCases,
+      dates: filteredDates,
+      chartType,
+      granularity
+    };
+  };
+
+  // Chart rendering functions
+  const renderTrendChart = (prediction: Prediction) => {
+    const processedData = processHistoricalData(prediction, selectedTimeRange);
+    const { cases, dates, chartType, granularity } = processedData;
+    
+    if (cases.length === 0) {
+      return (
+        <div className="bg-white rounded-lg p-4 border">
+          <div className="flex items-center justify-between mb-4">
+            <h4 className="text-lg font-semibold text-gray-900">Historical Trend</h4>
+            <div className="flex items-center space-x-2 text-sm text-gray-600">
+              <BarChart3 className="h-4 w-4" />
+              <span>{prediction.district} - {prediction.disease}</span>
+            </div>
+          </div>
+          <div className="text-center py-8 text-gray-500">
+            No historical data available for the selected time range.
+          </div>
+        </div>
+      );
+    }
+    
+    const maxCases = Math.max(...cases);
+    const chartHeight = 200;
+    const barWidth = 100 / cases.length;
+    
+    return (
+      <div className="bg-white rounded-lg p-4 border">
+        <div className="flex items-center justify-between mb-4">
+          <div>
+            <h4 className="text-lg font-semibold text-gray-900">Disease Case Trend Analysis</h4>
+            <p className="text-sm text-gray-600">
+              {prediction.disease} Cases in {prediction.district} District - {granularity} View
+            </p>
+            <p className="text-xs text-gray-500 mt-1">
+              Time Period: {selectedTimeRange === '30d' ? 'Last 30 Days' : selectedTimeRange === '90d' ? 'Last 90 Days' : 'All Time'}
+            </p>
+          </div>
+          <div className="flex items-center space-x-2 text-sm text-gray-600">
+            {chartType === 'bar' ? <BarChart3 className="h-4 w-4" /> : <LineChart className="h-4 w-4" />}
+            <span className="font-medium">{chartType === 'bar' ? 'Bar Chart' : 'Line Chart'}</span>
+          </div>
+        </div>
+        
+        <div className="relative" style={{ height: chartHeight + 40 }}>
+          {/* Y-axis title */}
+          <div className="absolute left-0 top-1/2 transform -rotate-90 -translate-y-1/2 text-sm font-medium text-gray-700">
+            Number of Cases
+          </div>
+          
+          <svg width="100%" height={chartHeight} className="overflow-visible" style={{ marginLeft: '60px', marginBottom: '30px' }}>
+            {/* Grid lines */}
+            {[0, 0.25, 0.5, 0.75, 1].map((ratio, i) => (
+              <line
+                key={i}
+                x1="0"
+                y1={chartHeight * ratio}
+                x2="100%"
+                y2={chartHeight * ratio}
+                stroke="#e5e7eb"
+                strokeWidth="1"
+              />
+            ))}
+            
+            {/* Y-axis line */}
+            <line
+              x1="0"
+              y1="0"
+              x2="0"
+              y2={chartHeight}
+              stroke="#374151"
+              strokeWidth="2"
+            />
+            
+            {/* X-axis line */}
+            <line
+              x1="0"
+              y1={chartHeight}
+              x2="100%"
+              y2={chartHeight}
+              stroke="#374151"
+              strokeWidth="2"
+            />
+            
+            {chartType === 'bar' ? (
+              // Bar chart
+              cases.map((caseCount, index) => {
+                const barHeight = (caseCount / maxCases) * chartHeight;
+                const x = (index * barWidth) + (barWidth * 0.1); // 10% padding from edges
+                const width = barWidth * 0.8; // 80% width for bars
+                const y = chartHeight - barHeight;
+                
+                // Color based on case count
+                let barColor = '#3b82f6'; // Default blue
+                if (caseCount > maxCases * 0.7) {
+                  barColor = '#ef4444'; // Red for high cases
+                } else if (caseCount > maxCases * 0.4) {
+                  barColor = '#f59e0b'; // Orange for medium cases
+                } else {
+                  barColor = '#10b981'; // Green for low cases
+                }
+                
+                return (
+                  <g key={index}>
+                    {/* Bar */}
+                    <rect
+                      x={`${x}%`}
+                      y={y}
+                      width={`${width}%`}
+                      height={barHeight}
+                      fill={barColor}
+                      className="hover:opacity-80 transition-opacity cursor-pointer"
+                      rx="2"
+                      ry="2"
+                    />
+                    
+                    {/* Case count label on top of bar */}
+                    <text
+                      x={`${x + width/2}%`}
+                      y={y - 5}
+                      textAnchor="middle"
+                      className="text-xs font-medium fill-gray-700"
+                    >
+                      {caseCount}
+                    </text>
+                  </g>
+                );
+              })
+            ) : (
+              // Line chart
+              <>
+                {/* Line path */}
+                <polyline
+                  fill="none"
+                  stroke="#3b82f6"
+                  strokeWidth="3"
+                  points={cases.map((caseCount, index) => {
+                    const x = (index / (cases.length - 1)) * 100;
+                    const y = chartHeight - (caseCount / maxCases) * chartHeight;
+                    return `${x}%,${y}`;
+                  }).join(' ')}
+                />
+                
+                {/* Data points */}
+                {cases.map((caseCount, index) => {
+                  const x = (index / (cases.length - 1)) * 100;
+                  const y = chartHeight - (caseCount / maxCases) * chartHeight;
+                  
+                  return (
+                    <circle
+                      key={index}
+                      cx={`${x}%`}
+                      cy={y}
+                      r="4"
+                      fill="#3b82f6"
+                      className="hover:r-6 transition-all cursor-pointer"
+                    />
+                  );
+                })}
+              </>
+            )}
+          </svg>
+          
+          {/* Y-axis labels */}
+          <div className="absolute left-2 top-0 flex flex-col justify-between text-xs text-gray-600 font-medium" style={{ height: chartHeight }}>
+            <span>{maxCases}</span>
+            <span>{Math.round(maxCases * 0.75)}</span>
+            <span>{Math.round(maxCases * 0.5)}</span>
+            <span>{Math.round(maxCases * 0.25)}</span>
+            <span>0</span>
+          </div>
+          
+          {/* X-axis labels */}
+          <div className="absolute bottom-2 left-16 w-full flex justify-between text-xs text-gray-600 font-medium" style={{ width: 'calc(100% - 60px)' }}>
+            {dates.map((date, index) => {
+              const dateObj = new Date(date);
+              let dayLabel = '';
+              let monthLabel = '';
+              let showMonthLabel = false;
+              
+              if (selectedTimeRange === 'all') {
+                // Monthly labels - show month and year
+                dayLabel = dateObj.toLocaleDateString('en-US', { month: 'short' });
+                monthLabel = dateObj.toLocaleDateString('en-US', { year: '2-digit' });
+                showMonthLabel = true;
+              } else if (selectedTimeRange === '90d') {
+                // 3-day interval labels - show day, month only on first day of month
+                dayLabel = dateObj.toLocaleDateString('en-US', { day: 'numeric' });
+                monthLabel = dateObj.toLocaleDateString('en-US', { month: 'short' });
+                
+                // Show month label only on the first day of the month or if it's the first date
+                const prevDate = index > 0 ? new Date(dates[index - 1]) : null;
+                showMonthLabel = index === 0 || (prevDate !== null && prevDate.getMonth() !== dateObj.getMonth());
+              } else {
+                // Daily labels - show day, month only on first day of month
+                dayLabel = dateObj.toLocaleDateString('en-US', { day: 'numeric' });
+                monthLabel = dateObj.toLocaleDateString('en-US', { month: 'short' });
+                
+                // Show month label only on the first day of the month or if it's the first date
+                const prevDate = index > 0 ? new Date(dates[index - 1]) : null;
+                showMonthLabel = index === 0 || (prevDate !== null && prevDate.getMonth() !== dateObj.getMonth());
+              }
+              
+              return (
+                <div key={index} className="flex flex-col items-center text-center">
+                  <span className="font-semibold">{dayLabel}</span>
+                  {showMonthLabel && (
+                    <span className="text-xs opacity-75">{monthLabel}</span>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+          
+          {/* X-axis title */}
+          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-8 text-sm font-medium text-gray-700">
+            Time Period
+          </div>
+        </div>
+        
+        {/* Legend */}
+        <div className="mt-6 pt-4 border-t border-gray-200">
+          <div className="flex items-center justify-center space-x-8 text-sm">
+            <div className="flex items-center space-x-2">
+              <div className="w-4 h-4 bg-green-500 rounded"></div>
+              <span className="font-medium text-gray-700">Low Risk (0-40% of max)</span>
+            </div>
+            <div className="flex items-center space-x-2">
+              <div className="w-4 h-4 bg-orange-500 rounded"></div>
+              <span className="font-medium text-gray-700">Medium Risk (40-70% of max)</span>
+            </div>
+            <div className="flex items-center space-x-2">
+              <div className="w-4 h-4 bg-red-500 rounded"></div>
+              <span className="font-medium text-gray-700">High Risk (70-100% of max)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+>>>>>>> 54298f5d2bbc8fcd2d22899ecc2099b48729bf9f
   };
 
   const renderRiskChart = (prediction: Prediction) => {
@@ -276,7 +614,282 @@ const PredictionsTab: React.FC<PredictionsTabProps> = ({ predictions, isLoading 
   };
 
   const renderForecastChart = (prediction: Prediction) => {
+<<<<<<< HEAD
     return <FutureForecastChart prediction={prediction} selectedTimeRange={selectedTimeRange} />;
+=======
+    // Use processed historical data based on selected time range
+    const processedData = processHistoricalData(prediction, selectedTimeRange);
+    const historicalCases = processedData.cases;
+    
+    if (historicalCases.length === 0) {
+      return (
+        <div className="bg-white rounded-lg p-4 border">
+          <div className="flex items-center justify-between mb-4">
+            <h4 className="text-lg font-semibold text-gray-900">Future Forecast</h4>
+            <div className="flex items-center space-x-2 text-sm text-gray-600">
+              <Brain className="h-4 w-4" />
+              <span>AI Prediction</span>
+            </div>
+          </div>
+          <div className="text-center py-8 text-gray-500">
+            No historical data available for forecasting.
+          </div>
+        </div>
+      );
+    }
+    
+    // Generate future predictions based on processed historical trend
+    const lastValue = historicalCases[historicalCases.length - 1];
+    const trend = historicalCases.length > 1 ? 
+      (historicalCases[historicalCases.length - 1] - historicalCases[0]) / historicalCases.length : 0;
+    
+    // Determine forecast period based on time range
+    let forecastDays = 14;
+    if (selectedTimeRange === '30d') forecastDays = 14;
+    else if (selectedTimeRange === '90d') forecastDays = 21;
+    else if (selectedTimeRange === 'all') forecastDays = 30;
+    
+    const futureCases = Array.from({ length: forecastDays }, (_, i) => {
+      const baseValue = lastValue + (trend * (i + 1));
+      const variation = Math.random() * 0.2 - 0.1; // ±10% variation
+      return Math.max(0, Math.round(baseValue * (1 + variation)));
+    });
+
+    const allCases = [...historicalCases, ...futureCases];
+    const maxCases = Math.max(...allCases);
+    const chartHeight = 200;
+
+    return (
+      <div className="bg-white rounded-lg p-4 border">
+        <div className="flex items-center justify-between mb-4">
+          <div>
+            <h4 className="text-lg font-semibold text-gray-900">AI Disease Forecast</h4>
+            <p className="text-sm text-gray-600">
+              {prediction.disease} Prediction for {prediction.district} District - {processedData.granularity} View
+            </p>
+            <p className="text-xs text-gray-500 mt-1">
+              Forecast Period: {selectedTimeRange === '30d' ? 'Next 14 Days' : selectedTimeRange === '90d' ? 'Next 21 Days' : 'Next 30 Days'}
+            </p>
+          </div>
+          <div className="flex items-center space-x-2 text-sm text-gray-600">
+            <Brain className="h-4 w-4" />
+            <span className="font-medium">AI Prediction Model</span>
+          </div>
+        </div>
+        
+        <div className="relative" style={{ height: chartHeight + 40 }}>
+          {/* Y-axis title */}
+          <div className="absolute left-0 top-1/2 transform -rotate-90 -translate-y-1/2 text-sm font-medium text-gray-700">
+            Predicted Cases
+          </div>
+          
+          <svg width="100%" height={chartHeight} className="overflow-visible" style={{ marginLeft: '60px', marginBottom: '30px' }}>
+            {/* Grid lines */}
+            {[0, 0.25, 0.5, 0.75, 1].map((ratio, i) => (
+              <line
+                key={i}
+                x1="0"
+                y1={chartHeight * ratio}
+                x2="100%"
+                y2={chartHeight * ratio}
+                stroke="#e5e7eb"
+                strokeWidth="1"
+              />
+            ))}
+            
+            {/* Y-axis line */}
+            <line
+              x1="0"
+              y1="0"
+              x2="0"
+              y2={chartHeight}
+              stroke="#374151"
+              strokeWidth="2"
+            />
+            
+            {/* X-axis line */}
+            <line
+              x1="0"
+              y1={chartHeight}
+              x2="100%"
+              y2={chartHeight}
+              stroke="#374151"
+              strokeWidth="2"
+            />
+            
+            {/* Historical data bars */}
+            {historicalCases.map((cases, index) => {
+              const barWidth = 100 / allCases.length;
+              const x = (index * barWidth) + (barWidth * 0.1);
+              const width = barWidth * 0.8;
+              const barHeight = (cases / maxCases) * chartHeight;
+              const y = chartHeight - barHeight;
+              
+              return (
+                <rect
+                  key={`hist-${index}`}
+                  x={`${x}%`}
+                  y={y}
+                  width={`${width}%`}
+                  height={barHeight}
+                  fill="#6b7280"
+                  className="hover:opacity-80 transition-opacity cursor-pointer"
+                  rx="2"
+                  ry="2"
+                  opacity="0.7"
+                />
+              );
+            })}
+            
+            {/* Future prediction bars */}
+            {futureCases.map((cases, index) => {
+              const barWidth = 100 / allCases.length;
+              const actualIndex = historicalCases.length + index;
+              const x = (actualIndex * barWidth) + (barWidth * 0.1);
+              const width = barWidth * 0.8;
+              const barHeight = (cases / maxCases) * chartHeight;
+              const y = chartHeight - barHeight;
+              
+              // Color based on predicted case count
+              let barColor = '#3b82f6'; // Default blue
+              if (cases > maxCases * 0.7) {
+                barColor = '#ef4444'; // Red for high cases
+              } else if (cases > maxCases * 0.4) {
+                barColor = '#f59e0b'; // Orange for medium cases
+              } else {
+                barColor = '#10b981'; // Green for low cases
+              }
+              
+              return (
+                <g key={`future-${index}`}>
+                  {/* Bar */}
+                  <rect
+                    x={`${x}%`}
+                    y={y}
+                    width={`${width}%`}
+                    height={barHeight}
+                    fill={barColor}
+                    className="hover:opacity-80 transition-opacity cursor-pointer"
+                    rx="2"
+                    ry="2"
+                  />
+                  
+                  {/* Case count label on top of bar */}
+                  <text
+                    x={`${x + width/2}%`}
+                    y={y - 5}
+                    textAnchor="middle"
+                    className="text-xs font-medium fill-gray-700"
+                  >
+                    {cases}
+                  </text>
+                </g>
+              );
+            })}
+            
+            {/* Prediction separator line */}
+            <line
+              x1={`${(historicalCases.length - 1) / (allCases.length - 1) * 100}%`}
+              y1={chartHeight - (historicalCases[historicalCases.length - 1] / maxCases) * chartHeight}
+              x2={`${(historicalCases.length - 1) / (allCases.length - 1) * 100}%`}
+              y2="0"
+              stroke="#ef4444"
+              strokeWidth="2"
+              strokeDasharray="3,3"
+            />
+          </svg>
+          
+          {/* Y-axis labels */}
+          <div className="absolute left-2 top-0 flex flex-col justify-between text-xs text-gray-600 font-medium" style={{ height: chartHeight }}>
+            <span>{maxCases}</span>
+            <span>{Math.round(maxCases * 0.75)}</span>
+            <span>{Math.round(maxCases * 0.5)}</span>
+            <span>{Math.round(maxCases * 0.25)}</span>
+            <span>0</span>
+          </div>
+          
+          {/* X-axis labels */}
+          <div className="absolute bottom-2 left-16 w-full flex justify-between text-xs text-gray-600 font-medium" style={{ width: 'calc(100% - 60px)' }}>
+            {allCases.map((_, index) => {
+              const dateIndex = index < historicalCases.length ? index : historicalCases.length - 1;
+              const date = processedData.dates[dateIndex] || processedData.dates[processedData.dates.length - 1];
+              const dateObj = new Date(date);
+              let dayLabel = '';
+              let monthLabel = '';
+              let showMonthLabel = false;
+              
+              if (selectedTimeRange === 'all') {
+                // Monthly labels - show month and year
+                dayLabel = dateObj.toLocaleDateString('en-US', { month: 'short' });
+                monthLabel = dateObj.toLocaleDateString('en-US', { year: '2-digit' });
+                showMonthLabel = true;
+              } else if (selectedTimeRange === '90d') {
+                // 3-day interval labels - show day, month only on first day of month
+                dayLabel = dateObj.toLocaleDateString('en-US', { day: 'numeric' });
+                monthLabel = dateObj.toLocaleDateString('en-US', { month: 'short' });
+                
+                // Show month label only on the first day of the month or if it's the first date
+                const prevDate = index > 0 ? new Date(processedData.dates[Math.max(0, dateIndex - 1)]) : null;
+                showMonthLabel = index === 0 || (prevDate !== null && prevDate.getMonth() !== dateObj.getMonth());
+              } else {
+                // Daily labels - show day, month only on first day of month
+                dayLabel = dateObj.toLocaleDateString('en-US', { day: 'numeric' });
+                monthLabel = dateObj.toLocaleDateString('en-US', { month: 'short' });
+                
+                // Show month label only on the first day of the month or if it's the first date
+                const prevDate = index > 0 ? new Date(processedData.dates[Math.max(0, dateIndex - 1)]) : null;
+                showMonthLabel = index === 0 || (prevDate !== null && prevDate.getMonth() !== dateObj.getMonth());
+              }
+              
+              return (
+                <div key={index} className="flex flex-col items-center text-center">
+                  <span className="font-semibold">{dayLabel}</span>
+                  {showMonthLabel && (
+                    <span className="text-xs opacity-75">{monthLabel}</span>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+          
+          {/* X-axis title */}
+          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-8 text-sm font-medium text-gray-700">
+            Time Period (Historical + Forecast)
+          </div>
+          
+          {/* Legend */}
+          <div className="absolute top-0 right-0 flex space-x-4 text-xs">
+            <div className="flex items-center space-x-1">
+              <div className="w-3 h-3 bg-gray-500 rounded opacity-70" />
+              <span className="font-medium">Historical Data</span>
+            </div>
+            <div className="flex items-center space-x-1">
+              <div className="w-3 h-3 bg-blue-500 rounded" />
+              <span className="font-medium">AI Prediction</span>
+            </div>
+          </div>
+          
+          {/* Color Legend */}
+          <div className="mt-6 pt-4 border-t border-gray-200">
+            <div className="flex items-center justify-center space-x-8 text-sm">
+              <div className="flex items-center space-x-2">
+                <div className="w-4 h-4 bg-green-500 rounded"></div>
+                <span className="font-medium text-gray-700">Low Risk (0-40% of max)</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <div className="w-4 h-4 bg-orange-500 rounded"></div>
+                <span className="font-medium text-gray-700">Medium Risk (40-70% of max)</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <div className="w-4 h-4 bg-red-500 rounded"></div>
+                <span className="font-medium text-gray-700">High Risk (70-100% of max)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+>>>>>>> 54298f5d2bbc8fcd2d22899ecc2099b48729bf9f
   };
 
   const handleIssueAlert = (prediction: Prediction) => {
@@ -364,12 +977,16 @@ const PredictionsTab: React.FC<PredictionsTabProps> = ({ predictions, isLoading 
 
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+<<<<<<< HEAD
           <button 
             onClick={() => handleRiskCardClick('High')}
             className={`bg-white rounded-lg p-4 shadow-sm transition-all duration-200 hover:shadow-md hover:scale-105 cursor-pointer border-2 ${
               selectedRiskFilter === 'High' ? 'border-red-300 bg-red-50' : 'border-transparent'
             }`}
           >
+=======
+          <div className="bg-white rounded-lg p-4 shadow-sm">
+>>>>>>> 54298f5d2bbc8fcd2d22899ecc2099b48729bf9f
             <div className="flex items-center space-x-3">
               <div className="p-2 bg-red-100 rounded-lg">
                 <AlertTriangle className="h-5 w-5 text-red-600" />
@@ -377,6 +994,7 @@ const PredictionsTab: React.FC<PredictionsTabProps> = ({ predictions, isLoading 
               <div>
                 <p className="text-sm text-gray-600">High Risk</p>
                 <p className="text-xl font-bold text-red-600">
+<<<<<<< HEAD
                   {predictions.filter(p => p.riskLevel === 'High').length}
                 </p>
               </div>
@@ -388,6 +1006,14 @@ const PredictionsTab: React.FC<PredictionsTabProps> = ({ predictions, isLoading 
               selectedRiskFilter === 'Medium' ? 'border-amber-300 bg-amber-50' : 'border-transparent'
             }`}
           >
+=======
+                  {filteredPredictions.filter(p => p.riskLevel === 'High').length}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-white rounded-lg p-4 shadow-sm">
+>>>>>>> 54298f5d2bbc8fcd2d22899ecc2099b48729bf9f
             <div className="flex items-center space-x-3">
               <div className="p-2 bg-amber-100 rounded-lg">
                 <Activity className="h-5 w-5 text-amber-600" />
@@ -395,6 +1021,7 @@ const PredictionsTab: React.FC<PredictionsTabProps> = ({ predictions, isLoading 
               <div>
                 <p className="text-sm text-gray-600">Medium Risk</p>
                 <p className="text-xl font-bold text-amber-600">
+<<<<<<< HEAD
                   {predictions.filter(p => p.riskLevel === 'Medium').length}
                 </p>
               </div>
@@ -406,6 +1033,14 @@ const PredictionsTab: React.FC<PredictionsTabProps> = ({ predictions, isLoading 
               selectedRiskFilter === 'Low' ? 'border-green-300 bg-green-50' : 'border-transparent'
             }`}
           >
+=======
+                  {filteredPredictions.filter(p => p.riskLevel === 'Medium').length}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-white rounded-lg p-4 shadow-sm">
+>>>>>>> 54298f5d2bbc8fcd2d22899ecc2099b48729bf9f
             <div className="flex items-center space-x-3">
               <div className="p-2 bg-green-100 rounded-lg">
                 <CheckCircle className="h-5 w-5 text-green-600" />
@@ -413,6 +1048,7 @@ const PredictionsTab: React.FC<PredictionsTabProps> = ({ predictions, isLoading 
               <div>
                 <p className="text-sm text-gray-600">Low Risk</p>
                 <p className="text-xl font-bold text-green-600">
+<<<<<<< HEAD
                   {predictions.filter(p => p.riskLevel === 'Low').length}
                 </p>
               </div>
@@ -424,12 +1060,21 @@ const PredictionsTab: React.FC<PredictionsTabProps> = ({ predictions, isLoading 
               selectedRiskFilter === null ? 'border-blue-300 bg-blue-50' : 'border-transparent'
             }`}
           >
+=======
+                  {filteredPredictions.filter(p => p.riskLevel === 'Low').length}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-white rounded-lg p-4 shadow-sm">
+>>>>>>> 54298f5d2bbc8fcd2d22899ecc2099b48729bf9f
             <div className="flex items-center space-x-3">
               <div className="p-2 bg-blue-100 rounded-lg">
                 <TrendingUp className="h-5 w-5 text-blue-600" />
               </div>
               <div>
                 <p className="text-sm text-gray-600">Total Predictions</p>
+<<<<<<< HEAD
                 <p className="text-xl font-bold text-blue-600">{predictions.length}</p>
               </div>
             </div>
@@ -459,6 +1104,14 @@ const PredictionsTab: React.FC<PredictionsTabProps> = ({ predictions, isLoading 
           </div>
         </div>
       )}
+=======
+                <p className="text-xl font-bold text-blue-600">{filteredPredictions.length}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+>>>>>>> 54298f5d2bbc8fcd2d22899ecc2099b48729bf9f
 
       {/* Controls Bar */}
       <div className="flex flex-wrap justify-between items-center mb-6 space-y-4 md:space-y-0">
@@ -652,6 +1305,7 @@ const PredictionsTab: React.FC<PredictionsTabProps> = ({ predictions, isLoading 
 
           {/* Chart Display */}
           {selectedPredictionForChart ? (
+<<<<<<< HEAD
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
               <div className="lg:col-span-2">
                 {selectedChartType === 'trend' && renderTrendChart(selectedPredictionForChart)}
@@ -659,6 +1313,13 @@ const PredictionsTab: React.FC<PredictionsTabProps> = ({ predictions, isLoading 
                 {selectedChartType === 'environmental' && renderEnvironmentalChart(selectedPredictionForChart)}
                 {selectedChartType === 'forecast' && renderForecastChart(selectedPredictionForChart)}
               </div>
+=======
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+              {selectedChartType === 'trend' && renderTrendChart(selectedPredictionForChart)}
+              {selectedChartType === 'risk' && renderRiskChart(selectedPredictionForChart)}
+              {selectedChartType === 'environmental' && renderEnvironmentalChart(selectedPredictionForChart)}
+              {selectedChartType === 'forecast' && renderForecastChart(selectedPredictionForChart)}
+>>>>>>> 54298f5d2bbc8fcd2d22899ecc2099b48729bf9f
               
               {/* Additional Info Panel */}
               <div className="bg-white rounded-lg p-4 border">
